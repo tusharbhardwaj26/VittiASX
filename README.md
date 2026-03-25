@@ -1,4 +1,4 @@
-# Vitti · ASX Announcement Dashboard
+# Vitti - ASX Announcement Dashboard
 
 A daily intelligence tool that automatically fetches ASX announcements, generates AI bullet-point summaries using Groq, flags market-sensitive releases, and presents everything in a searchable web dashboard.
 
@@ -10,9 +10,9 @@ A daily intelligence tool that automatically fetches ASX announcements, generate
 GitHub Actions (cron 8am AEST)
   └── fetch_asx.py
         ├── Fetches all ASX announcements via public API
-        ├── Sends each to Groq (llama-3.3-70b-versatile) → bullet-point summary + tags
+        ├── Sends each to Groq (llama-3.3-70b-versatile) - bullet-point summary + tags
         ├── Preserves ASX's native market_sensitive flag
-        └── Writes logs/YYYY-MM-DD.json → auto-committed to repo
+        └── Writes logs/YYYY-MM-DD.json - auto-committed to repo
 
 index.html (open in browser or deploy to GitHub Pages)
   ├── Reads logs/YYYY-MM-DD.json for selected date
@@ -68,7 +68,7 @@ python fetch_asx.py --no-ai
 Open `index.html` directly in a browser.  
 Or deploy to **GitHub Pages**: Settings → Pages → Source: `main` / `root`.
 
-A sample log (`logs/2026-03-25.json`) is included so the dashboard works immediately.
+A sample log (logs/2026-03-25.json) is included so the dashboard works immediately.
 
 ---
 

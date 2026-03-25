@@ -6,8 +6,10 @@
   <meta name="description" content="Vitti ASX Dashboard – Daily ASX announcements with AI summaries, market sensitivity flags, and report downloads." />
   <title>Vitti · ASX Dashboard</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" />
   <link rel="stylesheet" href="style.css" />
+  <!-- Favicon: same bar-chart logo as sidebar -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='url(%23g)'/%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236366f1'/%3E%3Cstop offset='1' stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect x='3' y='18' width='6' height='10' rx='1' fill='white' opacity='0.7'/%3E%3Crect x='13' y='10' width='6' height='18' rx='1' fill='white'/%3E%3Crect x='23' y='4' width='6' height='24' rx='1' fill='white' opacity='0.85'/%3E%3C/svg%3E" />
 </head>
 <body>
 
@@ -17,7 +19,14 @@
 <aside id="sidebar">
   <div class="sidebar-header">
     <div class="logo">
-      <span class="logo-icon"><svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M10 2L18 10L10 18L2 10L10 2Z" stroke="currentColor" stroke-width="1.5" fill="none"/><path d="M10 6L14 10L10 14L6 10L10 6Z" fill="currentColor"/></svg></span>
+      <span class="logo-icon">
+        <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="1" y="9" width="3" height="6" rx="0.5" fill="white" opacity="0.7"/>
+          <rect x="6" y="5" width="3" height="10" rx="0.5" fill="white"/>
+          <rect x="11" y="1" width="3" height="14" rx="0.5" fill="white" opacity="0.85"/>
+          <path d="M2.5 9L7.5 5L12.5 1" stroke="white" stroke-width="1" stroke-linecap="round" opacity="0.5"/>
+        </svg>
+      </span>
       <span class="logo-text">Vitti<em>ASX</em></span>
     </div>
     <p class="logo-sub">Announcement Intelligence</p>
@@ -52,13 +61,7 @@
     </div>
   </div>
 
-  <!-- Filters -->
-  <div class="sidebar-section">
-    <label class="section-label">Filter by Tag</label>
-    <div id="tag-filters" class="tag-filter-list"></div>
-  </div>
-
-  <!-- Market sensitive toggle -->
+  <!-- Sensitivity toggle (moved up — visible without scrolling) -->
   <div class="sidebar-section">
     <label class="section-label">Sensitivity</label>
     <label class="toggle-row" id="sensitive-toggle-label">
@@ -70,7 +73,7 @@
     </label>
   </div>
 
-  <!-- Downloads -->
+  <!-- Export (moved up — visible without scrolling) -->
   <div class="sidebar-section sidebar-actions">
     <label class="section-label">Export</label>
     <button id="btn-csv" class="action-btn">
@@ -81,6 +84,12 @@
       <svg viewBox="0 0 16 16" fill="none"><rect x="3" y="5" width="10" height="7" rx="1" stroke="currentColor" stroke-width="1.2"/><path d="M5 5V3h6v2" stroke="currentColor" stroke-width="1.2"/><path d="M5 10h6M5 12h4" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/></svg>
       Print / PDF
     </button>
+  </div>
+
+  <!-- Filter by Tag (below export so above items are always visible) -->
+  <div class="sidebar-section">
+    <label class="section-label">Filter by Tag</label>
+    <div id="tag-filters" class="tag-filter-list"></div>
   </div>
 </aside>
 
@@ -96,6 +105,19 @@
       <span id="page-date-label" class="date-label"></span>
     </div>
     <div class="topbar-right">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme" title="Toggle light/dark mode">
+        <!-- Moon icon (shown in dark mode) -->
+        <svg id="icon-moon" viewBox="0 0 20 20" fill="currentColor"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"/></svg>
+        <!-- Sun icon (shown in light mode) -->
+        <svg id="icon-sun" viewBox="0 0 20 20" fill="currentColor" style="display:none"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"/></svg>
+      </button>
+      <button id="sync-btn" class="sync-btn" title="Trigger today's ASX fetch via GitHub Actions">
+        <svg id="sync-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 4v5h5M16 16v-5h-5"/>
+          <path d="M20 10a10 10 0 01-17.388 6.9M0 10a10 10 0 0117.388-6.9"/>
+        </svg>
+        <span id="sync-label">Sync</span>
+      </button>
       <div class="search-wrap">
         <svg class="search-icon" viewBox="0 0 16 16" fill="none"><circle cx="6.5" cy="6.5" r="4" stroke="currentColor" stroke-width="1.4"/><path d="M10 10l3 3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
         <input type="text" id="search-input" placeholder="Search ticker, company, headline…" autocomplete="off" />
@@ -140,32 +162,38 @@
 ══════════════════════════════════════════ -->
 <div id="modal-overlay" class="modal-overlay hidden">
   <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
-    <div class="modal-header">
-      <div class="modal-meta">
-        <span id="modal-ticker" class="ticker-badge large"></span>
-        <div>
-          <p id="modal-company" class="modal-company"></p>
-          <p id="modal-time" class="modal-time"></p>
+    <div class="modal-inner">
+      <div class="modal-header">
+        <div class="modal-meta">
+          <span id="modal-ticker" class="ticker-badge large"></span>
+          <div>
+            <p id="modal-company" class="modal-company"></p>
+            <p id="modal-time" class="modal-time"></p>
+          </div>
         </div>
+        <button id="modal-close" class="modal-close" aria-label="Close">
+          <svg viewBox="0 0 16 16" fill="none" style="width:14px;height:14px"><path d="M3 3l10 10M13 3L3 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+        </button>
       </div>
-      <button id="modal-close" class="modal-close" aria-label="Close">✕</button>
-    </div>
 
-    <div id="modal-sensitive-banner" class="sensitive-banner hidden">
-      <svg viewBox="0 0 8 8" fill="currentColor" style="width:8px;height:8px;flex-shrink:0;"><circle cx="4" cy="4" r="4"/></svg> Market Sensitive Announcement
-    </div>
+      <div id="modal-sensitive-banner" class="sensitive-banner hidden">
+        <div class="ms-dot"></div>
+        Market Sensitive Announcement
+      </div>
 
-    <h2 id="modal-headline" class="modal-headline"></h2>
+      <h2 id="modal-headline" class="modal-headline"></h2>
 
-    <div class="modal-summary-wrap">
-      <h3 class="modal-section-title">AI Summary</h3>
-      <ul id="modal-summary" class="modal-summary-list"></ul>
+      <div class="modal-summary-wrap">
+        <h3 class="modal-section-title">AI Summary</h3>
+        <ul id="modal-summary" class="modal-summary-list"></ul>
+      </div>
     </div>
 
     <div class="modal-footer">
       <div id="modal-tags" class="modal-tags"></div>
       <a id="modal-asx-link" href="#" target="_blank" rel="noopener" class="asx-link">
-        View on ASX →
+        View on ASX
+        <svg viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H5M10 2v5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </a>
     </div>
   </div>

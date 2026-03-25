@@ -47,6 +47,30 @@ const btnCsv   = document.getElementById('btn-csv');
 const btnPrint = document.getElementById('btn-print');
 const printMeta  = document.getElementById('print-meta');
 const printCards = document.getElementById('print-cards');
+const themeToggle = document.getElementById('theme-toggle');
+const iconMoon    = document.getElementById('icon-moon');
+const iconSun     = document.getElementById('icon-sun');
+const syncBtn     = document.getElementById('sync-btn');
+const syncLabel   = document.getElementById('sync-label');
+
+/* ── Theme ────────────────────────────────────── */
+(function initTheme() {
+  const saved = localStorage.getItem('vitti-theme') || 'dark';
+  applyTheme(saved);
+})();
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  const isLight = theme === 'light';
+  iconMoon.style.display = isLight ? 'none'  : '';
+  iconSun.style.display  = isLight ? ''      : 'none';
+  localStorage.setItem('vitti-theme', theme);
+}
+
+themeToggle.addEventListener('click', () => {
+  const current = document.documentElement.getAttribute('data-theme') || 'dark';
+  applyTheme(current === 'dark' ? 'light' : 'dark');
+});
 
 /* ── Helpers ──────────────────────────────────── */
 function formatTime(iso) {
@@ -102,19 +126,11 @@ async function loadDate(dateStr) {
     } catch (_) {}
   }
 
-  // 3. Fall back to embedded sample log
-  if (!payload && window.SAMPLE_LOG) {
-    payload = window.SAMPLE_LOG;
-    const isSample = (dateStr !== payload.date);
-    if (isSample) {
-      pageDateLabel.textContent = `Sample data — no log found for ${dateStr}`;
-    } else {
-      pageDateLabel.textContent = formatDateLabel(dateStr);
-    }
-  } else if (payload) {
+  // 3. No log found — show empty state (do NOT fall back to stale sample data)
+  if (payload) {
     pageDateLabel.textContent = formatDateLabel(payload.date || dateStr);
   } else {
-    pageDateLabel.textContent = `No data found for ${dateStr}`;
+    pageDateLabel.textContent = formatDateLabel(dateStr);
   }
 
   state.allData = payload ? (payload.announcements || []) : [];
@@ -205,6 +221,16 @@ function applyFilters() {
   renderCards();
 }
 
+function tagClass(tag) {
+  const t = tag.toLowerCase();
+  if (t.includes('mining') || t.includes('production'))  return 'tag-mining';
+  if (t.includes('finance') || t.includes('dividend') || t.includes('results')) return 'tag-finance';
+  if (t.includes('healthcare') || t.includes('health'))  return 'tag-healthcare';
+  if (t.includes('technology'))                           return 'tag-technology';
+  if (t.includes('energy') || t.includes('oil'))         return 'tag-energy';
+  return '';
+}
+
 function renderCards() {
   cardGrid.innerHTML = '';
   emptyState.classList.toggle('hidden', state.filtered.length > 0);
@@ -214,15 +240,20 @@ function renderCards() {
     card.className = `ann-card${ann.market_sensitive ? ' market-sensitive' : ''}`;
     card.style.animationDelay = `${Math.min(i * 40, 400)}ms`;
 
+    const msBadge = ann.market_sensitive
+      ? `<div class="ms-badge" title="Market Sensitive"><span class="ms-dot"></span></div>`
+      : '';
+
     const summaryItems = (ann.summary || []).slice(0, 3).map(
       b => `<li>${escHtml(b)}</li>`
     ).join('');
 
     const tagPills = (ann.tags || []).map(
-      t => `<span class="tag-pill">${escHtml(t)}</span>`
+      t => `<span class="tag-pill ${tagClass(t)}">${escHtml(t)}</span>`
     ).join('');
 
     card.innerHTML = `
+      ${msBadge}
       <div class="card-top">
         <span class="ticker-badge">${escHtml(ann.ticker)}</span>
         <div class="card-meta">
@@ -231,7 +262,7 @@ function renderCards() {
         </div>
       </div>
       <div class="card-headline">${escHtml(ann.headline)}</div>
-      ${summaryItems ? `<ul class="card-summary">${summaryItems}</ul>` : ''}
+      ${summaryItems ? `<div class="card-divider"></div><ul class="card-summary">${summaryItems}</ul>` : ''}
       ${tagPills ? `<div class="card-tags">${tagPills}</div>` : ''}
     `;
 
@@ -262,7 +293,7 @@ function openModal(ann) {
   ).join('');
 
   modalTags.innerHTML = (ann.tags || []).map(
-    t => `<span class="tag-pill">${escHtml(t)}</span>`
+    t => `<span class="tag-pill ${tagClass(t)}">${escHtml(t)}</span>`
   ).join('');
 
   modalOverlay.classList.remove('hidden');
@@ -369,9 +400,63 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
 btnCsv.addEventListener('click', downloadCSV);
 btnPrint.addEventListener('click', printReport);
 
+// GitHub Actions Sync
+syncBtn.addEventListener('click', async () => {
+  // We need a GitHub Personal Access Token (PAT) with repo actions written
+  let pat = localStorage.getItem('github_pat');
+  if (!pat) {
+    pat = prompt('Enter your GitHub Personal Access Token (PAT) with "repo" scope to trigger the workflow:');
+    if (!pat) return;
+    localStorage.setItem('github_pat', pat);
+  }
+
+  const repoOwner = 'tusharbhardwaj26';
+  const repoName = 'VittiASX';
+  const workflowId = 'daily_asx.yml'; // must match filename
+  
+  syncBtn.disabled = true;
+  syncBtn.classList.add('syncing');
+  syncLabel.textContent = 'Syncing...';
+
+  try {
+    const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/actions/workflows/${workflowId}/dispatches`, {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/vnd.github.v3+json',
+        'Authorization': `token ${pat}`,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ ref: 'main' })
+    });
+
+    if (res.ok || res.status === 204) {
+      alert('Sync triggered successfully! The GitHub Action is now running. It takes about a minute. The page will reload soon.');
+      setTimeout(() => location.reload(), 60000); // reload page after 1 min exactly as estimated action runtime
+    } else {
+      let bodyText = '';
+      try { bodyText = await res.text(); } catch(e){}
+      if (res.status === 401 || res.status === 404) {
+          alert(`Invalid token or repository access denied. Clearing saved PAT.\n\nError: ${res.status}`);
+          localStorage.removeItem('github_pat');
+      } else {
+          alert(`Failed to trigger sync (Status: ${res.status}).\n\n${bodyText}`);
+      }
+    }
+  } catch (err) {
+    alert(`Network error triggering sync: ${err.message}`);
+  } finally {
+    if (syncLabel.textContent === 'Syncing...') {
+       syncBtn.disabled = false;
+       syncBtn.classList.remove('syncing');
+       syncLabel.textContent = 'Sync';
+    }
+  }
+});
+
 /* ── Init ─────────────────────────────────────── */
 (function init() {
   const today = todayDateStr();
   datePicker.value = today;
+  datePicker.max   = today;   // prevent selecting future dates
   loadDate(today);
 })();
