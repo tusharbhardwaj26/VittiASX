@@ -1,0 +1,50 @@
+name: Daily ASX Announcements
+
+on:
+  # Runs at 10:00 PM UTC = 8:00 AM AEST (next day)
+  schedule:
+    - cron: "0 22 * * *"
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Date to fetch (YYYY-MM-DD). Leave blank for today AEST."
+        required: false
+        default: ""
+
+jobs:
+  fetch-and-summarise:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # needed to commit logs/ back to the repo
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run ASX fetcher
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        run: |
+          if [ -n "${{ github.event.inputs.date }}" ]; then
+            python fetch_asx.py --date "${{ github.event.inputs.date }}"
+          else
+            python fetch_asx.py
+          fi
+
+      - name: Commit and push log file
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add logs/
+          git diff --cached --quiet || git commit -m "chore: ASX log $(date -u '+%Y-%m-%d')"
+          git push
