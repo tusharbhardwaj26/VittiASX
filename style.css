@@ -179,6 +179,25 @@ button { font-family: var(--font); cursor: pointer; border: none; background: no
   padding: 20px 18px 18px;
   border-bottom: 1px solid var(--border);
 }
+.sidebar-close-btn {
+  display: none;
+  background: var(--bg-input);
+  border: 1px solid var(--border-light);
+  border-radius: var(--r-md);
+  color: var(--text-muted);
+  width: 32px; height: 32px;
+  align-items: center; justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: all var(--transition);
+}
+.sidebar-close-btn:hover { background: var(--bg-card-hover); color: var(--text-primary); }
+.sidebar-close-btn svg { width: 16px; height: 16px; }
+
+@media (max-width: 900px) {
+  .sidebar-close-btn { display: flex; }
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -865,6 +884,10 @@ input:checked + .toggle-thumb::after { left: calc(100% - 16px); background: var(
 @media (max-width: 900px) {
   .mobile-menu-btn { display: flex; }
   
+  html, body { overflow-x: hidden; } /* Prevent horizontal scroll */
+
+  body.mobile-menu-open { overflow: hidden; } /* Prevent background scrolling when sidebar open */
+
   #sidebar {
     position: fixed;
     top: 0; bottom: 0; left: -100%;

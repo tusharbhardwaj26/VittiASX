@@ -400,9 +400,17 @@ btnPrint.addEventListener('click', printReport);
 
 // Mobile menu toggle
 const mobileMenuBtn = document.getElementById("mobile-menu-btn");
+const sidebarCloseBtn = document.getElementById("sidebar-close-btn");
+
 mobileMenuBtn.addEventListener("click", () => {
-  document.body.classList.toggle("mobile-menu-open");
+  document.body.classList.add("mobile-menu-open");
 });
+
+if (sidebarCloseBtn) {
+  sidebarCloseBtn.addEventListener("click", () => {
+    document.body.classList.remove("mobile-menu-open");
+  });
+}
 // Close sidebar if clicking outside on mobile
 document.addEventListener("click", (e) => {
   if (document.body.classList.contains("mobile-menu-open") &&
