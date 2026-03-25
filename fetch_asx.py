@@ -89,6 +89,13 @@ def _parse_rss(content: bytes, date_str: str) -> list[dict]:
     """Parse RSS XML and return announcements matching the given date."""
     
     xml_text = content.decode('utf-8', errors='replace')
+    
+    # --- DEBUGGING TO GITHUB ACTIONS LOGS ---
+    print(f"\n[DEBUG] Raw Payload Preview (first 1000 chars):")
+    print(xml_text[:1000].replace('\n', ' '))
+    print(f"[DEBUG] End Preview\n")
+    # ----------------------------------------
+    
     items = []
     
     # 1. Grab all <item>...</item> blocks
