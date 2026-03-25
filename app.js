@@ -50,8 +50,6 @@ const printCards = document.getElementById('print-cards');
 const themeToggle = document.getElementById('theme-toggle');
 const iconMoon    = document.getElementById('icon-moon');
 const iconSun     = document.getElementById('icon-sun');
-const syncBtn     = document.getElementById('sync-btn');
-const syncLabel   = document.getElementById('sync-label');
 
 /* ── Theme ────────────────────────────────────── */
 (function initTheme() {
@@ -399,59 +397,6 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal()
 // Buttons
 btnCsv.addEventListener('click', downloadCSV);
 btnPrint.addEventListener('click', printReport);
-
-// GitHub Actions Sync
-syncBtn.addEventListener('click', async () => {
-  // We need a GitHub Personal Access Token (PAT) with repo actions written
-  let pat = localStorage.getItem('github_pat');
-  if (!pat) {
-    pat = prompt('Enter your GitHub Personal Access Token (PAT) with "repo" scope to trigger the workflow:');
-    if (!pat) return;
-    localStorage.setItem('github_pat', pat);
-  }
-
-  const repoOwner = 'tusharbhardwaj26';
-  const repoName = 'VittiASX';
-  const workflowId = 'daily_asx.yml'; // must match filename
-  
-  syncBtn.disabled = true;
-  syncBtn.classList.add('syncing');
-  syncLabel.textContent = 'Syncing...';
-
-  try {
-    const res = await fetch(`https://api.github.com/repos/${repoOwner}/${repoName}/actions/workflows/${workflowId}/dispatches`, {
-      method: 'POST',
-      headers: {
-        'Accept': 'application/vnd.github.v3+json',
-        'Authorization': `token ${pat}`,
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ ref: 'main' })
-    });
-
-    if (res.ok || res.status === 204) {
-      alert('Sync triggered successfully! The GitHub Action is now running. It takes about a minute. The page will reload soon.');
-      setTimeout(() => location.reload(), 60000); // reload page after 1 min exactly as estimated action runtime
-    } else {
-      let bodyText = '';
-      try { bodyText = await res.text(); } catch(e){}
-      if (res.status === 401 || res.status === 404) {
-          alert(`Invalid token or repository access denied. Clearing saved PAT.\n\nError: ${res.status}`);
-          localStorage.removeItem('github_pat');
-      } else {
-          alert(`Failed to trigger sync (Status: ${res.status}).\n\n${bodyText}`);
-      }
-    }
-  } catch (err) {
-    alert(`Network error triggering sync: ${err.message}`);
-  } finally {
-    if (syncLabel.textContent === 'Syncing...') {
-       syncBtn.disabled = false;
-       syncBtn.classList.remove('syncing');
-       syncLabel.textContent = 'Sync';
-    }
-  }
-});
 
 /* ── Init ─────────────────────────────────────── */
 (function init() {

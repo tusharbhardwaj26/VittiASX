@@ -433,27 +433,6 @@ input:checked + .toggle-thumb::after { left: calc(100% - 16px); background: var(
 }
 .theme-toggle svg { width: 15px; height: 15px; }
 
-/* Sync Button */
-.sync-btn {
-  display: flex; align-items: center; gap: 6px;
-  height: 34px; padding: 0 12px;
-  border-radius: var(--r-md);
-  background: var(--bg-input);
-  border: 1px solid var(--border-light);
-  color: var(--text-secondary);
-  font-size: 0.78rem; font-weight: 500;
-  transition: all var(--transition);
-  flex-shrink: 0;
-}
-.sync-btn:hover:not(:disabled) {
-  background: var(--accent-dim);
-  color: var(--accent-light);
-  border-color: var(--accent-border);
-}
-.sync-btn svg { width: 14px; height: 14px; }
-.sync-btn:disabled { opacity: 0.6; cursor: not-allowed; }
-.sync-btn.syncing svg { animation: spin 1s linear infinite; }
-
 /* Search */
 .topbar-right { display: flex; align-items: center; gap: 10px; }
 .search-wrap  { position: relative; display: flex; align-items: center; }
