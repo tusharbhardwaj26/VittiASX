@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react';
 
 interface Props {
   date: string;
+  availableDates: string[];
   log: DayLog | null;
   filtered: number;
   sensitiveOnly: boolean;
@@ -18,7 +19,7 @@ interface Props {
 }
 
 export default function Sidebar({
-  date, log, filtered, sensitiveOnly,
+  date, availableDates, log, filtered, sensitiveOnly,
   activeTags, onDateChange, onSensitiveToggle,
   onTagToggle, onCsvDownload, tagCounts,
 }: Props) {
@@ -70,18 +71,32 @@ export default function Sidebar({
           Trading Date
         </label>
         <div className="relative group">
-          <input
-            type="date"
+          <select
             value={date}
-            max={maxDate || undefined}
             onChange={e => onDateChange(e.target.value)}
             className="w-full px-4 py-3 bg-slate-50 dark:bg-[#0d1022] border border-slate-200 dark:border-white/10 rounded-xl
-              text-slate-800 dark:text-slate-100 font-mono text-[0.9rem] outline-none shadow-inner
+              text-slate-800 dark:text-slate-100 font-mono text-[0.9rem] outline-none shadow-inner appearance-none
               focus:border-indigo-400 dark:focus:border-indigo-500/70 focus:ring-4 focus:ring-indigo-500/10 dark:focus:ring-indigo-500/15
               hover:border-slate-300 dark:group-hover:border-white/20
-              [color-scheme:light] dark:[color-scheme:dark]
               transition-all duration-200 cursor-pointer"
-          />
+          >
+            {/* If current date hasn't produced logs yet, show it anyway so they know what date they're on */}
+            {date && !availableDates.includes(date) && (
+              <option value={date}>{formatDateLabel(date)} (Live)</option>
+            )}
+            
+            {availableDates.map(d => (
+              <option key={d} value={d}>
+                {formatDateLabel(d)}
+              </option>
+            ))}
+          </select>
+          {/* Custom dropdown arrow */}
+          <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-slate-400 dark:text-slate-500 group-hover:text-indigo-400 transition-colors">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-[1.1rem] h-[1.1rem]">
+              <path d="M19 9l-7 7-7-7" />
+            </svg>
+          </div>
         </div>
         {log && (
           <p className="text-[0.72rem] font-medium text-slate-500 dark:text-slate-400 mt-3 flex items-center gap-1.5 transition-colors">

@@ -21,6 +21,7 @@ export default function Dashboard() {
   const [log, setLog] = useState<DayLog | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [availableDates, setAvailableDates] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('grid');
   const [search, setSearch] = useState('');
   const [sensitiveOnly, setSensitiveOnly] = useState(false);
@@ -43,6 +44,16 @@ export default function Dashboard() {
     const savedTheme = localStorage.getItem('vitti-theme') as 'dark' | 'light';
     if (savedView) setViewMode(savedView);
     if (savedTheme) setTheme(savedTheme);
+
+    // Fetch available dates for the dropdown
+    fetch('/api/logs')
+      .then(r => r.json())
+      .then(d => {
+        setAvailableDates(d);
+        // Optional: If you wanted to auto-select the latest loaded date if today is empty
+        // you could do that here, but to keep the "Waiting for Market Open" state, we leave it.
+      })
+      .catch(console.error);
   }, []);
 
   // Apply theme class (Note: the app design is mostly dark-centric right now)
@@ -242,6 +253,7 @@ export default function Dashboard() {
         ${sidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}>
         <Sidebar
           date={date}
+          availableDates={availableDates}
           log={log}
           filtered={sorted.length}
           sensitiveOnly={sensitiveOnly}
@@ -311,27 +323,47 @@ export default function Dashboard() {
             </div>
           )}
 
-          {/* Error State */}
+          {/* Error State / Pending State */}
           {error && !loading && (
-            <div className="mx-auto max-w-2xl mt-8">
-              <div className="relative overflow-hidden rounded-[20px] p-[1px] bg-gradient-to-b from-rose-500/40 to-rose-500/5">
+            <div className="mx-auto max-w-2xl mt-8 animate-fade-in-up">
+              <div className="relative overflow-hidden rounded-[20px] p-[1px] bg-gradient-to-b from-indigo-500/20 to-transparent">
                 <div className="bg-[#0b0c16] rounded-[19px] p-8 flex items-start gap-6">
-                  <div className="w-14 h-14 rounded-2xl bg-rose-500/10 border border-rose-500/20 flex items-center justify-center flex-shrink-0 shadow-[0_0_30px_rgba(244,63,94,0.15)]">
-                    <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7 text-rose-400">
-                      <path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                    </svg>
-                  </div>
+                  {/* Wait icon vs Error icon */}
+                  {error.includes("No market data found") ? (
+                    <div className="w-14 h-14 rounded-2xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center flex-shrink-0 shadow-[0_0_30px_rgba(99,102,241,0.15)]">
+                      <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7 text-indigo-400">
+                        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
+                        <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </div>
+                  ) : (
+                    <div className="w-14 h-14 rounded-2xl bg-rose-500/10 border border-rose-500/20 flex items-center justify-center flex-shrink-0 shadow-[0_0_30px_rgba(244,63,94,0.15)]">
+                      <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7 text-rose-400">
+                        <path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                      </svg>
+                    </div>
+                  )}
+
                   <div className="pt-1">
-                    <h3 className="text-[1.1rem] font-bold text-rose-300 mb-2">No data available for this date</h3>
-                    <p className="text-[0.9rem] text-slate-400 leading-relaxed mb-5 max-w-md">{error}</p>
+                    <h3 className={`text-[1.1rem] font-bold mb-2 ${error.includes("No market data found") ? 'text-indigo-300' : 'text-rose-300'}`}>
+                      {error.includes("No market data found") 
+                        ? 'Awaiting Market Announcements'
+                        : 'Connection Error'}
+                    </h3>
+                    <p className="text-[0.9rem] text-slate-400 leading-relaxed mb-5 max-w-md">
+                      {error.includes("No market data found") 
+                        ? "The trading day hasn't produced any new announcements yet for this date, or it's a weekend. The live feed will automatically pull in news the moment it drops!"
+                        : error}
+                    </p>
                     <div className="flex gap-3">
                       <button
                         onClick={() => fetchLog(date)}
-                        className="px-5 py-2.5 rounded-xl bg-rose-500 text-white text-[0.85rem] font-bold tracking-wide
-                          shadow-[0_4px_16px_rgba(244,63,94,0.3),inset_0_1px_1px_rgba(255,255,255,0.2)]
-                          hover:shadow-[0_4px_24px_rgba(244,63,94,0.4)]
-                          hover:-translate-y-0.5 active:translate-y-0 transition-all">
-                        Retry Connection
+                        className={`px-5 py-2.5 rounded-xl text-white text-[0.85rem] font-bold tracking-wide shadow-[0_4px_16px_rgba(0,0,0,0.3),inset_0_1px_1px_rgba(255,255,255,0.2)] hover:-translate-y-0.5 active:translate-y-0 transition-all
+                          ${error.includes("No market data found")
+                            ? 'bg-indigo-600 hover:shadow-[0_4px_24px_rgba(99,102,241,0.3)]'
+                            : 'bg-rose-500 hover:shadow-[0_4px_24px_rgba(244,63,94,0.4)]'
+                          }`}>
+                        Check Again Now
                       </button>
                     </div>
                   </div>
