@@ -9,18 +9,16 @@ interface Props {
   availableDates: string[];
   log: DayLog | null;
   filtered: number;
-  sensitiveOnly: boolean;
   activeTags: Set<string>;
   onDateChange: (d: string) => void;
-  onSensitiveToggle: (v: boolean) => void;
   onTagToggle: (tag: string) => void;
   onCsvDownload: () => void;
   tagCounts: Record<string, number>;
 }
 
 export default function Sidebar({
-  date, availableDates, log, filtered, sensitiveOnly,
-  activeTags, onDateChange, onSensitiveToggle,
+  date, availableDates, log, filtered,
+  activeTags, onDateChange,
   onTagToggle, onCsvDownload, tagCounts,
 }: Props) {
   const [maxDate, setMaxDate] = useState('');
@@ -142,39 +140,7 @@ export default function Sidebar({
 
       {/* Toggles & Export */}
       <div className="px-7 py-6 border-b border-slate-200 dark:border-white/5 flex flex-col gap-6 transition-colors flex-shrink-0">
-        <div>
-          <label className="block text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-500 mb-3">
-            Focus Mode
-          </label>
-          <label className="flex items-center justify-between cursor-pointer group p-3 rounded-xl bg-white dark:bg-[#0d1022] border border-slate-200 dark:border-white/5 hover:border-slate-300 dark:hover:border-white/10 transition-colors shadow-sm dark:shadow-none">
-            <div className="flex items-center gap-2.5">
-              <div className={`w-8 h-8 rounded-lg flex items-center justify-center transition-colors
-                ${sensitiveOnly ? 'bg-rose-100 dark:bg-rose-500/20 text-rose-600 dark:text-rose-400' : 'bg-slate-100 dark:bg-white/5 text-slate-400'}`}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-4 h-4">
-                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
-              </div>
-              <span className="text-[0.88rem] font-semibold text-slate-700 dark:text-slate-200 group-hover:text-slate-900 dark:group-hover:text-white transition-colors">
-                Market Sensitive
-              </span>
-            </div>
-            
-            <div className="relative w-11 h-6 flex-shrink-0">
-              <input
-                type="checkbox"
-                checked={sensitiveOnly}
-                onChange={e => onSensitiveToggle(e.target.checked)}
-                className="sr-only"
-              />
-              <div className={`absolute inset-0 rounded-full transition-all duration-300 shadow-inner
-                ${sensitiveOnly ? 'bg-rose-500' : 'bg-slate-300 dark:bg-slate-700'}`}
-              />
-              <div className={`absolute top-1 w-4 h-4 rounded-full bg-white shadow-sm transition-transform duration-300
-                ${sensitiveOnly ? 'translate-x-[22px]' : 'translate-x-1'}`}
-              />
-            </div>
-          </label>
-        </div>
+
 
         <button
           onClick={onCsvDownload}

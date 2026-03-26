@@ -24,7 +24,6 @@ export default function Dashboard() {
   const [availableDates, setAvailableDates] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('grid');
   const [search, setSearch] = useState('');
-  const [sensitiveOnly, setSensitiveOnly] = useState(false);
   const [activeCategory, setActiveCategory] = useState('All Activity');
   const [activeTags, setActiveTags] = useState<Set<string>>(new Set());
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
@@ -108,10 +107,7 @@ export default function Dashboard() {
   const filtered = useMemo<Announcement[]>(() => {
     if (!log) return [];
     return log.announcements.filter(ann => {
-      // 1. Sensitivity
-      if (sensitiveOnly && !ann.market_sensitive) return false;
-      
-      // 2. Category Tab
+      // 1. Category Tab
       if (activeCategory !== 'All Activity') {
         const cleanCat = activeCategory.toLowerCase();
         const tagMatch = ann.tags?.some(t => t.toLowerCase().includes(cleanCat));
@@ -136,7 +132,7 @@ export default function Dashboard() {
       }
       return true;
     });
-  }, [log, sensitiveOnly, activeCategory, activeTags, search]);
+  }, [log, activeCategory, activeTags, search]);
 
   // Extract tag distribution
   const tagCounts = useMemo<Record<string, number>>(() => {
@@ -256,10 +252,8 @@ export default function Dashboard() {
           availableDates={availableDates}
           log={log}
           filtered={sorted.length}
-          sensitiveOnly={sensitiveOnly}
           activeTags={activeTags}
           onDateChange={d => { setDate(d); setActiveCategory('All Activity'); setActiveTags(new Set()); setSearch(''); }}
-          onSensitiveToggle={setSensitiveOnly}
           onTagToggle={handleTagToggle}
           onCsvDownload={handleCsvDownload}
           tagCounts={tagCounts}
@@ -387,7 +381,7 @@ export default function Dashboard() {
                 </p>
               </div>
               <button 
-                onClick={() => { setSearch(''); setActiveCategory('All Activity'); setActiveTags(new Set()); setSensitiveOnly(false); }}
+                onClick={() => { setSearch(''); setActiveCategory('All Activity'); setActiveTags(new Set()); }}
                 className="mt-2 px-5 py-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-300 text-[0.85rem] font-semibold hover:bg-white/10 hover:text-white transition-all">
                 Clear Filters
               </button>
