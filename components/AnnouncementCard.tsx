@@ -41,56 +41,46 @@ export default function AnnouncementCard({ ann }: Props) {
           : '',
       ].filter(Boolean).join(' ')}
     >
-      {/* Sensitive pulsing dot */}
-      {ann.market_sensitive && (
-        <span className="absolute top-4 right-4 flex h-2.5 w-2.5">
-          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-500 opacity-50" />
-          <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-500" />
+
+
+      {/* Meta Row: Badges, Time, Type */}
+      <div className="flex flex-wrap items-center gap-2 mb-1">
+        <span className="font-mono text-[0.7rem] font-bold tracking-[0.05em] px-2 py-0.5 rounded-md
+          bg-indigo-50 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 border border-indigo-200/50 dark:border-indigo-500/30 whitespace-nowrap">
+          {ann.ticker}
         </span>
-      )}
-
-      {/* Header row */}
-      <div className="flex items-start gap-3 pr-6">
-        {/* Ticker */}
-        <div className="flex flex-col items-start gap-1.5 flex-shrink-0">
-          <span className="font-mono text-[0.72rem] font-bold tracking-[0.08em] px-2.5 py-1 rounded-lg
-            bg-indigo-50 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-500/30 whitespace-nowrap">
-            {ann.ticker}
+        
+        {bullish && (
+          <span className="font-mono text-[0.6rem] font-black tracking-[0.05em] px-2 py-0.5 rounded-md
+            bg-emerald-50 dark:bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-200/50 dark:border-emerald-500/30 whitespace-nowrap
+            dark:animate-pulse-bullish shadow-sm">
+            ▲ BULLISH
           </span>
-          {bullish && (
-            <span className="font-mono text-[0.6rem] font-black tracking-[0.1em] px-2 py-0.5 rounded-md
-              bg-emerald-50 dark:bg-emerald-500/15 text-emerald-700 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-500/30 whitespace-nowrap
-              dark:animate-pulse-bullish dark:shadow-[0_0_16px_rgba(16,185,129,0.2)] shadow-sm">
-              ▲ BULLISH
-            </span>
-          )}
-          {ann.market_sensitive && !bullish && (
-            <span className="font-mono text-[0.6rem] font-bold tracking-[0.08em] px-2 py-0.5 rounded-md
-              bg-rose-50 dark:bg-rose-500/15 text-rose-600 dark:text-rose-400 border border-rose-200 dark:border-rose-500/30 whitespace-nowrap">
-              ⚡ SENSITIVE
-            </span>
-          )}
-        </div>
+        )}
 
-        {/* Company + time */}
-        <div className="flex-1 min-w-0 pt-0.5">
-          <div className="font-semibold text-[0.88rem] text-slate-800 dark:text-slate-200 truncate leading-tight transition-colors">
-            {ann.company}
-          </div>
-          <div className="font-mono text-[0.68rem] text-slate-500 dark:text-slate-500 mt-1 flex items-center gap-1.5 transition-colors">
-            <svg viewBox="0 0 12 12" fill="none" className="w-3 h-3 flex-shrink-0">
-              <circle cx="6" cy="6" r="5" stroke="currentColor" strokeWidth="1.2"/>
-              <path d="M6 3.5V6l2 1.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
-            </svg>
-            {formatTime(ann.time)}
-            {ann.document_type && (
-              <>
-                <span className="text-slate-300 dark:text-slate-700">·</span>
-                <span className="text-slate-500 dark:text-slate-600 truncate">{ann.document_type}</span>
-              </>
-            )}
-          </div>
+        {ann.market_sensitive && (
+          <span className="flex items-center gap-1.5 font-mono text-[0.6rem] font-bold tracking-[0.05em] px-2 py-0.5 rounded-md
+            bg-rose-50 dark:bg-rose-500/15 text-rose-600 dark:text-rose-400 border border-rose-200/50 dark:border-rose-500/30 whitespace-nowrap uppercase">
+            <span className="flex h-1.5 w-1.5 relative">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-500 opacity-50" />
+              <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-rose-500" />
+            </span>
+            SENSITIVE
+          </span>
+        )}
+
+        <div className="flex items-center gap-1.5 ml-auto font-mono text-[0.65rem] text-slate-500 dark:text-slate-500">
+          <svg viewBox="0 0 12 12" fill="none" className="w-3 h-3 flex-shrink-0 opacity-70">
+            <circle cx="6" cy="6" r="5" stroke="currentColor" strokeWidth="1.2"/>
+            <path d="M6 3.5V6l2 1.5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round"/>
+          </svg>
+          {formatTime(ann.time)}
         </div>
+      </div>
+
+      {/* Company Name */}
+      <div className="text-[0.78rem] font-bold uppercase tracking-wider text-slate-400 dark:text-slate-500 truncate -mt-1 group-hover:text-slate-300 transition-colors">
+        {ann.company}
       </div>
 
       {/* Headline */}
@@ -122,9 +112,9 @@ export default function AnnouncementCard({ ann }: Props) {
           </div>
           <ul className="flex flex-col gap-2">
             {ann.summary.slice(0, 3).map((point, i) => (
-              <li key={i} className="relative pl-4 text-[0.8rem] text-slate-600 dark:text-slate-400 leading-[1.6] line-clamp-2">
-                <span className="absolute left-0.5 top-[7px] w-1.5 h-1.5 rounded-full bg-indigo-400 dark:bg-indigo-500/60 flex-shrink-0" />
-                {point}
+              <li key={i} className="relative pl-4 text-[0.82rem] text-slate-600 dark:text-slate-300/90 leading-[1.6] line-clamp-2">
+                <span className="absolute left-0 top-[9px] w-1.5 h-1.5 rounded-full bg-indigo-500/40 dark:bg-indigo-500/60 flex-shrink-0" />
+                {point.replace(/^[\s\-\*\•\d\.]+\s*/, '')}
               </li>
             ))}
           </ul>

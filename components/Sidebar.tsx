@@ -28,6 +28,12 @@ export default function Sidebar({
     setMaxDate(local.toISOString().slice(0, 10));
   }, []);
 
+  const haltCount = log?.announcements.filter(a => 
+    a.headline.toLowerCase().includes('halt') || 
+    a.headline.toLowerCase().includes('suspension') ||
+    a.tags.some(t => t.toLowerCase().includes('halt'))
+  ).length ?? 0;
+
   return (
     <aside className="w-[300px] min-w-[300px] bg-slate-50 dark:bg-[#080c18] border-r border-slate-200 dark:border-white/5
       flex flex-col h-screen sticky top-0 overflow-y-auto overflow-x-hidden pb-8
@@ -111,10 +117,9 @@ export default function Sidebar({
         </label>
         <div className="grid grid-cols-2 gap-3.5">
           {[
-            { label: 'Total News', value: log?.total ?? '–', color: 'text-slate-800 dark:text-white', danger: false },
-            { label: 'Sensitive', value: log?.market_sensitive_count ?? '–', color: 'text-rose-600 dark:text-rose-400', danger: true },
-            { label: 'Tickers', value: log ? new Set(log.announcements.map(a => a.ticker)).size : '–', color: 'text-slate-800 dark:text-white', danger: false },
-            { label: 'Showing', value: filtered, color: 'text-indigo-600 dark:text-indigo-300', danger: false },
+            { label: 'Alpha Hub', value: log?.announcements.length ?? '–', color: 'text-slate-800 dark:text-white', danger: false },
+            { label: 'Trading Halts', value: haltCount, color: 'text-rose-600 dark:text-rose-400', danger: true },
+            { label: 'Active Tickers', value: log ? new Set(log.announcements.map(a => a.ticker)).size : '–', color: 'text-slate-800 dark:text-white', danger: false },
           ].map(({ label, value, color, danger }) => (
             <div key={label}
               className={`rounded-[14px] p-4 border transition-all duration-300 relative overflow-hidden group

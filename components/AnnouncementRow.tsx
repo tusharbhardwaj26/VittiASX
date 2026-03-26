@@ -30,15 +30,18 @@ export default function AnnouncementRow({ ann }: Props) {
           bg-indigo-50 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-500/30 whitespace-nowrap text-center w-full">
           {ann.ticker}
         </span>
-        {ann.market_sensitive && !bullish && (
-          <span className="flex items-center gap-1 text-[0.55rem] font-bold uppercase tracking-[0.1em] text-rose-600 dark:text-rose-400 font-mono">
-            <span className="w-1.5 h-1.5 rounded-full bg-rose-500 dark:bg-rose-500 animate-pulse-dot" />
-            Sensitive
-          </span>
-        )}
         {bullish && (
           <span className="font-mono text-[0.55rem] font-black uppercase tracking-[0.1em] text-emerald-600 dark:text-emerald-400">
             ▲ Bullish
+          </span>
+        )}
+        {ann.market_sensitive && (
+          <span className="flex items-center gap-1.5 font-mono text-[0.55rem] font-bold uppercase tracking-[0.1em] text-rose-600 dark:text-rose-400">
+            <span className="flex h-1 w-1 relative">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-500 opacity-50" />
+              <span className="relative inline-flex rounded-full h-1 w-1 bg-rose-500" />
+            </span>
+            Sensitive
           </span>
         )}
       </div>

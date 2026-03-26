@@ -5,6 +5,7 @@ export function formatTime(iso: string): string {
   try {
     return new Date(iso).toLocaleTimeString('en-AU', {
       hour: '2-digit', minute: '2-digit', hour12: true,
+      timeZone: 'Australia/Sydney'
     });
   } catch { return iso; }
 }
@@ -15,6 +16,7 @@ export function formatDateLabel(dateStr: string): string {
     const d = new Date(dateStr + 'T00:00:00');
     return d.toLocaleDateString('en-AU', {
       weekday: 'long', day: 'numeric', month: 'long', year: 'numeric',
+      timeZone: 'Australia/Sydney'
     });
   } catch { return dateStr; }
 }
