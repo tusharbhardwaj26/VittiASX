@@ -31,7 +31,7 @@ load_dotenv()
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_MODEL   = "llama-3.3-70b-versatile"
 
-AEST = timezone(timedelta(hours=10))
+AEST = timezone(timedelta(hours=11))
 
 HEADERS = {
     "User-Agent": (
@@ -220,22 +220,89 @@ def summarise_batch(client: Groq, announcements: list[dict], delay: float = 2.1)
 def save_log(date_str: str, announcements: list[dict]) -> Path:
     LOGS_DIR.mkdir(exist_ok=True)
     path = LOGS_DIR / f"{date_str}.json"
+    
+    # Load existing data if file exists to append/deduplicate
+    existing_announcements = []
+    if path.exists():
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+                existing_announcements = old_data.get("announcements", [])
+        except Exception as e:
+            print(f"[save] Error loading existing log: {e}")
+
+    # Deduplicate based on URL (unique document key)
+    seen_urls = {a["url"] for a in existing_announcements if "url" in a}
+    new_to_add = [a for a in announcements if a["url"] not in seen_urls]
+    
+    combined = existing_announcements + new_to_add
+    # Sort by time descending
+    combined.sort(key=lambda x: x["time"], reverse=True)
+
     payload = {
         "date":                  date_str,
-        "total":                 len(announcements),
-        "market_sensitive_count": sum(1 for a in announcements if a["market_sensitive"]),
+        "total":                 len(combined),
+        "market_sensitive_count": sum(1 for a in combined if a["market_sensitive"]),
         "generated_at":          datetime.now(timezone.utc).isoformat(),
-        "announcements":         announcements,
+        "announcements":         combined,
     }
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, indent=2, ensure_ascii=False)
-    print(f"[save] Written {len(announcements)} announcements to {path}")
+    
+    if new_to_add:
+        print(f"[save] Appended {len(new_to_add)} new announcements. Total now: {len(combined)}")
+    else:
+        print(f"[save] No new announcements found. Total remains: {len(combined)}")
     return path
 
 
-# ─────────────────────────────────────────────────────────────
-# Main
-# ─────────────────────────────────────────────────────────────
+def run_process(args):
+    print(f"\n{'='*60}")
+    print(f"  ASX Announcement Fetcher  |  {args.date}")
+    print(f"{'='*60}\n")
+
+    # 1. Load existing log to find what we already have
+    path = LOGS_DIR / f"{args.date}.json"
+    seen_urls = set()
+    if path.exists():
+        try:
+            with open(path, "r", encoding="utf-8") as f:
+                old_data = json.load(f)
+                seen_urls = {a["url"] for a in old_data.get("announcements", [])}
+        except: pass
+
+    # 2. Fetch latest from ASX
+    fetched = fetch_announcements(args.date)
+    if not fetched:
+        print("[main] No announcements found for this date.")
+        return
+
+    # 3. Filter only NEW announcements
+    new_announcements = [a for a in fetched if a["url"] not in seen_urls]
+    if not new_announcements:
+        print("[main] All fetched announcements are already in the log. Skipping AI.")
+        return
+
+    print(f"[main] Found {len(new_announcements)} NEW announcements to process.")
+
+    # 4. AI summarise ONLY new ones
+    if not args.no_ai:
+        if not GROQ_API_KEY:
+            print("[main] WARNING: GROQ_API_KEY not set. Using fallback.")
+            for a in new_announcements:
+                a["summary"] = [f"ASX announcement: {a['headline']}"]
+                a["tags"]    = ["Other"]
+        else:
+            client = Groq(api_key=GROQ_API_KEY)
+            new_announcements = summarise_batch(client, new_announcements)
+    else:
+        for a in new_announcements:
+            a["summary"] = [f"ASX announcement: {a['headline']}"]
+            a["tags"]    = ["Other"]
+
+    # 5. Save/Append
+    save_log(args.date, new_announcements)
+
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch and summarise ASX announcements")
@@ -249,41 +316,39 @@ def main():
         action="store_true",
         help="Skip Groq summarisation (useful for testing)",
     )
+    parser.add_argument(
+        "--loop",
+        action="store_true",
+        help="Run in a loop every 5 minutes during the 9:00 - 10:15 window",
+    )
     args = parser.parse_args()
 
-    print(f"\n{'='*60}")
-    print(f"  ASX Announcement Fetcher  |  {args.date}")
-    print(f"{'='*60}\n")
-
-    # 1. Fetch from RSS
-    announcements = fetch_announcements(args.date)
-
-    if not announcements:
-        print("[main] No announcements found for this date. Saving empty log.")
-        save_log(args.date, [])
-        return
-
-    # 2. Filter blank headlines
-    announcements = [a for a in announcements if a["headline"].strip()]
-    print(f"[main] {len(announcements)} valid announcements after filtering")
-
-    # 3. AI summarise
-    if not args.no_ai:
-        if not GROQ_API_KEY:
-            print("[main] WARNING: GROQ_API_KEY not set. Using --no-ai fallback.")
-            for a in announcements:
-                a["summary"] = [f"ASX announcement: {a['headline']}"]
-                a["tags"]    = ["Other"]
-        else:
-            client = Groq(api_key=GROQ_API_KEY)
-            announcements = summarise_batch(client, announcements)
+    if args.loop:
+        print(f"[loop] Starting morning loop (9:00 AM - 10:15 AM AEST)...")
+        while True:
+            now = datetime.now(AEST)
+            # Check if we are within the window
+            # 9:00 AM to 10:15 AM
+            start_time = now.replace(hour=9, minute=0, second=0, microsecond=0)
+            end_time   = now.replace(hour=10, minute=15, second=0, microsecond=0)
+            
+            if now < start_time:
+                wait_secs = (start_time - now).total_seconds()
+                print(f"[loop] Too early. Waiting until 9:00 AM ({int(wait_secs)}s remaining)...")
+                time.sleep(min(wait_secs, 300))
+                continue
+            
+            if now > end_time:
+                print(f"[loop] Current time {now.strftime('%H:%M')} is past 10:15 AM. Loop finished.")
+                break
+            
+            print(f"\n[loop] {now.strftime('%H:%M')} Round start...")
+            run_process(args)
+            
+            print(f"[loop] Round complete. Sleeping 5 minutes...")
+            time.sleep(300)
     else:
-        for a in announcements:
-            a["summary"] = [f"ASX announcement: {a['headline']}"]
-            a["tags"]    = ["Other"]
-
-    # 4. Save
-    save_log(args.date, announcements)
+        run_process(args)
     print("\n[main] Done.")
 
 

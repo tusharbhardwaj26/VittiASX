@@ -1,107 +1,57 @@
-# Vitti - ASX Announcement Dashboard
+# Vitti ASX Intelligence Center
 
-A daily intelligence tool that automatically fetches ASX announcements, generates AI bullet-point summaries using Groq, flags market-sensitive releases, and presents everything in a searchable web dashboard.
+Welcome to the **Vitti ASX Intelligence Center**! 
 
----
+This is an automated tool designed to help you instantly understand what is happening on the Australian Securities Exchange (ASX), even if you have zero trading experience.
 
-## How It Works
-
-```
-GitHub Actions (cron 8am AEST)
-  └── fetch_asx.py
-        ├── Fetches all ASX announcements via the official MarkitDigital JSON API (bypassing legacy geo-blocks)
-        ├── Sends each to Groq (llama-3.3-70b-versatile) for a summary and tags
-        ├── Preserves the native `market_sensitive` flag directly from the API
-        └── Writes `logs/YYYY-MM-DD.json` - auto-committed to the repository
-
-index.html (open in browser or deploy to GitHub Pages)
-  ├── Reads logs/YYYY-MM-DD.json for the selected date
-  ├── Offers search, tag filters, category tabs, and market-sensitive toggles
-  ├── Features a responsive, premium UI with mobile off-canvas menus
-  └── Allows download via CSV or Print PDF
-```
+Every day, hundreds of companies release official announcements on the stock market. Reading through all of these dense, financial PDFs is impossible. This tool does the hard work for you.
 
 ---
 
-## Setup
+## 🌟 What This Tool Does For You
 
-### 1. Clone & Install
-```bash
-git clone https://github.com/YOUR_USERNAME/Vitti.git
-cd Vitti
-pip install -r requirements.txt
-```
-
-### 2. Set Environment Variables
-```bash
-cp .env.example .env
-# Edit .env and add your Groq API key: https://console.groq.com/keys
-```
-
-### 3. Add GitHub Secret
-In your repo → **Settings → Secrets → Actions → New repository secret**:
-- Name: `GROQ_API_KEY`
-- Value: your key from https://console.groq.com/keys
-
-### 4. Push to GitHub
-The GitHub Actions workflow (`.github/workflows/daily_asx.yml`) will automatically run every day at **8am AEST** and commit a new `logs/YYYY-MM-DD.json`.
-
-You can also trigger it manually from the **Actions tab → Daily ASX Announcements → Run workflow**.
+1. **Auto-Fetches the News:** It automatically pulls all the latest official announcements from the ASX.
+2. **AI Summaries:** Instead of reading a 50-page PDF, Artificial Intelligence reads it instantly and gives you 3 simple bullet points explaining what happened.
+3. **Flags "Market Sensitive" News:** The ASX literally tells us if a piece of news is expected to move the stock price. We put a bright **red flashing dot** next to these so you know what is important.
+4. **Highlights "Bullish" News:** Our AI analyzes the news. If it thinks the news is positive and good for the company's future, it adds a green **▲ BULLISH** badge.
+5. **Organizes Everything:** It sorts the news into categories like "Dividends", "Results", or "Mergers", making it incredibly easy to browse.
 
 ---
 
-## Run Manually (Local)
-```bash
-# Fetch today's announcements with AI summaries
-python fetch_asx.py
+## 🚀 How to Use the Dashboard
 
-# Fetch for a specific date
-python fetch_asx.py --date 2026-03-25
+Using the dashboard is as simple as browsing a regular website. 
 
-# Skip Groq (just fetch raw data, no summaries)
-python fetch_asx.py --no-ai
-```
+1. **Open the Dashboard:** Once the website is running, open it in your web browser.
+2. **Pick a Date:** On the left side, choose the date you want to look at. The dashboard updates automatically.
+3. **Focus Mode:** If you only want to see the most important, price-moving news, flip the **"Market Sensitive"** switch on the left. All the boring stuff will disappear!
+4. **Search:** Need to find news about a specific company (like BHP)? Just type "BHP" into the search bar at the top right.
+5. **Theme Toggle:** Click the ☀️ / 🌙 icon at the top right to switch between the sleek dark theme ("Midnight Intelligence") and the bright, readable light theme ("Crisp Light").
 
 ---
 
-## View the Dashboard
-Open `index.html` directly in a browser.  
-Or deploy to **GitHub Pages**: Settings → Pages → Source: `main` / `root`.
+## 🛠️ How to Start the Dashboard (For Beginners)
 
-A sample log (logs/2026-03-25.json) is included so the dashboard works immediately.
+If you have downloaded this folder to your computer and want to start it up:
 
----
+1. Open your computer's terminal (or Command Prompt).
+2. Navigate to this folder.
+3. Type the following command and press Enter:
+   ```bash
+   npm run dev
+   ```
+4. Open your web browser (like Chrome or Safari) and go to: `http://localhost:3000`
 
-## Log Format (`logs/YYYY-MM-DD.json`)
-```json
-{
-  "date": "2026-03-25",
-  "total": 12,
-  "market_sensitive_count": 4,
-  "generated_at": "2026-03-25T22:01:00+00:00",
-  "announcements": [
-    {
-      "ticker": "BHP",
-      "company": "BHP Group Limited",
-      "headline": "Quarterly Production Report",
-      "time": "2026-03-25T08:10:00",
-      "url": "https://www.asx.com.au/...",
-      "market_sensitive": true,
-      "document_type": "Quarterly Report",
-      "summary": ["bullet 1", "bullet 2", "bullet 3"],
-      "tags": ["Quarterly", "Mining", "Production"]
-    }
-  ]
-}
-```
+*That's it! The dashboard will appear and automatically refresh every 5 minutes to fetch the latest AI-summarized news.*
 
 ---
 
-## Tech Stack
-| Layer | Technology |
-|-------|-----------|
-| Fetcher | Python 3.12, `requests` |
-| AI Summaries | Groq API (`llama-3.3-70b-versatile`) |
-| Scheduling | GitHub Actions cron |
-| Dashboard | Vanilla HTML / CSS / JS |
-| Deployment | GitHub Pages (optional) |
+## 📚 For Developers & Technical Users
+
+If you are a programmer looking to understand how the underlying AI pipeline and Next.js Architecture works, please see our detailed documentation:
+
+- [High-Level Design (HLD)](docs/HLD.md)
+- [Low-Level Design (LLD)](docs/LLD.md)
+
+---
+*Created by Tushar Bhardwaj for automated market intelligence.*
