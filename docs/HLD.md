@@ -37,5 +37,5 @@ graph TD
 ```
 
 ### 5. Automation Strategy
-*   **Extraction:** A cron job runs the Python engine regularly during standard market hours (9:00 AM - 4:15 PM AEST).
+*   **Extraction:** A GitHub Actions workflow runs the Python engine every **15 minutes** during the critical market opening window (**8:00 AM - 11:45 AM AEST**, Monday-Friday). This ensures early-morning announcements are captured and summarized rapidly.
 *   **Display:** The Next.js dashboard uses a `setInterval` hook to poll the local API route every 5 minutes. As the Python script appends new items to the JSON file, the dashboard automatically updates without requiring a page refresh.

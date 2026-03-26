@@ -41,7 +41,7 @@ If you have downloaded this folder to your computer and want to start it up:
    ```
 4. Open your web browser (like Chrome or Safari) and go to: `http://localhost:3000`
 
-*That's it! The dashboard will appear and automatically refresh every 5 minutes to fetch the latest AI-summarized news.*
+*That's it! The dashboard will appear and automatically refresh every 5 minutes to fetch the latest AI-summarized news. Note: The automated data pipeline runs in the background every 15 minutes during the market morning (8:00 AM - 11:45 AM AEST) to fetch fresh announcements.*
 
 ---
 
