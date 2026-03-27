@@ -1,9 +1,284 @@
 {
   "date": "2026-03-27",
-  "total": 54,
-  "market_sensitive_count": 54,
-  "generated_at": "2026-03-27T00:00:58.869762+00:00",
+  "total": 69,
+  "market_sensitive_count": 69,
+  "generated_at": "2026-03-27T05:54:32.158090+00:00",
   "announcements": [
+    {
+      "ticker": "DGL",
+      "company": "DGL GROUP LIMITED",
+      "headline": "New Finance Facility Executed with ScotPac",
+      "time": "2026-03-27T05:47:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03073054-3A690348",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- DGL Group Limited has executed a new finance facility with ScotPac.",
+        "- The finance facility is likely to provide the company with additional funding for its operations.",
+        "- The announcement may include details on the terms and conditions of the finance facility, such as interest rates and repayment schedules."
+      ],
+      "tags": [
+        "Finance",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "RII",
+      "company": "RESOLUTION GBL LISTED INFRA FUND - ACTIVE ETF",
+      "headline": "Quarterly Distribution Estimate and Timetable",
+      "time": "2026-03-27T05:40:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03073038-2A1662870",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "- The company will be distributing a portion of its earnings to shareholders.",
+        "- The announcement provides a timetable for the distribution, including key dates and deadlines.",
+        "- The distribution estimate is likely to be based on the company's performance over the past quarter."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend",
+        "Quarterly"
+      ]
+    },
+    {
+      "ticker": "RCA",
+      "company": "RESOLUTION CAP GLOBAL PROP SEC FUND - ACTIVE ETF",
+      "headline": "Quarterly Distribution Estimate and Timetable",
+      "time": "2026-03-27T05:37:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03073034-2A1662866",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "- The company has estimated its quarterly distribution.",
+        "- The announcement outlines the timetable for the distribution.",
+        "- The distribution is likely related to the company's investment performance."
+      ],
+      "tags": [
+        "Finance",
+        "Quarterly",
+        "Dividend"
+      ]
+    },
+    {
+      "ticker": "HYG",
+      "company": "HYPERION GLOBAL GROWTH COMPANIES FUND - ACTIVE ETF",
+      "headline": "Distribution Details - Mar 2026",
+      "time": "2026-03-27T05:33:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03073031-2A1662865",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Details of the distribution amount or frequency.",
+        "- Information on the distribution payment date and ex-distribution date.",
+        "- Any changes to the distribution policy or schedule."
+      ],
+      "tags": [
+        "Finance",
+        "Results",
+        "Dividend"
+      ]
+    },
+    {
+      "ticker": "ICI",
+      "company": "ICI",
+      "headline": "iCandy Webinar Presentation",
+      "time": "2026-03-27T03:52:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072969-6A1318210",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement is related to iCandy's online presence and digital engagement through a webinar presentation.",
+        "- The webinar presentation may cover updates on the company's technology, products, or services.",
+        "- The announcement could provide insights into iCandy's business strategy, growth plans, or market positioning."
+      ],
+      "tags": [
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "EAR",
+      "company": "EAR",
+      "headline": "PIMCO ETF - March Estimated Distribution",
+      "time": "2026-03-27T03:43:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072964-2A1662826",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement is related to the PIMCO ETF, a type of exchange-traded fund.",
+        "- The estimated distribution for March is likely to be disclosed, providing insight into the fund's performance.",
+        "- The announcement may include details on the distribution amount, timing, and any other relevant information."
+      ],
+      "tags": [
+        "Finance",
+        "Dividend"
+      ]
+    },
+    {
+      "ticker": "MIO",
+      "company": "MIO",
+      "headline": "Trading Halt",
+      "time": "2026-03-27T03:07:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072949-6A1318202",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "- The company, MIO, has been halted from trading.",
+        "- The halt is likely due to a significant event that requires immediate attention.",
+        "- The exact reason for the halt may not be disclosed in the announcement."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "MIO",
+      "company": "MIO",
+      "headline": "Pause in Trading",
+      "time": "2026-03-27T02:58:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072946-6A1318201",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- MIO has paused trading, indicating a potential issue or disruption.",
+        "- The pause in trading may be related to a material event or information that requires disclosure.",
+        "- This announcement is market sensitive, suggesting that the information may have a significant impact on the company's stock price or market value."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "FRA",
+      "company": "FRA",
+      "headline": "Distribution Details 31 March 2026",
+      "time": "2026-03-27T02:19:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072932-2A1662808",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Details of the distribution to be made on or around 31 March 2026.",
+        "- Information on the distribution type, such as cash or scrip.",
+        "- Any relevant distribution dates, including ex-dividend date and payment date."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "GOO",
+      "company": "GOO",
+      "headline": "GOOD - March 2026 Distribution Estimate CPU",
+      "time": "2026-03-27T02:05:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072926-2A1662804",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, GOO, is providing an update on its distribution estimate for the current quarter.",
+        "- The update is likely related to the company's CPU (Central Processing Unit) operations.",
+        "- The announcement may include details on the company's revenue or production expectations for the current quarter."
+      ],
+      "tags": [
+        "Finance",
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "FFG",
+      "company": "FFG",
+      "headline": "Fatfish Investor Webinar - Presentation",
+      "time": "2026-03-27T01:27:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072918-6A1318191",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Fatfish Investor Webinar presentation details will be disclosed, potentially including key takeaways and market insights.",
+        "- The webinar presentation may cover the company's current financial performance, growth strategies, and future outlook.",
+        "- The announcement could also provide updates on the company's business operations, market trends, and competitive landscape."
+      ],
+      "tags": [
+        "Technology",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "JEP",
+      "company": "JEP",
+      "headline": "Distribution Notice",
+      "time": "2026-03-27T00:56:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072911-2A1662798",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement is related to a distribution of funds or assets to shareholders.",
+        "- It may involve a payment or dividend to shareholders.",
+        "- The announcement could be regarding a change in the company's capital structure or a return of capital to shareholders."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "GHI",
+      "company": "GHI",
+      "headline": "Estimated Distribution - March 2026",
+      "time": "2026-03-27T00:51:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072909-2A1662796",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, GHI, is providing an update on its estimated distribution for March 2026.",
+        "- This announcement may include details on the expected distribution amount, payment date, and any changes to the distribution policy.",
+        "- The estimated distribution may be related to the company's financial performance, such as dividends or distributions from investments."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "DIV",
+      "company": "DIV",
+      "headline": "Estimated Distribution - March 2026",
+      "time": "2026-03-27T00:46:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072907-2A1662793",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, DIV, is likely to provide an update on its estimated distribution for the period.",
+        "- The announcement may include details on the expected distribution amount and any changes to the distribution schedule.",
+        "- It is possible that the company will also provide guidance on the factors that have influenced the estimated distribution."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "6KA",
+      "company": "6KA",
+      "headline": "$1.1M Nickel 718 Superalloy Powder Order from Major OEM",
+      "time": "2026-03-27T00:00:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03072898-3A690322",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- 6KA has received a significant order for $1.1M worth of Nickel 718 Superalloy Powder.",
+        "- The order is from a major Original Equipment Manufacturer (OEM), indicating a strong demand for the company's products.",
+        "- The order is likely to have a positive impact on the company's revenue and production in the near future."
+      ],
+      "tags": [
+        "Mining",
+        "Technology",
+        "Production"
+      ]
+    },
     {
       "ticker": "AGI",
       "company": "AINSWORTH GAME TECHNOLOGY LIMITED",
