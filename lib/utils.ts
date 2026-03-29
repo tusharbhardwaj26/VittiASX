@@ -29,13 +29,20 @@ export function todayAEST(): string {
 }
 
 export function isBullish(ann: { market_sensitive: boolean; headline: string; summary: string[] }): boolean {
+  const text = (ann.headline + ' ' + (ann.summary || []).join(' ')).toLowerCase();
+  
+  // Rule 1: Major ownership entry is almost always bullish
+  if (text.includes('becoming a substantial holder')) return true;
+  
+  // Rule 2: For other news, we generally stick to market-sensitive price-movers
   if (!ann.market_sensitive) return false;
+
   const keywords = [
     'discovery', 'intercept', 'high-grade', 'record', 'dividend', 'profit',
     'growth', 'expansion', 'success', 'partnership', 'favourable', 'increase',
     'upgrade', 'positive', 'surplus', 'exceeded', 'breakthrough', 'acquisition',
+    'merger', 'award', 'contract', 'buy-back', 'buyback', 'placement', 'raising',
   ];
-  const text = (ann.headline + ' ' + ann.summary.join(' ')).toLowerCase();
   return keywords.some(k => text.includes(k));
 }
 
@@ -46,6 +53,7 @@ export function tagClass(tag: string): string {
   if (t.includes('healthcare') || t.includes('health')) return 'tag-healthcare';
   if (t.includes('technology')) return 'tag-technology';
   if (t.includes('energy') || t.includes('oil')) return 'tag-energy';
+  if (t.includes('substantial')) return 'tag-substantial';
   return '';
 }
 
@@ -55,5 +63,6 @@ export const TAG_BG: Record<string, string> = {
   'tag-healthcare':  'bg-violet-500/10 text-violet-400 border-violet-500/20',
   'tag-technology':  'bg-sky-500/10 text-sky-400 border-sky-500/20',
   'tag-energy':      'bg-orange-500/10 text-orange-400 border-orange-500/20',
+  'tag-substantial': 'bg-indigo-500/10 text-indigo-400 border-indigo-500/20',
   '':                'bg-slate-500/10 text-slate-400 border-slate-500/20',
 };

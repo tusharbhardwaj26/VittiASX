@@ -9,15 +9,15 @@ import AnnouncementCard from '@/components/AnnouncementCard';
 import AnnouncementRow from '@/components/AnnouncementRow';
 
 const CATEGORIES = [
-  'All Activity', 'Quarterly', 'Results', 'Dividend',
+  'All Activity', 'Bullish', 'Quarterly', 'Results', 'Dividend',
   'Capital Raise', 'AGM', 'Merger & Acquisition',
-  'Trading Halt', 'Board Change',
+  'Trading Halt', 'Board Change', 'Substantial Holding',
 ];
 
-const REFRESH_MS = 5 * 60 * 1000; // 5 minutes
+const REFRESH_MS = 5 * 60 * 1000;
 
 export default function Dashboard() {
-  const [date, setDate] = useState<string>(''); // Let useEffect init date to avoid hydration error
+  const [date, setDate] = useState<string>('');
   const [log, setLog] = useState<DayLog | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -31,12 +31,10 @@ export default function Dashboard() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [isClient, setIsClient] = useState(false);
 
-  // Init local date + load preferences from localStorage
   useEffect(() => {
     setIsClient(true);
-    // Current local date in YYYY-MM-DD
     const local = new Date();
-    local.setHours(local.getHours() + 11); // Offset to AEST roughly
+    local.setHours(local.getHours() + 11);
     setDate(local.toISOString().slice(0, 10));
 
     const savedView = localStorage.getItem('vitti-view') as ViewMode;
@@ -44,18 +42,12 @@ export default function Dashboard() {
     if (savedView) setViewMode(savedView);
     if (savedTheme) setTheme(savedTheme);
 
-    // Fetch available dates for the dropdown
     fetch('/api/logs')
       .then(r => r.json())
-      .then(d => {
-        setAvailableDates(d);
-        // Optional: If you wanted to auto-select the latest loaded date if today is empty
-        // you could do that here, but to keep the "Waiting for Market Open" state, we leave it.
-      })
+      .then(d => setAvailableDates(d))
       .catch(console.error);
   }, []);
 
-  // Apply theme class (Note: the app design is mostly dark-centric right now)
   useEffect(() => {
     if (theme === 'light') {
       document.documentElement.classList.add('light');
@@ -74,7 +66,7 @@ export default function Dashboard() {
     try {
       const res = await fetch(`/api/logs/${d}`);
       if (!res.ok) {
-        if (res.status === 404) setError(`No market data found for ${d}. Ensure data fetcher is running.`);
+        if (res.status === 404) setError(`No market data found for ${d}.`);
         else setError('Failed to load market data.');
         setLog(null);
       } else {
@@ -83,90 +75,67 @@ export default function Dashboard() {
         setLastUpdated(data.generated_at ? new Date(data.generated_at) : new Date());
       }
     } catch {
-      setError('Connection refused. Please ensure the local server is running properly.');
+      setError('Connection refused. Please ensure the local server is running.');
       setLog(null);
     } finally {
       setLoading(false);
     }
   }, []);
 
-  // Fetch when date changes
-  useEffect(() => {
-    if (!isClient) return;
-    fetchLog(date);
-  }, [date, fetchLog, isClient]);
-
-  // Auto-refresh every 5 minutes
+  useEffect(() => { if (!isClient) return; fetchLog(date); }, [date, fetchLog, isClient]);
   useEffect(() => {
     if (!date || !isClient) return;
     const interval = setInterval(() => fetchLog(date), REFRESH_MS);
     return () => clearInterval(interval);
   }, [date, fetchLog, isClient]);
 
-  // Filter logic
   const filtered = useMemo<Announcement[]>(() => {
     if (!log) return [];
     return log.announcements.filter(ann => {
-      // 1. Category Tab
       if (activeCategory !== 'All Activity') {
         const cleanCat = activeCategory.toLowerCase();
-        const tagMatch = ann.tags?.some(t => t.toLowerCase().includes(cleanCat));
-        const typeMatch = ann.document_type?.toLowerCase().includes(cleanCat);
-        if (!tagMatch && !typeMatch) return false;
+        if (cleanCat === 'bullish') {
+          if (!isBullish(ann)) return false;
+        } else {
+          const searchTerms = cleanCat === 'substantial holding' ? ['substantial hold'] : [cleanCat];
+          const tagMatch = ann.tags?.some(tag => searchTerms.some(term => tag.toLowerCase().includes(term)));
+          const typeMatch = searchTerms.some(term => ann.document_type?.toLowerCase().includes(term));
+          if (!tagMatch && !typeMatch) return false;
+        }
       }
-
-      // 3. Sidebar Tags
       if (activeTags.size > 0) {
-        const hasTag = ann.tags?.some(t => activeTags.has(t));
-        if (!hasTag) return false;
+        if (!ann.tags?.some(t => activeTags.has(t))) return false;
       }
-
-      // 4. Searching
       if (search.trim()) {
         const q = search.toLowerCase();
-        const matches =
-          ann.ticker.toLowerCase().includes(q) ||
-          ann.company.toLowerCase().includes(q) ||
-          ann.headline.toLowerCase().includes(q);
-        if (!matches) return false;
+        if (!(ann.ticker.toLowerCase().includes(q) || ann.company.toLowerCase().includes(q) || ann.headline.toLowerCase().includes(q))) return false;
       }
       return true;
     });
   }, [log, activeCategory, activeTags, search]);
 
-  // Extract tag distribution
   const tagCounts = useMemo<Record<string, number>>(() => {
     if (!log) return {};
     const counts: Record<string, number> = {};
-    log.announcements.forEach(ann => {
-      ann.tags?.forEach(tag => {
-        counts[tag] = (counts[tag] ?? 0) + 1;
-      });
-    });
+    log.announcements.forEach(ann => ann.tags?.forEach(tag => { counts[tag] = (counts[tag] ?? 0) + 1; }));
     return counts;
   }, [log]);
 
-  // Prioritize sensitive > bullish > time
   const sorted = useMemo(() => {
     return [...filtered].sort((a, b) => {
       if (a.market_sensitive && !b.market_sensitive) return -1;
       if (!a.market_sensitive && b.market_sensitive) return 1;
-      
-      const aBull = isBullish(a);
-      const bBull = isBullish(b);
+      const aBull = isBullish(a); const bBull = isBullish(b);
       if (aBull && !bBull) return -1;
       if (!aBull && bBull) return 1;
-      
-      return new Date(b.time).getTime() - new Date(a.time).getTime(); // newest first
+      return new Date(b.time).getTime() - new Date(a.time).getTime();
     });
   }, [filtered]);
 
-  // Memoize the heavy rendering of 100+ cards so Theme toggles (which trigger a page re-render) 
-  // don't force React to reconcile the entire tree, keeping css transitions buttery smooth.
   const renderedGrid = useMemo(() => (
-    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
       {sorted.map((ann, i) => (
-        <div key={ann.url + i + ann.time} style={{ animationDelay: `${Math.min(i * 0.05, 0.5)}s` }} className="animate-fade-in-up">
+        <div key={ann.url + i + ann.time} style={{ animationDelay: `${Math.min(i * 0.04, 0.5)}s` }} className="animate-fade-in-up">
           <AnnouncementCard ann={ann} />
         </div>
       ))}
@@ -174,7 +143,7 @@ export default function Dashboard() {
   ), [sorted]);
 
   const renderedList = useMemo(() => (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-2">
       {sorted.map((ann, i) => (
         <div key={ann.url + i + ann.time} style={{ animationDelay: `${Math.min(i * 0.03, 0.3)}s` }} className="animate-fade-in-up">
           <AnnouncementRow ann={ann} />
@@ -184,19 +153,9 @@ export default function Dashboard() {
   ), [sorted]);
 
   function handleTagToggle(tag: string) {
-    setActiveTags(prev => {
-      const next = new Set(prev);
-      if (next.has(tag)) next.delete(tag);
-      else next.add(tag);
-      return next;
-    });
+    setActiveTags(prev => { const next = new Set(prev); if (next.has(tag)) next.delete(tag); else next.add(tag); return next; });
   }
-
-  function handleViewChange(v: ViewMode) {
-    setViewMode(v);
-    localStorage.setItem('vitti-view', v);
-  }
-
+  function handleViewChange(v: ViewMode) { setViewMode(v); localStorage.setItem('vitti-view', v); }
   function handleCsvDownload() {
     if (!sorted.length) return;
     const headers = ['Ticker', 'Company', 'Headline', 'Time', 'Market Sensitive', 'Summary', 'Tags', 'URL'];
@@ -218,35 +177,45 @@ export default function Dashboard() {
     ? new Date(date + 'T00:00:00').toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' })
     : '';
 
-  // Prevent hydration mismatch by rendering empty div until client mounts
-  if (!isClient) {
-    return <div className="min-h-screen bg-[#060912] dark:bg-[#060912]" />;
-  }
+  if (!isClient) return <div className="min-h-screen" style={{ background: '#04060f' }} />;
 
   return (
-    <div className="flex min-h-screen bg-slate-50 dark:bg-[#060912] text-slate-900 dark:text-slate-100 selection:bg-indigo-500/30 transition-colors duration-300">
-      {/* Immersive background texture - Midnight Intelligence */}
-      <div className="fixed inset-0 pointer-events-none z-0 opacity-20 dark:opacity-100"
-        style={{
-          backgroundImage: `
-            radial-gradient(circle at 100% 0%, rgba(99,102,241,0.08) 0%, transparent 40%),
-            radial-gradient(circle at 15% 100%, rgba(167,139,250,0.06) 0%, transparent 40%),
-            radial-gradient(rgba(255,255,255,0.015) 1px, transparent 1px)`,
-          backgroundSize: '100% 100%, 100% 100%, 32px 32px',
-        }}
-      />
+    <div className="flex min-h-screen" style={{ background: '#04060f', color: '#f1f5f9' }}>
+
+      {/* ── Multi-layer background ── */}
+      <div className="fixed inset-0 pointer-events-none z-0">
+        {/* Radial glows */}
+        <div className="absolute inset-0"
+          style={{
+            background: `
+              radial-gradient(ellipse 80% 50% at 80% -10%, rgba(99,102,241,0.07) 0%, transparent 60%),
+              radial-gradient(ellipse 60% 50% at -10% 80%, rgba(139,92,246,0.05) 0%, transparent 60%),
+              radial-gradient(ellipse 40% 30% at 50% 50%, rgba(6,182,212,0.025) 0%, transparent 70%)
+            `,
+          }} />
+        {/* Dot grid */}
+        <div className="absolute inset-0 opacity-[0.18]"
+          style={{
+            backgroundImage: 'radial-gradient(rgba(99,102,241,0.4) 1px, transparent 1px)',
+            backgroundSize: '36px 36px',
+          }} />
+        {/* Noise overlay */}
+        <div className="noise-overlay absolute inset-0 opacity-[0.025]" />
+      </div>
 
       {/* Mobile sidebar overlay */}
       {sidebarOpen && (
         <div
-          className="fixed inset-0 bg-slate-900/40 dark:bg-black/80 backdrop-blur-md z-40 lg:hidden transition-opacity"
+          className="fixed inset-0 z-40 lg:hidden"
+          style={{ background: 'rgba(0,0,0,0.75)', backdropFilter: 'blur(8px)' }}
           onClick={() => setSidebarOpen(false)}
         />
       )}
 
-      {/* Sidebar Panel */}
-      <div className={`fixed top-0 bottom-0 left-0 z-50 lg:relative lg:z-auto lg:block transition-transform duration-300 shadow-2xl lg:shadow-none
-        ${sidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}>
+      {/* Sidebar */}
+      <div className={`fixed top-0 bottom-0 left-0 z-50 lg:relative lg:z-auto lg:block transition-transform duration-300
+        ${sidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}
+        style={{ filter: 'drop-shadow(4px 0 24px rgba(0,0,0,0.4))' }}>
         <Sidebar
           date={date}
           availableDates={availableDates}
@@ -260,8 +229,8 @@ export default function Dashboard() {
         />
       </div>
 
-      {/* Main Content Area */}
-      <main className="flex-1 flex flex-col min-w-0 relative z-10 transition-all">
+      {/* Main Content */}
+      <main className="flex-1 flex flex-col min-w-0 relative z-10">
         <Topbar
           dateLabel={dateLabel}
           viewMode={viewMode}
@@ -270,133 +239,155 @@ export default function Dashboard() {
           onViewChange={handleViewChange}
           onSearchChange={setSearch}
           onThemeToggle={() => {
-            if (!document.startViewTransition) {
-              setTheme(t => t === 'dark' ? 'light' : 'dark');
-              return;
-            }
-            document.startViewTransition(() => {
-              setTheme(t => t === 'dark' ? 'light' : 'dark');
-            });
+            if (!document.startViewTransition) { setTheme(t => t === 'dark' ? 'light' : 'dark'); return; }
+            document.startViewTransition(() => { setTheme(t => t === 'dark' ? 'light' : 'dark'); });
           }}
           onMenuToggle={() => setSidebarOpen(o => !o)}
           onRefresh={() => fetchLog(date)}
           lastUpdated={lastUpdated}
         />
 
-        {/* Categories / Navigation Pill Bar */}
-        <nav className="flex gap-2.5 px-8 pt-6 pb-4 bg-slate-50/80 dark:bg-[#060912]/80 backdrop-blur-xl border-b border-slate-200 dark:border-white/[0.04] overflow-x-auto [scrollbar-width:none] sticky top-20 z-30 transition-colors duration-300">
-          {CATEGORIES.map(cat => (
-            <button
-              key={cat}
-              onClick={() => setActiveCategory(cat)}
-              className={`px-4 py-2 rounded-full text-[0.85rem] font-semibold whitespace-nowrap transition-all duration-200
-                border flex-shrink-0
-                ${activeCategory === cat
-                  ? 'bg-indigo-100 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-500/30 shadow-[inset_0_1px_0_rgba(255,255,255,0.7)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.1)]'
-                  : 'bg-white dark:bg-white/[0.02] text-slate-600 dark:text-slate-400 border-slate-200 dark:border-white/[0.05] hover:text-slate-900 dark:hover:text-slate-200 hover:bg-slate-50 dark:hover:bg-white/[0.04] hover:border-slate-300 dark:hover:border-white/10 shadow-sm dark:shadow-none'}`}
-            >
-              {cat}
-            </button>
-          ))}
+        {/* ── Category Tab Bar ── */}
+        <nav className="flex gap-0 px-6 pt-0 overflow-x-auto [scrollbar-width:none] sticky top-[60px] z-30 flex-shrink-0"
+          style={{
+            background: 'rgba(4,6,15,0.85)',
+            backdropFilter: 'blur(20px)',
+            borderBottom: '1px solid rgba(255,255,255,0.05)',
+          }}>
+          {CATEGORIES.map(cat => {
+            const isActive = activeCategory === cat;
+            return (
+              <button
+                key={cat}
+                onClick={() => setActiveCategory(cat)}
+                className="relative px-4 py-3.5 text-[0.8rem] font-semibold whitespace-nowrap flex-shrink-0 transition-colors duration-150"
+                style={{
+                  color: isActive ? 'rgba(165,180,252,1)' : 'rgba(100,116,139,0.75)',
+                }}
+              >
+                {cat}
+                {/* Active underline */}
+                {isActive && (
+                  <span className="absolute bottom-0 left-2 right-2 h-[2px] rounded-full"
+                    style={{ background: 'linear-gradient(90deg, #6366f1, #8b5cf6)', boxShadow: '0 0 8px rgba(99,102,241,0.6)' }} />
+                )}
+              </button>
+            );
+          })}
         </nav>
 
-        {/* Scrollable Feed */}
-        <div className="flex-1 overflow-auto pb-16 px-4 sm:px-8 pt-8">
-          
-          {/* Loading State */}
+        {/* ── Scrollable Feed ── */}
+        <div className="flex-1 overflow-auto pb-16 px-5 sm:px-7 pt-6">
+
+          {/* Loading */}
           {loading && (
-            <div className="flex flex-col items-center justify-center h-[50vh] gap-6 animate-fade-in-up">
-              <div className="relative w-16 h-16">
-                <div className="absolute inset-0 rounded-full border-2 border-indigo-500/30 border-t-indigo-500 animate-spin" />
-                <div className="absolute inset-2 rounded-full border-2 border-cyan-400/30 border-t-cyan-400 animate-spin-fast reverse" />
+            <div className="flex flex-col items-center justify-center h-[52vh] gap-5 animate-fade-in-up">
+              <div className="relative w-12 h-12">
+                <div className="absolute inset-0 rounded-full"
+                  style={{ border: '2px solid rgba(99,102,241,0.15)', borderTopColor: '#6366f1', animation: 'spin 0.8s linear infinite' }} />
+                <div className="absolute inset-2.5 rounded-full"
+                  style={{ border: '2px solid rgba(6,182,212,0.15)', borderTopColor: '#06b6d4', animation: 'spin 0.5s linear infinite reverse' }} />
               </div>
               <div className="text-center">
-                <h3 className="text-[1.1rem] font-bold text-slate-100">Fetching Market Data</h3>
-                <p className="text-[0.85rem] text-slate-500 mt-1">Analyzing ASX announcements for {dateLabel}...</p>
+                <h3 className="text-[1rem] font-bold text-slate-200">Fetching Market Data</h3>
+                <p className="text-[0.8rem] mt-1" style={{ color: 'rgba(100,116,139,0.7)' }}>
+                  Analyzing ASX announcements for {dateLabel}…
+                </p>
               </div>
             </div>
           )}
 
-          {/* Error State / Pending State */}
+          {/* Error / Pending state */}
           {error && !loading && (
-            <div className="mx-auto max-w-2xl mt-8 animate-fade-in-up">
-              <div className="relative overflow-hidden rounded-[20px] p-[1px] bg-gradient-to-b from-indigo-500/20 to-transparent">
-                <div className="bg-[#0b0c16] rounded-[19px] p-8 flex items-start gap-6">
-                  {/* Wait icon vs Error icon */}
-                  {error.includes("No market data found") ? (
-                    <div className="w-14 h-14 rounded-2xl bg-indigo-500/10 border border-indigo-500/20 flex items-center justify-center flex-shrink-0 shadow-[0_0_30px_rgba(99,102,241,0.15)]">
-                      <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7 text-indigo-400">
-                        <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
-                        <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                      </svg>
-                    </div>
+            <div className="mx-auto max-w-xl mt-10 animate-fade-in-up">
+              <div className="rounded-[20px] p-7 flex items-start gap-5"
+                style={{
+                  background: error.includes('No market data')
+                    ? 'rgba(99,102,241,0.06)'
+                    : 'rgba(244,63,94,0.06)',
+                  border: error.includes('No market data')
+                    ? '1px solid rgba(99,102,241,0.18)'
+                    : '1px solid rgba(244,63,94,0.18)',
+                }}>
+                {/* Icon */}
+                <div className="w-12 h-12 rounded-2xl flex items-center justify-center flex-shrink-0"
+                  style={{
+                    background: error.includes('No market data') ? 'rgba(99,102,241,0.12)' : 'rgba(244,63,94,0.12)',
+                    border: error.includes('No market data') ? '1px solid rgba(99,102,241,0.2)' : '1px solid rgba(244,63,94,0.2)',
+                    boxShadow: error.includes('No market data') ? '0 0 30px rgba(99,102,241,0.15)' : '0 0 30px rgba(244,63,94,0.15)',
+                  }}>
+                  {error.includes('No market data') ? (
+                    <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" style={{ color: '#818cf8' }}>
+                      <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2"/>
+                      <path d="M12 6v6l4 2" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
                   ) : (
-                    <div className="w-14 h-14 rounded-2xl bg-rose-500/10 border border-rose-500/20 flex items-center justify-center flex-shrink-0 shadow-[0_0_30px_rgba(244,63,94,0.15)]">
-                      <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7 text-rose-400">
-                        <path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
-                      </svg>
-                    </div>
+                    <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6" style={{ color: '#fb7185' }}>
+                      <path d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+                    </svg>
                   )}
+                </div>
 
-                  <div className="pt-1">
-                    <h3 className={`text-[1.1rem] font-bold mb-2 ${error.includes("No market data found") ? 'text-indigo-300' : 'text-rose-300'}`}>
-                      {error.includes("No market data found") 
-                        ? 'Awaiting Market Announcements'
-                        : 'Connection Error'}
-                    </h3>
-                    <p className="text-[0.9rem] text-slate-400 leading-relaxed mb-5 max-w-md">
-                      {error.includes("No market data found") 
-                        ? "The trading day hasn't produced any new announcements yet for this date, or it's a weekend. The live feed will automatically pull in news the moment it drops!"
-                        : error}
-                    </p>
-                    <div className="flex gap-3">
-                      <button
-                        onClick={() => fetchLog(date)}
-                        className={`px-5 py-2.5 rounded-xl text-white text-[0.85rem] font-bold tracking-wide shadow-[0_4px_16px_rgba(0,0,0,0.3),inset_0_1px_1px_rgba(255,255,255,0.2)] hover:-translate-y-0.5 active:translate-y-0 transition-all
-                          ${error.includes("No market data found")
-                            ? 'bg-indigo-600 hover:shadow-[0_4px_24px_rgba(99,102,241,0.3)]'
-                            : 'bg-rose-500 hover:shadow-[0_4px_24px_rgba(244,63,94,0.4)]'
-                          }`}>
-                        Check Again Now
-                      </button>
-                    </div>
-                  </div>
+                <div className="pt-0.5">
+                  <h3 className="text-[1rem] font-bold mb-2"
+                    style={{ color: error.includes('No market data') ? '#a5b4fc' : '#fda4af' }}>
+                    {error.includes('No market data') ? 'Awaiting Market Announcements' : 'Connection Error'}
+                  </h3>
+                  <p className="text-[0.85rem] leading-relaxed mb-5" style={{ color: 'rgba(148,163,184,0.75)' }}>
+                    {error.includes('No market data')
+                      ? "No announcements yet for this date. The feed will automatically pull in data the moment it drops!"
+                      : error}
+                  </p>
+                  <button
+                    onClick={() => fetchLog(date)}
+                    className="px-5 py-2.5 rounded-xl text-white text-[0.8rem] font-bold tracking-wide transition-all duration-150 hover:-translate-y-0.5"
+                    style={{
+                      background: error.includes('No market data') ? '#6366f1' : '#f43f5e',
+                      boxShadow: error.includes('No market data')
+                        ? '0 4px 20px rgba(99,102,241,0.35)'
+                        : '0 4px 20px rgba(244,63,94,0.35)',
+                    }}>
+                    Check Again
+                  </button>
                 </div>
               </div>
             </div>
           )}
 
-          {/* Empty State (0 results but valid log) */}
+          {/* Empty state */}
           {!loading && !error && sorted.length === 0 && log && (
-            <div className="flex flex-col items-center justify-center h-[50vh] gap-5 text-center px-8 animate-fade-in-up">
-              <div className="w-20 h-20 rounded-3xl bg-indigo-500/5 border border-indigo-500/10 flex items-center justify-center shadow-[0_0_40px_rgba(99,102,241,0.05)]">
-                <svg viewBox="0 0 24 24" fill="none" className="w-10 h-10 text-indigo-400/60">
-                  <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <div className="flex flex-col items-center justify-center h-[52vh] gap-5 text-center px-8 animate-fade-in-up">
+              <div className="w-16 h-16 rounded-3xl flex items-center justify-center animate-float"
+                style={{ background: 'rgba(99,102,241,0.07)', border: '1px solid rgba(99,102,241,0.12)', boxShadow: '0 0 40px rgba(99,102,241,0.08)' }}>
+                <svg viewBox="0 0 24 24" fill="none" className="w-8 h-8" style={{ color: 'rgba(129,140,248,0.5)' }}>
+                  <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                    stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
               <div>
-                <h3 className="text-[1.15rem] font-bold text-slate-200">No announcements match filters</h3>
-                <p className="text-[0.9rem] text-slate-500 max-w-sm mx-auto mt-2 leading-relaxed">
-                  Refine your search parameters, adjust the category, or select a different trading date.
+                <h3 className="text-[1.05rem] font-bold text-slate-200">No announcements match</h3>
+                <p className="text-[0.82rem] mt-1.5 max-w-xs mx-auto leading-relaxed" style={{ color: 'rgba(100,116,139,0.7)' }}>
+                  Refine your search, adjust the category filter, or select a different trading date.
                 </p>
               </div>
-              <button 
+              <button
                 onClick={() => { setSearch(''); setActiveCategory('All Activity'); setActiveTags(new Set()); }}
-                className="mt-2 px-5 py-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-300 text-[0.85rem] font-semibold hover:bg-white/10 hover:text-white transition-all">
+                className="mt-1 px-5 py-2.5 rounded-xl text-[0.8rem] font-semibold transition-all duration-150 hover:-translate-y-0.5"
+                style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.08)', color: 'rgba(148,163,184,0.8)' }}>
                 Clear Filters
               </button>
             </div>
           )}
 
-          {/* Data Feed Grid/List */}
+          {/* Feed */}
           {!loading && !error && sorted.length > 0 && (
             <div className="max-w-[1600px] mx-auto">
-              
-              {/* Dynamic summary label above cards */}
+              {/* Results label */}
               <div className="flex items-center justify-between mb-5 px-1 animate-fade-in-up">
-                <h2 className="text-[1.15rem] font-bold text-slate-800 dark:text-slate-100 flex items-center gap-3 transition-colors">
-                  Market Activity 
-                  <span className="font-mono text-[0.75rem] font-medium text-slate-500 dark:text-slate-500 bg-white dark:bg-[#0d1022] px-3 py-1 rounded-full border border-slate-200 dark:border-white/5 shadow-sm dark:shadow-none">
+                <h2 className="text-[1rem] font-bold text-slate-200 flex items-center gap-3">
+                  Market Activity
+                  <span className="font-mono text-[0.7rem] font-semibold px-2.5 py-1 rounded-full"
+                    style={{ color: 'rgba(148,163,184,0.6)', background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.07)' }}>
                     {sorted.length} results
                   </span>
                 </h2>
@@ -406,7 +397,6 @@ export default function Dashboard() {
             </div>
           )}
         </div>
-
       </main>
     </div>
   );

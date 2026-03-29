@@ -1,6 +1,6 @@
 # Vitti ASX Intelligence Center
 
-Welcome to the **Vitti ASX Intelligence Center**! 
+Welcome to the **Vitti ASX Intelligence Center**!
 
 This is an automated tool designed to help you instantly understand what is happening on the Australian Securities Exchange (ASX), even if you have zero trading experience.
 
@@ -10,44 +10,54 @@ Every day, hundreds of companies release official announcements on the stock mar
 
 ## What This Tool Does For You
 
-1. **Auto-Fetches the News:** It automatically pulls all the latest official announcements from the ASX.
-2. **AI Summaries:** Instead of reading a 50-page PDF, Artificial Intelligence reads it instantly and gives you 3 simple bullet points explaining what happened.
-3. **Flags "Market Sensitive" News:** The ASX literally tells us if a piece of news is expected to move the stock price. We put a bright **red flashing dot** next to these so you know what is important.
-4. **Highlights "Bullish" News:** Our AI analyzes the news. If it thinks the news is positive and good for the company's future, it adds a green **▲ BULLISH** badge.
-5. **Organizes Everything:** It sorts the news into categories like "Dividends", "Results", or "Mergers", making it incredibly easy to browse.
+1. **Auto-Fetches the News:** Automatically pulls the latest official announcements from the ASX every 20 minutes during market hours.
+2. **AI Summaries:** Instead of reading a 50-page PDF, AI reads it instantly and gives you 3 bullet points explaining what happened.
+3. **Flags Market-Sensitive News:** The ASX tells us if a piece of news is expected to move the stock price. These are highlighted in your feed so you know what matters.
+4. **Highlights Bullish News:** Our AI analyzes text and flags positive announcements with a green **▲ BULLISH** badge and a glowing green card.
+5. **Tracks Substantial Holders:** Detects when major investors cross the 5% ownership threshold — a key signal for potential takeovers or institutional confidence.
+6. **Organizes by Category:** Filter news by type — Bullish, Dividends, Capital Raises, Results, Substantial Holding, Trading Halts, and more.
 
 ---
 
 ## How to Use the Dashboard
 
-Using the dashboard is as simple as browsing a regular website. 
-
-1. **Open the Dashboard:** Once the website is running, open it in your web browser.
-2. **Pick a Date:** On the left side, choose the date you want to look at. The dashboard updates automatically.
-3. **Focus Mode:** If you only want to see the most important, price-moving news, flip the **"Market Sensitive"** switch on the left. All the boring stuff will disappear!
-4. **Search:** Need to find news about a specific company (like BHP)? Just type "BHP" into the search bar at the top right.
+1. **Pick a Date:** On the left sidebar, choose the date you want to inspect.
+2. **Filter by Category:** Use the tab bar at the top to filter by "Bullish", "Substantial Holding", "Results", etc.
+3. **Search:** Type a ticker (e.g. `BHP`) or company name into the search bar to find specific news.
+4. **Market Overview:** The sidebar shows a live summary — total announcements, sensitive news count, substantial holders, bullish signals, active tickers, and trading halts.
+5. **Export:** Click **Export CSV Data** in the sidebar to download the full day's data.
 
 ---
 
-## How to Start the Dashboard (For Beginners)
+## How to Run Locally
 
-If you have downloaded this folder to your computer and want to start it up:
-
-1. Open your computer's terminal (or Command Prompt).
-2. Navigate to this folder.
-3. Type the following command and press Enter:
+1. Open your terminal and navigate to this folder.
+2. Run the development server:
    ```bash
    npm run dev
    ```
-4. Open your web browser (like Chrome or Safari) and go to: `http://localhost:3000`
+3. Open your browser and go to: `http://localhost:3000`
 
-*That's it! The dashboard will appear and automatically refresh every 5 minutes to fetch the latest AI-summarized news. Note: The automated data pipeline runs in the background every 15 minutes during the market morning (8:00 AM - 11:45 AM AEST) to fetch fresh announcements.*
+The dashboard auto-refreshes every 5 minutes. To manually fetch fresh announcements, run:
+```bash
+python fetch_asx.py
+```
+
+---
+
+## Automated Data Pipeline
+
+The GitHub Actions workflow runs automatically during ASX market hours **(10:00 AM – 4:00 PM AEST, Monday–Friday)** at 20-minute intervals. Runs are offset to `:03`, `:23`, `:43` past the hour to reduce GitHub scheduler congestion.
+
+> **Note:** GitHub's free-tier scheduler is not perfectly precise and may occasionally delay runs by up to 30 minutes. All runs are idempotent — re-running the script never creates duplicates.
+
+You can also trigger a run manually from the **GitHub Actions** tab.
 
 ---
 
 ## For Developers & Technical Users
 
-If you are a programmer looking to understand how the underlying AI pipeline and Next.js Architecture works, please see our detailed documentation:
+For a deeper understanding of the architecture and AI pipeline:
 
 - [High-Level Design (HLD)](docs/HLD.md)
 - [Low-Level Design (LLD)](docs/LLD.md)

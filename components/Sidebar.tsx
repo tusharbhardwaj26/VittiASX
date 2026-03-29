@@ -1,7 +1,7 @@
 'use client';
 
 import { DayLog } from '@/types';
-import { formatDateLabel } from '@/lib/utils';
+import { formatDateLabel, isBullish } from '@/lib/utils';
 import { useState, useEffect } from 'react';
 
 interface Props {
@@ -28,152 +28,256 @@ export default function Sidebar({
     setMaxDate(local.toISOString().slice(0, 10));
   }, []);
 
-  const haltCount = log?.announcements.filter(a => 
-    a.headline.toLowerCase().includes('halt') || 
-    a.headline.toLowerCase().includes('suspension') ||
-    a.tags.some(t => t.toLowerCase().includes('halt'))
+  const haltCount = log?.announcements.filter(a => {
+    const t = a.headline.toLowerCase();
+    return t.includes('halt') || t.includes('suspension') || t.includes('pause') ||
+           a.tags.some(tag => ['halt', 'suspension', 'pause'].some(k => tag.toLowerCase().includes(k)));
+  }).length ?? 0;
+
+  const bullishCount = log?.announcements.filter(a => isBullish(a)).length ?? 0;
+
+  const substantialCount = log?.announcements.filter(a =>
+    a.tags?.some(t => t.toLowerCase().includes('substantial')) ||
+    a.document_type?.toLowerCase().includes('substantial')
   ).length ?? 0;
 
+  const sensitiveCount = log?.announcements.filter(a => a.market_sensitive).length ?? 0;
+
+  const stats = [
+    {
+      label: 'Announcements',
+      value: log?.announcements.length ?? '–',
+      sub: 'total captured',
+      icon: (
+        <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M4 4h12v2H4zM4 9h12v2H4zM4 14h8v2H4z" fill="currentColor" opacity="0.9"/></svg>
+      ),
+      color: 'indigo',
+    },
+    {
+      label: 'Market Sensitive',
+      value: sensitiveCount,
+      sub: 'high priority',
+      icon: (
+        <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M10 2l2.5 5 5.5.8-4 3.9.95 5.5L10 14.5l-4.95 2.7L6 11.7 2 7.8l5.5-.8z" fill="currentColor"/></svg>
+      ),
+      color: 'rose',
+    },
+    {
+      label: 'Substantial Holders',
+      value: substantialCount,
+      sub: 'ownership changes',
+      icon: (
+        <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M10 2a4 4 0 100 8 4 4 0 000-8zM3 18a7 7 0 0114 0H3z" fill="currentColor"/></svg>
+      ),
+      color: 'blue',
+    },
+    {
+      label: 'Bullish Signals',
+      value: bullishCount,
+      sub: 'upside potential',
+      icon: (
+        <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><path d="M2.5 13.5l4-4 3 3 7.5-7.5M17 5v5m0-5h-5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
+      ),
+      color: 'emerald',
+    },
+    {
+      label: 'Active Tickers',
+      value: log ? new Set(log.announcements.map(a => a.ticker)).size : '–',
+      sub: 'companies active',
+      icon: (
+        <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="1.8"/><path d="M7 10.5l2 2 4-4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"/></svg>
+      ),
+      color: 'indigo',
+    },
+    {
+      label: 'Trading Halts',
+      value: haltCount,
+      sub: 'halted today',
+      icon: (
+        <svg viewBox="0 0 20 20" fill="none" className="w-4 h-4"><rect x="5" y="4" width="4" height="12" rx="1.5" fill="currentColor"/><rect x="11" y="4" width="4" height="12" rx="1.5" fill="currentColor"/></svg>
+      ),
+      color: 'amber',
+    },
+  ];
+
+  const colorMap: Record<string, { bg: string; text: string; border: string; icon: string; glow: string }> = {
+    indigo: {
+      bg: 'bg-indigo-500/[0.08]',
+      text: 'text-indigo-300',
+      border: 'border-indigo-500/20',
+      icon: 'text-indigo-400 bg-indigo-500/15',
+      glow: 'shadow-[0_0_20px_rgba(99,102,241,0.12)]',
+    },
+    blue: {
+      bg: 'bg-blue-500/[0.08]',
+      text: 'text-blue-300',
+      border: 'border-blue-500/20',
+      icon: 'text-blue-400 bg-blue-500/15',
+      glow: 'shadow-[0_0_20px_rgba(59,130,246,0.12)]',
+    },
+    rose: {
+      bg: 'bg-rose-500/[0.08]',
+      text: 'text-rose-300',
+      border: 'border-rose-500/20',
+      icon: 'text-rose-400 bg-rose-500/15',
+      glow: 'shadow-[0_0_20px_rgba(244,63,94,0.12)]',
+    },
+    emerald: {
+      bg: 'bg-emerald-500/[0.07]',
+      text: 'text-emerald-300',
+      border: 'border-emerald-500/20',
+      icon: 'text-emerald-400 bg-emerald-500/15',
+      glow: 'shadow-[0_0_20px_rgba(16,185,129,0.1)]',
+    },
+    amber: {
+      bg: 'bg-amber-500/[0.07]',
+      text: 'text-amber-300',
+      border: 'border-amber-500/20',
+      icon: 'text-amber-400 bg-amber-500/15',
+      glow: 'shadow-[0_0_20px_rgba(245,158,11,0.1)]',
+    },
+  };
+
   return (
-    <aside className="w-[300px] min-w-[300px] bg-slate-50 dark:bg-[#080c18] border-r border-slate-200 dark:border-white/5
-      flex flex-col h-screen sticky top-0 overflow-y-auto overflow-x-hidden pb-8
-      [scrollbar-width:none] relative transition-colors duration-300">
+    <aside className="w-[280px] min-w-[280px] flex flex-col h-screen sticky top-0 overflow-y-auto overflow-x-hidden pb-8
+      [scrollbar-width:none] relative"
+      style={{ background: 'linear-gradient(180deg, #06091a 0%, #04060f 100%)', borderRight: '1px solid rgba(255,255,255,0.045)' }}>
 
-      {/* Top accent glow */}
-      <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-400 opacity-100 dark:opacity-90 shadow-[0_0_12px_rgba(99,102,241,0.3)] dark:shadow-[0_0_20px_rgba(99,102,241,0.6)]" />
+      {/* Top gradient accent line */}
+      <div className="absolute top-0 left-0 right-0 h-[2px]"
+        style={{ background: 'linear-gradient(90deg, #6366f1 0%, #8b5cf6 40%, #06b6d4 100%)' }} />
 
-      {/* Logo Area */}
-      <div className="px-7 pt-9 pb-7 border-b border-slate-200 dark:border-white/5 relative overflow-hidden transition-colors flex-shrink-0">
-        {/* Decorative background glow */}
-        <div className="absolute -top-12 -left-12 w-48 h-48 bg-indigo-500/5 dark:bg-indigo-500/10 rounded-full blur-[50px] pointer-events-none" />
-        
-        <div className="flex items-center gap-4 relative z-10">
-          <div className="w-11 h-11 rounded-[14px] flex items-center justify-center flex-shrink-0
-            bg-gradient-to-br from-indigo-500 via-purple-500 to-cyan-400
-            shadow-[0_4px_12px_rgba(99,102,241,0.2),inset_0_2px_4px_rgba(255,255,255,0.3)] dark:shadow-[0_4px_24px_rgba(99,102,241,0.4),inset_0_2px_4px_rgba(255,255,255,0.3)]
-            border border-indigo-400/30">
-            <svg viewBox="0 0 16 16" fill="none" className="w-6 h-6">
-              <rect x="2" y="9" width="3" height="5" rx="1" fill="white" opacity="0.8"/>
-              <rect x="6.5" y="5" width="3" height="9" rx="1" fill="white"/>
-              <rect x="11" y="2" width="3" height="12" rx="1" fill="white" opacity="0.95"/>
-            </svg>
-          </div>
-          <div>
-            <div className="text-[1.3rem] font-bold tracking-tight text-slate-800 dark:text-white drop-shadow-sm transition-colors">
-              Vitti<em className="not-italic text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-cyan-500 dark:from-indigo-400 dark:to-cyan-400">ASX</em>
+      {/* Subtle corner glow */}
+      <div className="absolute top-0 left-0 w-64 h-64 rounded-full pointer-events-none"
+        style={{ background: 'radial-gradient(ellipse at 0% 0%, rgba(99,102,241,0.09) 0%, transparent 70%)' }} />
+
+      {/* ── Logo ── */}
+      <div className="px-6 pt-8 pb-6 flex-shrink-0" style={{ borderBottom: '1px solid rgba(255,255,255,0.045)' }}>
+        <div className="flex items-center gap-3.5">
+          {/* Icon with gradient glow */}
+          <div className="relative w-10 h-10 flex-shrink-0">
+            <div className="absolute inset-0 rounded-[12px]"
+              style={{ background: 'linear-gradient(135deg, #6366f1, #8b5cf6, #06b6d4)', boxShadow: '0 0 20px rgba(99,102,241,0.45), 0 4px 12px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.25)' }} />
+            <div className="absolute inset-0 flex items-center justify-center rounded-[12px]">
+              <svg viewBox="0 0 16 16" fill="none" className="w-5 h-5">
+                <rect x="1.5" y="9.5" width="3" height="5" rx="1" fill="white" opacity="0.75"/>
+                <rect x="6.5" y="5.5" width="3" height="9" rx="1" fill="white"/>
+                <rect x="11.5" y="2" width="3" height="12.5" rx="1" fill="white" opacity="0.92"/>
+              </svg>
             </div>
-            <div className="text-[0.65rem] font-bold uppercase tracking-[0.2em] text-indigo-500 dark:text-indigo-200/60 mt-0.5 transition-colors">
-              Intelligence
+          </div>
+
+          <div>
+            <div className="text-[1.2rem] font-extrabold tracking-tight text-white leading-none">
+              Vitti<em className="not-italic"
+                style={{ background: 'linear-gradient(90deg, #818cf8, #67e8f9)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>ASX</em>
+            </div>
+            <div className="text-[0.58rem] font-bold uppercase tracking-[0.22em] mt-1"
+              style={{ color: 'rgba(165,180,252,0.55)' }}>
+              Intelligence Center
             </div>
           </div>
         </div>
       </div>
 
-      {/* Date picker */}
-      <div className="px-7 py-6 border-b border-slate-200 dark:border-white/5 transition-colors flex-shrink-0">
-        <label className="block text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-500 mb-2.5">
+      {/* ── Date Picker ── */}
+      <div className="px-6 py-5 flex-shrink-0" style={{ borderBottom: '1px solid rgba(255,255,255,0.045)' }}>
+        <label className="block text-[0.6rem] font-bold uppercase tracking-[0.2em] mb-2.5"
+          style={{ color: 'rgba(148,163,184,0.6)' }}>
           Trading Date
         </label>
         <div className="relative group">
           <select
             value={date}
             onChange={e => onDateChange(e.target.value)}
-            className="w-full px-4 py-3 bg-slate-50 dark:bg-[#0d1022] border border-slate-200 dark:border-white/10 rounded-xl
-              text-slate-800 dark:text-slate-100 font-mono text-[0.9rem] outline-none shadow-inner appearance-none
-              focus:border-indigo-400 dark:focus:border-indigo-500/70 focus:ring-4 focus:ring-indigo-500/10 dark:focus:ring-indigo-500/15
-              hover:border-slate-300 dark:group-hover:border-white/20
-              transition-all duration-200 cursor-pointer"
+            className="w-full px-4 py-2.5 rounded-xl text-slate-100 font-mono text-[0.875rem] outline-none cursor-pointer appearance-none"
+            style={{
+              background: 'rgba(255,255,255,0.04)',
+              border: '1px solid rgba(255,255,255,0.09)',
+              boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.04)',
+            }}
           >
-            {/* If current date hasn't produced logs yet, show it anyway so they know what date they're on */}
             {date && !availableDates.includes(date) && (
               <option value={date}>{formatDateLabel(date)} (Live)</option>
             )}
-            
             {availableDates.map(d => (
-              <option key={d} value={d}>
-                {formatDateLabel(d)}
-              </option>
+              <option key={d} value={d}>{formatDateLabel(d)}</option>
             ))}
           </select>
-          {/* Custom dropdown arrow */}
-          <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-slate-400 dark:text-slate-500 group-hover:text-indigo-400 transition-colors">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-[1.1rem] h-[1.1rem]">
-              <path d="M19 9l-7 7-7-7" />
+          <div className="absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none text-slate-500 group-hover:text-indigo-400 transition-colors">
+            <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5">
+              <path d="M4 6l4 4 4-4"/>
             </svg>
           </div>
         </div>
         {log && (
-          <p className="text-[0.72rem] font-medium text-slate-500 dark:text-slate-400 mt-3 flex items-center gap-1.5 transition-colors">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.3)] dark:shadow-[0_0_8px_rgba(16,185,129,0.5)]" />
-            {formatDateLabel(log.date)}
+          <p className="text-[0.68rem] font-medium mt-2.5 flex items-center gap-1.5" style={{ color: 'rgba(148,163,184,0.5)' }}>
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"
+              style={{ boxShadow: '0 0 6px rgba(16,185,129,0.6)' }} />
+            {formatDateLabel(log.date)} · Data loaded
           </p>
         )}
       </div>
 
-      {/* Daily Stats */}
-      <div className="px-7 py-6 border-b border-slate-200 dark:border-white/5 transition-colors flex-shrink-0">
-        <label className="block text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-500 mb-4">
+      {/* ── Market Overview Stats ── */}
+      <div className="px-6 py-5 flex-shrink-0" style={{ borderBottom: '1px solid rgba(255,255,255,0.045)' }}>
+        <label className="block text-[0.6rem] font-bold uppercase tracking-[0.2em] mb-4"
+          style={{ color: 'rgba(148,163,184,0.6)' }}>
           Market Overview
         </label>
-        <div className="grid grid-cols-2 gap-3.5">
-          {[
-            { label: 'Alpha Hub', value: log?.announcements.length ?? '–', color: 'text-slate-800 dark:text-white', danger: false },
-            { label: 'Trading Halts', value: haltCount, color: 'text-rose-600 dark:text-rose-400', danger: true },
-            { label: 'Active Tickers', value: log ? new Set(log.announcements.map(a => a.ticker)).size : '–', color: 'text-slate-800 dark:text-white', danger: false },
-          ].map(({ label, value, color, danger }) => (
-            <div key={label}
-              className={`rounded-[14px] p-4 border transition-all duration-300 relative overflow-hidden group
-                ${danger
-                  ? 'bg-rose-50 dark:bg-rose-500/5 border-rose-200 dark:border-rose-500/20 hover:border-rose-300 dark:hover:border-rose-500/40 hover:bg-rose-100 dark:hover:bg-rose-500/10'
-                  : 'bg-white dark:bg-[#0d1022] border-slate-200 dark:border-white/10 hover:border-indigo-300 dark:hover:border-indigo-500/40 hover:bg-indigo-50 dark:hover:bg-indigo-500/5'
-                } hover:-translate-y-0.5 hover:shadow-[0_4px_12px_rgba(0,0,0,0.05)] dark:hover:shadow-[0_8px_24px_rgba(0,0,0,0.4)]`}>
-              
-              {/* Bottom decorative bar */}
-              <div className={`absolute bottom-0 left-0 right-0 h-[2px] opacity-40 group-hover:opacity-100 transition-opacity duration-300
-                ${danger ? 'bg-rose-500' : 'bg-gradient-to-r from-indigo-500 to-cyan-400'}`} />
-              
-              <div className={`font-mono text-[1.7rem] font-bold leading-none tracking-tight mb-1.5 ${color} drop-shadow-sm transition-colors`}>
-                {value}
+        <div className="grid grid-cols-2 gap-2.5">
+          {stats.map(({ label, value, sub, icon, color }) => {
+            const c = colorMap[color];
+            return (
+              <div key={label}
+                className={`relative rounded-[14px] p-3.5 border ${c.bg} ${c.border} ${c.glow} group cursor-default overflow-hidden hover:-translate-y-0.5 hover:brightness-110 transition-all duration-200`}>
+                {/* Subtle top glow line */}
+                <div className="absolute top-0 left-3 right-3 h-[1px] opacity-60"
+                  style={{ background: `linear-gradient(90deg, transparent, ${color === 'indigo' ? '#6366f1' : color === 'rose' ? '#f43f5e' : color === 'emerald' ? '#10b981' : '#f59e0b'}, transparent)` }} />
+                <div className={`w-6 h-6 rounded-lg flex items-center justify-center mb-2.5 ${c.icon}`}>
+                  {icon}
+                </div>
+                <div className={`font-mono text-[1.55rem] font-bold leading-none tracking-tight mb-1 ${c.text}`}>
+                  {value}
+                </div>
+                <div className="text-[0.6rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'rgba(148,163,184,0.5)' }}>
+                  {label}
+                </div>
               </div>
-              <div className="text-[0.65rem] font-bold uppercase tracking-[0.1em] text-slate-500 group-hover:text-slate-600 dark:group-hover:text-slate-400 transition-colors">
-                {label}
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 
-      {/* Toggles & Export */}
-      <div className="px-7 py-6 border-b border-slate-200 dark:border-white/5 flex flex-col gap-6 transition-colors flex-shrink-0">
-
-
+      {/* ── Export Button ── */}
+      <div className="px-6 py-5 flex-shrink-0" style={{ borderBottom: '1px solid rgba(255,255,255,0.045)' }}>
         <button
           onClick={onCsvDownload}
-          className="w-full flex items-center justify-center gap-2.5 px-4 py-3.5 rounded-xl
-            bg-gradient-to-r from-indigo-500 via-purple-500 to-cyan-400
-            text-white text-[0.85rem] font-bold tracking-wide
-            shadow-[0_4px_12px_rgba(99,102,241,0.2),inset_0_1px_1px_rgba(255,255,255,0.4)] dark:shadow-[0_4px_20px_rgba(99,102,241,0.3),inset_0_1px_1px_rgba(255,255,255,0.2)]
-            hover:shadow-[0_8px_20px_rgba(99,102,241,0.3)] dark:hover:shadow-[0_8px_32px_rgba(99,102,241,0.4)]
-            hover:-translate-y-0.5 active:translate-y-0
-            transition-all duration-200">
-          <svg viewBox="0 0 16 16" fill="none" className="w-4 h-4 drop-shadow-sm">
-            <path d="M2.5 5.5v7a1 1 0 001 1h9a1 1 0 001-1v-7m-10-3h8m-6.5 3h5M8 4v6m0 0l2-2m-2 2L6 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+          className="w-full flex items-center justify-center gap-2.5 px-4 py-3 rounded-xl text-white text-[0.82rem] font-bold tracking-wide transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0"
+          style={{
+            background: 'linear-gradient(135deg, #6366f1 0%, #8b5cf6 60%, #06b6d4 100%)',
+            boxShadow: '0 4px 20px rgba(99,102,241,0.3), inset 0 1px 0 rgba(255,255,255,0.2)',
+          }}
+        >
+          <svg viewBox="0 0 16 16" fill="none" className="w-4 h-4 drop-shadow">
+            <path d="M8 2v8M5 7l3 3 3-3M3 13h10" stroke="white" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
           Export CSV Data
         </button>
       </div>
 
-      {/* Tags */}
-      <div className="px-7 py-6 flex-shrink-0">
-        <label className="block text-[0.65rem] font-bold uppercase tracking-[0.18em] text-slate-500 mb-3.5 flex items-center justify-between">
+      {/* ── Active Topics / Tags ── */}
+      <div className="px-6 py-5 flex-shrink-0">
+        <label className="flex items-center justify-between text-[0.6rem] font-bold uppercase tracking-[0.2em] mb-3.5"
+          style={{ color: 'rgba(148,163,184,0.6)' }}>
           <span>Active Topics</span>
           {activeTags.size > 0 && (
-            <span className="text-indigo-600 dark:text-indigo-400 bg-indigo-50 dark:bg-indigo-500/10 px-2 py-0.5 rounded-full text-[0.55rem] transition-colors">
-              {activeTags.size} Selected
+            <span className="text-indigo-400 bg-indigo-500/15 border border-indigo-500/25 px-2 py-0.5 rounded-full text-[0.55rem] font-bold normal-case tracking-normal">
+              {activeTags.size} active
             </span>
           )}
         </label>
-        <div className="flex flex-col gap-1.5">
+        <div className="flex flex-col gap-1">
           {Object.entries(tagCounts)
             .sort((a, b) => b[1] - a[1])
             .map(([tag, count]) => {
@@ -182,20 +286,23 @@ export default function Sidebar({
                 <button
                   key={tag}
                   onClick={() => onTagToggle(tag)}
-                  className={`group flex items-center justify-between px-3 py-2.5 rounded-xl text-[0.82rem] font-medium
-                    transition-all duration-200 border
+                  className={`group flex items-center justify-between px-3 py-2.5 rounded-xl text-[0.8rem] font-medium
+                    transition-all duration-150 border
                     ${active
-                      ? 'bg-indigo-50 dark:bg-indigo-500/15 text-indigo-700 dark:text-indigo-300 border-indigo-200 dark:border-indigo-500/30 shadow-[inset_0_1px_0_rgba(255,255,255,0.5)] dark:shadow-[inset_0_1px_0_rgba(255,255,255,0.1)]'
-                      : 'bg-transparent text-slate-500 dark:text-slate-400 border-transparent hover:bg-slate-200/50 dark:hover:bg-white/5 hover:text-slate-800 dark:hover:text-slate-200'}`}
+                      ? 'bg-indigo-500/12 text-indigo-300 border-indigo-500/25'
+                      : 'bg-transparent border-transparent hover:bg-white/[0.04] hover:border-white/[0.07]'
+                    }`}
+                  style={active ? { color: 'rgba(165,180,252,0.9)' } : { color: 'rgba(148,163,184,0.6)' }}
                 >
-                  <span className="flex items-center gap-2">
-                    <span className={`w-1.5 h-1.5 rounded-full transition-colors ${active ? 'bg-indigo-500 dark:bg-indigo-400' : 'bg-transparent group-hover:bg-slate-400 dark:group-hover:bg-slate-600'}`} />
+                  <span className="flex items-center gap-2.5">
+                    <span className={`w-1.5 h-1.5 rounded-full flex-shrink-0 transition-all duration-200
+                      ${active ? 'bg-indigo-400 shadow-[0_0_6px_rgba(99,102,241,0.8)]' : 'bg-slate-700 group-hover:bg-slate-500'}`} />
                     {tag}
                   </span>
-                  <span className={`font-mono text-[0.68rem] px-2 py-0.5 rounded-lg border transition-colors
+                  <span className={`font-mono text-[0.65rem] px-1.5 py-0.5 rounded-md transition-colors
                     ${active
-                      ? 'bg-white dark:bg-indigo-500/20 text-indigo-700 dark:text-indigo-200 border-indigo-200 dark:border-indigo-500/30 shadow-sm'
-                      : 'bg-white dark:bg-[#0d1022] text-slate-500 border-slate-200 dark:border-white/[0.08] group-hover:border-slate-300 dark:group-hover:border-white/[0.15] shadow-sm dark:shadow-none'}`}>
+                      ? 'bg-indigo-500/20 text-indigo-300 border border-indigo-500/25'
+                      : 'text-slate-600 group-hover:text-slate-400'}`}>
                     {count}
                   </span>
                 </button>

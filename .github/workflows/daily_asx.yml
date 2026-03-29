@@ -1,9 +1,17 @@
 name: Daily ASX Announcements
 
 on:
-  # Runs every 15 minutes between 22:00 UTC (8:00 AM AEST) and 01:45 UTC (11:45 AM AEST) Monday-Friday
+  # ASX trades 10:00 AM – 4:00 PM AEST (23:00 – 05:00 UTC)
+  # Runs every 20 minutes across the full session Mon–Fri
+  # Using offset minutes (3,23,43) to avoid peak GitHub scheduler congestion
   schedule:
-    - cron: "*/15 22,23,0,1 * * 1-5"
+    - cron: "3,23,43 23 * * 1-5"   # 23:03, 23:23, 23:43 UTC  (10:03–10:43 AM AEST)
+    - cron: "3,23,43 0  * * 2-6"   # 00:03, 00:23, 00:43 UTC  (11:03–11:43 AM AEST)
+    - cron: "3,23,43 1  * * 2-6"   # 01:03, 01:23, 01:43 UTC  (12:03–12:43 PM AEST)
+    - cron: "3,23,43 2  * * 2-6"   # 02:03, 02:23, 02:43 UTC  (01:03–01:43 PM AEST)
+    - cron: "3,23,43 3  * * 2-6"   # 03:03, 03:23, 03:43 UTC  (02:03–02:43 PM AEST)
+    - cron: "3,23,43 4  * * 2-6"   # 04:03, 04:23, 04:43 UTC  (03:03–03:43 PM AEST)
+    - cron: "3,23,43 5  * * 2-6"   # 05:03, 05:23, 05:43 UTC  (04:03–04:43 PM AEST)
 
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:

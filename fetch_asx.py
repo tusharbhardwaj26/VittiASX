@@ -51,9 +51,9 @@ ASX_PDF_URL_BASE = "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-res
 KNOWN_TAGS = [
     "Results", "AGM", "Capital Raise", "Dividend",
     "Quarterly", "Production", "Merger & Acquisition",
-    "Board Change", "Trading Halt", "Compliance",
-    "Mining", "Healthcare", "Technology", "Finance",
-    "Energy", "Property", "Retail", "Other",
+    "Board Change", "Trading Halt", "Substantial Holding",
+    "Compliance", "Mining", "Healthcare", "Technology",
+    "Finance", "Energy", "Property", "Retail", "Other",
 ]
 
 LOGS_DIR = Path(__file__).parent / "logs"
@@ -99,8 +99,10 @@ def fetch_announcements(date_str: str, retries: int = 3) -> list[dict]:
                 # ─── NOISE FILTER ───
                 # If True, skip all Admin noise (Director listings, minor Appendix updates, etc.)
                 if MARKET_SENSITIVE_ONLY:
-                    is_halt = "trading halt" in headline.lower() or "suspension" in headline.lower()
-                    if not (market_sensitive or is_halt):
+                    h = headline.lower()
+                    is_halt = "trading halt" in h or "suspension" in h or "pause in trading" in h
+                    is_substantial = "substantial hold" in h
+                    if not (market_sensitive or is_halt or is_substantial):
                         continue
 
                 ticker = item.get("symbol", "")
@@ -161,6 +163,7 @@ def _guess_doc_type(title: str) -> str:
     if "capital raise" in t or "placement" in t or "entitlement" in t: return "Capital Raise"
     if "acquisition" in t or "merger" in t or "takeover" in t: return "Merger & Acquisition"
     if "director" in t or "change of" in t: return "Director Notice"
+    if "substantial hold" in t:    return "Substantial Holding"
     if "results" in t:             return "Results"
     return "Market Update"
 
