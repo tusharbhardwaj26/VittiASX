@@ -1,9 +1,98 @@
 {
   "date": "2026-03-31",
-  "total": 156,
-  "market_sensitive_count": 114,
-  "generated_at": "2026-03-31T06:58:20.954788+00:00",
+  "total": 161,
+  "market_sensitive_count": 117,
+  "generated_at": "2026-03-31T07:58:58.240538+00:00",
   "announcements": [
+    {
+      "ticker": "AAA",
+      "company": "BETASHARES AUSTRALIAN HIGH INTEREST CASH ETF",
+      "headline": "Final Distribution Announcement",
+      "time": "2026-03-31T07:41:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074320-2A1663546",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement likely covers the final distribution details of the BETASHARES AUSTRALIAN HIGH INTEREST CASH ETF.",
+        "- The distribution amount and payment date will be disclosed in the announcement.",
+        "- The announcement may also provide information on the record date and any applicable tax implications."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "BND",
+      "company": "BETASHARES WESTERN ASSET AUS BOND ACTIVE ETF",
+      "headline": "Final Distribution Announcement",
+      "time": "2026-03-31T07:36:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074316-2A1663543",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement is related to the final distribution of the BETASHARES WESTERN ASSET AUS BOND ACTIVE ETF.",
+        "- The distribution amount and details are likely to be disclosed in this announcement.",
+        "- The announcement may also provide information on the ex-distribution date and record date."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "MCE",
+      "company": "MATRIX COMPOSITES & ENGINEERING LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-03-31T07:32:32+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074313-6A1318826",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company has received a substantial holding notice from a significant shareholder.",
+        "- The notice indicates a change in the shareholder's interest in the company.",
+        "- The announcement may provide details on the shareholder's identity and the number of shares held."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "MCE",
+      "company": "MATRIX COMPOSITES & ENGINEERING LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-03-31T07:26:07+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074311-6A1318824",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company has received a substantial holding notice from a shareholder.",
+        "- The shareholder has exceeded the 5% threshold, indicating a significant stake in the company.",
+        "- The announcement may disclose the shareholder's name, number of shares held, and other relevant details."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "ARL",
+      "company": "ARDEA RESOURCES LIMITED",
+      "headline": "Kalgoorlie Nickel Project  Goongarrie Hub DFS Update",
+      "time": "2026-03-31T07:21:42+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074308-6A1318818",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Update on the Definitive Feasibility Study (DFS) for the Kalgoorlie Nickel Project's Goongarrie Hub.",
+        "- Progress and findings from the DFS, potentially including updated project timelines, costs, and production estimates.",
+        "- Key outcomes and recommendations from the DFS, which may inform future project development decisions."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ]
+    },
     {
       "ticker": "BWN",
       "company": "BHAGWAN MARINE LIMITED",
