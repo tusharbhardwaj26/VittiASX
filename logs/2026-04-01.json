@@ -1,9 +1,28 @@
 {
   "date": "2026-04-01",
-  "total": 137,
+  "total": 138,
   "market_sensitive_count": 96,
-  "generated_at": "2026-04-01T08:05:08.413925+00:00",
+  "generated_at": "2026-04-01T08:21:20.493861+00:00",
   "announcements": [
+    {
+      "ticker": "FEX",
+      "company": "FENIX RESOURCES LTD",
+      "headline": "Change in substantial holding for C Mitchell",
+      "time": "2026-04-01T08:13:47+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074938-6A1319082",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of C Mitchell in FENIX RESOURCES LTD.",
+        "- This change may involve an increase or decrease in the percentage of shares held by C Mitchell.",
+        "- The announcement is likely to provide details of the new holding percentage and the date of the change."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Mining"
+      ]
+    },
     {
       "ticker": "ATM",
       "company": "ANEKA TAMBANG (PERSERO) TBK (PT)",
