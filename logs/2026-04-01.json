@@ -1,0 +1,1692 @@
+{
+  "date": "2026-04-01",
+  "total": 93,
+  "market_sensitive_count": 85,
+  "generated_at": "2026-04-01T00:08:33.919060+00:00",
+  "announcements": [
+    {
+      "ticker": "BDM",
+      "company": "BURGUNDY DIAMOND MINES LIMITED",
+      "headline": "Continuation of Suspension from Quotation",
+      "time": "2026-03-31T23:58:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074669-6A1318988",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The suspension of BURGUNDY DIAMOND MINES LIMITED's shares from quotation will continue.",
+        "- The company may be dealing with ongoing issues or investigations that require further review.",
+        "- This announcement is likely to be related to a regulatory or compliance matter."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "LDX",
+      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "headline": "Lumos receives largest FebriDx order to date",
+      "time": "2026-03-31T23:47:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074666-2A1663790",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Lumos Diagnostics Holdings Limited has received its largest order for FebriDx to date.",
+        "- The order is likely a significant milestone for the company, indicating strong demand for its product.",
+        "- The announcement may provide details on the value of the order, the customer, and potential future growth prospects."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "BWN",
+      "company": "BHAGWAN MARINE LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-03-31T23:45:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074663-6A1318987",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, Bhagwan Marine Limited, has a change in shareholding structure.",
+        "- A substantial holder has acquired or disposed of a significant number of shares.",
+        "- The announcement may include details about the substantial holder's identity and shareholding percentage."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "SND",
+      "company": "SAUNDERS INTERNATIONAL LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-03-31T23:43:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074661-2A1663787",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of Saunders International Limited.",
+        "- A substantial holding refers to a significant stake of shares in the company held by an individual or entity.",
+        "- The announcement may disclose the details of the change, including the number of shares and the percentage of ownership."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "COF",
+      "company": "CENTURIA OFFICE REIT",
+      "headline": "Change in substantial holding",
+      "time": "2026-03-31T22:58:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074638-2A1663720",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- An entity has made a change to their substantial holding in Centuria Office REIT.",
+        "- The change in substantial holding may involve an increase or decrease in the entity's stake in the company.",
+        "- The announcement will likely disclose the entity's new holding percentage and the date of the change."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property"
+      ]
+    },
+    {
+      "ticker": "CMD",
+      "company": "CASSIUS MINING LIMITED",
+      "headline": "Cassius Files Reply to Ghana Defence",
+      "time": "2026-03-31T22:55:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074636-2A1663719",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Cassius Mining Limited has responded to a defence filed by the Ghana Defence in a dispute.",
+        "- The response may address the allegations made by the Ghana Defence and provide Cassius Mining's position.",
+        "- The announcement may provide an update on the current status of the dispute and any next steps."
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "ALA",
+      "company": "AROVELLA THERAPEUTICS LIMITED",
+      "headline": "CLDN18.2 CAR iNKT Cell Preclinical Data Update",
+      "time": "2026-03-31T22:54:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074633-3A690601",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- AROVELLA THERAPEUTICS LIMITED has released an update on preclinical data for its CLDN18.2 CAR iNKT Cell therapy.",
+        "- The announcement likely covers the results and findings of the preclinical trials.",
+        "- The update may include information on the efficacy, safety, and potential applications of the therapy."
+      ],
+      "tags": [
+        "Healthcare"
+      ]
+    },
+    {
+      "ticker": "ROG",
+      "company": "RED SKY ENERGY LIMITED.",
+      "headline": "Binding AFE Executed with Santos for Two Yarrow Wells",
+      "time": "2026-03-31T22:52:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074630-3A690600",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- RED Sky Energy Limited has executed a binding agreement for two Yarrow wells with Santos.",
+        "- The agreement is likely related to a joint venture or partnership for the development of the Yarrow wells.",
+        "- The announcement may include details on the terms and conditions of the agreement, including any potential costs or timelines."
+      ],
+      "tags": [
+        "Energy",
+        "Finance",
+        "Merger & Acquisition"
+      ]
+    },
+    {
+      "ticker": "EM3",
+      "company": "EMC GOLD CORPORATION",
+      "headline": "Salave Gold Project Court Ruling",
+      "time": "2026-03-31T22:52:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074629-6A1318981",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement is related to a court ruling regarding the Salave Gold Project.",
+        "- The court ruling may have significant implications for the project's development or operations.",
+        "- The announcement may provide an update on the project's status or timeline following the court ruling."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "ATM",
+      "company": "ANEKA TAMBANG (PERSERO) TBK (PT)",
+      "headline": "Full Year Statutory Accounts",
+      "time": "2026-03-31T22:51:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074628-2A1663599",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement likely covers the company's financial performance for the full year, including revenue, expenses, and net income.",
+        "- The document may provide an overview of the company's financial position, including assets, liabilities, and equity.",
+        "- It may also include key performance indicators (KPIs) and other relevant financial metrics for the full year period.",
+        "- The announcement may discuss any significant events or transactions that affected the company's financial performance during the year."
+      ],
+      "tags": [
+        "Results",
+        "Finance",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "MEL",
+      "company": "METGASCO LTD",
+      "headline": "Termination of PTSA with Vintage",
+      "time": "2026-03-31T22:49:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074626-2A1663712",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement is related to the termination of a partnership or agreement between Metgasco Ltd and Vintage.",
+        "- The termination may have significant implications for Metgasco's business operations or financial performance.",
+        "- The announcement is market sensitive, indicating that it may have a material impact on the company's share price or investor sentiment."
+      ],
+      "tags": [
+        "Energy",
+        "Mining",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "BXN",
+      "company": "BIOXYNE LIMITED",
+      "headline": "Manufacturing Agreement Aurora Supplementary Information",
+      "time": "2026-03-31T22:48:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074621-2A1663709",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement likely provides supplementary information regarding a manufacturing agreement between Bioxyne Limited and Aurora.",
+        "- The agreement may involve the production or supply of goods or services.",
+        "- The market sensitive nature of the announcement suggests that the information may have a material impact on Bioxyne's stock price or operations."
+      ],
+      "tags": [
+        "Healthcare",
+        "Manufacturing",
+        "Production"
+      ]
+    },
+    {
+      "ticker": "CHR",
+      "company": "CHR",
+      "headline": "Charger presentation",
+      "time": "2026-03-31T22:47:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074620-6A1318980",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The Charger presentation likely discusses the company's business strategy, goals, and performance.",
+        "- The announcement may cover updates on the company's products or services, including any recent developments or launches.",
+        "- The presentation could also touch on the company's financial performance, including revenue growth, profitability, and market position."
+      ],
+      "tags": [
+        "Technology",
+        "Finance",
+        "Market Sensitive"
+      ]
+    },
+    {
+      "ticker": "LIN",
+      "company": "LIN",
+      "headline": "A$100 Million Placement To  Accelerate Kangankunde",
+      "time": "2026-03-31T22:47:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074618-6A1318974",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "- The company, LIN, is undertaking a capital raise of A$100 million.",
+        "- The funds raised will be used to accelerate the development of the Kangankunde project.",
+        "- This announcement is market sensitive, indicating that the information disclosed may have a material impact on the company's share price."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "RYD",
+      "company": "RYD",
+      "headline": "Declaration of March Quarterly Dividend - Q3FY26",
+      "time": "2026-03-31T22:47:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074617-2A1663708",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "- The company, RYD, has declared a dividend for the March quarter of FY26.",
+        "- The dividend declaration is likely to include the dividend amount, payment date, and any relevant details.",
+        "- The quarterly report may provide an overview of the company's financial performance for the March quarter of FY26."
+      ],
+      "tags": [
+        "Dividend",
+        "Quarterly",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "DTR",
+      "company": "DTR",
+      "headline": "$96m Cash Position to Accelerate Colosseum Development",
+      "time": "2026-03-31T22:46:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074615-2A1663700",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- DTR has a significant cash position of $96m.",
+        "- This cash position will be used to accelerate the development of the Colosseum project.",
+        "- The announcement is market sensitive, indicating that the information may impact the company's stock price or trading activity."
+      ],
+      "tags": [
+        "Finance",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "NUZ",
+      "company": "NUZ",
+      "headline": "NUZ-001 Data Shows Multi-Pathway Protein Clearance",
+      "time": "2026-03-31T22:46:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074613-6A1318977",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, NUZ, has released data from its NUZ-001 study, which focuses on protein clearance.",
+        "- The study has shown promising results with a multi-pathway approach to protein clearance.",
+        "- The announcement is market sensitive, indicating that the information may have a significant impact on the company's stock price."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "SQX",
+      "company": "SQX",
+      "headline": "Exceptional Maiden Drilling Results at Red Bird Gold Project",
+      "time": "2026-03-31T22:46:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074612-2A1663646",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "- The SQX company has released exceptional maiden drilling results at the Red Bird Gold Project.",
+        "- The announcement likely contains details about the drilling outcomes, including gold grades and resource estimates.",
+        "- The results may also provide an update on the project's development timeline and future plans."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "AS1",
+      "company": "AS1",
+      "headline": "Significant intercepts from extension program at Massan",
+      "time": "2026-03-31T22:45:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074609-3A690598",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- AS1 has made significant intercepts from its extension program at Massan, indicating potential for further resource growth.",
+        "- The intercepts may have implications for the company's future mining plans and resource estimates.",
+        "- The announcement may provide details on the location, depth, and quality of the intercepts, as well as their potential economic viability."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ]
+    },
+    {
+      "ticker": "LGP",
+      "company": "LITTLE GREEN PHARMA LTD",
+      "headline": "Supplementary Scheme Booklet",
+      "time": "2026-03-31T22:43:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074608-6A1318975",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement may relate to an update on the company's scheme of arrangement or a supplementary prospectus.",
+        "- It could provide additional information or clarification on a previously announced scheme or prospectus.",
+        "- The supplementary scheme booklet may contain updated details on the company's capital structure or shareholder considerations."
+      ],
+      "tags": [
+        "Healthcare",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "RYD",
+      "company": "RYD",
+      "headline": "Dividend/Distribution - RYD",
+      "time": "2026-03-31T22:42:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074607-2A1663706",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "- The company, RYD, has made an announcement related to a dividend or distribution.",
+        "- The announcement is likely to include details about the dividend amount, payment date, and any other relevant information.",
+        "- As the document type is a dividend and the announcement is market sensitive, the details may include changes to the company's financial situation or future prospects."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "LU7",
+      "company": "LU7",
+      "headline": "Management Changes",
+      "time": "2026-03-31T22:40:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074605-6A1318973",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement is related to a change in management at LU7.",
+        "- The change may involve a new CEO, CFO, or other senior executive.",
+        "- The announcement may provide details on the reason for the change and the impact on the company's operations."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "BMG",
+      "company": "BMG",
+      "headline": "Diamond Drilling Underway at Abercromby Gold Project",
+      "time": "2026-03-31T22:38:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074604-6A1318966",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- BMG has commenced diamond drilling at the Abercromby Gold Project.",
+        "- The drilling is likely aimed at exploring the gold deposits and potential resource expansion.",
+        "- The announcement may provide an update on the project timeline and expected outcomes."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "PEC",
+      "company": "PEC",
+      "headline": "Perpetual Secures Strategic Tungsten Project",
+      "time": "2026-03-31T22:36:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074602-6A1318972",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Perpetual (PEC) has secured a strategic tungsten project, indicating a potential acquisition or partnership.",
+        "- The announcement is market sensitive, suggesting that the information disclosed may have a material impact on the company's share price.",
+        "- The document type is a market update, implying that the announcement provides an update on the company's current activities or developments."
+      ],
+      "tags": [
+        "Mining",
+        "Merger & Acquisition"
+      ]
+    },
+    {
+      "ticker": "EG1",
+      "company": "EG1",
+      "headline": "New Gold Target Defined at Gladiator Prospect",
+      "time": "2026-03-31T22:35:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074599-6A1318971",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- EG1 has identified a new gold target at the Gladiator Prospect.",
+        "- This new target may have significant implications for the company's future gold exploration and potential production.",
+        "- The announcement may provide details on the geological characteristics of the new target and the company's plans to explore it."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "PRN",
+      "company": "PRN",
+      "headline": "Appointment of Managing Director and CEO",
+      "time": "2026-03-31T22:34:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074596-6A1318965",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "- The appointment of a new Managing Director and CEO is likely to be announced.",
+        "- The announcement may include details about the new executive's background and experience.",
+        "- The notice may also outline the effective date of the appointment and any changes to the company's leadership structure."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "VRL",
+      "company": "VRL",
+      "headline": "Sampling Over New Gold Geophysical Targets Commenced",
+      "time": "2026-03-31T22:32:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074593-6A1318964",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, VRL, has commenced sampling over new gold geophysical targets.",
+        "- This development suggests that the company is moving forward with its exploration plans.",
+        "- The sampling may be a crucial step in determining the potential of these new targets."
+      ],
+      "tags": [
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "FTI",
+      "company": "FTI",
+      "headline": "Nol8 Testing Against Google RE2 Delivers World-First Results",
+      "time": "2026-03-31T22:32:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074592-2A1663701",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "- FTI has achieved world-first results from testing Nol8 against Google RE2.",
+        "- The testing is likely related to a specific technology or product developed by FTI.",
+        "- The announcement may provide details on the implications and potential applications of these results."
+      ],
+      "tags": [
+        "Technology",
+        "Results"
+      ]
+    },
+    {
+      "ticker": "SLS",
+      "company": "SLS",
+      "headline": "Trading Halt",
+      "time": "2026-03-31T22:30:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074590-6A1318963",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "- The company, SLS, has been halted from trading.",
+        "- The halt is likely due to a significant event or issue that requires investigation.",
+        "- The market sensitive nature of the announcement suggests that the information may have a material impact on the company's stock price."
+      ],
+      "tags": [
+        "Trading Halt"
+      ]
+    },
+    {
+      "ticker": "APE",
+      "company": "APE",
+      "headline": "Update on Growth Initiatives and CanadaOne Auto Completion",
+      "time": "2026-03-31T22:29:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074587-2A1663697",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Update on growth initiatives, possibly outlining new strategies or investments.",
+        "- Completion of CanadaOne Auto, which may include project milestones, timelines, or financial implications.",
+        "- Market-sensitive information related to the company's growth initiatives and project completion, indicating potential impact on the company's performance or financials."
+      ],
+      "tags": [
+        "Results",
+        "Production",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "BUX",
+      "company": "BUX",
+      "headline": "Trading Halt",
+      "time": "2026-03-31T22:24:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074582-6A1318962",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "- The company, BUX, has been halted from trading.",
+        "- The halt is likely due to a significant event or issue that requires immediate attention.",
+        "- Further details may be provided in a subsequent announcement or update."
+      ],
+      "tags": [
+        "Trading Halt"
+      ]
+    },
+    {
+      "ticker": "BOC",
+      "company": "BOC",
+      "headline": "Suspension from Quotation",
+      "time": "2026-03-31T22:23:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074581-3A690592",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, BOC, has been suspended from quotation.",
+        "- This suspension is likely due to a significant event or issue affecting the company.",
+        "- The suspension may be related to a regulatory investigation, financial difficulties, or other market-sensitive matter."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "ETM",
+      "company": "ETM",
+      "headline": "Update regarding Kvanefjeld Project",
+      "time": "2026-03-31T22:23:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074580-6A1318942",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Update on the current status of the Kvanefjeld Project, including any recent developments or changes.",
+        "- Details on the project's timeline, milestones, or upcoming events.",
+        "- Information on the project's budget, costs, or any changes to the original plan."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "AL3",
+      "company": "AL3",
+      "headline": "ARCEMY X OPERATIONAL AT US DEFENCE SUPPLIER FASTECH",
+      "time": "2026-03-31T22:23:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074579-6A1318961",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- AL3 has successfully integrated Archemy X into Fastech, a US defence supplier.",
+        "- The integration is operational, indicating a successful partnership or acquisition.",
+        "- This announcement may highlight potential growth opportunities for AL3 in the defence sector."
+      ],
+      "tags": [
+        "Technology",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "GCM",
+      "company": "GCM",
+      "headline": "Initial VHD Product Range Launched",
+      "time": "2026-03-31T22:21:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074576-6A1318959",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- GCM has launched its initial Virtual Health Device (VHD) product range.",
+        "- The new product range is likely to be related to healthcare technology.",
+        "- This announcement may provide details on the features, pricing, and availability of the VHD products."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "1AD",
+      "company": "1AD",
+      "headline": "BZDS1901 clinical update",
+      "time": "2026-03-31T22:20:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074575-3A690589",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Update on the BZDS1901 clinical trial, providing information on its current status and progress.",
+        "- Details on the trial's results, including any positive or negative findings that may impact the company's future plans.",
+        "- Discussion on the potential implications of the clinical update on the company's stock price and overall business strategy."
+      ],
+      "tags": [
+        "Healthcare"
+      ]
+    },
+    {
+      "ticker": "AVH",
+      "company": "AVH",
+      "headline": "AVITA Shelf Registration Statement Filed with the SEC",
+      "time": "2026-03-31T22:20:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074573-3A690590",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- AVITA has filed a Shelf Registration Statement with the SEC, indicating an intention to raise capital in the future.",
+        "- The filing is likely related to AVITA's plans for future fundraising activities, such as an initial public offering (IPO) or debt issuance.",
+        "- The Shelf Registration Statement may provide details on the terms and conditions of the proposed fundraising, including the amount of capital to be raised and the use of proceeds."
+      ],
+      "tags": [
+        "Finance",
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "OZM",
+      "company": "OZM",
+      "headline": "Strong Heap Leach Results at Mulgabbie North",
+      "time": "2026-03-31T22:19:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074571-6A1318957",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "- The announcement likely covers the operational performance of OZM's Mulgabbie North project.",
+        "- The results may include production figures, such as gold or other metal production rates, from the heap leach operation.",
+        "- The announcement might provide an update on the project's costs, including operating expenses and capital expenditures."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "LSA",
+      "company": "LSA",
+      "headline": "$7.47M capital raising accelerates New Waverley exploration",
+      "time": "2026-03-31T22:18:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074569-6A1318937",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- LSA has completed a capital raising of $7.47M.",
+        "- The funds raised will be used to accelerate exploration at New Waverley.",
+        "- The announcement is market sensitive, indicating it may have a significant impact on the company's share price or operations."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "ENL",
+      "company": "ENL",
+      "headline": "US$1.2m imaging data migration contract with Parkland Health",
+      "time": "2026-03-31T22:17:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074566-3A690588",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- ENL has secured a US$1.2m imaging data migration contract with Parkland Health.",
+        "- The contract is likely related to ENL's healthcare or technology segment.",
+        "- The announcement may provide details on the scope, timeline, and potential impact of the contract on ENL's financials."
+      ],
+      "tags": [
+        "Healthcare",
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "SFX",
+      "company": "SFX",
+      "headline": "Trading Halt",
+      "time": "2026-03-31T22:17:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074565-6A1318954",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "- The company, SFX, has been placed under a trading halt, which means that its shares are temporarily suspended from trading.",
+        "- The trading halt is likely due to a significant event or issue that requires immediate attention and may impact the company's stock price.",
+        "- The company may be required to make a subsequent announcement to explain the reason for the trading halt and provide further information."
+      ],
+      "tags": [
+        "Trading Halt"
+      ]
+    },
+    {
+      "ticker": "TIO",
+      "company": "TIO",
+      "headline": "Temas Provides Shareholder Update on its Fiscal Year",
+      "time": "2026-03-31T22:15:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074560-6A1318952",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company is providing an update on its financial performance for the fiscal year.",
+        "- The update may include key highlights, achievements, and challenges faced by the company during the fiscal year.",
+        "- The announcement may also discuss the company's future outlook, goals, and strategies for the upcoming period."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "NTU",
+      "company": "NTU",
+      "headline": "Treasurer's Directions regarding Hong Kong Ying Tak shares",
+      "time": "2026-03-31T22:15:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074557-6A1318953",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement is related to NTU's shares in Hong Kong Ying Tak.",
+        "- The Treasurer's Directions are likely to impact NTU's operations or financials.",
+        "- The announcement may provide guidance on compliance or regulatory matters.",
+        "- The announcement could be related to a change in NTU's shareholding or structure."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "GBE",
+      "company": "GBE",
+      "headline": "Kanyika BFS Confirms Strong Project Economics",
+      "time": "2026-03-31T22:14:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074554-6A1318932",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, GBE, has released a market update regarding the Kanyika project.",
+        "- The update is focused on the results of the Bankable Feasibility Study (BFS) for the project.",
+        "- The announcement is likely to provide details on the project's economics, such as costs, revenues, and potential returns.",
+        "- The update may also include information on the project's development timeline and next steps."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "SGQ",
+      "company": "SGQ",
+      "headline": "St George Partners with Boston Metal for Niobium",
+      "time": "2026-03-31T22:12:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074551-6A1318951",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- SGQ has partnered with Boston Metal for a niobium-related project.",
+        "- The partnership may involve a collaborative effort, joint investment, or technology sharing.",
+        "- The announcement may provide details on the scope, timeline, and potential benefits of the partnership."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "ASN",
+      "company": "ASN",
+      "headline": "Update on Cooperation between Anson and POSCO Holdings",
+      "time": "2026-03-31T22:12:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074550-6A1318950",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The announcement likely covers an update on the cooperation between ASN and POSCO Holdings, a South Korean steelmaker.",
+        "- The update may provide details on the scope, objectives, or progress of the cooperation.",
+        "- The announcement may also discuss potential implications or benefits for ASN, such as access to new markets or technologies."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "PSC",
+      "company": "PSC",
+      "headline": "Shallow copper footprint emerging at West Mwombezhi",
+      "time": "2026-03-31T22:11:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074548-6A1318948",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, PSC, has made a significant discovery at the West Mwombezhi project.",
+        "- The discovery is related to copper, indicating a potential new resource or expansion of existing copper reserves.",
+        "- The announcement is market sensitive, suggesting that the discovery has significant implications for the company's future prospects."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ]
+    },
+    {
+      "ticker": "TVN",
+      "company": "TVN",
+      "headline": "Tranche 2 Funding for Speewah Fluorite Project Completed",
+      "time": "2026-03-31T22:11:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074547-6A1318945",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- TVN has completed Tranche 2 funding for the Speewah Fluorite Project.",
+        "- The funding is likely related to the project's development or expansion.",
+        "- The announcement may provide details on the funding amount and its implications for the project's timeline."
+      ],
+      "tags": [
+        "Mining",
+        "Finance",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "CUP",
+      "company": "CUP",
+      "headline": "Completion of $35.9 million Placement",
+      "time": "2026-03-31T22:08:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074542-2A1663648",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "- The company, CUP, has completed a capital raising of $35.9 million.",
+        "- This capital raise is likely to be used for various business purposes such as funding growth initiatives or repaying debt.",
+        "- The announcement may provide details on the terms and conditions of the placement, including the number of shares issued and the price per share."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "SGR",
+      "company": "SGR",
+      "headline": "The Star completes disposal of its interest in DBC",
+      "time": "2026-03-31T22:05:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074533-2A1663680",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The Star Group (SGR) has completed the disposal of its interest in DBC.",
+        "- This announcement is market sensitive, indicating that the information may impact the company's stock price.",
+        "- The disposal may involve the sale of assets, shares, or other interests in DBC."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "ACW",
+      "company": "ACW",
+      "headline": "ACW XanaMIA Alzheimers open label trial commences",
+      "time": "2026-03-31T21:59:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074524-2A1663671",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- ACW has commenced an open-label trial for its XanaMIA Alzheimer's treatment.",
+        "- The trial is likely to be a significant step in the development and potential approval of the treatment.",
+        "- The announcement may provide details on the trial's objectives, timeline, and expected outcomes."
+      ],
+      "tags": [
+        "Healthcare"
+      ]
+    },
+    {
+      "ticker": "VVL",
+      "company": "VVL",
+      "headline": "Updated Estimated Distribution Announcement",
+      "time": "2026-03-31T21:57:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074520-2A1663655",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, VVL, has made an updated estimate of its distribution.",
+        "- This announcement may include details on the revised distribution amount and timeline.",
+        "- The updated estimate may be based on recent financial performance or changes in the company's operations."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "V50",
+      "company": "V50",
+      "headline": "Updated Estimated Distribution Announcement",
+      "time": "2026-03-31T21:53:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074515-2A1663652",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, V50, is updating its estimated distribution to investors.",
+        "- The updated estimate may reflect changes in the company's financial performance or cash flow.",
+        "- The announcement is market sensitive, indicating that the information may have a material impact on the company's share price."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "ARC",
+      "company": "ARC",
+      "headline": "Change in substantial holding",
+      "time": "2026-03-31T21:50:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074513-2A1663654",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- A change in the substantial holding of a significant shareholder in ARC has occurred.",
+        "- The substantial holding threshold has been breached, indicating a notable change in ownership or control.",
+        "- The announcement may disclose the new substantial holder's details, including their name, percentage of shares held, and other relevant information."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "OMG",
+      "company": "OMG",
+      "headline": "OMG signs additional Matcha distributor",
+      "time": "2026-03-31T21:47:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074506-3A690578",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- OMG has entered into a new agreement with an additional Matcha distributor.",
+        "- This new partnership is expected to expand OMG's distribution network and potentially increase revenue.",
+        "- The terms and conditions of the agreement, including the duration and any performance metrics, are not specified in the announcement."
+      ],
+      "tags": [
+        "Technology",
+        "Retail"
+      ]
+    },
+    {
+      "ticker": "SHO",
+      "company": "SHO",
+      "headline": "New mobile game content with Playades",
+      "time": "2026-03-31T21:47:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074505-6A1318934",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- SHO has partnered with Playades to develop new mobile game content.",
+        "- This partnership is expected to enhance SHO's gaming offerings and potentially attract new customers.",
+        "- The announcement may provide details on the terms of the partnership, including any financial commitments or timelines.",
+        "- The new content may be available for SHO's existing games or a new game title."
+      ],
+      "tags": [
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "NH3",
+      "company": "NH3",
+      "headline": "NH3 Selects Linde to Deliver FEED for the WAH2 Project",
+      "time": "2026-03-31T21:45:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074504-6A1318933",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- NH3 has selected Linde to deliver the Front-End Engineering Design (FEED) for the WAH2 project.",
+        "- The WAH2 project is a significant undertaking for NH3, and this announcement likely provides details on the scope and timeline of the project.",
+        "- Linde's involvement in the FEED process suggests that NH3 is moving forward with the project, and this announcement may provide insight into the project's progress.",
+        "- The announcement may also include information on the terms of the agreement between NH3 and Linde."
+      ],
+      "tags": [
+        "Energy",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "BXN",
+      "company": "BIOXYNE LIMITED",
+      "headline": "Bioxyne Signs Manufacturing Agreement with Aurora Cannabis",
+      "time": "2026-03-31T21:44:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074502-2A1663644",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Bioxyne has entered into a manufacturing agreement with Aurora Cannabis.",
+        "- The agreement likely outlines the terms and conditions of the manufacturing partnership.",
+        "- The partnership may involve the production and supply of cannabis-related products."
+      ],
+      "tags": [
+        "Healthcare",
+        "Production"
+      ]
+    },
+    {
+      "ticker": "LRV",
+      "company": "LRV",
+      "headline": "Drilling at Metz Continues to Deliver",
+      "time": "2026-03-31T21:44:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074501-6A1318931",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, LRV, has continued drilling operations at the Metz site.",
+        "- The drilling operations have been successful in delivering positive results.",
+        "- The announcement may provide an update on the current drilling progress and future plans."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "TGH",
+      "company": "TGH",
+      "headline": "Change in substantial holding",
+      "time": "2026-03-31T21:43:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074499-2A1663643",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of TGH.",
+        "- This change may involve a new substantial holder or a change in the percentage of shares held by an existing substantial holder.",
+        "- The announcement may provide details on the number of shares involved and the date of the change."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "A1M",
+      "company": "A1M",
+      "headline": "Exploration Drilling Program Commences",
+      "time": "2026-03-31T21:42:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074498-6A1318930",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- A1M has commenced an exploration drilling program, which may indicate the company is searching for new mineral deposits or resources.",
+        "- The exploration drilling program may be focused on specific areas or regions, potentially related to the company's existing mining operations or new targets.",
+        "- The announcement may provide details on the scope, timeline, and budget of the exploration drilling program, as well as any expected outcomes or milestones."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "OD6",
+      "company": "OD6",
+      "headline": "SYSTEMATIC EXPLORATION TO COMMENCE AT QUINN FLUORSPAR",
+      "time": "2026-03-31T21:37:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074495-6A1318929",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company OD6 will commence systematic exploration at the Quinn Fluorspar site.",
+        "- The exploration is likely to involve various methods such as drilling, sampling, and geophysical surveys.",
+        "- The announcement may provide details on the expected outcomes, timelines, and potential implications of the exploration on the company's operations."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "LOT",
+      "company": "LOT",
+      "headline": "Kayelekera Uranium Accepted by Orano Conversion Facility",
+      "time": "2026-03-31T21:35:43+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074492-6A1318928",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, LOT, has made a significant development in its uranium project, Kayelekera Uranium.",
+        "- The Kayelekera Uranium project has been accepted by Orano Conversion Facility, indicating a potential step forward in the project's processing or sale.",
+        "- This announcement may provide details on the implications of the project's acceptance, such as timelines, production volumes, or revenue projections."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "PL3",
+      "company": "PL3",
+      "headline": "Formentera Strong Flow Pump Test Results",
+      "time": "2026-03-31T21:34:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074489-3A690576",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "- The company, PL3, has conducted a pump test at Formentera, which is likely related to the extraction or production of a resource.",
+        "- The results of the pump test are expected to provide insights into the flow rate and other performance metrics of the Formentera Strong Flow Pump.",
+        "- The announcement may include details on the implications of the test results for the company's future operations or production plans."
+      ],
+      "tags": [
+        "Results",
+        "Production",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "AMI",
+      "company": "AMI",
+      "headline": "New A$150M Financing Commitment",
+      "time": "2026-03-31T21:32:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074485-2A1663635",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- AMI has secured a new financing commitment of A$150M.",
+        "- The financing commitment is likely to support the company's future growth and operations.",
+        "- The announcement may provide details on the terms and conditions of the financing commitment."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "WAF",
+      "company": "WAF",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-03-31T21:26:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074476-6A1318926",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, WAF, has reached a substantial holding threshold.",
+        "- A substantial holder has been identified.",
+        "- The details of the substantial holder's interest in the company will be disclosed."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "LFS",
+      "company": "LFS",
+      "headline": "Latitude Capital Notes 2 - Replacement Prospectus",
+      "time": "2026-03-31T21:23:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074469-3A690570",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "- The announcement is related to the replacement prospectus for Latitude Capital Notes 2.",
+        "- The prospectus is likely to provide updated information on the capital raise, including terms and conditions.",
+        "- The replacement prospectus may address any changes or corrections to the original prospectus."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "AAJ",
+      "company": "AAJ",
+      "headline": "EM Survey Confirms Conductor at Tillex Copper-Silver Project",
+      "time": "2026-03-31T21:23:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074465-6A1318923",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, AAJ, has received confirmation from an EM (Electromagnetic) survey at its Tillex Copper-Silver Project.",
+        "- The survey has identified a conductor, which is likely a significant geological feature indicating potential mineralization.",
+        "- The announcement may provide further details on the implications of this discovery for the project's development and future prospects."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance",
+        "Market Sensitive"
+      ]
+    },
+    {
+      "ticker": "AIQ",
+      "company": "AIQ",
+      "headline": "Announcement of Additional AUDUSD Hedging Program",
+      "time": "2026-03-31T21:23:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074463-2A1663620",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- AIQ is implementing an additional AUDUSD hedging program to manage currency risk.",
+        "- The new program aims to mitigate potential losses due to exchange rate fluctuations.",
+        "- The announcement provides details on the program's structure and implementation timeline."
+      ],
+      "tags": [
+        "Finance",
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "LFS",
+      "company": "LFS",
+      "headline": "Latitude Capital Notes 2 - Offer Opens 1 April 2026",
+      "time": "2026-03-31T21:22:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074461-3A690569",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The offer for Latitude Capital Notes 2 is set to open on 1 April 2026.",
+        "- This announcement is related to a capital raising initiative by Latitude Capital.",
+        "- The details of the Latitude Capital Notes 2 offer, including terms and conditions, are likely to be outlined in this announcement."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "BM1",
+      "company": "BM1",
+      "headline": "More Shallow High Grade Regional Results",
+      "time": "2026-03-31T21:22:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074458-6A1318921",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "- BM1 has released new regional results that are classified as shallow high grade.",
+        "- The results are likely related to exploration or drilling activities.",
+        "- The announcement may include details on the location, quality, and potential of the discovered resources."
+      ],
+      "tags": [
+        "Results",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "PME",
+      "company": "PME",
+      "headline": "Notification of buy-back - PME",
+      "time": "2026-03-31T21:21:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074446-3A690567",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, PME, is undertaking a buy-back of its shares.",
+        "- This announcement is market sensitive, indicating that it may have a material impact on the company's share price or trading activity.",
+        "- The buy-back may be aimed at reducing the company's outstanding share capital, increasing earnings per share, or supporting the share price."
+      ],
+      "tags": [
+        "Finance",
+        "Market Update",
+        "Trading Halt"
+      ]
+    },
+    {
+      "ticker": "GLN",
+      "company": "GLN",
+      "headline": "HMW Phase 1 Construction Complete",
+      "time": "2026-03-31T21:20:03+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074442-6A1318919",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The completion of Phase 1 construction for HMW is a significant milestone for GLN.",
+        "- This announcement may provide details on the expected benefits and outcomes of completing the Phase 1 construction.",
+        "- The completion of Phase 1 construction could have implications for GLN's future production or operational capabilities."
+      ],
+      "tags": [
+        "Mining",
+        "Production",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "WTM",
+      "company": "WTM",
+      "headline": "Change in substantial holding",
+      "time": "2026-03-31T21:19:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074438-6A1318924",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of WTM.",
+        "- A substantial holding refers to a change in the percentage of shares held by a person or entity.",
+        "- This change may be due to a purchase, sale, or other transaction involving WTM shares."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "WAF",
+      "company": "WAF",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-03-31T21:19:18+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074437-6A1318922",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, WAF, has received a substantial holding notice.",
+        "- The notice is likely related to a significant shareholding or voting power change.",
+        "- The announcement may disclose the name and percentage of shares held by the substantial holder."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "HAR",
+      "company": "HAR",
+      "headline": "4000m Drilling to Test Depth Extensions of High-Grade Gold",
+      "time": "2026-03-31T21:18:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074433-6A1318913",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, HAR, will be conducting a 4000m drilling program to test depth extensions of high-grade gold deposits.",
+        "- This drilling program aims to provide further information on the potential of the gold deposits and possibly increase the resource estimate.",
+        "- The announcement is market sensitive, indicating that the information disclosed may have a material impact on the company's share price."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "MHC",
+      "company": "MHC",
+      "headline": "New Gold Prospects Secured West of the Hook Lake Project",
+      "time": "2026-03-31T21:18:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074431-6A1318912",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- MHC has secured new gold prospects located west of the Hook Lake Project.",
+        "- The discovery may have implications for the company's future mining operations.",
+        "- The announcement may provide details on the extent of the new gold prospects and potential next steps."
+      ],
+      "tags": [
+        "Mining",
+        "Compliance",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "SS1",
+      "company": "SS1",
+      "headline": "Drilling commences at Maverick Silver Project",
+      "time": "2026-03-31T21:18:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074429-6A1318910",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, SS1, has commenced drilling at its Maverick Silver Project.",
+        "- This development is likely related to the company's exploration and mining activities.",
+        "- The announcement may provide details on the project's location, drilling schedule, and expected outcomes."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "AS2",
+      "company": "AS2",
+      "headline": "High-Grade Polymetallic Mineralisation in OP Trenches at Uis",
+      "time": "2026-03-31T21:18:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074428-6A1318911",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- AS2 has made a significant discovery in the OP Trenches at Uis, indicating high-grade polymetallic mineralisation.",
+        "- The discovery is likely related to the company's mining operations and may have implications for future production or resource estimates.",
+        "- The market update may provide further details on the geological significance of the discovery and potential next steps for AS2."
+      ],
+      "tags": [
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "AV1",
+      "company": "AV1",
+      "headline": "TrafficGuard Launches Self-Serve Platform",
+      "time": "2026-03-31T21:17:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074426-6A1318909",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- AV1's TrafficGuard has launched a self-serve platform.",
+        "- The platform may offer new services or features to customers.",
+        "- The launch may have significant implications for the company's business model or revenue streams."
+      ],
+      "tags": [
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "EUR",
+      "company": "EUR",
+      "headline": "On-Market Share Buy-Back",
+      "time": "2026-03-31T21:17:38+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074421-6A1318895",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, EUR, is undertaking an on-market share buy-back, which involves purchasing its own shares on the open market.",
+        "- This announcement is likely to provide details on the number of shares to be bought back, the duration of the buy-back, and the maximum amount to be spent.",
+        "- The purpose of the share buy-back may be to reduce the company's outstanding share capital, return value to shareholders, or support the company's share price."
+      ],
+      "tags": [
+        "Finance",
+        "Capital Raise"
+      ]
+    },
+    {
+      "ticker": "PXX",
+      "company": "PXX",
+      "headline": "Alaska Range Joint Venture Update",
+      "time": "2026-03-31T21:17:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074420-6A1318906",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Update on the progress of the Alaska Range Joint Venture",
+        "- Details on the current status and future plans of the joint venture",
+        "- Possible changes or developments in the company's mining operations"
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "RNT",
+      "company": "RNT",
+      "headline": "Debt Facility Expanded to Accelerate RentBond Growth",
+      "time": "2026-03-31T21:17:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074416-6A1318904",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- RNT has expanded its debt facility to support its growth plans.",
+        "- The expanded debt facility will likely enable RNT to accelerate its RentBond growth.",
+        "- The announcement may provide details on the terms and conditions of the expanded debt facility."
+      ],
+      "tags": [
+        "Finance",
+        "Property"
+      ]
+    },
+    {
+      "ticker": "VTM",
+      "company": "VTM",
+      "headline": "BREAKTHROUGH HEAVY RARE EARTH RECOVERY PATHWAY TO PRODUCTION",
+      "time": "2026-03-31T21:17:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074415-6A1318892",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- VTM has achieved a breakthrough in heavy rare earth recovery, a significant development in the mining sector.",
+        "- This breakthrough is likely a crucial step towards the company's production pathway, indicating progress on its operational goals.",
+        "- The announcement may provide details on the timeline and feasibility of VTM's production plans, potentially impacting investor expectations."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ]
+    },
+    {
+      "ticker": "ARU",
+      "company": "ARU",
+      "headline": "Arafura executes binding cornerstone equity agreements",
+      "time": "2026-03-31T21:16:58+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074414-6A1318903",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Arafura Resources (ARU) has executed binding cornerstone equity agreements.",
+        "- The agreements are likely related to a capital raise, providing funding for the company's future projects.",
+        "- The cornerstone investors may have a significant stake in the company, influencing its future direction."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "GA8",
+      "company": "GA8",
+      "headline": "GoldArc Secures Kookynie Tenement - Expands Leonora South",
+      "time": "2026-03-31T21:16:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074411-6A1318890",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- GoldArc has secured a new tenement at Kookynie.",
+        "- The acquisition is part of the company's expansion in the Leonora South region.",
+        "- The announcement is market sensitive, indicating significant information for investors."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "YAR",
+      "company": "YAR",
+      "headline": "Austex x AMEC Brisbane Resources Lunch Investor Presentation",
+      "time": "2026-03-31T21:16:48+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074412-6A1318902",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Austex and AMEC Brisbane Resources partnership details.",
+        "- Update on the Brisbane Resources lunch investor presentation.",
+        "- Market outlook and potential opportunities for investors."
+      ],
+      "tags": [
+        "Mining",
+        "Finance",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "BRU",
+      "company": "BRU",
+      "headline": "CEO Resignation",
+      "time": "2026-03-31T21:16:33+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074409-6A1318901",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The CEO of BRU has resigned, indicating a change in leadership within the company.",
+        "- The announcement may provide details about the reasons behind the CEO's resignation and the process for selecting a new CEO.",
+        "- The resignation may have implications for the company's future direction and strategy."
+      ],
+      "tags": [
+        "Board Change",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "EMC",
+      "company": "EMC",
+      "headline": "Metallurgical Results & Mining Proposal Submission, Mt Edon",
+      "time": "2026-03-31T21:16:28+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074408-6A1318888",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "- The announcement likely covers the metallurgical results from the Mt Edon project, providing details on the quality and processing of the extracted minerals.",
+        "- The company may be submitting a mining proposal for the Mt Edon project, outlining the plans for extraction and processing of the minerals.",
+        "- The announcement may include an update on the project's status, including any recent developments, timelines, or milestones achieved."
+      ],
+      "tags": [
+        "Results",
+        "Mining",
+        "Finance",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "LM8",
+      "company": "LM8",
+      "headline": "New Gold Structure Northwest of Lady Herial",
+      "time": "2026-03-31T21:16:23+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074407-6A1318900",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- LM8 has made a significant discovery of gold in the northwest region of Lady Herial.",
+        "- The announcement is market sensitive, indicating that the information may have a material impact on the company's stock price.",
+        "- The market update may provide details on the extent of the gold discovery, its potential value, and the company's plans for further exploration or development."
+      ],
+      "tags": [
+        "Mining",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "TGN",
+      "company": "TGN",
+      "headline": "Watershed drilling to further define shallow tungsten zones",
+      "time": "2026-03-31T21:16:08+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074404-6A1318899",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, TGN, will be conducting drilling to further define shallow tungsten zones.",
+        "- This drilling is likely aimed at gathering more information about the tungsten reserves.",
+        "- The outcome of the drilling may have implications for the company's future mining operations."
+      ],
+      "tags": [
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "HMX",
+      "company": "HMX",
+      "headline": "New Targets Defined from Regional Review",
+      "time": "2026-03-31T21:15:53+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074402-6A1318887",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- HMX has conducted a regional review and defined new targets.",
+        "- The new targets likely relate to exploration, production, or resource expansion.",
+        "- The announcement may provide details on the location, size, and potential of the new targets."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "CLA",
+      "company": "CLA",
+      "headline": "Notice of General Meeting/Proxy Form",
+      "time": "2026-03-31T21:15:13+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074397-6A1318885",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, CLA, is calling a general meeting, which is a formal meeting of shareholders.",
+        "- A proxy form is likely attached to the announcement, allowing shareholders to appoint a proxy to vote on their behalf.",
+        "- The general meeting may be related to a significant corporate action or decision that requires shareholder approval."
+      ],
+      "tags": [
+        "AGM",
+        "Compliance",
+        "Finance"
+      ]
+    }
+  ]
+}
