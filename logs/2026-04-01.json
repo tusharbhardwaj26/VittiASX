@@ -1,9 +1,64 @@
 {
   "date": "2026-04-01",
-  "total": 134,
-  "market_sensitive_count": 95,
-  "generated_at": "2026-04-01T07:04:22.890405+00:00",
+  "total": 137,
+  "market_sensitive_count": 96,
+  "generated_at": "2026-04-01T08:05:08.413925+00:00",
   "announcements": [
+    {
+      "ticker": "ATM",
+      "company": "ANEKA TAMBANG (PERSERO) TBK (PT)",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-04-01T08:01:02+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074933-2A1663931",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The company, ANEKA TAMBANG (PERSERO) TBK (PT), has been reinstated to quotation.",
+        "- This reinstatement is likely a result of resolving any issues that led to the trading halt.",
+        "- The company's shares are now available for trading on the ASX."
+      ],
+      "tags": [
+        "Mining",
+        "Trading Halt",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "SDR",
+      "company": "SITEMINDER LIMITED",
+      "headline": "Ceasing to be a substantial holder from MUFG",
+      "time": "2026-04-01T07:38:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074927-2A1663946",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- Siteminder Limited has ceased to be a substantial holder of MUFG.",
+        "- The substantial holding status is being updated.",
+        "- This announcement is not market sensitive."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "KAT",
+      "company": "KATANA CAPITAL LIMITED",
+      "headline": "Change in substantial holding - amendment from previous anno",
+      "time": "2026-04-01T07:15:41+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074920-6A1319070",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in substantial holding by a shareholder of KATANA CAPITAL LIMITED.",
+        "- This change may be an amendment to a previous substantial holding announcement made by the company.",
+        "- The announcement is likely to provide updated information on the shareholder's holding percentage or other relevant details."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
     {
       "ticker": "LEL",
       "company": "LITHIUM ENERGY LIMITED",
