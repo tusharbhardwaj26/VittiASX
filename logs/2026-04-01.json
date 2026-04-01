@@ -1,9 +1,173 @@
 {
   "date": "2026-04-01",
-  "total": 125,
-  "market_sensitive_count": 94,
-  "generated_at": "2026-04-01T06:19:03.559051+00:00",
+  "total": 134,
+  "market_sensitive_count": 95,
+  "generated_at": "2026-04-01T07:04:22.890405+00:00",
   "announcements": [
+    {
+      "ticker": "LEL",
+      "company": "LITHIUM ENERGY LIMITED",
+      "headline": "Completion of Drilling at Sandy Creek, Capricorn Project",
+      "time": "2026-04-01T06:41:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074892-6A1319058",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- Completion of drilling activities at the Sandy Creek area of the Capricorn Project.",
+        "- Update on the progress and results of the drilling program.",
+        "- Potential implications of the drilling results on the project's future development."
+      ],
+      "tags": [
+        "Mining",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "SLB",
+      "company": "STELAR METALS LIMITED",
+      "headline": "Becoming a substantial holder - Nowak Investments",
+      "time": "2026-04-01T06:28:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074879-6A1319053",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- Nowak Investments has become a substantial holder of STELAR METALS LIMITED shares.",
+        "- The announcement likely discloses the number of shares held by Nowak Investments.",
+        "- The substantial holding threshold may have been triggered, requiring disclosure under ASX rules."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "NC6",
+      "company": "NANOLLOSE LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T06:27:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074878-6A1319051",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement likely covers a change in the substantial holding of Nanollose Limited.",
+        "- This change may involve a new substantial holder or a change in the percentage of shares held by an existing substantial holder.",
+        "- The announcement may provide details about the substantial holder's identity, the number of shares held, and the date of the change."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
+      "ticker": "SLB",
+      "company": "STELAR METALS LIMITED",
+      "headline": "Change in substantial holding - Resource Holdings",
+      "time": "2026-04-01T06:25:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074877-6A1319050",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in substantial holding by Resource Holdings.",
+        "- A substantial holding refers to a significant stake in the company's shares.",
+        "- The announcement may disclose the number of shares held by Resource Holdings or the percentage of the company's shares they now own."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "SRG",
+      "company": "SRG GLOBAL LIMITED",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T06:24:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074876-6A1319049",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, SRG Global Limited, has become a substantial holder of a particular entity or shares.",
+        "- The substantial holding threshold has been met, triggering this announcement.",
+        "- Details of the substantial holding, including the number of shares or entities involved, will be disclosed in the document."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "PNR",
+      "company": "PANTORO GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T06:19:51+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074874-6A1319048",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- A substantial holding has been reported in PANTORO GOLD LIMITED, indicating a significant change in share ownership.",
+        "- The announcement may detail the number of shares acquired or disposed of, and the identity of the party involved.",
+        "- The substantial holding may have triggered a reporting requirement under Australian securities law."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "NXL",
+      "company": "NUIX LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-01T06:18:36+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074872-2A1663917",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The company, NUIX LIMITED, is ceasing to be a substantial holder.",
+        "- This announcement is related to the company's shareholding status.",
+        "- The substantial holding document type indicates a change in the company's shareholding percentage."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "ORI",
+      "company": "ORICA LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T06:18:31+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074871-3A690652",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- The announcement is related to a change in the substantial holding of Orica Limited.",
+        "- A substantial holding refers to a significant stake in the company's shares held by an individual or entity.",
+        "- The announcement may disclose the name of the entity or individual involved, the number of shares held, and the percentage of ownership."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ]
+    },
+    {
+      "ticker": "PNR",
+      "company": "PANTORO GOLD LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T06:16:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074870-6A1319047",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- A change in the substantial holding of PANTORO GOLD LIMITED has been reported.",
+        "- This announcement may relate to a change in the percentage of shares held by a substantial holder.",
+        "- The substantial holder's details, including their name and percentage of shares held, may be disclosed in the announcement."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Mining"
+      ]
+    },
     {
       "ticker": "MND",
       "company": "MONADELPHOUS GROUP LIMITED",
