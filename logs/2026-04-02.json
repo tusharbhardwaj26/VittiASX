@@ -1,9 +1,99 @@
 {
   "date": "2026-04-02",
-  "total": 151,
-  "market_sensitive_count": 98,
-  "generated_at": "2026-04-02T06:56:31.617781+00:00",
+  "total": 156,
+  "market_sensitive_count": 99,
+  "generated_at": "2026-04-02T07:54:47.382553+00:00",
   "announcements": [
+    {
+      "ticker": "NHF",
+      "company": "NIB HOLDINGS LIMITED",
+      "headline": "Ceasing to be a substantial holder from MUFG",
+      "time": "2026-04-02T07:37:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075612-2A1664448",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- NIB HOLDINGS LIMITED has ceased to be a substantial holder of MUFG.",
+        "- The announcement is related to a change in MUFG's shareholding structure.",
+        "- The company's substantial holding status has been revoked."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "AUB",
+      "company": "AUB GROUP LIMITED",
+      "headline": "Change in substantial holding from MUFG",
+      "time": "2026-04-02T07:32:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075610-2A1664446",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- AUB Group Limited has received a notice of change in substantial holding from MUFG.",
+        "- This announcement relates to a change in the shareholding percentage of MUFG in AUB Group Limited.",
+        "- The notice may provide details on the number of shares held by MUFG before and after the change."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "NUF",
+      "company": "NUFARM LIMITED",
+      "headline": "Becoming a substantial holder from MUFG",
+      "time": "2026-04-02T07:27:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075606-3A690781",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- Nufarm Limited has received a substantial holding notice from MUFG.",
+        "- The notice indicates that MUFG has acquired a significant stake in Nufarm Limited.",
+        "- The announcement likely discloses the number of shares held by MUFG and the percentage of ownership."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "OSX",
+      "company": "OSTEOPORE LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-02T07:19:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075600-6A1319296",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "- A substantial shareholder has made a change to their holding in Osteopore Limited.",
+        "- The change may involve an increase or decrease in the number of shares held by the shareholder.",
+        "- The announcement may provide details on the shareholder's new holding percentage or the number of shares affected."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Compliance"
+      ]
+    },
+    {
+      "ticker": "RII",
+      "company": "RESOLUTION GBL LISTED INFRA FUND - ACTIVE ETF",
+      "headline": "Final Distribution Details",
+      "time": "2026-04-02T06:56:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075581-2A1664441",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "- The Resolution Global Listed Infrastructure Fund - Active ETF has announced final distribution details.",
+        "- This announcement is likely related to the payment of dividends or distribution to unit holders.",
+        "- The market sensitive nature of the announcement suggests that the details may have a material impact on the fund's unit price or investor decisions."
+      ],
+      "tags": [
+        "Dividend",
+        "Finance"
+      ]
+    },
     {
       "ticker": "RCA",
       "company": "RESOLUTION CAP GLOBAL PROP SEC FUND - ACTIVE ETF",
