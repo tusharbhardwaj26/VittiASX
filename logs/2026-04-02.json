@@ -1,9 +1,82 @@
 {
   "date": "2026-04-02",
-  "total": 159,
-  "market_sensitive_count": 101,
-  "generated_at": "2026-04-02T08:15:47.595376+00:00",
+  "total": 163,
+  "market_sensitive_count": 102,
+  "generated_at": "2026-04-03T08:28:49.819231+00:00",
   "announcements": [
+    {
+      "ticker": "CWP",
+      "company": "CEDAR WOODS PROPERTIES LIMITED",
+      "headline": "Suspension of DRP & BSP for FY26 Interim Dividend",
+      "time": "2026-04-02T09:14:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075641-6A1319322",
+      "market_sensitive": false,
+      "document_type": "Dividend",
+      "summary": [
+        "Cedar Woods has suspended both its Dividend Reinvestment Plan (DRP) and Bonus Share Plan (BSP) for the FY26 interim dividend, signaling the company does not need to issue new equity to fund operations or growth at this stage.",
+        "The suspension suggests Cedar Woods is comfortable with its current capital position and balance sheet liquidity, reducing potential dilution for existing shareholders — a positive signal for institutional holders focused on earnings per share preservation.",
+        "Investors should monitor whether the DRP/BSP suspension becomes a recurring feature in future dividends, which would indicate sustained capital discipline and potentially stronger free cash flow generation from the company's residential and commercial property pipeline."
+      ],
+      "tags": [
+        "Dividend",
+        "Property"
+      ]
+    },
+    {
+      "ticker": "GHY",
+      "company": "GOLD HYDROGEN LIMITED",
+      "headline": "Change in substantial holding (Simmonds)",
+      "time": "2026-04-02T09:13:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075640-2A1664463",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holding change for Simmonds in Gold Hydrogen Limited (GHY) signals a shift in insider or major shareholder positioning, which institutional investors should monitor for potential changes in corporate strategy or governance influence.",
+        "The filing is classified as not market sensitive, suggesting the change likely reflects a relatively modest adjustment in holding percentage rather than a transformative block trade or activist accumulation.",
+        "Investors should cross-reference the direction of the holding change (increase vs decrease) against GHY's current exploration timeline for natural hydrogen projects in South Australia, as insider conviction levels are a key sentiment indicator for pre-revenue exploration-stage companies with limited cash flow visibility."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ]
+    },
+    {
+      "ticker": "SKN",
+      "company": "SKIN ELEMENTS LIMITED",
+      "headline": "Section 249D Notice",
+      "time": "2026-04-02T09:01:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075634-6A1319316",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Skin Elements has received a Section 249D notice from shareholders requisitioning a general meeting, signaling a potential activist challenge to the current board and management direction.",
+        "Section 249D notices require holders of at least 5% of voting shares to compel a general meeting, indicating material shareholder dissatisfaction — likely focused on capital allocation, strategy, or board composition given SKN's micro-cap status and limited cash reserves.",
+        "The company must now convene a general meeting within 21 days of the notice, with the meeting itself to be held within 2 months — investors should monitor for proposed resolutions including potential board spill or strategic redirection."
+      ],
+      "tags": [
+        "Board Change",
+        "AGM",
+        "Other"
+      ]
+    },
+    {
+      "ticker": "AR1",
+      "company": "AUSTRAL RESOURCES AUSTRALIA LTD",
+      "headline": "Notice of initial substantial holder",
+      "time": "2026-04-02T08:37:06+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03075631-2A1664461",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Austral Resources Australia Ltd, crossing the 5% ownership threshold, signaling meaningful external investor conviction in the copper-focused junior miner's value proposition.",
+        "The initial substantial holder notice indicates a concentrated position build, which for a micro-cap ASX copper explorer/producer can materially impact free float liquidity and may reflect strategic positioning ahead of anticipated catalysts.",
+        "Institutional investors should monitor whether this accumulation precedes corporate activity such as a takeover approach, capital raise participation, or board-level engagement, as substantial holder notices in junior miners frequently foreshadow further corporate developments."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ]
+    },
     {
       "ticker": "GSB",
       "company": "COMMONWEALTH OF AUSTRALIA.",

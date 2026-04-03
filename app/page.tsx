@@ -358,11 +358,11 @@ export default function Dashboard() {
                 <div className="pt-0.5">
                   <h3 className="text-[1rem] font-bold mb-2"
                     style={{ color: error.includes('No market data') ? '#a5b4fc' : '#fda4af' }}>
-                    {error.includes('No market data') ? 'Awaiting Market Announcements' : 'Connection Error'}
+                    {error.includes('No market data') ? 'No Market Activity' : 'Connection Error'}
                   </h3>
                   <p className="text-[0.85rem] leading-relaxed mb-5" style={{ color: 'rgba(148,163,184,0.75)' }}>
                     {error.includes('No market data')
-                      ? "No announcements yet for this date. The feed will automatically pull in data the moment it drops!"
+                      ? "No announcements found for this date. This usually means the market hasn't opened yet, or it is a weekend or public holiday."
                       : error}
                   </p>
                   <button

@@ -212,10 +212,10 @@ export default function Sidebar({
             }}
           >
             {date && !availableDates.includes(date) && (
-              <option value={date}>{formatDateLabel(date)} (Live)</option>
+              <option value={date} style={{ background: 'var(--bg-sidebar)', color: 'var(--text-primary)' }}>{formatDateLabel(date)} (Live)</option>
             )}
             {availableDates.map(d => (
-              <option key={d} value={d}>{formatDateLabel(d)}</option>
+              <option key={d} value={d} style={{ background: 'var(--bg-sidebar)', color: 'var(--text-primary)' }}>{formatDateLabel(d)}</option>
             ))}
           </select>
           <div className="absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none text-slate-500 group-hover:text-indigo-400 transition-colors">
