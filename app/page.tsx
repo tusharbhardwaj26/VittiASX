@@ -33,12 +33,38 @@ export default function Dashboard() {
 
   useEffect(() => {
     setIsClient(true);
-    const local = new Date();
-    local.setHours(local.getHours() + 11);
-    setDate(local.toISOString().slice(0, 10));
+    
+    // Get current date in Sydney
+    const sydneyTime = new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'Australia/Sydney',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      hour12: false
+    }).formatToParts(new Date());
+
+    const parts = Object.fromEntries(sydneyTime.map(p => [p.type, p.value]));
+    let year = parseInt(parts.year);
+    let month = parseInt(parts.month);
+    let day = parseInt(parts.day);
+    let hour = parseInt(parts.hour);
+
+    // If it's before 8 AM in Sydney, show yesterday's announcements by default
+    if (hour < 8) {
+      const d = new Date(year, month - 1, day);
+      d.setDate(d.getDate() - 1);
+      year = d.getFullYear();
+      month = d.getMonth() + 1;
+      day = d.getDate();
+    }
+
+    const dateStr = `${year}-${String(month).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+    setDate(dateStr);
 
     const savedView = localStorage.getItem('vitti-view') as ViewMode;
     const savedTheme = localStorage.getItem('vitti-theme') as 'dark' | 'light';
+    
     if (savedView) setViewMode(savedView);
     if (savedTheme) setTheme(savedTheme);
 
@@ -49,12 +75,13 @@ export default function Dashboard() {
   }, []);
 
   useEffect(() => {
+    const root = document.documentElement;
     if (theme === 'light') {
-      document.documentElement.classList.add('light');
-      document.documentElement.classList.remove('dark');
+      root.classList.add('light');
+      root.classList.remove('dark');
     } else {
-      document.documentElement.classList.add('dark');
-      document.documentElement.classList.remove('light');
+      root.classList.add('dark');
+      root.classList.remove('light');
     }
     localStorage.setItem('vitti-theme', theme);
   }, [theme]);
@@ -177,45 +204,45 @@ export default function Dashboard() {
     ? new Date(date + 'T00:00:00').toLocaleDateString('en-AU', { day: 'numeric', month: 'short', year: 'numeric' })
     : '';
 
-  if (!isClient) return <div className="min-h-screen" style={{ background: '#04060f' }} />;
+  if (!isClient) return <div className="min-h-screen bg-[#04060f]" />;
 
   return (
-    <div className="flex min-h-screen" style={{ background: '#04060f', color: '#f1f5f9' }}>
+    <div className="flex min-h-screen transition-colors duration-500" style={{ background: 'var(--bg-app)', color: 'var(--text-primary)' }}>
 
-      {/* ── Multi-layer background ── */}
-      <div className="fixed inset-0 pointer-events-none z-0">
+      {/* ── Background decoration ── */}
+      <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden">
         {/* Radial glows */}
         <div className="absolute inset-0"
           style={{
-            background: `
-              radial-gradient(ellipse 80% 50% at 80% -10%, rgba(99,102,241,0.07) 0%, transparent 60%),
-              radial-gradient(ellipse 60% 50% at -10% 80%, rgba(139,92,246,0.05) 0%, transparent 60%),
-              radial-gradient(ellipse 40% 30% at 50% 50%, rgba(6,182,212,0.025) 0%, transparent 70%)
+            background: theme === 'dark' ? `
+              radial-gradient(ellipse 80% 50% at 80% -10%, rgba(99,102,241,0.04) 0%, transparent 60%),
+              radial-gradient(ellipse 60% 50% at -10% 80%, rgba(139,92,246,0.03) 0%, transparent 60%)
+            ` : `
+              radial-gradient(ellipse 80% 50% at 80% -10%, rgba(99,102,241,0.02) 0%, transparent 60%)
             `,
           }} />
         {/* Dot grid */}
-        <div className="absolute inset-0 opacity-[0.18]"
+        <div className="absolute inset-0 opacity-[0.1]"
           style={{
-            backgroundImage: 'radial-gradient(rgba(99,102,241,0.4) 1px, transparent 1px)',
+            backgroundImage: theme === 'dark' 
+              ? 'radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px)' 
+              : 'radial-gradient(rgba(0,0,0,0.05) 1px, transparent 1px)',
             backgroundSize: '36px 36px',
           }} />
-        {/* Noise overlay */}
-        <div className="noise-overlay absolute inset-0 opacity-[0.025]" />
       </div>
 
       {/* Mobile sidebar overlay */}
       {sidebarOpen && (
         <div
           className="fixed inset-0 z-40 lg:hidden"
-          style={{ background: 'rgba(0,0,0,0.75)', backdropFilter: 'blur(8px)' }}
+          style={{ background: theme === 'dark' ? 'rgba(0,0,0,0.75)' : 'rgba(0,0,0,0.45)', backdropFilter: 'blur(8px)' }}
           onClick={() => setSidebarOpen(false)}
         />
       )}
 
       {/* Sidebar */}
       <div className={`fixed top-0 bottom-0 left-0 z-50 lg:relative lg:z-auto lg:block transition-transform duration-300
-        ${sidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}
-        style={{ filter: 'drop-shadow(4px 0 24px rgba(0,0,0,0.4))' }}>
+        ${sidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}`}>
         <Sidebar
           date={date}
           availableDates={availableDates}
@@ -248,11 +275,11 @@ export default function Dashboard() {
         />
 
         {/* ── Category Tab Bar ── */}
-        <nav className="flex gap-0 px-6 pt-0 overflow-x-auto [scrollbar-width:none] sticky top-[60px] z-30 flex-shrink-0"
+        <nav className="flex gap-0 px-6 pt-0 overflow-x-auto [scrollbar-width:none] sticky top-[60px] z-30 flex-shrink-0 transition-colors duration-300"
           style={{
-            background: 'rgba(4,6,15,0.85)',
-            backdropFilter: 'blur(20px)',
-            borderBottom: '1px solid rgba(255,255,255,0.05)',
+            background: 'var(--bg-nav)',
+            backdropFilter: 'blur(12px)',
+            borderBottom: '1px solid var(--border-subtle)',
           }}>
           {CATEGORIES.map(cat => {
             const isActive = activeCategory === cat;
@@ -284,9 +311,9 @@ export default function Dashboard() {
             <div className="flex flex-col items-center justify-center h-[52vh] gap-5 animate-fade-in-up">
               <div className="relative w-12 h-12">
                 <div className="absolute inset-0 rounded-full"
-                  style={{ border: '2px solid rgba(99,102,241,0.15)', borderTopColor: '#6366f1', animation: 'spin 0.8s linear infinite' }} />
+                  style={{ border: '2px solid var(--border-accent)', borderTopColor: 'var(--accent)', animation: 'spin 0.8s linear infinite' }} />
                 <div className="absolute inset-2.5 rounded-full"
-                  style={{ border: '2px solid rgba(6,182,212,0.15)', borderTopColor: '#06b6d4', animation: 'spin 0.5s linear infinite reverse' }} />
+                  style={{ border: '2px solid var(--border-accent)', borderTopColor: 'var(--text-accent)', animation: 'spin 0.5s linear infinite reverse' }} />
               </div>
               <div className="text-center">
                 <h3 className="text-[1rem] font-bold text-slate-200">Fetching Market Data</h3>

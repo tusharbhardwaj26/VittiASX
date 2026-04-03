@@ -2,11 +2,11 @@
 ASX Daily Announcement Fetcher
 --------------------------------
 Fetches all ASX announcements for today via the ASX Market Announcements RSS feed,
-generates bullet-point summaries using Groq AI, and saves a dated JSON log to logs/.
+generates bullet-point summaries using Anthropic Claude (with Groq failover), and saves a dated JSON log to logs/.
 
 Usage:
     python fetch_asx.py [--date YYYY-MM-DD]  (defaults to today)
-    python fetch_asx.py --no-ai              (skip Groq, useful for testing)
+    python fetch_asx.py --no-ai              (skip AI, useful for testing)
 """
 
 import os
@@ -19,6 +19,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 from dotenv import load_dotenv
+from anthropic import Anthropic
 from groq import Groq
 
 # Load environment variables from .env if present
@@ -28,8 +29,10 @@ load_dotenv()
 # Config
 # ─────────────────────────────────────────────────────────────
 
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODELS  = ["llama-3.1-8b-instant", "llama3-8b-8192", "mixtral-8x7b-32768", "gemma2-9b-it"]
+ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+ANTHROPIC_MODEL   = os.environ.get("ANTHROPIC_MODEL", "claude-opus-4-6")
+GROQ_API_KEY      = os.environ.get("GROQ_API_KEY", "")
+GROQ_MODEL        = os.environ.get("GROQ_MODEL", "llama3-70b-8192")
 
 AEST = timezone(timedelta(hours=11))
 MARKET_SENSITIVE_ONLY = True  # Only process Alpha news (Price Sensitive, Halts, Placements)
@@ -142,16 +145,6 @@ def fetch_announcements(date_str: str, retries: int = 3) -> list[dict]:
     return []
 
 
-def _extract_ticker(title: str) -> str:
-    m = re.match(r"^\s*([A-Z]{2,5})\s*[-:]", title)
-    return m.group(1) if m else ""
-
-
-def _extract_company(desc: str) -> str:
-    m = re.search(r"<b>(.*?)</b>", desc)
-    return m.group(1).strip() if m else ""
-
-
 def _guess_doc_type(title: str) -> str:
     t = title.lower()
     if "quarterly" in t:           return "Quarterly Report"
@@ -169,13 +162,14 @@ def _guess_doc_type(title: str) -> str:
 
 
 # ─────────────────────────────────────────────────────────────
-# Groq AI Summarisation
+# AI Summarisation & Failover
 # ─────────────────────────────────────────────────────────────
 
 def build_prompt(headline: str, company: str, doc_type: str, market_sensitive: bool) -> str:
     sensitivity = "MARKET SENSITIVE" if market_sensitive else "not market sensitive"
     tags_list   = ", ".join(KNOWN_TAGS)
-    return f"""You are a financial analyst assistant specialising in ASX (Australian Securities Exchange) announcements.
+    return f"""You are a senior financial analyst and news editor specializing in the ASX (Australian Securities Exchange).
+Your goal is to provide high-signal, professional insight for institutional investors.
 
 Announcement details:
 - Company: {company}
@@ -183,52 +177,105 @@ Announcement details:
 - Document Type: {doc_type}
 - Market Sensitive: {sensitivity}
 
-Tasks:
-1. Write 3-5 concise bullet points summarising what this announcement likely covers based on the headline and document type. Each bullet should start with a dash (-).
-2. Choose 1-4 relevant tags from this list only: {tags_list}
+TASKS:
+1. MANDATORY: provide EXACTLY 3 high-impact bullet points. 
+2. INSIGHT: Focus on the "so what?" (e.g. cash runway, revenue growth, or technical significance).
+3. TAGS: Select 1-3 relevant categories from this list ONLY: {tags_list}
 
-Respond in this exact JSON format (no markdown, no extra text):
+Strict Output Format (JSON ONLY):
 {{
-  "summary": ["bullet 1", "bullet 2", "bullet 3"],
-  "tags": ["Tag1", "Tag2"]
+  "summary": [
+    "Insightful point 1 - focus on impact",
+    "Insightful point 2 - focus on numbers/results",
+    "Insightful point 3 - focus on next steps/outlook"
+  ],
+  "tags": ["Category 1", "Category 2"]
 }}"""
 
 
-def summarise_batch(client: Groq, announcements: list[dict], delay: float = 2.1) -> list[dict]:
-    """Summarise announcements one by one with rate-limit fallback across multiple LLMs."""
+def _call_ai_one(client, model: str, prompt: str, provider: str) -> dict:
+    """Make a single AI call to either Anthropic or Groq."""
+    if provider == 'anthropic':
+        resp = client.messages.create(
+            model=model,
+            max_tokens=600,
+            temperature=0.4,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        raw = ""
+        for block in resp.content:
+            if hasattr(block, 'text'): raw += block.text
+    else:  # groq
+        resp = client.chat.completions.create(
+            messages=[{"role": "user", "content": prompt}],
+            model=model,
+            temperature=0.4,
+            max_tokens=600,
+            response_format={"type": "json_object"}
+        )
+        raw = resp.choices[0].message.content
+
+    # Clean JSON
+    raw = raw.strip()
+    if raw.startswith("```json"):
+        raw = raw.split("```json")[1].split("```")[0].strip()
+    elif raw.startswith("```"):
+        raw = raw.split("```")[1].strip()
+    
+    parsed = json.loads(raw)
+    
+    # Validation: Ensure at least 3 points
+    summary = parsed.get("summary", [])
+    if len(summary) < 3:
+        raise ValueError(f"AI returned only {len(summary)} points. Retrying...")
+    
+    return parsed
+
+
+def summarise_with_failover(anthropic_client, groq_client, ann) -> dict:
+    """Implement 3x Anthropic followed by 3x Groq logic."""
+    prompt = build_prompt(
+        ann["headline"], ann["company"],
+        ann["document_type"], ann["market_sensitive"],
+    )
+    
+    # 1. Try Anthropic (3 times)
+    if anthropic_client:
+        for attempt in range(1, 4):
+            try:
+                print(f"[anthropic] {ann['ticker']} attempt {attempt}/3...")
+                return _call_ai_one(anthropic_client, ANTHROPIC_MODEL, prompt, 'anthropic')
+            except Exception as e:
+                print(f"[anthropic] Attempt {attempt} failed: {e}")
+                if attempt < 3: time.sleep(1)
+
+    # 2. Try Groq (3 times)
+    if groq_client:
+        for attempt in range(1, 4):
+            try:
+                print(f"   [groq] {ann['ticker']} failover attempt {attempt}/3...")
+                return _call_ai_one(groq_client, GROQ_MODEL, prompt, 'groq')
+            except Exception as e:
+                print(f"   [groq] Attempt {attempt} failed: {e}")
+                if attempt < 3: time.sleep(1)
+
+    # Final Fallback
+    return {
+        "summary": [f"High-priority announcement from {ann['ticker']}", f"Topic: {ann['headline']}", "Review PDF for full details."],
+        "tags": ["Other"]
+    }
+
+
+def summarise_batch(anthropic_client, groq_client, announcements: list[dict], delay: float = 0.5) -> list[dict]:
+    """Process a batch of announcements with failover logic."""
     total = len(announcements)
     for i, ann in enumerate(announcements, 1):
-        print(f"[groq] {i}/{total}  {ann['ticker']} - {ann['headline'][:60]}")
-        prompt = build_prompt(
-            ann["headline"], ann["company"],
-            ann["document_type"], ann["market_sensitive"],
-        )
+        print(f"[ai] {i}/{total} processing {ann['ticker']}...")
         
-        success = False
-        for model in GROQ_MODELS:
-            try:
-                response = client.chat.completions.create(
-                    model=model,
-                    messages=[{"role": "user", "content": prompt}],
-                    temperature=0.3,
-                    max_tokens=300,
-                )
-                raw    = response.choices[0].message.content.strip()
-                parsed = json.loads(raw)
-                ann["summary"] = parsed.get("summary", [])
-                ann["tags"]    = parsed.get("tags", [])
-                success = True
-                break  # Successfully generated, exit the fallback loop
-            except Exception as e:
-                # Print specific error and try the next model silently
-                print(f"[groq] Model {model} failed for {ann['ticker']}: {repr(e)}")
-                continue
-                
-        if not success:
-            print(f"[groq] CRITICAL: All fallback models failed for {ann['ticker']}, using raw text")
-            ann["summary"] = [f"ASX announcement: {ann['headline']}"]
-            ann["tags"]    = ["Other"]
-            
+        result = summarise_with_failover(anthropic_client, groq_client, ann)
+        ann["summary"] = result.get("summary", [])[0:4] # Cap at 4
+        ann["tags"]    = result.get("tags", [])
+        
         if i < total:
             time.sleep(delay)
     return announcements
@@ -308,14 +355,9 @@ def run_process(args):
 
     # 4. AI summarise ONLY new ones
     if not args.no_ai:
-        if not GROQ_API_KEY:
-            print("[main] WARNING: GROQ_API_KEY not set. Using fallback.")
-            for a in new_announcements:
-                a["summary"] = [f"ASX announcement: {a['headline']}"]
-                a["tags"]    = ["Other"]
-        else:
-            client = Groq(api_key=GROQ_API_KEY)
-            new_announcements = summarise_batch(client, new_announcements)
+        a_client = Anthropic(api_key=ANTHROPIC_API_KEY) if ANTHROPIC_API_KEY else None
+        g_client = Groq(api_key=GROQ_API_KEY) if GROQ_API_KEY else None
+        new_announcements = summarise_batch(a_client, g_client, new_announcements)
     else:
         for a in new_announcements:
             a["summary"] = [f"ASX announcement: {a['headline']}"]
@@ -327,15 +369,23 @@ def run_process(args):
 
 def main():
     parser = argparse.ArgumentParser(description="Fetch and summarise ASX announcements")
+    # ─── Default Date Logic ───
+    now_aest = datetime.now(AEST)
+    # If before 10:00 AM AEST, default to yesterday's date
+    if now_aest.hour < 10:
+        default_date = (now_aest - timedelta(days=1)).strftime("%Y-%m-%d")
+    else:
+        default_date = now_aest.strftime("%Y-%m-%d")
+
     parser.add_argument(
         "--date",
-        default=datetime.now(AEST).strftime("%Y-%m-%d"),
-        help="Date to fetch (YYYY-MM-DD), defaults to today AEST",
+        default=default_date,
+        help="Date to fetch (YYYY-MM-DD), defaults to smart logical date for AEST",
     )
     parser.add_argument(
         "--no-ai",
         action="store_true",
-        help="Skip Groq summarisation (useful for testing)",
+        help="Skip AI summarisation (useful for testing)",
     )
     parser.add_argument(
         "--loop",

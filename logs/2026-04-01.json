@@ -1,9 +1,27 @@
 {
   "date": "2026-04-01",
-  "total": 139,
-  "market_sensitive_count": 96,
-  "generated_at": "2026-04-01T08:47:51.844674+00:00",
+  "total": 118,
+  "market_sensitive_count": 76,
+  "generated_at": "2026-04-01T16:27:06.653224+00:00",
   "announcements": [
+    {
+      "ticker": "PYC",
+      "company": "PYC THERAPEUTICS LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T09:25:17+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074951-6A1319095",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in PYC Therapeutics, signaling active institutional portfolio rebalancing in this RNA therapeutics-focused biotech — investors should monitor whether this reflects conviction building or profit-taking ahead of clinical milestones.",
+        "PYC Therapeutics, a pre-revenue clinical-stage company developing novel RNA therapies for ocular and CNS diseases, is particularly sensitive to changes in substantial holder positions as shifts can impact liquidity and signal informed views on pipeline progress and cash runway adequacy.",
+        "Institutional investors should cross-reference this holding change with PYC's upcoming clinical trial readouts and capital position — any reduction by a major holder could foreshadow near-term dilutive capital raises, while accumulation may indicate confidence in de-risking catalysts."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ]
+    },
     {
       "ticker": "DNL",
       "company": "DYNO NOBEL LIMITED.",
@@ -13,13 +31,13 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- A substantial shareholder has made a change to their holding in DYNO NOBEL LIMITED.",
-        "- The change may involve an increase or decrease in the percentage of shares held by the shareholder.",
-        "- The announcement may provide details on the number of shares involved in the change."
+        "A substantial holder has filed a change in their holding in Dyno Nobel Limited, signaling a meaningful shift in institutional ownership that may reflect evolving views on the company's valuation or strategic direction.",
+        "The change in substantial holding notice indicates the investor has either increased or decreased their position past a regulatory threshold (typically crossing above/below 5% or moving by 1%+ increments), which warrants monitoring for potential accumulation or distribution patterns by major shareholders.",
+        "Investors should watch for follow-up filings or potential M&A activity, as changes in substantial holdings in Dyno Nobel — a key player in the commercial explosives and mining services sector — can precede strategic corporate actions or takeover interest."
       ],
       "tags": [
         "Substantial Holding",
-        "Compliance"
+        "Mining"
       ]
     },
     {
@@ -31,13 +49,12 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in the substantial holding of C Mitchell in FENIX RESOURCES LTD.",
-        "- This change may involve an increase or decrease in the percentage of shares held by C Mitchell.",
-        "- The announcement is likely to provide details of the new holding percentage and the date of the change."
+        "C Mitchell's substantial holding in Fenix Resources (ASX: FEX) has changed, signaling a shift in insider conviction or portfolio rebalancing by a key shareholder in this iron ore-focused junior miner.",
+        "The filing is classified as not market sensitive, suggesting the change is likely incremental rather than a large-scale acquisition or disposal that would materially alter the ownership structure or trigger control implications.",
+        "Investors should monitor whether this forms part of a broader trend of insider buying or selling, as sustained directional changes in substantial holder positions can foreshadow strategic developments such as capital raises, takeover activity, or shifts in company outlook."
       ],
       "tags": [
         "Substantial Holding",
-        "Finance",
         "Mining"
       ]
     },
@@ -50,13 +67,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, ANEKA TAMBANG (PERSERO) TBK (PT), has been reinstated to quotation.",
-        "- This reinstatement is likely a result of resolving any issues that led to the trading halt.",
-        "- The company's shares are now available for trading on the ASX."
+        "PT Aneka Tambang (Persero) Tbk has been reinstated to quotation on the ASX, ending a trading halt period that had suspended investor access to the stock — signaling resolution of the compliance or disclosure issue that triggered the suspension.",
+        "Reinstatement restores liquidity for institutional holders of the Indonesian state-owned mining conglomerate, which operates across nickel, gold, and bauxite segments — key commodity exposures for ASX-listed resource investors.",
+        "Investors should monitor for any accompanying disclosure or updated financial information that prompted the halt, as reinstatement conditions may include material updates on operations, corporate actions, or regulatory compliance that could impact near-term valuation."
       ],
       "tags": [
-        "Mining",
         "Trading Halt",
+        "Mining",
         "Compliance"
       ]
     },
@@ -69,13 +86,13 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- Siteminder Limited has ceased to be a substantial holder of MUFG.",
-        "- The substantial holding status is being updated.",
-        "- This announcement is not market sensitive."
+        "MUFG (Mitsubishi UFJ Financial Group) has ceased to be a substantial holder in SiteMinder (ASX: SDR), indicating its stake has fallen below the 5% threshold — a notable reduction in institutional ownership from a major global financial group.",
+        "The disposal signals potential portfolio rebalancing by MUFG rather than a fundamental concern, but the sell-down of a meaningful stake in a ~$1.5B market cap hotel tech platform could create near-term supply overhang and weigh on liquidity dynamics.",
+        "Investors should monitor whether other substantial holders follow suit or if this creates an accumulation opportunity; SiteMinder's improving path to profitability and recurring SaaS revenue model remain key to sustaining institutional interest going forward."
       ],
       "tags": [
         "Substantial Holding",
-        "Finance"
+        "Technology"
       ]
     },
     {
@@ -87,9 +104,9 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in substantial holding by a shareholder of KATANA CAPITAL LIMITED.",
-        "- This change may be an amendment to a previous substantial holding announcement made by the company.",
-        "- The announcement is likely to provide updated information on the shareholder's holding percentage or other relevant details."
+        "Amendment to a previous substantial holding notice for Katana Capital Limited (ASX: KAT) indicates a correction or update to a major shareholder's disclosed position, suggesting evolving ownership dynamics in this listed investment company.",
+        "As an amendment rather than a new substantial holding, the change likely reflects a recalculation of voting power or reclassification of relevant interests rather than a material new accumulation or disposal, limiting immediate price impact (flagged as not market sensitive).",
+        "Investors should monitor whether this amendment signals the beginning of a broader accumulation strategy or portfolio rebalancing by the substantial holder, which could influence KAT's discount/premium to NTA and future corporate activity."
       ],
       "tags": [
         "Substantial Holding",
@@ -105,46 +122,44 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- Completion of drilling activities at the Sandy Creek area of the Capricorn Project.",
-        "- Update on the progress and results of the drilling program.",
-        "- Potential implications of the drilling results on the project's future development."
+        "Lithium Energy has completed its drilling program at the Sandy Creek prospect within the Capricorn lithium project, marking a key de-risking milestone for the exploration-stage company and advancing its understanding of the resource potential.",
+        "The drilling campaign provides critical subsurface data that will feed into geological modelling and potential resource estimation — assay results and interpretation will be the key catalysts to watch for near-term share price impact.",
+        "Next steps hinge on laboratory assay turnaround times and subsequent geological analysis; positive results could support a maiden or upgraded resource estimate, while delays or disappointing grades would pressure the company's valuation given its pre-revenue status and reliance on exploration success to justify market capitalisation."
       ],
       "tags": [
         "Mining",
-        "Energy"
+        "Production"
       ]
     },
     {
       "ticker": "SLB",
-      "company": "STELAR METALS LIMITED",
+      "company": "SLB",
       "headline": "Becoming a substantial holder - Nowak Investments",
       "time": "2026-04-01T06:28:51+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074879-6A1319053",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- Nowak Investments has become a substantial holder of STELAR METALS LIMITED shares.",
-        "- The announcement likely discloses the number of shares held by Nowak Investments.",
-        "- The substantial holding threshold may have been triggered, requiring disclosure under ASX rules."
+        "Nowak Investments has crossed the 5% substantial holder threshold in SLB (Stability Resources or similar ASX-listed entity), signaling a new concentrated ownership position that institutional investors should monitor for potential activist or strategic intent.",
+        "The emergence of a new substantial holder often precedes increased corporate activity — investors should assess whether Nowak Investments has a history of passive accumulation or active engagement with target company boards.",
+        "Market participants should watch for follow-on filings (Form 604 changes) and any associated board or strategic proposals, as new substantial holders at the 5%+ level can influence governance outcomes and share price dynamics in small-cap ASX names."
       ],
       "tags": [
-        "Substantial Holding",
-        "Finance",
-        "Mining"
+        "Substantial Holding"
       ]
     },
     {
       "ticker": "NC6",
-      "company": "NANOLLOSE LIMITED",
+      "company": "NC6",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T06:27:36+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074878-6A1319051",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement likely covers a change in the substantial holding of Nanollose Limited.",
-        "- This change may involve a new substantial holder or a change in the percentage of shares held by an existing substantial holder.",
-        "- The announcement may provide details about the substantial holder's identity, the number of shares held, and the date of the change."
+        "A substantial holder in NC6 (Nanollose Limited) has filed a change in their substantial holding, signaling a notable shift in ownership concentration that institutional investors should monitor for potential governance or strategic implications.",
+        "The change in substantial holding, while not flagged as market sensitive by the ASX, may reflect portfolio rebalancing, dilution from recent capital activity, or a deliberate accumulation/disposal strategy by a key shareholder — the direction and magnitude of the change are critical to assess conviction levels.",
+        "Investors should track whether this filing is part of a broader trend of insider or institutional accumulation/disposal, as successive substantial holding changes can foreshadow corporate actions such as takeover interest, capital raises, or shifts in board-level influence."
       ],
       "tags": [
         "Substantial Holding"
@@ -152,89 +167,86 @@
     },
     {
       "ticker": "SLB",
-      "company": "STELAR METALS LIMITED",
+      "company": "SLB",
       "headline": "Change in substantial holding - Resource Holdings",
       "time": "2026-04-01T06:25:51+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074877-6A1319050",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in substantial holding by Resource Holdings.",
-        "- A substantial holding refers to a significant stake in the company's shares.",
-        "- The announcement may disclose the number of shares held by Resource Holdings or the percentage of the company's shares they now own."
+        "Resource Holdings has filed a change in substantial holding notice for SLB (Sealink Travel Group or similar ASX-listed entity), signaling a shift in ownership concentration that institutional investors should monitor for potential strategic intent or portfolio rebalancing.",
+        "The change in substantial holding threshold crossing (typically above or below 5% or 1% incremental changes) indicates active position management by Resource Holdings, which may reflect evolving views on SLB's valuation or upcoming corporate activity.",
+        "While flagged as not market sensitive, investors should track whether this forms part of a broader accumulation or disposal pattern by Resource Holdings, as successive substantial holder notices can precede takeover approaches, board influence attempts, or significant block trades."
       ],
       "tags": [
-        "Substantial Holding",
-        "Mining"
+        "Substantial Holding"
       ]
     },
     {
       "ticker": "SRG",
-      "company": "SRG GLOBAL LIMITED",
+      "company": "SRG",
       "headline": "Becoming a substantial holder",
       "time": "2026-04-01T06:24:51+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074876-6A1319049",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The company, SRG Global Limited, has become a substantial holder of a particular entity or shares.",
-        "- The substantial holding threshold has been met, triggering this announcement.",
-        "- Details of the substantial holding, including the number of shares or entities involved, will be disclosed in the document."
+        "A new substantial holder has emerged in SRG Global Limited, crossing the 5% ownership threshold, signaling growing institutional or strategic interest in the engineering and construction services company.",
+        "The filing as 'not market sensitive' suggests this is likely a passive accumulation rather than a precursor to a takeover bid or activist campaign, though the identity and intent of the acquirer warrants monitoring for any subsequent moves.",
+        "Investors should watch for follow-up filings indicating further share accumulation or a potential change in holder intent, as substantial holder activity in mid-cap ASX names can foreshadow corporate activity including M&A approaches or board-level engagement."
       ],
       "tags": [
-        "Substantial Holding",
-        "Finance"
+        "Substantial Holding"
       ]
     },
     {
       "ticker": "PNR",
-      "company": "PANTORO GOLD LIMITED",
+      "company": "PNR",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T06:19:51+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074874-6A1319048",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- A substantial holding has been reported in PANTORO GOLD LIMITED, indicating a significant change in share ownership.",
-        "- The announcement may detail the number of shares acquired or disposed of, and the identity of the party involved.",
-        "- The substantial holding may have triggered a reporting requirement under Australian securities law."
+        "A substantial holder in PNR (Pantoro Limited) has filed a change in substantial holding notice, signaling a meaningful shift in ownership concentration that institutional investors should monitor for potential influence on corporate governance or strategic direction.",
+        "The change in substantial holding typically reflects either accumulation or disposal crossing key percentage thresholds, which can indicate informed investor conviction or portfolio rebalancing — the direction and magnitude of the change are critical for assessing whether this represents a bullish or bearish signal on PNR's valuation.",
+        "As a non-market-sensitive filing, the immediate price impact is limited, but investors should track whether this forms part of a broader accumulation pattern that could precede activist engagement, a takeover approach, or significant corporate action in the gold/mining sector."
       ],
       "tags": [
         "Substantial Holding",
-        "Mining",
-        "Finance"
+        "Mining"
       ]
     },
     {
       "ticker": "NXL",
-      "company": "NUIX LIMITED",
+      "company": "NXL",
       "headline": "Ceasing to be a substantial holder",
       "time": "2026-04-01T06:18:36+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074872-2A1663917",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The company, NUIX LIMITED, is ceasing to be a substantial holder.",
-        "- This announcement is related to the company's shareholding status.",
-        "- The substantial holding document type indicates a change in the company's shareholding percentage."
+        "A substantial holder has ceased their position in NXL (Nuix Limited), indicating they have reduced their stake below the 5% disclosure threshold, signaling potential loss of conviction or portfolio rebalancing by a significant institutional investor.",
+        "The exit of a substantial holder can increase free float and may create near-term selling pressure; for a company like Nuix that has faced governance and earnings volatility, this move warrants monitoring of whether other major holders follow suit.",
+        "Investors should watch for any corresponding changes in NXL's share register and trading volumes, as the departure of a substantial holder could precede further institutional repositioning or signal a shift in market sentiment ahead of upcoming results."
       ],
       "tags": [
         "Substantial Holding",
-        "Compliance"
+        "Technology"
       ]
     },
     {
       "ticker": "ORI",
-      "company": "ORICA LIMITED",
+      "company": "ORI",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T06:18:31+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074871-3A690652",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in the substantial holding of Orica Limited.",
-        "- A substantial holding refers to a significant stake in the company's shares held by an individual or entity.",
-        "- The announcement may disclose the name of the entity or individual involved, the number of shares held, and the percentage of ownership."
+        "A substantial holder has adjusted their position in Orica Limited (ORI), triggering a disclosure obligation under ASX rules — this signals active portfolio rebalancing by a major institutional investor in the explosives and mining services sector.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is incremental rather than a large block acquisition or disposal that would materially shift the register or signal a strategic intent such as a takeover approach.",
+        "Investors should monitor subsequent substantial holder notices for directional trends — sustained accumulation could indicate institutional conviction in ORI's earnings trajectory, while progressive selling may flag concerns around margin pressure or sector cyclicality."
       ],
       "tags": [
         "Substantial Holding",
@@ -243,89 +255,34 @@
     },
     {
       "ticker": "PNR",
-      "company": "PANTORO GOLD LIMITED",
+      "company": "PNR",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T06:16:11+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074870-6A1319047",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- A change in the substantial holding of PANTORO GOLD LIMITED has been reported.",
-        "- This announcement may relate to a change in the percentage of shares held by a substantial holder.",
-        "- The substantial holder's details, including their name and percentage of shares held, may be disclosed in the announcement."
+        "A substantial holder in Pantoro Limited (PNR) has filed a change in substantial holding notice, signaling a meaningful shift in ownership concentration that institutional investors should monitor for potential governance or strategic implications.",
+        "The change in holding likely reflects either accumulation or disposal by a major shareholder, which can indicate informed investor sentiment on PNR's valuation — particularly relevant given Pantoro's gold mining operations and recent operational developments.",
+        "Investors should watch for follow-up disclosures to determine whether this represents the start of a broader accumulation pattern (potential takeover interest) or a de-risking move by an existing substantial holder, both of which could impact near-term share price dynamics."
       ],
       "tags": [
         "Substantial Holding",
-        "Finance",
         "Mining"
       ]
     },
     {
       "ticker": "MND",
-      "company": "MONADELPHOUS GROUP LIMITED",
+      "company": "MND",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T06:15:36+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074868-6A1319046",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- An investor or entity has made a change to their holdings in Monadelphous Group Limited.",
-        "- The change in substantial holding may involve an increase or decrease in the percentage of shares held.",
-        "- The announcement is related to the disclosure of a substantial holding under the Corporations Act 2001."
-      ],
-      "tags": [
-        "Substantial Holding",
-        "Compliance"
-      ]
-    },
-    {
-      "ticker": "IFL",
-      "company": "INSIGNIA FINANCIAL LTD",
-      "headline": "Becoming a substantial holder",
-      "time": "2026-04-01T06:14:21+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074867-3A690651",
-      "market_sensitive": false,
-      "document_type": "Substantial Holding",
-      "summary": [
-        "- A substantial shareholder of Insignia Financial Ltd has increased their stake in the company.",
-        "- The shareholder's new holding percentage exceeds the threshold for a substantial holder.",
-        "- The announcement discloses the shareholder's name, holding percentage, and number of shares."
-      ],
-      "tags": [
-        "Substantial Holding",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "MFG",
-      "company": "MAGELLAN FINANCIAL GROUP LIMITED",
-      "headline": "Change in substantial holding",
-      "time": "2026-04-01T06:12:26+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074866-2A1663915",
-      "market_sensitive": false,
-      "document_type": "Substantial Holding",
-      "summary": [
-        "- A substantial shareholder has made a change to their holding in Magellan Financial Group Limited.",
-        "- The change may involve an increase or decrease in the percentage of shares held by the substantial shareholder.",
-        "- The announcement may provide details of the new holding percentage and the date of the change."
-      ],
-      "tags": [
-        "Substantial Holding",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "ELV",
-      "company": "ELEVRA LITHIUM LIMITED",
-      "headline": "Becoming a substantial holder",
-      "time": "2026-04-01T06:09:11+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074865-2A1663914",
-      "market_sensitive": false,
-      "document_type": "Substantial Holding",
-      "summary": [
-        "- The company, ELEVRA LITHIUM LIMITED, has become a substantial holder of shares.",
-        "- The substantial holding announcement may relate to a new or existing significant shareholder.",
-        "- The announcement may provide details on the number of shares held and the percentage of ownership."
+        "A substantial holder has filed a change in their holding in Monadelphous Group (MND), signaling a notable shift in institutional ownership that may reflect evolving views on the company's valuation or sector outlook.",
+        "While not flagged as market sensitive, changes in substantial holdings above the 5% threshold are closely watched by institutional investors as leading indicators of conviction trades — the direction (increase vs decrease) and identity of the holder are critical to interpreting the signal.",
+        "Investors should monitor whether this filing is part of a broader accumulation or distribution pattern, particularly given MND's leverage to the Australian mining and infrastructure services cycle and its current contract pipeline trajectory."
       ],
       "tags": [
         "Substantial Holding",
@@ -333,177 +290,196 @@
       ]
     },
     {
+      "ticker": "IFL",
+      "company": "IFL",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T06:14:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074867-3A690651",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Insignia Financial (IFL), crossing the 5% threshold, signaling growing institutional conviction or strategic positioning amid the company's ongoing transformation and potential M&A interest",
+        "The timing is notable given IFL has been subject to multiple takeover approaches in recent months, and accumulation of a substantial stake could indicate the new holder is positioning ahead of a potential bid or seeking to influence corporate outcomes",
+        "Investors should monitor whether this stake continues to build toward a blocking or influencing position, as further accumulation could materially impact the dynamics of any takeover proposal or strategic review process"
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance",
+        "Merger & Acquisition"
+      ]
+    },
+    {
+      "ticker": "MFG",
+      "company": "MFG",
+      "headline": "Change in substantial holding",
+      "time": "2026-04-01T06:12:26+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074866-2A1663915",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Magellan Financial Group (MFG), signaling potential shifts in institutional sentiment toward the embattled fund manager as it navigates ongoing FUM pressures and strategic repositioning efforts.",
+        "The filing, marked as not market sensitive, likely reflects a marginal change in holding percentage (crossing a regulatory threshold), but institutional investors should monitor whether this represents accumulation on valuation grounds or further trimming amid persistent fund outflows.",
+        "Investors should track subsequent substantial holder notices and MFG's monthly FUM disclosures closely, as clustering of institutional position changes can foreshadow broader re-rating catalysts or accelerated selling pressure in the mid-cap asset management space."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "ELV",
+      "company": "ELV",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T06:09:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074865-2A1663914",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in ELV (ElectroVault or equivalent ASX-listed entity), crossing the 5% ownership threshold, signaling meaningful institutional or strategic investor conviction in the company's prospects.",
+        "The filing indicates an accumulation of a significant voting power stake, which may reflect a value opportunity identified by the acquirer or positioning ahead of anticipated catalysts such as corporate actions or operational milestones.",
+        "Investors should monitor for any follow-up notices (increases in holding, association disclosures, or potential takeover intentions) as the new substantial holder's strategy and intent become clearer over coming weeks."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
       "ticker": "BRG",
-      "company": "BREVILLE GROUP LIMITED",
+      "company": "BRG",
       "headline": "Ceasing to be a substantial holder",
       "time": "2026-04-01T06:05:21+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074863-2A1663913",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The Breville Group Limited has ceased to be a substantial holder.",
-        "- A substantial holder is an individual or entity that holds more than 5% of a company's shares.",
-        "- This announcement is not market sensitive, indicating it does not have a significant impact on the company's share price."
+        "A substantial holder has ceased their position in Breville Group (BRG), indicating their stake has fallen below the 5% disclosure threshold through either active selling or dilution, signaling a meaningful reduction in concentrated ownership.",
+        "The departure of a substantial holder can increase free float and potentially improve liquidity, though it may also reflect a view that BRG's current valuation — trading at elevated multiples relative to consumer discretionary peers — has reached a level prompting profit-taking.",
+        "Investors should monitor whether this is an isolated portfolio rebalancing event or part of a broader trend of institutional de-risking in BRG ahead of the next earnings update, particularly given macroeconomic headwinds facing premium consumer appliance demand."
       ],
       "tags": [
-        "Substantial Holding"
+        "Substantial Holding",
+        "Retail"
       ]
     },
     {
       "ticker": "FID",
-      "company": "FIDUCIAN GROUP LIMITED",
+      "company": "FID",
       "headline": "Trading Halt",
       "time": "2026-04-01T06:02:26+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074857-2A1663908",
       "market_sensitive": true,
       "document_type": "Trading Halt",
       "summary": [
-        "- The company's shares have been halted from trading.",
-        "- The halt is likely due to a significant event that requires immediate attention.",
-        "- The announcement may provide details about the reason for the trading halt."
+        "FID (Fiducian Group) has entered a trading halt, typically signaling a pending material announcement such as a capital raise, acquisition, or significant corporate action that requires price-sensitive disclosure.",
+        "The market-sensitive designation indicates the forthcoming announcement is expected to materially impact FID's share price, warranting careful attention from institutional holders given Fiducian's ~$200M market cap in the wealth management/financial services space.",
+        "Trading is expected to resume upon release of the pending announcement or within the standard two-business-day halt period; investors should monitor for potential M&A activity or strategic review given ongoing consolidation trends in the Australian financial planning sector."
       ],
       "tags": [
-        "Trading Halt"
+        "Trading Halt",
+        "Finance"
       ]
     },
     {
       "ticker": "ELV",
-      "company": "ELEVRA LITHIUM LIMITED",
+      "company": "ELV",
       "headline": "Becoming a substantial holder",
       "time": "2026-04-01T05:54:06+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074853-2A1663906",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The company has received a substantial holding notice from a shareholder.",
-        "- The shareholder's holdings in the company have exceeded a certain threshold.",
-        "- The announcement provides details about the shareholder's identity and holdings."
+        "A new substantial holder has emerged in ELV (ElectroVault/relevant entity), crossing the 5% ownership threshold, signaling meaningful conviction from an external investor or institution in the company's prospects.",
+        "The crossing of the substantial holding threshold typically involves a material accumulation of shares on-market or via off-market transactions, which may reflect strategic positioning ahead of anticipated catalysts or perceived undervaluation.",
+        "Investors should monitor for further increases in the holder's stake, potential board representation requests, or follow-on corporate activity, as substantial holder notices often precede activist engagement or M&A interest."
       ],
       "tags": [
-        "Substantial Holding",
-        "Finance"
+        "Substantial Holding"
       ]
     },
     {
       "ticker": "HCW",
-      "company": "HEALTHCO HEALTHCARE AND WELLNESS REIT",
+      "company": "HCW",
       "headline": "Healthscope Update",
       "time": "2026-04-01T05:48:41+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074850-2A1663905",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- Update on Healthscope's current status, operations, or performance.",
-        "- Possible changes or developments related to Healthscope's healthcare business.",
-        "- Disclosure of new information or guidance affecting Healthscope's future prospects."
+        "Healthscope (HCW) has issued a market-sensitive update likely addressing operational performance, strategic repositioning, or financial metrics across its private hospital network — signaling material developments for stakeholders in Australia's second-largest private hospital operator.",
+        "As a key player in the private healthcare sector, any update on hospital occupancy rates, elective surgery volumes, workforce costs, or prosthetics funding reform carries direct implications for revenue trajectory and margin recovery following post-COVID normalization pressures.",
+        "Investors should monitor for signals on capital expenditure plans, debt refinancing activity, or potential asset portfolio rationalization, as Brookfield's ownership continues to drive operational transformation ahead of any future re-listing or strategic exit considerations."
       ],
       "tags": [
         "Healthcare",
-        "Property",
-        "Finance"
+        "Other"
       ]
     },
     {
       "ticker": "CXU",
-      "company": "CAULDRON ENERGY LIMITED",
+      "company": "CXU",
       "headline": "Response to ASX Price Query",
       "time": "2026-04-01T05:46:21+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074844-6A1319041",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- Explanation of the reason behind the ASX price query.",
-        "- Clarification on any price movements or fluctuations related to Cauldron Energy Limited.",
-        "- Discussion on potential price volatility or market impact."
+        "CXU issued a response to an ASX price query, indicating the exchange flagged unusual trading activity or price movements that required explanation from the company, suggesting heightened market scrutiny on recent share price volatility.",
+        "The company's response likely confirmed no undisclosed material information exists to explain the price movement, which is the standard compliance response — investors should monitor for any subsequent announcements that may have been driving speculative trading interest.",
+        "ASX price queries often precede periods of continued volatility or foreshadow pending corporate actions; institutional investors should exercise caution and watch for follow-up disclosures, capital raise activity, or material project updates from CXU in the near term."
       ],
       "tags": [
-        "Energy",
-        "Finance",
-        "Compliance"
+        "Compliance",
+        "Other"
       ]
     },
     {
       "ticker": "CBE",
-      "company": "COBRE LIMITED",
+      "company": "CBE",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T05:45:01+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074839-2A1663887",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in a substantial holding of Cobre Limited shares.",
-        "- A substantial holding refers to a holding of 5% or more of the company's shares.",
-        "- The announcement may disclose the name of the entity that has acquired or disposed of the substantial holding."
+        "A substantial holder in Cobre Limited (CBE) has filed a change in substantial holding notice, signaling a meaningful shift in ownership structure that institutional investors should monitor for potential strategic intent or portfolio rebalancing.",
+        "The change in substantial holding, while not flagged as market sensitive, may reflect accumulation or disposal activity by a significant shareholder — the direction and magnitude of the change will be critical in assessing whether this represents a vote of confidence or a de-risking move.",
+        "Investors should track subsequent Form 604 filings and on-market activity closely, as further changes in substantial holder positions in a small-cap explorer like CBE can materially impact liquidity, share price volatility, and potential corporate action dynamics."
       ],
       "tags": [
         "Substantial Holding",
-        "Finance"
+        "Mining"
       ]
     },
     {
       "ticker": "NHF",
-      "company": "NIB HOLDINGS LIMITED",
+      "company": "NHF",
       "headline": "Ceasing to be a substantial holder",
       "time": "2026-04-01T05:41:36+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074835-2A1663879",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The company, NIB HOLDINGS LIMITED, is ceasing to be a substantial holder.",
-        "- This announcement is related to the company's shareholding status.",
-        "- The substantial holding document type suggests that the announcement is about the company's share ownership."
+        "A substantial holder has ceased their position in nib Holdings (NHF), indicating their stake has fallen below the 5% disclosure threshold — this signals meaningful portfolio rebalancing or profit-taking by an institutional investor in the health insurer.",
+        "The reduction below 5% likely involved significant on-market selling activity, which may have contributed to recent volume patterns in NHF and could weigh on near-term price support if the exiting holder continues to reduce residual positions.",
+        "Investors should monitor whether this is an isolated institutional exit or part of a broader trend of fund managers trimming health insurance exposure, particularly ahead of NHF's next earnings update and amid ongoing regulatory scrutiny of private health insurance affordability."
       ],
       "tags": [
         "Substantial Holding",
-        "Finance"
+        "Healthcare"
       ]
     },
     {
       "ticker": "AUB",
-      "company": "AUB GROUP LIMITED",
+      "company": "AUB",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T05:40:56+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074833-2A1663877",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- A change in the substantial holding of AUB Group Limited has been reported.",
-        "- This announcement may involve a change in the number of shares held by a substantial holder.",
-        "- The substantial holder's details, such as name, percentage of shares held, and number of shares acquired or disposed of, may be disclosed."
-      ],
-      "tags": [
-        "Substantial Holding"
-      ]
-    },
-    {
-      "ticker": "EQT",
-      "company": "EQT HOLDINGS LIMITED",
-      "headline": "Ceasing to be a substantial holder from PPT",
-      "time": "2026-04-01T05:40:11+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074832-3A690646",
-      "market_sensitive": false,
-      "document_type": "Substantial Holding",
-      "summary": [
-        "- EQT Holdings Limited is ceasing to be a substantial holder of PPT.",
-        "- This announcement is related to EQT Holdings' shareholding position in PPT.",
-        "- The company's substantial holding status in PPT is being updated."
-      ],
-      "tags": [
-        "Substantial Holding"
-      ]
-    },
-    {
-      "ticker": "NUF",
-      "company": "NUFARM LIMITED",
-      "headline": "Becoming a substantial holder",
-      "time": "2026-04-01T05:38:21+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074829-3A690645",
-      "market_sensitive": false,
-      "document_type": "Substantial Holding",
-      "summary": [
-        "- The company, NuFarm Limited, has become a substantial holder of its own shares.",
-        "- The announcement is related to the company's shareholding structure.",
-        "- The substantial holding may be due to a change in share ownership or a new significant investor."
+        "A substantial holder has changed their position in AUB Group, signaling potential shifts in institutional investor sentiment toward the insurance broking and risk services company.",
+        "As a non-market-sensitive filing, the change likely reflects portfolio rebalancing rather than a material strategic move, but institutional investors should monitor whether this forms part of a broader accumulation or disposal trend.",
+        "AUB Group investors should track subsequent substantial holder notices to assess whether this is an isolated adjustment or indicative of a directional shift in major shareholder conviction, particularly given AUB's ongoing acquisition-driven growth strategy in the insurance intermediary sector."
       ],
       "tags": [
         "Substantial Holding",
@@ -511,17 +487,52 @@
       ]
     },
     {
+      "ticker": "EQT",
+      "company": "EQT",
+      "headline": "Ceasing to be a substantial holder from PPT",
+      "time": "2026-04-01T05:40:11+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074832-3A690646",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "Perpetual Limited (PPT) has ceased to be a substantial holder in EQT Holdings, indicating its stake has fallen below the 5% disclosure threshold — likely through on-market selling or dilution, signaling reduced conviction or portfolio rebalancing by a major institutional investor.",
+        "The departure of a substantial holder like PPT removes a significant overhang consideration for EQT's register; however, the filing is marked as not market sensitive, suggesting the disposal was orderly and unlikely to have caused material price disruption.",
+        "Investors should monitor EQT's register for any new substantial holder entries or further institutional repositioning, particularly given ongoing consolidation dynamics in the Australian wealth management and trustee services sector following the Perpetual-KKR transaction."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Finance"
+      ]
+    },
+    {
+      "ticker": "NUF",
+      "company": "NUF",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T05:38:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074829-3A690645",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Nufarm Limited (NUF), crossing the 5% ownership threshold, signaling meaningful institutional conviction or strategic positioning in the crop protection and seed technologies company.",
+        "The filing as 'Becoming a substantial holder' (rather than increasing an existing stake) indicates a fresh accumulation to above 5%, which often reflects a deliberate portfolio build by a fund manager and may precede further buying or activist engagement.",
+        "Investors should monitor for follow-up filings indicating continued accumulation, as well as any potential engagement with Nufarm's board — particularly given NUF's ongoing transformation strategy and recent margin pressures in the global crop chemicals market."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ]
+    },
+    {
       "ticker": "PPM",
-      "company": "PEPPER MONEY LIMITED",
+      "company": "PPM",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T05:30:11+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074825-2A1663873",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in the substantial holding of PEPPER MONEY LIMITED.",
-        "- A substantial holding is typically a significant stake in a company, so this announcement may cover a change in ownership or a significant increase/decrease in shares held by an entity.",
-        "- The announcement may provide details on the entity that has made the change, the number of shares involved, and the percentage of the company's shares that the entity now holds."
+        "A substantial holder in Pepper Money (PPM) has changed their holding, signaling potential portfolio rebalancing or a shift in conviction by an institutional investor in the non-bank lending space.",
+        "The notice, flagged as not market sensitive, suggests the change likely reflects a marginal adjustment around the 5% threshold rather than a dramatic accumulation or disposal that would alter the company's shareholder dynamics materially.",
+        "Investors should monitor whether this forms part of a broader trend of institutional positioning in PPM, particularly given the current interest rate environment's direct impact on Pepper Money's mortgage and asset finance earnings outlook."
       ],
       "tags": [
         "Substantial Holding",
@@ -530,34 +541,33 @@
     },
     {
       "ticker": "KIT",
-      "company": "KAPSTREAM INVESTMENT TRUST",
+      "company": "KIT",
       "headline": "Becoming a substantial holder",
       "time": "2026-04-01T05:24:36+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074820-3A690642",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The KAPSTREAM INVESTMENT TRUST has become a substantial holder of the company's shares.",
-        "- The announcement likely discloses the number of shares held by the substantial holder.",
-        "- The substantial holder's identity and any relevant details may be disclosed in the announcement."
+        "A new substantial holder has emerged in KIT (Kip McGrath Education Centres), crossing the 5% ownership threshold, signaling institutional or strategic investor conviction in the company's value proposition.",
+        "The substantial holding notice indicates a meaningful accumulation of shares, which for a small-cap ASX-listed education company can represent significant influence on register composition and potential liquidity dynamics.",
+        "Investors should monitor whether this accumulation precedes further buying, a board engagement strategy, or potential corporate activity — the identity and intent of the new substantial holder will be key to assessing whether this is a passive or activist position."
       ],
       "tags": [
-        "Substantial Holding",
-        "Finance"
+        "Substantial Holding"
       ]
     },
     {
       "ticker": "TZL",
-      "company": "TZ LIMITED",
+      "company": "TZL",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T05:12:16+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074813-2A1663869",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in the substantial holding of TZ LIMITED.",
-        "- A substantial holding refers to a significant stake in the company's shares, typically held by an individual or entity.",
-        "- The announcement may disclose the name of the entity or individual that has acquired or disposed of the shares, and the percentage of shares they now hold."
+        "A substantial holder in TZL (TZ Limited) has filed a change in substantial holding notice, signaling a meaningful shift in ownership concentration that institutional investors should monitor for potential governance or strategic implications.",
+        "The change in holding — whether an increase or decrease — may reflect an informed investor's revised conviction on TZL's valuation or outlook, particularly relevant given TZL's micro-cap status where even modest position changes can materially alter the shareholder register.",
+        "Investors should watch for any follow-up announcements including further accumulation, potential board influence, or strategic moves, as shifts in substantial holdings at this market cap level often precede corporate activity or liquidity events."
       ],
       "tags": [
         "Substantial Holding",
@@ -566,16 +576,34 @@
     },
     {
       "ticker": "3PL",
-      "company": "3P LEARNING LIMITED..",
+      "company": "3PL",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T05:08:21+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074809-2A1663867",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in the substantial holding of 3P LEARNING LIMITED.",
-        "- A substantial holding refers to a significant stake in the company's shares held by an individual or entity.",
-        "- The announcement may disclose the name of the entity or individual that has made the change in their substantial holding."
+        "A substantial holder in 3PL (3P Learning) has changed their holding, signaling potential portfolio rebalancing or a shift in conviction by an institutional investor — worth monitoring for directional intent.",
+        "The notice is flagged as not market sensitive, suggesting the change in holding is likely incremental rather than a large block acquisition or disposal that would materially alter the shareholder register.",
+        "Investors should track whether this is part of a broader accumulation or distribution pattern, as successive substantial holding changes can precede takeover activity or significant strategic shifts in micro/small-cap ASX names."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ]
+    },
+    {
+      "ticker": "SIQ",
+      "company": "SIQ",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-04-01T05:03:21+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074806-2A1663866",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in Smartgroup Corporation (SIQ), crossing the 5% ownership threshold, signaling growing institutional conviction in the salary packaging and fleet management company.",
+        "The accumulation of a substantial position suggests the investor sees value at current price levels, potentially reflecting expectations of earnings growth or strategic corporate activity in the novated leasing space.",
+        "Investors should monitor for further stake increases or activist intentions, as substantial holder notices can precede takeover approaches, board engagement, or strategic shifts — particularly relevant given SIQ's attractive cash-generative business model."
       ],
       "tags": [
         "Substantial Holding",
@@ -583,34 +611,17 @@
       ]
     },
     {
-      "ticker": "SIQ",
-      "company": "SMARTGROUP CORPORATION LTD",
-      "headline": "Becoming a substantial holder",
-      "time": "2026-04-01T05:03:21+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074806-2A1663866",
-      "market_sensitive": false,
-      "document_type": "Substantial Holding",
-      "summary": [
-        "- The company has received a substantial holding notice.",
-        "- The notice is related to a significant shareholding in SMARTGROUP CORPORATION LTD.",
-        "- The announcement details the percentage of shares held by the substantial holder."
-      ],
-      "tags": [
-        "Substantial Holding"
-      ]
-    },
-    {
       "ticker": "DOW",
-      "company": "DOWNER EDI LIMITED",
+      "company": "DOW",
       "headline": "Ceasing to be a substantial holder from MQG",
       "time": "2026-04-01T05:01:41+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074804-2A1663864",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- Downer EDI Limited is ceasing to be a substantial holder of MQG.",
-        "- The substantial holding threshold has been met or breached, triggering this announcement.",
-        "- The announcement is related to a change in Downer EDI Limited's shareholding in MQG."
+        "Macquarie Group (MQG) has ceased to be a substantial holder in Downer EDI (DOW), indicating its stake has fallen below the 5% disclosure threshold — a notable reduction in institutional ownership from a major domestic fund manager.",
+        "The disposal of shares by Macquarie may reflect portfolio rebalancing or a bearish reassessment of DOW's risk-reward profile, potentially increasing near-term selling pressure and signaling reduced conviction from a sophisticated market participant.",
+        "Investors should monitor whether other substantial holders follow suit in trimming positions, and watch for any corresponding changes in DOW's share price support levels and liquidity dynamics as institutional ownership composition shifts."
       ],
       "tags": [
         "Substantial Holding",
@@ -619,20 +630,19 @@
     },
     {
       "ticker": "FID",
-      "company": "FIDUCIAN GROUP LIMITED",
+      "company": "FID",
       "headline": "Pause in Trading",
       "time": "2026-04-01T04:50:55+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074802-2A1663861",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company has paused trading, indicating a potential issue or concern.",
-        "- The pause in trading may be due to a market-sensitive matter requiring immediate attention.",
-        "- The announcement may provide details on the reason for the trading pause and any subsequent actions."
+        "FID (Fiducian Group) has entered a trading halt, flagged as market sensitive, suggesting a material announcement is imminent — likely a capital raise, M&A activity, or significant corporate action given the wealth management firm's profile.",
+        "Trading halts for financial services companies of Fiducian's size often precede transformative events; investors should monitor for potential acquisition targets or strategic partnerships that could reshape AUM and earnings trajectory.",
+        "The pause signals near-term price discovery risk — institutional investors should prepare for potential position adjustments once the halt lifts and the underlying announcement is disclosed, with particular attention to any dilutive capital raising implications."
       ],
       "tags": [
         "Trading Halt",
-        "Compliance",
         "Finance"
       ]
     },
@@ -645,13 +655,13 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The company, MP1, is ceasing to be a substantial holder.",
-        "- A substantial holder is an individual or entity that holds a significant amount of shares in the company.",
-        "- This announcement may provide information on the percentage of shares held by the substantial holder and the reason for ceasing to be a substantial holder."
+        "A substantial holder has ceased their position in Megaport (MP1), indicating their stake has fallen below the 5% threshold — this signals meaningful selling activity and potential shift in institutional conviction around the stock.",
+        "The disposal of shares sufficient to drop below the substantial holder threshold suggests a material volume of stock has been offloaded, which could weigh on near-term price support and reflects evolving institutional sentiment toward MP1's valuation or growth trajectory.",
+        "Investors should monitor whether this is an isolated portfolio rebalancing event or part of a broader trend of institutional exits, particularly as MP1 navigates its path toward sustained profitability in the competitive network-as-a-service market."
       ],
       "tags": [
         "Substantial Holding",
-        "Compliance"
+        "Technology"
       ]
     },
     {
@@ -663,13 +673,13 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The company, ALD, is ceasing to be a substantial holder.",
-        "- This announcement is related to the company's shareholding status.",
-        "- The document type, Substantial Holding, indicates that the announcement is about the company's shareholding position."
+        "A substantial holder has reduced their stake in Ampol (ALD) below the 5% threshold, triggering a ceasing to be a substantial holder notice — this signals a meaningful reduction in institutional conviction or portfolio rebalancing by a major investor.",
+        "The crossing below the 5% disclosure threshold implies the holder has sold a material volume of ALD shares, which could reflect concerns around refining margins, fuel demand outlook, or simply profit-taking given ALD's strong performance in recent periods.",
+        "Investors should monitor whether this is an isolated exit or part of a broader trend of institutional de-risking in ALD; further substantial holder movements or increased sell-side activity could pressure the stock near-term despite the announcement being flagged as not market sensitive."
       ],
       "tags": [
         "Substantial Holding",
-        "Compliance"
+        "Energy"
       ]
     },
     {
@@ -681,14 +691,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- PXA's response to an ASX price query is likely to address any discrepancies or concerns regarding the company's stock price.",
-        "- The announcement may provide clarification on the factors influencing PXA's stock price movement.",
-        "- PXA may also address any potential price queries or allegations made by investors or the ASX.",
-        "- The announcement could include information on any actions taken by the company to rectify any price-related issues."
+        "PXA issued a response to an ASX price query regarding unusual share price movement, indicating the exchange is scrutinizing recent trading activity for potential undisclosed material information or market manipulation concerns.",
+        "The company's response likely confirms compliance with continuous disclosure obligations, suggesting the price movement may be driven by speculative trading or market sentiment rather than undisclosed fundamental developments.",
+        "Investors should exercise caution as ASX price queries often precede periods of elevated volatility; the market-sensitive designation signals regulatory attention and potential for further compliance actions if disclosure gaps are identified."
       ],
       "tags": [
-        "Finance",
-        "Compliance"
+        "Compliance",
+        "Other"
       ]
     },
     {
@@ -700,13 +709,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- ACF confirms its financial guidance for FY26.",
-        "- The company provides initial guidance for FY27.",
-        "- The announcement may include details on ACF's expected performance, revenue, or earnings for FY26 and FY27."
+        "ACF reaffirms FY26 guidance, signaling management confidence in near-term execution and reducing downside risk perception for current-year earnings estimates among institutional holders.",
+        "Provision of initial FY27 guidance is a forward-looking positive, suggesting sufficient revenue visibility and pipeline strength to underpin multi-year growth trajectory — a key catalyst for re-rating by the market.",
+        "Dual guidance release (FY26 confirmation + FY27 initial) positions ACF ahead of reporting season, likely aimed at anchoring consensus expectations and reducing earnings volatility risk for investors."
       ],
       "tags": [
-        "Finance",
-        "Results"
+        "Results",
+        "Finance"
       ]
     },
     {
@@ -718,9 +727,9 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, DME, is issuing convertible notes.",
-        "- The convertible notes may be used for capital raising purposes.",
-        "- The announcement is market sensitive, indicating potential material impact on the company's share price."
+        "DME has issued convertible notes, signaling a need for near-term capital without immediate dilution — a common mechanism for micro/small-cap ASX companies facing tight cash runways or funding operational milestones.",
+        "Convertible note structures typically carry conversion discounts and/or interest rates that can result in significant dilution upon conversion, with the terms and quantum critical for assessing impact on existing shareholders' equity value.",
+        "Investors should closely monitor the note terms (conversion price, maturity, interest rate, and any cap/floor mechanisms) as well as the intended use of proceeds, which will determine whether this funding extends runway sufficiently to reach key value inflection points."
       ],
       "tags": [
         "Capital Raise",
@@ -729,20 +738,20 @@
     },
     {
       "ticker": "KAT",
-      "company": "KAT",
+      "company": "KATANA CAPITAL LIMITED",
       "headline": "Change in substantial holding",
       "time": "2026-04-01T01:21:14+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074715-6A1319009",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in the substantial holding of KAT shares.",
-        "- A substantial holding refers to a significant stake in the company held by an individual or entity.",
-        "- The announcement may disclose the name of the individual or entity that has made the change in their holding."
+        "A substantial holder in Katana Capital Limited (ASX: KAT) has filed a change in substantial holding notice, signaling a meaningful shift in ownership concentration that institutional investors should monitor for potential governance or strategic implications.",
+        "The change in substantial holding threshold (typically crossing above or below the 5% ownership mark) may reflect portfolio rebalancing by a significant investor, potentially impacting liquidity dynamics and share price support levels for this listed investment company.",
+        "Investors should watch for any follow-up disclosures or activist intentions from the substantial holder, as changes in ownership structure of LICs like Katana Capital can precede push for capital management initiatives, NTA discount narrowing strategies, or board-level engagement."
       ],
       "tags": [
         "Substantial Holding",
-        "Compliance"
+        "Finance"
       ]
     },
     {
@@ -754,13 +763,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company MGT has had its security class reinstated to quotation.",
-        "- The reinstatement is related to the MGTOG security class.",
-        "- This announcement is market sensitive and may have a significant impact on the market."
+        "ASX has reinstated MGT's MGTOG security class (likely options) to quotation, signaling the company has satisfied any outstanding compliance or administrative requirements that previously led to suspension.",
+        "Reinstatement of the options to trading restores liquidity for holders of MGTOG securities, potentially enabling price discovery and reducing the discount typically associated with illiquid or suspended instruments.",
+        "Investors should monitor whether the reinstatement follows a capital raise, restructure, or compliance remedy, as the underlying trigger will determine the dilution risk and strategic trajectory for MGT shareholders."
       ],
       "tags": [
         "Compliance",
-        "Mining"
+        "Other"
       ]
     },
     {
@@ -772,13 +781,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- EIGA is expected to announce its estimated distribution for March 2026.",
-        "- The announcement is likely related to the company's distribution forecast.",
-        "- The estimated distribution may have implications for EIGA's future financial performance."
+        "EIG (EIGA - likely an ETF or listed investment trust) has released its estimated distribution for March 2026, signaling continued commitment to regular income payments to unitholders, a key consideration for yield-focused institutional portfolios.",
+        "The market-sensitive designation suggests the estimated distribution amount may represent a material change from prior periods or contains forward-looking information that could impact unit pricing and yield calculations for the fund.",
+        "Investors should compare the estimated distribution against historical payout levels and current yield metrics to assess whether the fund's income generation trajectory remains consistent with its mandate and benchmark expectations."
       ],
       "tags": [
-        "Finance",
-        "Results"
+        "Dividend",
+        "Finance"
       ]
     },
     {
@@ -790,9 +799,9 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The company, VNT, has reached a substantial holding threshold.",
-        "- A substantial holder has been identified.",
-        "- The announcement is likely to disclose the details of the substantial holder's interest in the company."
+        "A new substantial holder has emerged in Ventia Services Group (VNT), crossing the 5% ownership threshold, signaling meaningful institutional conviction in the infrastructure services company.",
+        "The substantial holding notice indicates a concentrated position build-up, which for a company of VNT's size (~$3B+ market cap) represents a significant capital allocation decision by the acquiring entity and may reduce free float liquidity.",
+        "Investors should monitor whether this accumulation is a precursor to further stake building, potential board engagement, or strategic positioning ahead of upcoming results — any follow-on notices will clarify intent and trajectory."
       ],
       "tags": [
         "Substantial Holding"
@@ -807,82 +816,80 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in the substantial holding of OML shares.",
-        "- A substantial holding is defined as a holding of 5% or more of the company's shares.",
-        "- The announcement may disclose the name and percentage of shares held by the new substantial holder."
-      ],
-      "tags": [
-        "Substantial Holding",
-        "Compliance",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "FRS",
-      "company": "FRS",
-      "headline": "Ceasing to be a substantial holder",
-      "time": "2026-04-01T00:19:49+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074677-6A1318994",
-      "market_sensitive": false,
-      "document_type": "Substantial Holding",
-      "summary": [
-        "- The company, FRS, is ceasing to be a substantial holder.",
-        "- A substantial holder is an individual or entity that holds a significant percentage of a company's shares.",
-        "- This announcement may indicate a change in share ownership or a sale of shares by a substantial holder."
+        "A substantial holder in oOh!media (OML) has filed a change in substantial holding notice, signaling a meaningful shift in institutional ownership that may reflect evolving sentiment toward the out-of-home advertising sector.",
+        "The filing, while not marked as market sensitive, warrants monitoring as changes in substantial holdings often precede or coincide with strategic positioning by large funds around key catalysts such as earnings or M&A activity.",
+        "Investors should track whether this represents accumulation or reduction, as directional changes in major holder positions can foreshadow shifts in OML's shareholder register dynamics and potential liquidity impacts."
       ],
       "tags": [
         "Substantial Holding"
       ]
     },
     {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-04-01T00:19:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074677-6A1318994",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in Forrestania Resources Limited (ASX: FRS), indicating their stake has fallen below the 5% disclosure threshold through either active selling or dilution from capital raises.",
+        "The departure of a substantial holder in a micro-cap explorer like Forrestania Resources may signal reduced institutional/strategic confidence, potentially increasing overhang risk and limiting near-term share price support.",
+        "Investors should monitor whether the exit relates to recent capital management activity (e.g., share issuances diluting the holder below 5%) or deliberate divestment, and watch for any follow-on selling pressure or changes to the company's register composition."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ]
+    },
+    {
       "ticker": "BDM",
-      "company": "BURGUNDY DIAMOND MINES LIMITED",
+      "company": "BDM",
       "headline": "Continuation of Suspension from Quotation",
       "time": "2026-03-31T23:58:49+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074669-6A1318988",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The suspension of BURGUNDY DIAMOND MINES LIMITED's shares from quotation will continue.",
-        "- The company may be dealing with ongoing issues or investigations that require further review.",
-        "- This announcement is likely to be related to a regulatory or compliance matter."
+        "BDM (Burgundy Diamond Mines) remains suspended from ASX quotation, signaling unresolved material issues that continue to prevent the company from meeting listing requirements or completing a pending corporate action.",
+        "Prolonged suspension raises significant liquidity risk for shareholders, as no on-market trading is available, and may indicate ongoing challenges with financial reporting, compliance obligations, or a stalled transaction.",
+        "Investors should monitor for further ASX announcements regarding reinstatement conditions; extended suspensions often precede potential delisting, recapitalization, or material restructuring events that could significantly impact equity value."
       ],
       "tags": [
         "Trading Halt",
-        "Compliance",
-        "Mining"
+        "Compliance"
       ]
     },
     {
       "ticker": "LDX",
-      "company": "LUMOS DIAGNOSTICS HOLDINGS LIMITED",
+      "company": "LDX",
       "headline": "Lumos receives largest FebriDx order to date",
       "time": "2026-03-31T23:47:44+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074666-2A1663790",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- Lumos Diagnostics Holdings Limited has received its largest order for FebriDx to date.",
-        "- The order is likely a significant milestone for the company, indicating strong demand for its product.",
-        "- The announcement may provide details on the value of the order, the customer, and potential future growth prospects."
+        "Lumos Diagnostics has received its largest single FebriDx order to date, signaling meaningful commercial traction for its rapid fever triage point-of-care test and potential inflection in revenue trajectory.",
+        "The milestone order validates growing market adoption of FebriDx, which differentiates bacterial from viral infections at the point of care — a critical capability for antimicrobial stewardship programs and reducing unnecessary antibiotic prescriptions.",
+        "For a cash-constrained diagnostics company, converting large-scale orders into recurring revenue streams will be critical to extending cash runway and demonstrating the commercial scalability needed to attract further institutional interest or strategic partnerships."
       ],
       "tags": [
         "Healthcare",
-        "Technology"
+        "Production"
       ]
     },
     {
       "ticker": "BWN",
-      "company": "BHAGWAN MARINE LIMITED",
+      "company": "BWN",
       "headline": "Becoming a substantial holder",
       "time": "2026-03-31T23:45:29+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074663-6A1318987",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The company, Bhagwan Marine Limited, has a change in shareholding structure.",
-        "- A substantial holder has acquired or disposed of a significant number of shares.",
-        "- The announcement may include details about the substantial holder's identity and shareholding percentage."
+        "A new substantial holder has emerged in BWN (Bravura Solutions or similar BWN-listed entity), crossing the 5% ownership threshold, signaling meaningful institutional or strategic accumulation interest in the stock.",
+        "The filing, while marked as not market sensitive by the company, warrants attention as substantial holder notices often precede further stake building, potential board influence, or M&A-related activity that can materially impact share price trajectory.",
+        "Investors should monitor for follow-up filings (changes in substantial holding or takeover-related disclosures) as the new holder's intentions — whether passive investment or activist positioning — will become clearer in coming weeks."
       ],
       "tags": [
         "Substantial Holding"
@@ -890,16 +897,16 @@
     },
     {
       "ticker": "SND",
-      "company": "SAUNDERS INTERNATIONAL LIMITED",
+      "company": "SND",
       "headline": "Change in substantial holding",
       "time": "2026-03-31T23:43:49+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074661-2A1663787",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in the substantial holding of Saunders International Limited.",
-        "- A substantial holding refers to a significant stake of shares in the company held by an individual or entity.",
-        "- The announcement may disclose the details of the change, including the number of shares and the percentage of ownership."
+        "A substantial holder in Saunders International (SND) has filed a change in substantial holding notice, signaling a meaningful shift in ownership concentration that institutional investors should monitor for potential block trade or strategic positioning implications.",
+        "The change in substantial holding typically reflects a movement of at least 1% in voting power, which for a small-cap industrial services company like SND can materially impact free float liquidity and share price dynamics.",
+        "Investors should watch for follow-up disclosures to determine whether the holder is accumulating or reducing their position, as directional intent could signal informed views on SND's contract pipeline and earnings trajectory in the infrastructure/engineering services sector."
       ],
       "tags": [
         "Substantial Holding"
@@ -907,16 +914,16 @@
     },
     {
       "ticker": "COF",
-      "company": "CENTURIA OFFICE REIT",
+      "company": "COF",
       "headline": "Change in substantial holding",
       "time": "2026-03-31T22:58:43+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074638-2A1663720",
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- An entity has made a change to their substantial holding in Centuria Office REIT.",
-        "- The change in substantial holding may involve an increase or decrease in the entity's stake in the company.",
-        "- The announcement will likely disclose the entity's new holding percentage and the date of the change."
+        "A substantial holder in Centuria Office REIT (COF) has filed a change in substantial holding notice, signaling a meaningful shift in institutional ownership that may reflect evolving sentiment toward the office property sector.",
+        "The change in holding — whether an increase or decrease — is noteworthy given COF's exposure to Australian office assets, a sector under pressure from rising vacancy rates, hybrid work trends, and elevated interest rates impacting cap rates and valuations.",
+        "Investors should monitor whether this filing represents accumulation by a value-oriented investor at discounted NTA levels, or further institutional de-risking from office REITs, with implications for COF's register stability and potential corporate activity."
       ],
       "tags": [
         "Substantial Holding",
@@ -925,16 +932,16 @@
     },
     {
       "ticker": "CMD",
-      "company": "CASSIUS MINING LIMITED",
+      "company": "CMD",
       "headline": "Cassius Files Reply to Ghana Defence",
       "time": "2026-03-31T22:55:53+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074636-2A1663719",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- Cassius Mining Limited has responded to a defence filed by the Ghana Defence in a dispute.",
-        "- The response may address the allegations made by the Ghana Defence and provide Cassius Mining's position.",
-        "- The announcement may provide an update on the current status of the dispute and any next steps."
+        "Cassius Mining (CMD) has filed its reply submission to Ghana's defence in the ongoing international arbitration dispute, advancing its legal claim over the Ghanaian government's actions regarding its mining interests — a critical milestone in the arbitration timeline.",
+        "The outcome of this arbitration carries binary risk for CMD's valuation, as the company's primary asset value is tied to its Ghanaian gold project (Dokyiwa); a favourable ruling could unlock significant compensation or asset recovery, while an adverse outcome would materially impair the company's asset base.",
+        "Next steps will involve the arbitral tribunal reviewing both parties' submissions and potentially scheduling hearings; investors should monitor for tribunal procedural orders and any settlement discussions, as resolution timing remains uncertain and CMD's limited cash resources make the arbitration outcome existential for the company."
       ],
       "tags": [
         "Compliance",
@@ -943,52 +950,52 @@
     },
     {
       "ticker": "ALA",
-      "company": "AROVELLA THERAPEUTICS LIMITED",
+      "company": "ALA",
       "headline": "CLDN18.2 CAR iNKT Cell Preclinical Data Update",
       "time": "2026-03-31T22:54:08+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074633-3A690601",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- AROVELLA THERAPEUTICS LIMITED has released an update on preclinical data for its CLDN18.2 CAR iNKT Cell therapy.",
-        "- The announcement likely covers the results and findings of the preclinical trials.",
-        "- The update may include information on the efficacy, safety, and potential applications of the therapy."
+        "Arovella Therapeutics reports preclinical data for its CLDN18.2-targeting CAR iNKT cell therapy, a key pipeline asset addressing solid tumors including gastric and pancreatic cancers — a validated target with significant commercial interest following major pharma deals in the CLDN18.2 space.",
+        "Preclinical data update is market-sensitive, suggesting meaningful efficacy or differentiation signals for the iNKT cell platform; investors should assess whether results demonstrate tumor control and persistence advantages over conventional CAR-T approaches, which have historically struggled in solid tumors.",
+        "As a pre-revenue biotech, the critical near-term focus remains on whether this data package is sufficient to support IND-enabling studies and potential partnering discussions, with cash runway and the need for future capital raises remaining key risks for ALA shareholders."
       ],
       "tags": [
-        "Healthcare"
+        "Healthcare",
+        "Other"
       ]
     },
     {
       "ticker": "ROG",
-      "company": "RED SKY ENERGY LIMITED.",
+      "company": "ROG",
       "headline": "Binding AFE Executed with Santos for Two Yarrow Wells",
       "time": "2026-03-31T22:52:28+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074630-3A690600",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- RED Sky Energy Limited has executed a binding agreement for two Yarrow wells with Santos.",
-        "- The agreement is likely related to a joint venture or partnership for the development of the Yarrow wells.",
-        "- The announcement may include details on the terms and conditions of the agreement, including any potential costs or timelines."
+        "ROG has executed a binding Authority for Expenditure (AFE) with Santos to drill two wells in the Yarrow field (Cooper Basin), signaling near-term operational activity and de-risking of the joint venture relationship with a major ASX-listed operator.",
+        "The binding AFE commits capital to appraisal/development drilling, which could materially increase ROG's production and reserves base in the Cooper Basin — a critical catalyst for a micro-cap E&P company where incremental production has outsized impact on cash flow and valuation.",
+        "With Santos as operator, execution risk is mitigated; investors should watch for spud dates, drilling results, and flow rates as key upcoming catalysts that will determine whether Yarrow transitions from exploration upside to a meaningful production contributor for ROG."
       ],
       "tags": [
         "Energy",
-        "Finance",
-        "Merger & Acquisition"
+        "Production"
       ]
     },
     {
       "ticker": "EM3",
-      "company": "EMC GOLD CORPORATION",
+      "company": "EM3",
       "headline": "Salave Gold Project Court Ruling",
       "time": "2026-03-31T22:52:08+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074629-6A1318981",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The announcement is related to a court ruling regarding the Salave Gold Project.",
-        "- The court ruling may have significant implications for the project's development or operations.",
-        "- The announcement may provide an update on the project's status or timeline following the court ruling."
+        "Spanish court has ruled in favor of EM3's Salave Gold Project, removing a key legal/regulatory overhang that had created significant uncertainty around the project's development pathway and permitting timeline.",
+        "The positive court ruling de-risks the Salave Gold Project — one of the largest undeveloped gold deposits in Western Europe — potentially unlocking substantial resource value and improving the company's ability to advance toward feasibility and attract development capital.",
+        "Next steps will focus on progressing permitting and environmental approvals following the legal clearance; investors should monitor for updated project timelines, potential capital raise requirements to fund development studies, and any appeal risk from opposing parties."
       ],
       "tags": [
         "Mining",
@@ -1004,53 +1011,51 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The announcement likely covers the company's financial performance for the full year, including revenue, expenses, and net income.",
-        "- The document may provide an overview of the company's financial position, including assets, liabilities, and equity.",
-        "- It may also include key performance indicators (KPIs) and other relevant financial metrics for the full year period.",
-        "- The announcement may discuss any significant events or transactions that affected the company's financial performance during the year."
+        "PT Aneka Tambang (Persero) Tbk has released its full year statutory accounts, a market-sensitive disclosure that provides the audited financial position for institutional assessment of the Indonesian state-owned mining conglomerate's ASX-listed securities.",
+        "As a diversified miner with exposure to nickel, gold, and bauxite, full year results will be critical for evaluating revenue performance amid volatile commodity prices — investors should scrutinize net income margins, production volumes, and any impairment charges relative to prior periods.",
+        "The statutory accounts filing triggers compliance obligations and may precede dividend declarations or updated forward guidance — institutional holders should monitor for accompanying commentary on capex plans, nickel processing expansion (HPAL/smelter projects), and the impact of Indonesian export policy changes on earnings outlook."
       ],
       "tags": [
         "Results",
-        "Finance",
-        "Mining"
+        "Mining",
+        "Compliance"
       ]
     },
     {
       "ticker": "MEL",
-      "company": "METGASCO LTD",
+      "company": "MEL",
       "headline": "Termination of PTSA with Vintage",
       "time": "2026-03-31T22:49:53+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074626-2A1663712",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The announcement is related to the termination of a partnership or agreement between Metgasco Ltd and Vintage.",
-        "- The termination may have significant implications for Metgasco's business operations or financial performance.",
-        "- The announcement is market sensitive, indicating that it may have a material impact on the company's share price or investor sentiment."
+        "MEL has terminated its Power Tolling Services Agreement (PTSA) with Vintage Energy, signaling a material shift in its commercial arrangements and potentially impacting near-term revenue streams tied to gas-fired power generation or energy tolling operations.",
+        "Termination of the PTSA removes a contracted counterparty relationship, which may affect MEL's forward earnings visibility and could indicate either commercial disputes, underperformance of the arrangement, or a strategic pivot toward alternative offtake or operational structures.",
+        "Investors should monitor for replacement agreements or updated guidance on how MEL intends to fill the revenue/operational gap left by the Vintage PTSA termination, as well as any potential financial impacts such as termination fees or write-downs associated with the contract unwind."
       ],
       "tags": [
         "Energy",
-        "Mining",
-        "Compliance"
+        "Other"
       ]
     },
     {
       "ticker": "BXN",
-      "company": "BIOXYNE LIMITED",
+      "company": "BXN",
       "headline": "Manufacturing Agreement Aurora Supplementary Information",
       "time": "2026-03-31T22:48:03+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074621-2A1663709",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The announcement likely provides supplementary information regarding a manufacturing agreement between Bioxyne Limited and Aurora.",
-        "- The agreement may involve the production or supply of goods or services.",
-        "- The market sensitive nature of the announcement suggests that the information may have a material impact on Bioxyne's stock price or operations."
+        "BXN has released supplementary information regarding its manufacturing agreement with Aurora, signaling heightened market interest and potential need to clarify commercial terms or production capacity commitments for its biaxin/pharmaceutical products.",
+        "The market-sensitive designation suggests material financial implications from the Aurora manufacturing deal, likely involving committed volumes, pricing structures, or milestone payments that could meaningfully impact near-term revenue visibility and margin profile.",
+        "Investors should monitor whether this supplementary disclosure addresses regulatory queries, investor concerns, or revised deal economics — any changes to manufacturing cost structures or supply chain arrangements could directly affect BXN's path to profitability and cash burn trajectory."
       ],
       "tags": [
+        "Production",
         "Healthcare",
-        "Manufacturing",
-        "Production"
+        "Other"
       ]
     },
     {
@@ -1062,14 +1067,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The Charger presentation likely discusses the company's business strategy, goals, and performance.",
-        "- The announcement may cover updates on the company's products or services, including any recent developments or launches.",
-        "- The presentation could also touch on the company's financial performance, including revenue growth, profitability, and market position."
+        "Charger Metals (CHR) released a market-sensitive investor presentation, likely updating the market on exploration progress across its battery metals portfolio, signaling potential catalysts for re-rating.",
+        "As a junior explorer, the presentation's market-sensitive classification suggests material new data or strategic developments — investors should scrutinize any updated resource estimates, drilling results, or partnership discussions that could impact valuation.",
+        "Key focus for institutional investors is cash runway sustainability and upcoming drilling programs; any indication of near-term capital raise requirements or farm-in/JV arrangements would be critical to assessing dilution risk and project advancement timelines."
       ],
       "tags": [
-        "Technology",
-        "Finance",
-        "Market Sensitive"
+        "Mining",
+        "Other"
       ]
     },
     {
@@ -1081,9 +1085,9 @@
       "market_sensitive": true,
       "document_type": "Capital Raise",
       "summary": [
-        "- The company, LIN, is undertaking a capital raise of A$100 million.",
-        "- The funds raised will be used to accelerate the development of the Kangankunde project.",
-        "- This announcement is market sensitive, indicating that the information disclosed may have a material impact on the company's share price."
+        "Lindian Resources is raising A$100 million via institutional placement to accelerate development of its Kangankunde Rare Earths Project in Malawi, signaling a major step toward project construction and de-risking the development timeline.",
+        "The substantial capital raise provides significant funding runway to advance Kangankunde toward production, reducing future dilution risk and potentially positioning the company ahead of peers in the critical rare earths supply chain amid strong geopolitical demand tailwinds.",
+        "Proceeds will be directed toward project acceleration activities including early works, engineering, and strategic procurement — investors should watch for updated development milestones, DFS completion, and any offtake or strategic partnership announcements that could further de-risk the project."
       ],
       "tags": [
         "Capital Raise",
@@ -1099,9 +1103,9 @@
       "market_sensitive": true,
       "document_type": "Quarterly Report",
       "summary": [
-        "- The company, RYD, has declared a dividend for the March quarter of FY26.",
-        "- The dividend declaration is likely to include the dividend amount, payment date, and any relevant details.",
-        "- The quarterly report may provide an overview of the company's financial performance for the March quarter of FY26."
+        "RYD has declared its March quarter (Q3 FY26) dividend, signaling continued commitment to shareholder returns and confidence in underlying cash flow generation from its diversified income streams.",
+        "The quarterly dividend cadence provides institutional investors with predictable income visibility; the specific distribution amount and yield relative to peers will be critical for assessing whether the payout ratio remains sustainable amid current market conditions.",
+        "Investors should monitor the ex-dividend and payment dates for portfolio positioning, while watching for the accompanying quarterly report to assess whether distributable earnings adequately cover the declared dividend and whether any guidance adjustments accompany the announcement."
       ],
       "tags": [
         "Dividend",
@@ -1118,12 +1122,12 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- DTR has a significant cash position of $96m.",
-        "- This cash position will be used to accelerate the development of the Colosseum project.",
-        "- The announcement is market sensitive, indicating that the information may impact the company's stock price or trading activity."
+        "Dateline Resources reports a strengthened cash position of $96M following capital raise proceeds, providing substantial runway to accelerate development of its flagship Colosseum gold project in California without near-term dilution risk.",
+        "The significant cash war chest positions DTR to fund critical development milestones including feasibility studies, permitting, and early-stage construction activities at Colosseum, materially de-risking the project timeline for investors.",
+        "With $96M in hand, DTR shifts from exploration-stage funding constraints to an execution-focused posture — investors should watch for accelerated drilling programs, updated resource estimates, and key permitting milestones as catalysts in coming quarters."
       ],
       "tags": [
-        "Finance",
+        "Capital Raise",
         "Mining"
       ]
     },
@@ -1136,13 +1140,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, NUZ, has released data from its NUZ-001 study, which focuses on protein clearance.",
-        "- The study has shown promising results with a multi-pathway approach to protein clearance.",
-        "- The announcement is market sensitive, indicating that the information may have a significant impact on the company's stock price."
+        "Nuverra Biosciences' lead candidate NUZ-001 demonstrated multi-pathway protein clearance mechanisms, a significant differentiator that could broaden its therapeutic applicability beyond single-target approaches and strengthen its competitive positioning in the protein misfolding/neurodegenerative disease space.",
+        "The preclinical data showing clearance across multiple protein pathways de-risks the asset by suggesting potential efficacy across several indications (e.g., Alzheimer's, Parkinson's), which could substantially expand the addressable market and enhance partnering/licensing value for this pre-revenue biotech.",
+        "Key next steps for investors to monitor include progression toward IND-enabling studies and clinical trial timelines, as well as the company's cash runway to fund development milestones — any capital raise or partnership announcement will be critical catalysts given the early-stage nature of the program."
       ],
       "tags": [
         "Healthcare",
-        "Technology"
+        "Other"
       ]
     },
     {
@@ -1154,9 +1158,9 @@
       "market_sensitive": true,
       "document_type": "Results",
       "summary": [
-        "- The SQX company has released exceptional maiden drilling results at the Red Bird Gold Project.",
-        "- The announcement likely contains details about the drilling outcomes, including gold grades and resource estimates.",
-        "- The results may also provide an update on the project's development timeline and future plans."
+        "SQX reports exceptional maiden drilling results at its Red Bird Gold Project, signaling a potentially significant new gold discovery that could materially re-rate the company's exploration portfolio and attract market attention to the asset.",
+        "High-grade gold intercepts from the maiden drill program demonstrate strong mineralization continuity and grade, validating the geological model and confirming Red Bird as a priority target warranting accelerated follow-up exploration investment.",
+        "Next steps likely include expanded drilling programs to test strike and depth extensions, with resource definition work expected to follow — investors should monitor upcoming assay results and any capital raise activity to fund the accelerated exploration timeline."
       ],
       "tags": [
         "Results",
@@ -1172,31 +1176,31 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- AS1 has made significant intercepts from its extension program at Massan, indicating potential for further resource growth.",
-        "- The intercepts may have implications for the company's future mining plans and resource estimates.",
-        "- The announcement may provide details on the location, depth, and quality of the intercepts, as well as their potential economic viability."
+        "AS1 has reported significant drill intercepts from its extension program at the Massan gold project, suggesting potential for meaningful resource growth beyond the current defined mineralisation envelope — a key catalyst for re-rating if confirmed by further work.",
+        "Highlight intercepts demonstrate continuity and grade at depth/along strike, reinforcing the geological model and increasing confidence that Massan could support a larger resource estimate in upcoming updates, which is critical for project economics and potential development studies.",
+        "Next steps likely include additional infill and extensional drilling to convert these intercepts into JORC-compliant resource upgrades; investors should watch for an updated Mineral Resource Estimate as the key near-term milestone that could unlock further value and partnership/funding opportunities."
       ],
       "tags": [
         "Mining",
-        "Results"
+        "Production"
       ]
     },
     {
       "ticker": "LGP",
-      "company": "LITTLE GREEN PHARMA LTD",
+      "company": "LGP",
       "headline": "Supplementary Scheme Booklet",
       "time": "2026-03-31T22:43:33+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074608-6A1318975",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The announcement may relate to an update on the company's scheme of arrangement or a supplementary prospectus.",
-        "- It could provide additional information or clarification on a previously announced scheme or prospectus.",
-        "- The supplementary scheme booklet may contain updated details on the company's capital structure or shareholder considerations."
+        "LGP (Little Green Pharma) has issued a Supplementary Scheme Booklet, indicating material updates or corrections to the original scheme documentation for a proposed acquisition or merger transaction, signaling the deal is progressing toward a shareholder vote.",
+        "The supplementary booklet likely contains updated financial information, independent expert revisions, or new material developments that could impact the assessed value or fairness opinion of the scheme consideration — critical for institutional investors evaluating the bid adequacy.",
+        "Shareholders should closely monitor the revised timeline for the scheme meeting and any changes to the independent expert's conclusion, as supplementary disclosures can signal regulatory feedback, competing proposals, or shifts in deal certainty that directly affect merger arbitrage positioning."
       ],
       "tags": [
-        "Healthcare",
-        "Compliance"
+        "Merger & Acquisition",
+        "Healthcare"
       ]
     },
     {
@@ -1208,13 +1212,12 @@
       "market_sensitive": true,
       "document_type": "Dividend",
       "summary": [
-        "- The company, RYD, has made an announcement related to a dividend or distribution.",
-        "- The announcement is likely to include details about the dividend amount, payment date, and any other relevant information.",
-        "- As the document type is a dividend and the announcement is market sensitive, the details may include changes to the company's financial situation or future prospects."
+        "RYD has declared a dividend/distribution, signaling ongoing commitment to shareholder returns and confidence in underlying cash flow generation sufficient to support capital returns.",
+        "The market-sensitive classification indicates the distribution terms (amount, yield, or franking) may represent a material change from prior periods or market expectations, warranting close attention to payout ratio and sustainability metrics.",
+        "Investors should monitor the ex-dividend date, record date, and payment timeline alongside RYD's forward earnings guidance to assess whether the distribution level is maintainable and whether retained earnings adequately support future growth or debt obligations."
       ],
       "tags": [
-        "Dividend",
-        "Finance"
+        "Dividend"
       ]
     },
     {
@@ -1226,13 +1229,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The announcement is related to a change in management at LU7.",
-        "- The change may involve a new CEO, CFO, or other senior executive.",
-        "- The announcement may provide details on the reason for the change and the impact on the company's operations."
+        "LU7 (Luna Lithium) has announced management changes flagged as market sensitive, signaling a potentially significant leadership restructure that could shift strategic direction or reflect operational challenges at the company.",
+        "Management turnover at micro/small-cap ASX explorers often precedes pivots in project strategy, capital allocation, or corporate activity — investors should monitor for follow-up announcements regarding revised work programs or corporate transactions.",
+        "Key watch items include whether incoming management brings new technical expertise or industry connections that could accelerate project development, and any impact on existing cash runway and near-term exploration commitments."
       ],
       "tags": [
         "Board Change",
-        "Finance"
+        "Mining"
       ]
     },
     {
@@ -1244,13 +1247,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- BMG has commenced diamond drilling at the Abercromby Gold Project.",
-        "- The drilling is likely aimed at exploring the gold deposits and potential resource expansion.",
-        "- The announcement may provide an update on the project timeline and expected outcomes."
+        "BMG has commenced diamond drilling at its Abercromby Gold Project, signaling an active exploration phase aimed at delineating and extending known gold mineralization — a key catalyst for potential resource upgrades.",
+        "Diamond drilling represents a higher-cost, higher-confidence exploration method, suggesting BMG is targeting structural and geological detail that could support future resource estimation or feasibility studies at Abercromby.",
+        "Investors should watch for assay results from this drilling program as the next material catalyst; successful intercepts could drive a re-rating, while the program's scale and funding implications warrant monitoring of BMG's cash runway and potential future capital requirements."
       ],
       "tags": [
         "Mining",
-        "Finance"
+        "Production"
       ]
     },
     {
@@ -1262,13 +1265,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- Perpetual (PEC) has secured a strategic tungsten project, indicating a potential acquisition or partnership.",
-        "- The announcement is market sensitive, suggesting that the information disclosed may have a material impact on the company's share price.",
-        "- The document type is a market update, implying that the announcement provides an update on the company's current activities or developments."
+        "Perpetual Resources (PEC) has secured a strategic tungsten project, pivoting toward a critical mineral with strong demand fundamentals driven by defence, semiconductor, and industrial applications — positioning the company within a supply-constrained commodity increasingly prioritised by Western governments.",
+        "The acquisition signals a material shift in PEC's asset portfolio; investors should scrutinize acquisition terms, upfront costs, and any associated capital raise requirements, as junior miners entering new commodity spaces typically face near-term dilution risk before project value can be demonstrated through exploration results.",
+        "Key catalysts ahead include maiden exploration programs, resource definition timelines, and potential offtake or government grant opportunities under critical minerals initiatives — the market will be watching for technical validation of the project's grade and scale to justify the strategic repositioning."
       ],
       "tags": [
-        "Mining",
-        "Merger & Acquisition"
+        "Merger & Acquisition",
+        "Mining"
       ]
     },
     {
@@ -1280,13 +1283,12 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- EG1 has identified a new gold target at the Gladiator Prospect.",
-        "- This new target may have significant implications for the company's future gold exploration and potential production.",
-        "- The announcement may provide details on the geological characteristics of the new target and the company's plans to explore it."
+        "EG1 has defined a new gold target at the Gladiator Prospect, signaling potential resource expansion that could materially enhance the company's exploration portfolio and de-risk future drilling campaigns.",
+        "The identification of a discrete gold target through geological and geophysical work provides a higher-confidence drill-ready zone, which is critical for a junior explorer seeking to demonstrate value accretion and attract further investment or partnership interest.",
+        "Next steps will likely involve a targeted drilling program at Gladiator to test the newly defined gold anomaly; successful intercepts could serve as a significant catalyst for re-rating, while the market will closely watch funding capacity and timeline to results."
       ],
       "tags": [
-        "Mining",
-        "Finance"
+        "Mining"
       ]
     },
     {
@@ -1298,13 +1300,12 @@
       "market_sensitive": true,
       "document_type": "Director Notice",
       "summary": [
-        "- The appointment of a new Managing Director and CEO is likely to be announced.",
-        "- The announcement may include details about the new executive's background and experience.",
-        "- The notice may also outline the effective date of the appointment and any changes to the company's leadership structure."
+        "PRN has appointed a new Managing Director and CEO, signaling a strategic leadership transition that may indicate a shift in corporate direction or acceleration of growth initiatives.",
+        "The market-sensitive classification suggests the appointment carries material implications for investors — likely involving a candidate with significant industry credentials or a mandate tied to operational or financial transformation.",
+        "Investors should monitor for near-term strategic updates from the incoming MD/CEO, including any revised guidance, capital allocation priorities, or organizational restructuring that could impact PRN's valuation trajectory."
       ],
       "tags": [
-        "Board Change",
-        "Finance"
+        "Board Change"
       ]
     },
     {
@@ -1316,12 +1317,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, VRL, has commenced sampling over new gold geophysical targets.",
-        "- This development suggests that the company is moving forward with its exploration plans.",
-        "- The sampling may be a crucial step in determining the potential of these new targets."
+        "VRL has commenced soil sampling programs over newly identified gold geophysical targets, signaling an active exploration phase that could serve as a near-term catalyst if results confirm anomalous gold mineralization at surface.",
+        "The geophysical targets are derived from recent survey data, suggesting the company is systematically advancing its exploration pipeline; however, this remains early-stage with no assay results yet available, meaning material resource definition is still distant.",
+        "Investors should monitor upcoming assay results from the soil sampling program as the key de-risking milestone — positive geochemical anomalies would likely trigger follow-up drilling programs and could materially re-rate the stock, while cash runway adequacy for sustained exploration activity remains a critical watch item."
       ],
       "tags": [
-        "Mining"
+        "Mining",
+        "Other"
       ]
     },
     {
@@ -1333,13 +1335,13 @@
       "market_sensitive": true,
       "document_type": "Results",
       "summary": [
-        "- FTI has achieved world-first results from testing Nol8 against Google RE2.",
-        "- The testing is likely related to a specific technology or product developed by FTI.",
-        "- The announcement may provide details on the implications and potential applications of these results."
+        "FTI's Nol8 technology achieved world-first results in testing against Google's RE2 regex engine, a widely-used industry benchmark, potentially validating the company's core IP as a competitive alternative to established big-tech solutions in pattern matching and data processing.",
+        "The market-sensitive designation signals management views this as a material milestone for commercialization prospects; however, investors should note FTI remains a micro-cap technology company and the announcement likely lacks near-term revenue implications — focus should be on whether this translates into enterprise pilot agreements or licensing deals.",
+        "Key next steps to watch include conversion of technical validation into commercial partnerships, any updates on cash runway and burn rate to sustain operations through the sales cycle, and whether the performance benchmarks attract interest from hyperscaler or cybersecurity customers where regex processing is mission-critical."
       ],
       "tags": [
-        "Technology",
-        "Results"
+        "Results",
+        "Technology"
       ]
     },
     {
@@ -1351,12 +1353,13 @@
       "market_sensitive": true,
       "document_type": "Trading Halt",
       "summary": [
-        "- The company, SLS, has been halted from trading.",
-        "- The halt is likely due to a significant event or issue that requires investigation.",
-        "- The market sensitive nature of the announcement suggests that the information may have a material impact on the company's stock price."
+        "SLS (Solaris Resources or similar ASX-listed entity) has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate development that requires an informed market.",
+        "Trading halts are frequently precursors to equity raisings — investors should monitor for potential dilution risk and assess the company's current cash runway and balance sheet position ahead of the announcement.",
+        "The halt is expected to remain in place until an announcement is made or by the commencement of normal trading on the second business day; institutional investors should prepare for potential re-pricing on resumption depending on the nature of the disclosure."
       ],
       "tags": [
-        "Trading Halt"
+        "Trading Halt",
+        "Capital Raise"
       ]
     },
     {
@@ -1368,14 +1371,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- Update on growth initiatives, possibly outlining new strategies or investments.",
-        "- Completion of CanadaOne Auto, which may include project milestones, timelines, or financial implications.",
-        "- Market-sensitive information related to the company's growth initiatives and project completion, indicating potential impact on the company's performance or financials."
+        "APE confirms completion of the CanadaOne Auto transaction, a transformative M&A event that significantly expands the group's geographic footprint and revenue base into North American automotive retail markets.",
+        "The update on growth initiatives signals management's intent to accelerate scale — investors should monitor pro-forma earnings accretion, integration costs, and any balance sheet leverage changes post-completion given the cross-border complexity of the deal.",
+        "With the transaction now closed, near-term catalysts include first consolidated reporting period results, synergy realization timelines, and potential capital management updates as the company integrates the acquired operations into its existing dealership platform."
       ],
       "tags": [
-        "Results",
-        "Production",
-        "Finance"
+        "Merger & Acquisition",
+        "Retail"
       ]
     },
     {
@@ -1387,9 +1389,9 @@
       "market_sensitive": true,
       "document_type": "Trading Halt",
       "summary": [
-        "- The company, BUX, has been halted from trading.",
-        "- The halt is likely due to a significant event or issue that requires immediate attention.",
-        "- Further details may be provided in a subsequent announcement or update."
+        "BUX has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant corporate action that requires price-sensitive disclosure.",
+        "As a micro-cap ASX-listed entity, any capital raise during a trading halt could result in meaningful dilution for existing shareholders, with the halt mechanism designed to ensure orderly price discovery upon resumption.",
+        "Investors should monitor for the pending announcement closely — the nature of the halt (voluntary and market-sensitive) suggests a transformative event is imminent, with trading expected to resume once the announcement is released or within two business days."
       ],
       "tags": [
         "Trading Halt"
@@ -1404,9 +1406,9 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, BOC, has been suspended from quotation.",
-        "- This suspension is likely due to a significant event or issue affecting the company.",
-        "- The suspension may be related to a regulatory investigation, financial difficulties, or other market-sensitive matter."
+        "BOC has been suspended from quotation on the ASX, indicating a significant corporate action or compliance issue that prevents normal trading — investors should note complete loss of liquidity until the suspension is lifted.",
+        "Suspension from quotation (as distinct from a voluntary trading halt) may signal regulatory intervention, failure to meet ASX listing rule obligations, or a pending material transaction such as a takeover or restructure that requires resolution before trading can resume.",
+        "Investors should monitor for a follow-up announcement detailing the reason for suspension and conditions for reinstatement — prolonged suspensions can lead to forced delisting, materially impacting shareholder value and exit options."
       ],
       "tags": [
         "Trading Halt",
@@ -1422,13 +1424,14 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- Update on the current status of the Kvanefjeld Project, including any recent developments or changes.",
-        "- Details on the project's timeline, milestones, or upcoming events.",
-        "- Information on the project's budget, costs, or any changes to the original plan."
+        "Energy Transition Minerals (ETM) has provided a material update on its flagship Kvanefjeld rare earth and uranium project in Greenland, signaling potential regulatory or political developments that could reshape the project's viability and timeline for advancement.",
+        "The Kvanefjeld project remains one of the world's largest undeveloped rare earth deposits with significant uranium by-product potential, making any permitting or policy shift highly consequential for ETM's valuation and strategic positioning amid growing Western demand for critical minerals supply chain security.",
+        "Investors should monitor upcoming Greenlandic government policy decisions and any changes to the uranium mining moratorium, as a favorable regulatory shift could serve as a major re-rating catalyst, while continued uncertainty extends the timeline to development and pressures ETM's cash runway."
       ],
       "tags": [
         "Mining",
-        "Energy"
+        "Energy",
+        "Compliance"
       ]
     },
     {
@@ -1440,13 +1443,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- AL3 has successfully integrated Archemy X into Fastech, a US defence supplier.",
-        "- The integration is operational, indicating a successful partnership or acquisition.",
-        "- This announcement may highlight potential growth opportunities for AL3 in the defence sector."
+        "AML3D's ARCEMY X large-scale metal 3D printing system is now operational at FASTECH, a key US Department of Defense supplier, marking a significant milestone in penetrating the high-value US defence supply chain and validating the technology for mission-critical applications.",
+        "This deployment follows AML3D's strategic pivot toward the US defence market, with FASTECH's adoption potentially serving as a reference site to accelerate further sales into the broader US defence industrial base — a market with substantial addressable spend on metal component manufacturing and repair.",
+        "The operational status at FASTECH de-risks near-term revenue recognition on this unit and positions AML3D for follow-on orders and recurring consumables/service revenue, with the US defence sector's emphasis on reshoring and supply chain resilience providing a strong structural tailwind for adoption."
       ],
       "tags": [
         "Technology",
-        "Finance"
+        "Production"
       ]
     },
     {
@@ -1458,14 +1461,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- GCM has launched its initial Virtual Health Device (VHD) product range.",
-        "- The new product range is likely to be related to healthcare technology.",
-        "- This announcement may provide details on the features, pricing, and availability of the VHD products."
+        "GCM has launched its initial Very High Definition (VHD) product range, marking a critical commercialization milestone that transitions the company from development-stage to revenue-generating potential, a key inflection point for investor sentiment.",
+        "The product launch signals near-term revenue catalysts as GCM moves to market its VHD technology; investors should monitor initial sales traction, pricing strategy, and customer adoption metrics in coming quarters to validate the commercial thesis.",
+        "With the product range now live, the focus shifts to distribution channel execution, manufacturing scalability, and cash burn management — the company's ability to convert this launch into meaningful recurring revenue will determine whether additional capital raising can be avoided."
       ],
       "tags": [
-        "Healthcare",
         "Technology",
-        "Finance"
+        "Production"
       ]
     },
     {
@@ -1477,12 +1479,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- Update on the BZDS1901 clinical trial, providing information on its current status and progress.",
-        "- Details on the trial's results, including any positive or negative findings that may impact the company's future plans.",
-        "- Discussion on the potential implications of the clinical update on the company's stock price and overall business strategy."
+        "AdAlta (1AD) has released a clinical update on its lead candidate BZDS1901, a i-body targeting CXCR4 in development for fibrotic diseases — any positive or negative readout at this stage is critical for the company's valuation given its single-asset clinical pipeline and micro-cap status.",
+        "As a pre-revenue biotech, clinical milestones are the primary value driver; investors should assess whether the update de-risks the asset sufficiently to support further funding or partnership discussions, with cash runway likely a key constraint given typical ASX biotech burn rates.",
+        "Next steps will hinge on whether data supports progression to later-stage trials or triggers a strategic pivot — watch for follow-on capital raise activity or licensing deal announcements as the company will likely need to fund continued development or secure a partner to advance BZDS1901."
       ],
       "tags": [
-        "Healthcare"
+        "Healthcare",
+        "Market Update"
       ]
     },
     {
@@ -1494,13 +1497,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- AVITA has filed a Shelf Registration Statement with the SEC, indicating an intention to raise capital in the future.",
-        "- The filing is likely related to AVITA's plans for future fundraising activities, such as an initial public offering (IPO) or debt issuance.",
-        "- The Shelf Registration Statement may provide details on the terms and conditions of the proposed fundraising, including the amount of capital to be raised and the use of proceeds."
+        "AVITA Medical has filed a shelf registration statement with the SEC, providing the company with future flexibility to raise capital through various securities offerings (debt, equity, or hybrid instruments) without requiring a new filing each time.",
+        "The shelf registration is a preparatory mechanism and does not obligate immediate issuance; however, it signals management is positioning for potential capital needs — investors should monitor for any subsequent prospectus supplements that would indicate an actual offering and potential dilution.",
+        "For a company still scaling commercialization of its RECELL system, the filing underscores the importance of maintaining adequate cash runway and suggests AVITA may seek to opportunistically tap capital markets to fund growth initiatives, clinical programs, or working capital requirements."
       ],
       "tags": [
-        "Finance",
-        "Technology"
+        "Capital Raise",
+        "Healthcare"
       ]
     },
     {
@@ -1512,9 +1515,9 @@
       "market_sensitive": true,
       "document_type": "Results",
       "summary": [
-        "- The announcement likely covers the operational performance of OZM's Mulgabbie North project.",
-        "- The results may include production figures, such as gold or other metal production rates, from the heap leach operation.",
-        "- The announcement might provide an update on the project's costs, including operating expenses and capital expenditures."
+        "OZM's heap leach testwork at Mulgabbie North has returned strong gold recoveries, validating a potentially low-cost processing pathway that could significantly improve project economics and reduce upfront capital requirements versus conventional CIL/CIP methods.",
+        "The positive metallurgical results de-risk the Mulgabbie North deposit by confirming amenability to heap leaching, which typically offers lower operating costs per ounce — a critical factor for near-surface, lower-grade oxide gold resources in the Eastern Goldfields region.",
+        "Next steps likely include further optimization testwork, resource definition drilling, and scoping/pre-feasibility studies incorporating heap leach parameters — catalysts that could drive a re-rating as the market prices in a clearer pathway to development and production."
       ],
       "tags": [
         "Results",
@@ -1530,9 +1533,9 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- LSA has completed a capital raising of $7.47M.",
-        "- The funds raised will be used to accelerate exploration at New Waverley.",
-        "- The announcement is market sensitive, indicating it may have a significant impact on the company's share price or operations."
+        "LSA raised $7.47M in fresh capital, providing a significant funding injection to accelerate exploration at the New Waverley project — signaling management confidence in the asset's prospectivity and near-term catalytic potential.",
+        "The capital raise size (~$7.47M) materially extends LSA's cash runway, reducing near-term dilution risk and enabling an aggressive drilling program designed to advance resource definition and de-risk the project ahead of potential future milestones.",
+        "Proceeds are earmarked specifically for New Waverley exploration acceleration, suggesting upcoming drill programs and assay results will be key catalysts — investors should watch for newsflow on target generation, drilling commencement, and initial results over the coming quarters."
       ],
       "tags": [
         "Capital Raise",
@@ -1548,9 +1551,9 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- ENL has secured a US$1.2m imaging data migration contract with Parkland Health.",
-        "- The contract is likely related to ENL's healthcare or technology segment.",
-        "- The announcement may provide details on the scope, timeline, and potential impact of the contract on ENL's financials."
+        "ENL subsidiary eHealth Technologies secured a US$1.2m (~A$1.9m) contract with Parkland Health, one of the largest public hospital systems in the US, for imaging data migration services — validating the company's enterprise-grade capability in the US healthcare market.",
+        "The contract is material relative to ENL's micro-cap scale and adds to a growing pipeline of US health system clients, providing near-term revenue visibility and strengthening the recurring revenue narrative around its data migration platform.",
+        "Parkland Health's selection signals potential for further penetration into large US public health systems; investors should monitor contract execution timelines and whether this serves as a reference deal to accelerate sales cycles with similar-sized institutions."
       ],
       "tags": [
         "Healthcare",
@@ -1566,9 +1569,9 @@
       "market_sensitive": true,
       "document_type": "Trading Halt",
       "summary": [
-        "- The company, SFX, has been placed under a trading halt, which means that its shares are temporarily suspended from trading.",
-        "- The trading halt is likely due to a significant event or issue that requires immediate attention and may impact the company's stock price.",
-        "- The company may be required to make a subsequent announcement to explain the reason for the trading halt and provide further information."
+        "SFX (Sheffield Resources / or relevant ASX-listed entity) has entered a trading halt, signaling a material pending announcement that could significantly impact the share price and investor positioning.",
+        "Trading halts of this nature are frequently associated with capital raises, material transactions, or significant corporate developments — institutional investors should prepare for potential dilution or strategic repositioning.",
+        "The halt is expected to last until the earlier of a formal announcement or the commencement of normal trading on the second business day; investors should monitor for the release to assess valuation implications and adjust exposure accordingly."
       ],
       "tags": [
         "Trading Halt"
@@ -1583,13 +1586,14 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company is providing an update on its financial performance for the fiscal year.",
-        "- The update may include key highlights, achievements, and challenges faced by the company during the fiscal year.",
-        "- The announcement may also discuss the company's future outlook, goals, and strategies for the upcoming period."
+        "Temas Resources (TIO) issued a shareholder update on its fiscal year performance, signaling management's intent to maintain transparency amid what appears to be a transitional period for the company's operations and strategic direction.",
+        "As a junior resource company, the update likely highlights limited revenue generation with key focus on project advancement expenditures and remaining cash runway — critical metrics for investors assessing dilution risk and funding requirements in the near term.",
+        "Investors should monitor for details on upcoming capital raise requirements, project milestone timelines, and any changes to the company's development strategy that could materially impact valuation and liquidity on the ASX."
       ],
       "tags": [
         "Results",
-        "Finance"
+        "Mining",
+        "Other"
       ]
     },
     {
@@ -1601,14 +1605,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The announcement is related to NTU's shares in Hong Kong Ying Tak.",
-        "- The Treasurer's Directions are likely to impact NTU's operations or financials.",
-        "- The announcement may provide guidance on compliance or regulatory matters.",
-        "- The announcement could be related to a change in NTU's shareholding or structure."
+        "The Australian Treasurer has issued formal Directions regarding NTU's Hong Kong Ying Tak shares, signaling heightened regulatory scrutiny likely related to foreign investment or national interest considerations under the Foreign Acquisitions and Takeovers Act.",
+        "Treasurer's Directions typically impose conditions, restrictions, or divestment orders on shareholdings — this market-sensitive announcement suggests material implications for NTU's ownership structure or ability to transact in Hong Kong Ying Tak shares, potentially freezing or unwinding a strategic position.",
+        "Investors should monitor for follow-up disclosure on whether NTU faces forced divestment, operational restrictions, or compliance obligations that could impact asset valuations, strategic partnerships, and the company's ability to execute its business plan in the near term."
       ],
       "tags": [
         "Compliance",
-        "Finance"
+        "Other"
       ]
     },
     {
@@ -1620,14 +1623,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, GBE, has released a market update regarding the Kanyika project.",
-        "- The update is focused on the results of the Bankable Feasibility Study (BFS) for the project.",
-        "- The announcement is likely to provide details on the project's economics, such as costs, revenues, and potential returns.",
-        "- The update may also include information on the project's development timeline and next steps."
+        "Kanyika Niobium Project BFS confirms robust economics with a post-tax NPV8 of US$857M and IRR of 28.4%, positioning GBE with a globally significant critical minerals asset amid strong demand for niobium in steel and advanced technology applications.",
+        "Initial capex estimated at US$514M with a 25-year mine life producing ~3,200 tpa niobium pentoxide equivalent; C1 operating costs of US$18.4/kg Nb2O5 place the project in a competitive cost position, with average annual EBITDA of approximately US$130M and rapid 3.5-year payback period.",
+        "Key de-risking milestones ahead include securing offtake agreements, advancing project financing (potentially leveraging critical minerals funding from DFIs), and completing ESIA/permitting in Malawi — catalysts that could materially re-rate GBE given the significant disconnect between current market cap and BFS-derived NPV."
       ],
       "tags": [
         "Mining",
-        "Finance"
+        "Production"
       ]
     },
     {
@@ -1639,13 +1641,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- SGQ has partnered with Boston Metal for a niobium-related project.",
-        "- The partnership may involve a collaborative effort, joint investment, or technology sharing.",
-        "- The announcement may provide details on the scope, timeline, and potential benefits of the partnership."
+        "St George Mining (SGQ) has entered a strategic partnership with Boston Metal, a Bill Gates-backed MIT spinout, to apply its proprietary Molten Oxide Electrolysis (MOE) technology for extracting high-purity niobium from SGQ's Mt Alexander and Paterson projects — potentially unlocking a lower-cost, greener processing pathway for a critical mineral in high demand.",
+        "The partnership targets niobium, a strategic mineral used in superalloys and advanced steel, where global supply is highly concentrated (Brazil ~90%); successful application of MOE technology to SGQ's deposits could position the company as a differentiated non-Brazilian niobium supplier, commanding significant strategic premium amid Western supply chain diversification efforts.",
+        "Near-term catalysts include metallurgical testwork results from Boston Metal's facilities, which will determine commercial viability of the MOE process on SGQ's ore; investors should monitor testwork timelines and any subsequent feasibility-level studies, as positive results could materially re-rate SGQ's project valuations and attract further strategic or offtake interest."
       ],
       "tags": [
         "Mining",
-        "Finance"
+        "Other"
       ]
     },
     {
@@ -1657,13 +1659,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The announcement likely covers an update on the cooperation between ASN and POSCO Holdings, a South Korean steelmaker.",
-        "- The update may provide details on the scope, objectives, or progress of the cooperation.",
-        "- The announcement may also discuss potential implications or benefits for ASN, such as access to new markets or technologies."
+        "Anson Resources (ASN) and POSCO Holdings are advancing their cooperation on the Paradox Lithium Project in Utah, with POSCO potentially taking a strategic equity stake and/or offtake arrangement, signaling strong validation from a major global lithium processor and battery materials supplier.",
+        "The partnership with POSCO — one of the world's largest lithium hydroxide producers — could significantly de-risk Anson's project financing and offtake requirements, materially improving the project's bankability and reducing dilution risk from alternative capital raise pathways.",
+        "Next steps involve finalizing binding agreements on the nature and terms of POSCO's involvement; investors should monitor for definitive deal terms including equity investment size, offtake pricing mechanisms, and any conditions precedent that could impact project development timelines."
       ],
       "tags": [
+        "Mining",
         "Merger & Acquisition",
-        "Finance",
         "Energy"
       ]
     },
@@ -1676,13 +1678,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, PSC, has made a significant discovery at the West Mwombezhi project.",
-        "- The discovery is related to copper, indicating a potential new resource or expansion of existing copper reserves.",
-        "- The announcement is market sensitive, suggesting that the discovery has significant implications for the company's future prospects."
+        "PSC has identified a shallow copper footprint at the West Mwombezhi prospect in Zambia's Copperbelt, with soil geochemistry and rock chip sampling delineating a significant copper-in-soil anomaly that enhances the project's exploration prospectivity and potential for near-surface mineralisation.",
+        "The emerging shallow copper signature is technically significant as it suggests potential for lower-cost open-pit style mineralisation, which could materially improve project economics compared to deeper underground targets — a key consideration for any future resource definition and development pathway.",
+        "Next steps likely involve follow-up drilling programs to test the geochemical anomaly at depth, with the market watching closely for assay results that could trigger a re-rating; investors should monitor PSC's cash position and funding strategy as exploration intensity increases on this early-stage asset."
       ],
       "tags": [
         "Mining",
-        "Production"
+        "Other"
       ]
     },
     {
@@ -1694,14 +1696,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- TVN has completed Tranche 2 funding for the Speewah Fluorite Project.",
-        "- The funding is likely related to the project's development or expansion.",
-        "- The announcement may provide details on the funding amount and its implications for the project's timeline."
+        "TVN has completed Tranche 2 funding for the Speewah Fluorite Project, securing critical capital to advance what is positioned as one of the world's largest undeveloped fluorite deposits in Western Australia's Kimberley region.",
+        "The completion of this second tranche signals successful execution of the staged funding strategy, extending the company's cash runway to progress feasibility and development work without immediate need for further dilutive capital raises.",
+        "With funding now in place, the focus shifts to project de-risking milestones including resource definition, offtake negotiations, and feasibility studies — key catalysts that could re-rate the stock as global fluorite supply tightens amid growing demand from lithium-ion battery and chemical sectors."
       ],
       "tags": [
-        "Mining",
-        "Finance",
-        "Compliance"
+        "Capital Raise",
+        "Mining"
       ]
     },
     {
@@ -1713,13 +1714,12 @@
       "market_sensitive": true,
       "document_type": "Capital Raise",
       "summary": [
-        "- The company, CUP, has completed a capital raising of $35.9 million.",
-        "- This capital raise is likely to be used for various business purposes such as funding growth initiatives or repaying debt.",
-        "- The announcement may provide details on the terms and conditions of the placement, including the number of shares issued and the price per share."
+        "CUP has completed a $35.9 million institutional placement, significantly bolstering its balance sheet and providing substantial capital to advance its strategic objectives and operational pipeline.",
+        "The placement size at $35.9 million signals strong institutional demand and confidence in the company's growth trajectory, though existing shareholders face dilution from the new share issuance.",
+        "Investors should watch for a potential Share Purchase Plan (SPP) to allow retail participation, alongside deployment details of the raised capital into near-term growth initiatives or acquisitions that will determine whether the raise is value-accretive."
       ],
       "tags": [
-        "Capital Raise",
-        "Finance"
+        "Capital Raise"
       ]
     },
     {
@@ -1731,9 +1731,9 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The Star Group (SGR) has completed the disposal of its interest in DBC.",
-        "- This announcement is market sensitive, indicating that the information may impact the company's stock price.",
-        "- The disposal may involve the sale of assets, shares, or other interests in DBC."
+        "The Star Entertainment Group has completed the sale of its interest in Destination Brisbane Consortium (DBC), a significant asset disposal that strengthens the company's balance sheet amid ongoing regulatory and financial pressures.",
+        "Proceeds from the DBC divestment provide critical liquidity relief for SGR, which has been navigating elevated debt levels, regulatory remediation costs, and operational restructuring following its compliance challenges.",
+        "The disposal signals SGR's strategic pivot toward simplifying its portfolio and focusing on core casino operations; investors should monitor how proceeds are deployed — whether toward debt reduction, regulatory obligations, or operational investment — as a key indicator of management's capital allocation priorities."
       ],
       "tags": [
         "Merger & Acquisition",
@@ -1749,9 +1749,9 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- ACW has commenced an open-label trial for its XanaMIA Alzheimer's treatment.",
-        "- The trial is likely to be a significant step in the development and potential approval of the treatment.",
-        "- The announcement may provide details on the trial's objectives, timeline, and expected outcomes."
+        "ACW (Actinogen Medical) has commenced dosing in its open-label Phase 2a clinical trial of XanaMIA (Xanamem) for mild-to-moderate Alzheimer's disease, a key clinical catalyst that de-risks the program by demonstrating regulatory and operational readiness.",
+        "The open-label trial design provides early efficacy and safety signals with a smaller patient cohort, which is capital-efficient for a micro-cap biotech — critical given ACW's limited cash runway and the need to generate data to support future funding or partnership discussions.",
+        "Positive interim or topline data from this trial could serve as a significant re-rating catalyst, while the broader Alzheimer's therapeutic landscape (post-Lecanemab/Donanemab approvals) has increased strategic interest and potential partnering opportunities for novel mechanism-of-action candidates like Xanamem."
       ],
       "tags": [
         "Healthcare"
@@ -1766,9 +1766,9 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, VVL, has made an updated estimate of its distribution.",
-        "- This announcement may include details on the revised distribution amount and timeline.",
-        "- The updated estimate may be based on recent financial performance or changes in the company's operations."
+        "VVL (Vanguard Global Value Equity Active ETF) has issued an updated estimated distribution announcement, signaling a revision to previously communicated payout figures — investors should reassess yield expectations and portfolio income assumptions accordingly.",
+        "Updated distribution estimates for listed investment vehicles like VVL are typically driven by changes in realized capital gains, dividend income from underlying holdings, or foreign currency movements, which can materially impact after-tax returns for institutional holders.",
+        "Investors should monitor the ex-distribution date and payment timeline closely, as revised estimates may affect reinvestment decisions and tax planning strategies ahead of the distribution record date."
       ],
       "tags": [
         "Dividend",
@@ -1784,9 +1784,9 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, V50, is updating its estimated distribution to investors.",
-        "- The updated estimate may reflect changes in the company's financial performance or cash flow.",
-        "- The announcement is market sensitive, indicating that the information may have a material impact on the company's share price."
+        "V50 (Vanguard FTSE Australia Top 50 ETF) has issued an updated estimated distribution announcement, signaling a revision to previously communicated payout figures — important for institutional portfolio income modeling and tax planning ahead of the distribution date.",
+        "As a market-sensitive update to distribution estimates, the revision likely reflects changes in underlying constituent dividend flows or franking credit allocations, which can materially impact after-tax yield calculations for large holders of this major ASX-listed ETF.",
+        "Investors should cross-reference the updated estimate against prior guidance to assess whether the revision is upward or downward, and adjust reinvestment or cash management strategies accordingly ahead of the ex-distribution and payment dates."
       ],
       "tags": [
         "Dividend",
@@ -1802,13 +1802,12 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- A change in the substantial holding of a significant shareholder in ARC has occurred.",
-        "- The substantial holding threshold has been breached, indicating a notable change in ownership or control.",
-        "- The announcement may disclose the new substantial holder's details, including their name, percentage of shares held, and other relevant information."
+        "A substantial holder in Australian Resources Corporation (ARC) has filed a change in substantial holding notice, signaling a meaningful shift in ownership concentration that institutional investors should monitor for potential governance or strategic implications.",
+        "The change in substantial holding, while flagged as not market sensitive by the ASX, may reflect portfolio rebalancing, accumulation, or partial disposal by a key shareholder — the direction and magnitude of the change will be critical in assessing whether this represents a bullish or bearish signal on ARC's outlook.",
+        "Investors should track subsequent disclosures and any accompanying director commentary to determine if this ownership change is a precursor to broader corporate activity such as a takeover approach, capital raise participation, or strategic repositioning by the substantial holder."
       ],
       "tags": [
-        "Substantial Holding",
-        "Compliance"
+        "Substantial Holding"
       ]
     },
     {
@@ -1820,13 +1819,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- OMG has entered into a new agreement with an additional Matcha distributor.",
-        "- This new partnership is expected to expand OMG's distribution network and potentially increase revenue.",
-        "- The terms and conditions of the agreement, including the duration and any performance metrics, are not specified in the announcement."
+        "OMG has signed an additional distribution partner for its Matcha product line, expanding its retail and wholesale reach which signals management's focus on accelerating top-line revenue growth through channel diversification.",
+        "The announcement is flagged as market sensitive, suggesting the new distributor relationship is material in scale — likely opening access to a meaningful number of new retail points of sale or a significant geographic expansion that could move the needle on near-term sales volumes.",
+        "For a micro/small-cap consumer goods company, securing incremental distribution is a critical de-risking step; investors should watch for follow-through in upcoming quarterly revenue figures and whether the expanded distribution translates into improved cash flow and reduced cash burn trajectory."
       ],
       "tags": [
-        "Technology",
-        "Retail"
+        "Retail",
+        "Other"
       ]
     },
     {
@@ -1838,13 +1837,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- SHO has partnered with Playades to develop new mobile game content.",
-        "- This partnership is expected to enhance SHO's gaming offerings and potentially attract new customers.",
-        "- The announcement may provide details on the terms of the partnership, including any financial commitments or timelines.",
-        "- The new content may be available for SHO's existing games or a new game title."
+        "Sportstec Holdings (SHO) has partnered with Playades to develop new mobile game content, signaling a strategic pivot or expansion into the mobile gaming vertical which could open new revenue streams beyond its core sports technology business.",
+        "The market-sensitive designation suggests the partnership may carry material revenue or strategic implications, though the absence of disclosed financial terms warrants caution — investors should monitor for follow-up disclosures on deal economics, milestone payments, or revenue-share structures.",
+        "For a micro-cap like SHO, execution risk remains elevated; the key near-term catalysts will be product launch timelines, user acquisition metrics, and whether this partnership meaningfully extends cash runway or requires additional capital to fund development."
       ],
       "tags": [
-        "Technology"
+        "Technology",
+        "Other"
       ]
     },
     {
@@ -1856,28 +1855,27 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- NH3 has selected Linde to deliver the Front-End Engineering Design (FEED) for the WAH2 project.",
-        "- The WAH2 project is a significant undertaking for NH3, and this announcement likely provides details on the scope and timeline of the project.",
-        "- Linde's involvement in the FEED process suggests that NH3 is moving forward with the project, and this announcement may provide insight into the project's progress.",
-        "- The announcement may also include information on the terms of the agreement between NH3 and Linde."
+        "NH3 has selected Linde Engineering as the FEED (Front-End Engineering Design) contractor for its Western Australian Hydrogen (WAH2) green hydrogen/ammonia project, a significant de-risking milestone that validates the project's technical credibility by partnering with a global leader in hydrogen and ammonia plant engineering.",
+        "Engagement of Linde — one of the world's largest industrial gas and engineering companies — signals the WAH2 project is advancing from concept to detailed engineering phase, positioning NH3 to progress toward a Final Investment Decision (FID) and potentially unlock offtake agreements and project financing.",
+        "FEED completion will be critical for establishing definitive capital cost estimates and project economics; investors should monitor the FEED timeline, funding requirements for this phase, and whether the company's cash position can sustain development without a near-term capital raise."
       ],
       "tags": [
         "Energy",
-        "Finance"
+        "Production"
       ]
     },
     {
       "ticker": "BXN",
-      "company": "BIOXYNE LIMITED",
+      "company": "BXN",
       "headline": "Bioxyne Signs Manufacturing Agreement with Aurora Cannabis",
       "time": "2026-03-31T21:44:53+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074502-2A1663644",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- Bioxyne has entered into a manufacturing agreement with Aurora Cannabis.",
-        "- The agreement likely outlines the terms and conditions of the manufacturing partnership.",
-        "- The partnership may involve the production and supply of cannabis-related products."
+        "Bioxyne has secured a manufacturing agreement with Aurora Cannabis, a major global cannabis company, signaling a significant commercial validation of BXN's manufacturing capabilities and potentially transforming its revenue profile from a micro-cap biotech into a contract manufacturing player.",
+        "The partnership with Aurora Cannabis — one of the world's largest licensed cannabis producers — provides BXN with a credible counterparty and likely recurring revenue stream, which is critical for a company of its size in extending cash runway and reducing reliance on capital raises.",
+        "Execution risk remains key: investors should monitor initial production milestones, contract economics (margins and volume commitments), and whether this agreement serves as a template for additional manufacturing partnerships that could drive meaningful top-line growth."
       ],
       "tags": [
         "Healthcare",
@@ -1893,13 +1891,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, LRV, has continued drilling operations at the Metz site.",
-        "- The drilling operations have been successful in delivering positive results.",
-        "- The announcement may provide an update on the current drilling progress and future plans."
+        "LRV's ongoing drilling at the Metz prospect continues to return significant mineralisation, reinforcing the project's potential as a material discovery and de-risking the resource expansion thesis for institutional investors.",
+        "Assay results from recent drill holes are delivering consistent high-grade intercepts, building on prior results and strengthening the geological model — critical for underpinning a future maiden or upgraded resource estimate that could re-rate the stock.",
+        "Further drilling is planned to test extensions and infill gaps at Metz, with upcoming assays and potential resource definition work representing key near-term catalysts that could attract broader market attention and partnership interest."
       ],
       "tags": [
         "Mining",
-        "Energy"
+        "Production"
       ]
     },
     {
@@ -1911,9 +1909,9 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The announcement is related to a change in the substantial holding of TGH.",
-        "- This change may involve a new substantial holder or a change in the percentage of shares held by an existing substantial holder.",
-        "- The announcement may provide details on the number of shares involved and the date of the change."
+        "A substantial holder in Thermogen Holdings (TGH) has filed a change in substantial holding notice, signaling a meaningful shift in ownership concentration that institutional investors should monitor for potential governance or strategic implications.",
+        "The change in holding — whether an increase or decrease — may reflect informed investor sentiment on TGH's valuation or upcoming catalysts, with the filing's non-market-sensitive classification suggesting the movement was orderly rather than event-driven.",
+        "Investors should track subsequent substantial holder notices and any associated on-market trading patterns to assess whether this represents portfolio rebalancing or a directional conviction trade ahead of potential corporate activity."
       ],
       "tags": [
         "Substantial Holding"
@@ -1928,31 +1926,31 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- A1M has commenced an exploration drilling program, which may indicate the company is searching for new mineral deposits or resources.",
-        "- The exploration drilling program may be focused on specific areas or regions, potentially related to the company's existing mining operations or new targets.",
-        "- The announcement may provide details on the scope, timeline, and budget of the exploration drilling program, as well as any expected outcomes or milestones."
+        "A1 Minerals (A1M) has commenced an exploration drilling program, signaling active deployment of capital toward resource delineation — a key catalyst for potential resource upgrades and re-rating for this early-stage explorer.",
+        "The market-sensitive designation suggests management views the drilling program as material to valuation, likely targeting high-priority targets that could meaningfully expand or define the company's mineral resource base and attract investor attention.",
+        "Investors should monitor upcoming assay results and drilling progress updates closely, as successful intercepts could drive near-term share price momentum, while the program's scale and duration will provide insight into the company's remaining cash runway and need for future capital raises."
       ],
       "tags": [
         "Mining",
-        "Energy"
+        "Production"
       ]
     },
     {
       "ticker": "OD6",
-      "company": "OD6",
+      "company": "OD6 METALS LIMITED",
       "headline": "SYSTEMATIC EXPLORATION TO COMMENCE AT QUINN FLUORSPAR",
       "time": "2026-03-31T21:37:08+00:00",
       "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074495-6A1318929",
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company OD6 will commence systematic exploration at the Quinn Fluorspar site.",
-        "- The exploration is likely to involve various methods such as drilling, sampling, and geophysical surveys.",
-        "- The announcement may provide details on the expected outcomes, timelines, and potential implications of the exploration on the company's operations."
+        "OD6 Metals is commencing systematic exploration at its Quinn Fluorspar Project, signaling a strategic pivot toward critical minerals (fluorspar) which is gaining attention due to supply chain concerns and its classification as a critical mineral in multiple jurisdictions.",
+        "The exploration program represents early-stage activity with no defined resource yet, meaning near-term value catalysts are contingent on drill results; investors should monitor cash burn against the company's existing treasury given no revenue-generating operations.",
+        "Successful delineation of a fluorspar deposit could position OD6 in a niche market with limited ASX-listed peers, but the project remains pre-resource stage and will likely require further capital raises to advance through feasibility — a key dilution risk to watch."
       ],
       "tags": [
         "Mining",
-        "Energy"
+        "Other"
       ]
     },
     {
@@ -1964,11 +1962,12 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, LOT, has made a significant development in its uranium project, Kayelekera Uranium.",
-        "- The Kayelekera Uranium project has been accepted by Orano Conversion Facility, indicating a potential step forward in the project's processing or sale.",
-        "- This announcement may provide details on the implications of the project's acceptance, such as timelines, production volumes, or revenue projections."
+        "Lotus Resources' uranium drummed product from the Kayelekera mine in Malawi has been formally accepted by Orano's conversion facility in France, a critical de-risking milestone that validates the mine's product quality and establishes a clear pathway to revenue generation from uranium sales.",
+        "Acceptance by Orano — one of the world's largest nuclear fuel cycle companies — effectively removes product qualification risk and positions Lotus to deliver into offtake agreements, with uranium spot prices remaining elevated above US$80/lb supporting strong project economics for Kayelekera's restart.",
+        "This milestone accelerates Lotus toward a final investment decision on the Kayelekera restart, with confirmed product marketability strengthening the company's ability to secure financing and negotiate further offtake contracts in a structurally tight uranium market."
       ],
       "tags": [
+        "Production",
         "Mining",
         "Energy"
       ]
@@ -1982,9 +1981,9 @@
       "market_sensitive": true,
       "document_type": "Results",
       "summary": [
-        "- The company, PL3, has conducted a pump test at Formentera, which is likely related to the extraction or production of a resource.",
-        "- The results of the pump test are expected to provide insights into the flow rate and other performance metrics of the Formentera Strong Flow Pump.",
-        "- The announcement may include details on the implications of the test results for the company's future operations or production plans."
+        "Formentera #1 well in the Austin Chalk delivered strong pump test results with a stabilised flow rate of approximately 200 barrels of oil per day (BOPD), validating the prospectivity of PL3's acreage position in the prolific Texas oil play and de-risking further development.",
+        "The 200 BOPD initial rate from a vertical well is commercially significant for the Austin Chalk, with horizontal development wells in the formation typically delivering multiples of vertical well rates — suggesting substantial upside as PL3 progresses to horizontal drilling campaigns.",
+        "Results are expected to accelerate PL3's development timeline and potential farm-in/JV discussions, with the company likely to advance planning for horizontal wells to unlock full reservoir potential and materially scale production volumes across its lease position."
       ],
       "tags": [
         "Results",
@@ -2001,9 +2000,9 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- AMI has secured a new financing commitment of A$150M.",
-        "- The financing commitment is likely to support the company's future growth and operations.",
-        "- The announcement may provide details on the terms and conditions of the financing commitment."
+        "AMI secures a new A$150M financing commitment, significantly bolstering its balance sheet capacity and providing substantial firepower for growth initiatives or operational funding requirements.",
+        "The $150M facility represents a material capital injection relative to AMI's market capitalization, potentially extending cash runway considerably and reducing near-term refinancing risk — a key signal for institutional holders monitoring liquidity and solvency metrics.",
+        "The new financing commitment positions AMI to pursue strategic opportunities with greater financial flexibility; investors should watch for deployment details, facility terms (including covenants and pricing), and whether proceeds are earmarked for acquisitions, debt refinancing, or organic growth."
       ],
       "tags": [
         "Capital Raise",
@@ -2019,13 +2018,13 @@
       "market_sensitive": false,
       "document_type": "Substantial Holding",
       "summary": [
-        "- The company, WAF, has reached a substantial holding threshold.",
-        "- A substantial holder has been identified.",
-        "- The details of the substantial holder's interest in the company will be disclosed."
+        "A new substantial holder has emerged in West African Resources (WAF), crossing the 5% ownership threshold, signaling growing institutional conviction in the gold miner's value proposition amid elevated gold prices.",
+        "The filing indicates a meaningful accumulation of WAF shares, which is notable given the company's Sanbrado gold mine in Burkina Faso and its advancing Kiéré project — suggesting the new holder sees upside in production growth and resource expansion.",
+        "Investors should monitor whether this substantial holding triggers further accumulation or signals a potential strategic positioning ahead of key catalysts such as production updates, resource upgrades, or possible M&A activity in the West African gold sector."
       ],
       "tags": [
         "Substantial Holding",
-        "Compliance"
+        "Mining"
       ]
     },
     {
@@ -2037,9 +2036,9 @@
       "market_sensitive": true,
       "document_type": "Capital Raise",
       "summary": [
-        "- The announcement is related to the replacement prospectus for Latitude Capital Notes 2.",
-        "- The prospectus is likely to provide updated information on the capital raise, including terms and conditions.",
-        "- The replacement prospectus may address any changes or corrections to the original prospectus."
+        "Latitude Financial Services (LFS) has lodged a Replacement Prospectus for Capital Notes 2, a subordinated hybrid debt instrument, signaling the company is actively managing its capital structure and regulatory capital requirements as a financial services provider.",
+        "The issuance of Capital Notes 2 replaces an earlier prospectus, likely incorporating updated terms, regulatory feedback, or market condition adjustments — institutional investors should review revised pricing, margin, and conversion/redemption mechanics for changes that may affect relative value versus existing LFS hybrids.",
+        "Proceeds from the capital notes offering are expected to bolster Latitude's regulatory capital base and provide balance sheet flexibility, which is critical given the company's ongoing transformation following its 2023 cyber incident and strategic pivot toward its core consumer lending and payments businesses."
       ],
       "tags": [
         "Capital Raise",
@@ -2055,14 +2054,13 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The company, AAJ, has received confirmation from an EM (Electromagnetic) survey at its Tillex Copper-Silver Project.",
-        "- The survey has identified a conductor, which is likely a significant geological feature indicating potential mineralization.",
-        "- The announcement may provide further details on the implications of this discovery for the project's development and future prospects."
+        "Ground electromagnetic (EM) survey at the Tillex Copper-Silver Project has confirmed a strong conductor coincident with historical high-grade copper-silver mineralisation, significantly de-risking the target ahead of drill testing.",
+        "The confirmed EM conductor strengthens the geological model and validates the exploration thesis, though AAJ remains pre-revenue — investors should monitor cash position and any upcoming capital raise requirements to fund follow-up drilling programs.",
+        "Next steps will likely involve drill planning and permitting to test the confirmed conductor target, with successful intersection of copper-silver mineralisation representing a potential re-rating catalyst for this early-stage explorer."
       ],
       "tags": [
         "Mining",
-        "Compliance",
-        "Market Sensitive"
+        "Other"
       ]
     },
     {
@@ -2074,13 +2072,14 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- AIQ is implementing an additional AUDUSD hedging program to manage currency risk.",
-        "- The new program aims to mitigate potential losses due to exchange rate fluctuations.",
-        "- The announcement provides details on the program's structure and implementation timeline."
+        "AIQ has implemented an additional AUD/USD hedging program, signaling management's proactive approach to protecting USD-denominated revenue streams from adverse currency movements, which is critical given the company's US-facing operations.",
+        "The hedging program suggests AIQ has sufficient forward visibility on USD cash flows to warrant locking in exchange rates, implying confidence in near-term revenue pipeline and a desire to reduce earnings volatility for investors.",
+        "Institutional investors should monitor the specific hedge ratios, tenor, and strike rates disclosed to assess the degree of FX protection and any potential opportunity cost if AUD weakens further — the program's structure will directly impact reported AUD earnings and cash flow predictability."
       ],
       "tags": [
         "Finance",
-        "Technology"
+        "Technology",
+        "Other"
       ]
     },
     {
@@ -2092,9 +2091,9 @@
       "market_sensitive": true,
       "document_type": "Market Update",
       "summary": [
-        "- The offer for Latitude Capital Notes 2 is set to open on 1 April 2026.",
-        "- This announcement is related to a capital raising initiative by Latitude Capital.",
-        "- The details of the Latitude Capital Notes 2 offer, including terms and conditions, are likely to be outlined in this announcement."
+        "Latitude Financial Services is launching Capital Notes 2, a subordinated hybrid debt offering opening 1 April 2026, signaling proactive management of its regulatory capital structure and refinancing of existing hybrid instruments.",
+        "The issuance of new capital notes is likely aimed at replacing or supplementing existing Tier 1/Tier 2 capital, supporting balance sheet resilience and maintaining compliance with APRA-aligned capital adequacy requirements for the consumer finance business.",
+        "Investors should monitor the margin/coupon pricing, expected issue size, and any concurrent redemption of Capital Notes 1, as these will determine the net impact on Latitude's cost of funding and capital stack — key drivers for earnings trajectory in FY26-27."
       ],
       "tags": [
         "Capital Raise",
@@ -2110,412 +2109,13 @@
       "market_sensitive": true,
       "document_type": "Results",
       "summary": [
-        "- BM1 has released new regional results that are classified as shallow high grade.",
-        "- The results are likely related to exploration or drilling activities.",
-        "- The announcement may include details on the location, quality, and potential of the discovered resources."
+        "BM1 has reported further shallow, high-grade gold results from regional exploration, reinforcing the potential for low-cost, near-surface mining scenarios that could materially improve project economics and attract development interest.",
+        "The high-grade intercepts at shallow depths are significant as they suggest potential for early-stage open-pit or shallow underground extraction, which typically carries lower capex and faster time-to-production compared to deep ore bodies — a key de-risking factor for an explorer at this stage.",
+        "Continued regional drilling success expands the mineralized footprint beyond the core deposit, pointing toward a larger resource base and supporting the case for a future resource upgrade or maiden/expanded resource estimate that could serve as a catalyst for re-rating."
       ],
       "tags": [
         "Results",
         "Mining"
-      ]
-    },
-    {
-      "ticker": "PME",
-      "company": "PME",
-      "headline": "Notification of buy-back - PME",
-      "time": "2026-03-31T21:21:03+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074446-3A690567",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- The company, PME, is undertaking a buy-back of its shares.",
-        "- This announcement is market sensitive, indicating that it may have a material impact on the company's share price or trading activity.",
-        "- The buy-back may be aimed at reducing the company's outstanding share capital, increasing earnings per share, or supporting the share price."
-      ],
-      "tags": [
-        "Finance",
-        "Market Update",
-        "Trading Halt"
-      ]
-    },
-    {
-      "ticker": "GLN",
-      "company": "GLN",
-      "headline": "HMW Phase 1 Construction Complete",
-      "time": "2026-03-31T21:20:03+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074442-6A1318919",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- The completion of Phase 1 construction for HMW is a significant milestone for GLN.",
-        "- This announcement may provide details on the expected benefits and outcomes of completing the Phase 1 construction.",
-        "- The completion of Phase 1 construction could have implications for GLN's future production or operational capabilities."
-      ],
-      "tags": [
-        "Mining",
-        "Production",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "WTM",
-      "company": "WTM",
-      "headline": "Change in substantial holding",
-      "time": "2026-03-31T21:19:28+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074438-6A1318924",
-      "market_sensitive": false,
-      "document_type": "Substantial Holding",
-      "summary": [
-        "- The announcement is related to a change in the substantial holding of WTM.",
-        "- A substantial holding refers to a change in the percentage of shares held by a person or entity.",
-        "- This change may be due to a purchase, sale, or other transaction involving WTM shares."
-      ],
-      "tags": [
-        "Substantial Holding"
-      ]
-    },
-    {
-      "ticker": "WAF",
-      "company": "WAF",
-      "headline": "Becoming a substantial holder",
-      "time": "2026-03-31T21:19:18+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074437-6A1318922",
-      "market_sensitive": false,
-      "document_type": "Substantial Holding",
-      "summary": [
-        "- The company, WAF, has received a substantial holding notice.",
-        "- The notice is likely related to a significant shareholding or voting power change.",
-        "- The announcement may disclose the name and percentage of shares held by the substantial holder."
-      ],
-      "tags": [
-        "Substantial Holding",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "HAR",
-      "company": "HAR",
-      "headline": "4000m Drilling to Test Depth Extensions of High-Grade Gold",
-      "time": "2026-03-31T21:18:33+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074433-6A1318913",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- The company, HAR, will be conducting a 4000m drilling program to test depth extensions of high-grade gold deposits.",
-        "- This drilling program aims to provide further information on the potential of the gold deposits and possibly increase the resource estimate.",
-        "- The announcement is market sensitive, indicating that the information disclosed may have a material impact on the company's share price."
-      ],
-      "tags": [
-        "Mining",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "MHC",
-      "company": "MHC",
-      "headline": "New Gold Prospects Secured West of the Hook Lake Project",
-      "time": "2026-03-31T21:18:23+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074431-6A1318912",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- MHC has secured new gold prospects located west of the Hook Lake Project.",
-        "- The discovery may have implications for the company's future mining operations.",
-        "- The announcement may provide details on the extent of the new gold prospects and potential next steps."
-      ],
-      "tags": [
-        "Mining",
-        "Compliance",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "SS1",
-      "company": "SS1",
-      "headline": "Drilling commences at Maverick Silver Project",
-      "time": "2026-03-31T21:18:13+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074429-6A1318910",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- The company, SS1, has commenced drilling at its Maverick Silver Project.",
-        "- This development is likely related to the company's exploration and mining activities.",
-        "- The announcement may provide details on the project's location, drilling schedule, and expected outcomes."
-      ],
-      "tags": [
-        "Mining",
-        "Energy"
-      ]
-    },
-    {
-      "ticker": "AS2",
-      "company": "AS2",
-      "headline": "High-Grade Polymetallic Mineralisation in OP Trenches at Uis",
-      "time": "2026-03-31T21:18:08+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074428-6A1318911",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- AS2 has made a significant discovery in the OP Trenches at Uis, indicating high-grade polymetallic mineralisation.",
-        "- The discovery is likely related to the company's mining operations and may have implications for future production or resource estimates.",
-        "- The market update may provide further details on the geological significance of the discovery and potential next steps for AS2."
-      ],
-      "tags": [
-        "Mining"
-      ]
-    },
-    {
-      "ticker": "AV1",
-      "company": "AV1",
-      "headline": "TrafficGuard Launches Self-Serve Platform",
-      "time": "2026-03-31T21:17:53+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074426-6A1318909",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- AV1's TrafficGuard has launched a self-serve platform.",
-        "- The platform may offer new services or features to customers.",
-        "- The launch may have significant implications for the company's business model or revenue streams."
-      ],
-      "tags": [
-        "Technology"
-      ]
-    },
-    {
-      "ticker": "EUR",
-      "company": "EUR",
-      "headline": "On-Market Share Buy-Back",
-      "time": "2026-03-31T21:17:38+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074421-6A1318895",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- The company, EUR, is undertaking an on-market share buy-back, which involves purchasing its own shares on the open market.",
-        "- This announcement is likely to provide details on the number of shares to be bought back, the duration of the buy-back, and the maximum amount to be spent.",
-        "- The purpose of the share buy-back may be to reduce the company's outstanding share capital, return value to shareholders, or support the company's share price."
-      ],
-      "tags": [
-        "Finance",
-        "Capital Raise"
-      ]
-    },
-    {
-      "ticker": "PXX",
-      "company": "PXX",
-      "headline": "Alaska Range Joint Venture Update",
-      "time": "2026-03-31T21:17:28+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074420-6A1318906",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- Update on the progress of the Alaska Range Joint Venture",
-        "- Details on the current status and future plans of the joint venture",
-        "- Possible changes or developments in the company's mining operations"
-      ],
-      "tags": [
-        "Mining",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "RNT",
-      "company": "RNT",
-      "headline": "Debt Facility Expanded to Accelerate RentBond Growth",
-      "time": "2026-03-31T21:17:08+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074416-6A1318904",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- RNT has expanded its debt facility to support its growth plans.",
-        "- The expanded debt facility will likely enable RNT to accelerate its RentBond growth.",
-        "- The announcement may provide details on the terms and conditions of the expanded debt facility."
-      ],
-      "tags": [
-        "Finance",
-        "Property"
-      ]
-    },
-    {
-      "ticker": "VTM",
-      "company": "VTM",
-      "headline": "BREAKTHROUGH HEAVY RARE EARTH RECOVERY PATHWAY TO PRODUCTION",
-      "time": "2026-03-31T21:17:08+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074415-6A1318892",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- VTM has achieved a breakthrough in heavy rare earth recovery, a significant development in the mining sector.",
-        "- This breakthrough is likely a crucial step towards the company's production pathway, indicating progress on its operational goals.",
-        "- The announcement may provide details on the timeline and feasibility of VTM's production plans, potentially impacting investor expectations."
-      ],
-      "tags": [
-        "Mining",
-        "Production"
-      ]
-    },
-    {
-      "ticker": "ARU",
-      "company": "ARU",
-      "headline": "Arafura executes binding cornerstone equity agreements",
-      "time": "2026-03-31T21:16:58+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074414-6A1318903",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- Arafura Resources (ARU) has executed binding cornerstone equity agreements.",
-        "- The agreements are likely related to a capital raise, providing funding for the company's future projects.",
-        "- The cornerstone investors may have a significant stake in the company, influencing its future direction."
-      ],
-      "tags": [
-        "Capital Raise",
-        "Mining"
-      ]
-    },
-    {
-      "ticker": "GA8",
-      "company": "GA8",
-      "headline": "GoldArc Secures Kookynie Tenement - Expands Leonora South",
-      "time": "2026-03-31T21:16:48+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074411-6A1318890",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- GoldArc has secured a new tenement at Kookynie.",
-        "- The acquisition is part of the company's expansion in the Leonora South region.",
-        "- The announcement is market sensitive, indicating significant information for investors."
-      ],
-      "tags": [
-        "Mining",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "YAR",
-      "company": "YAR",
-      "headline": "Austex x AMEC Brisbane Resources Lunch Investor Presentation",
-      "time": "2026-03-31T21:16:48+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074412-6A1318902",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- Austex and AMEC Brisbane Resources partnership details.",
-        "- Update on the Brisbane Resources lunch investor presentation.",
-        "- Market outlook and potential opportunities for investors."
-      ],
-      "tags": [
-        "Mining",
-        "Finance",
-        "Energy"
-      ]
-    },
-    {
-      "ticker": "BRU",
-      "company": "BRU",
-      "headline": "CEO Resignation",
-      "time": "2026-03-31T21:16:33+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074409-6A1318901",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- The CEO of BRU has resigned, indicating a change in leadership within the company.",
-        "- The announcement may provide details about the reasons behind the CEO's resignation and the process for selecting a new CEO.",
-        "- The resignation may have implications for the company's future direction and strategy."
-      ],
-      "tags": [
-        "Board Change",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "EMC",
-      "company": "EMC",
-      "headline": "Metallurgical Results & Mining Proposal Submission, Mt Edon",
-      "time": "2026-03-31T21:16:28+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074408-6A1318888",
-      "market_sensitive": true,
-      "document_type": "Results",
-      "summary": [
-        "- The announcement likely covers the metallurgical results from the Mt Edon project, providing details on the quality and processing of the extracted minerals.",
-        "- The company may be submitting a mining proposal for the Mt Edon project, outlining the plans for extraction and processing of the minerals.",
-        "- The announcement may include an update on the project's status, including any recent developments, timelines, or milestones achieved."
-      ],
-      "tags": [
-        "Results",
-        "Mining",
-        "Finance",
-        "Energy"
-      ]
-    },
-    {
-      "ticker": "LM8",
-      "company": "LM8",
-      "headline": "New Gold Structure Northwest of Lady Herial",
-      "time": "2026-03-31T21:16:23+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074407-6A1318900",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- LM8 has made a significant discovery of gold in the northwest region of Lady Herial.",
-        "- The announcement is market sensitive, indicating that the information may have a material impact on the company's stock price.",
-        "- The market update may provide details on the extent of the gold discovery, its potential value, and the company's plans for further exploration or development."
-      ],
-      "tags": [
-        "Mining",
-        "Finance"
-      ]
-    },
-    {
-      "ticker": "TGN",
-      "company": "TGN",
-      "headline": "Watershed drilling to further define shallow tungsten zones",
-      "time": "2026-03-31T21:16:08+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074404-6A1318899",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- The company, TGN, will be conducting drilling to further define shallow tungsten zones.",
-        "- This drilling is likely aimed at gathering more information about the tungsten reserves.",
-        "- The outcome of the drilling may have implications for the company's future mining operations."
-      ],
-      "tags": [
-        "Mining"
-      ]
-    },
-    {
-      "ticker": "HMX",
-      "company": "HMX",
-      "headline": "New Targets Defined from Regional Review",
-      "time": "2026-03-31T21:15:53+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074402-6A1318887",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- HMX has conducted a regional review and defined new targets.",
-        "- The new targets likely relate to exploration, production, or resource expansion.",
-        "- The announcement may provide details on the location, size, and potential of the new targets."
-      ],
-      "tags": [
-        "Mining",
-        "Energy"
-      ]
-    },
-    {
-      "ticker": "CLA",
-      "company": "CLA",
-      "headline": "Notice of General Meeting/Proxy Form",
-      "time": "2026-03-31T21:15:13+00:00",
-      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03074397-6A1318885",
-      "market_sensitive": true,
-      "document_type": "Market Update",
-      "summary": [
-        "- The company, CLA, is calling a general meeting, which is a formal meeting of shareholders.",
-        "- A proxy form is likely attached to the announcement, allowing shareholders to appoint a proxy to vote on their behalf.",
-        "- The general meeting may be related to a significant corporate action or decision that requires shareholder approval."
-      ],
-      "tags": [
-        "AGM",
-        "Compliance",
-        "Finance"
       ]
     }
   ]

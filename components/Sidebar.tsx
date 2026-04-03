@@ -139,17 +139,26 @@ export default function Sidebar({
   };
 
   return (
-    <aside className="w-[280px] min-w-[280px] flex flex-col h-screen sticky top-0 overflow-y-auto overflow-x-hidden pb-8
-      [scrollbar-width:none] relative"
-      style={{ background: 'linear-gradient(180deg, #06091a 0%, #04060f 100%)', borderRight: '1px solid rgba(255,255,255,0.045)' }}>
+    <aside className="w-[280px] min-w-[280px] flex flex-col h-screen sticky top-0 overflow-y-auto overflow-x-hidden pb-8 [scrollbar-width:none] relative transition-all duration-300"
+      style={{ 
+        background: 'var(--bg-sidebar)', 
+        borderRight: '1px solid var(--border-subtle)',
+        boxShadow: 'var(--shadow-sidebar)'
+      }}>
 
-      {/* Top gradient accent line */}
-      <div className="absolute top-0 left-0 right-0 h-[2px]"
-        style={{ background: 'linear-gradient(90deg, #6366f1 0%, #8b5cf6 40%, #06b6d4 100%)' }} />
+      {/* Top gradient accent line (Vibrant only) */}
+      <div className="absolute top-0 left-0 right-0 h-[2px] transition-opacity duration-500"
+        style={{ 
+          background: 'linear-gradient(90deg, var(--accent) 0%, var(--accent-light) 40%, var(--success) 100%)',
+          opacity: 1
+        }} />
 
-      {/* Subtle corner glow */}
-      <div className="absolute top-0 left-0 w-64 h-64 rounded-full pointer-events-none"
-        style={{ background: 'radial-gradient(ellipse at 0% 0%, rgba(99,102,241,0.09) 0%, transparent 70%)' }} />
+      {/* Subtle corner glow (Vibrant only) */}
+      <div className="absolute top-0 left-0 w-64 h-64 rounded-full pointer-events-none transition-opacity duration-500"
+        style={{ 
+          background: 'radial-gradient(ellipse at 0% 0%, var(--accent-dim) 0%, transparent 70%)',
+          opacity: 1
+        }} />
 
       {/* ── Logo ── */}
       <div className="px-6 pt-8 pb-6 flex-shrink-0" style={{ borderBottom: '1px solid rgba(255,255,255,0.045)' }}>
@@ -157,7 +166,11 @@ export default function Sidebar({
           {/* Icon with gradient glow */}
           <div className="relative w-10 h-10 flex-shrink-0">
             <div className="absolute inset-0 rounded-[12px]"
-              style={{ background: 'linear-gradient(135deg, #6366f1, #8b5cf6, #06b6d4)', boxShadow: '0 0 20px rgba(99,102,241,0.45), 0 4px 12px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.25)' }} />
+              style={{ 
+                background: 'linear-gradient(135deg, var(--accent), var(--accent-light))', 
+                boxShadow: 'var(--glow-accent), 0 4px 12px rgba(0,0,0,0.2)', 
+                inset: '0px'
+              }} />
             <div className="absolute inset-0 flex items-center justify-center rounded-[12px]">
               <svg viewBox="0 0 16 16" fill="none" className="w-5 h-5">
                 <rect x="1.5" y="9.5" width="3" height="5" rx="1" fill="white" opacity="0.75"/>
@@ -168,12 +181,12 @@ export default function Sidebar({
           </div>
 
           <div>
-            <div className="text-[1.2rem] font-extrabold tracking-tight text-white leading-none">
+            <div className="text-[1.2rem] font-extrabold tracking-tight leading-none" style={{ color: 'var(--text-primary)' }}>
               Vitti<em className="not-italic"
-                style={{ background: 'linear-gradient(90deg, #818cf8, #67e8f9)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>ASX</em>
+                style={{ background: 'linear-gradient(90deg, var(--accent), var(--accent-light))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>ASX</em>
             </div>
             <div className="text-[0.58rem] font-bold uppercase tracking-[0.22em] mt-1"
-              style={{ color: 'rgba(165,180,252,0.55)' }}>
+              style={{ color: 'var(--text-dim)' }}>
               Intelligence Center
             </div>
           </div>
@@ -190,11 +203,12 @@ export default function Sidebar({
           <select
             value={date}
             onChange={e => onDateChange(e.target.value)}
-            className="w-full px-4 py-2.5 rounded-xl text-slate-100 font-mono text-[0.875rem] outline-none cursor-pointer appearance-none"
+            className="w-full px-4 py-2.5 rounded-xl font-mono text-[0.875rem] outline-none cursor-pointer appearance-none transition-all"
             style={{
-              background: 'rgba(255,255,255,0.04)',
-              border: '1px solid rgba(255,255,255,0.09)',
-              boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.04)',
+              background: 'var(--border-subtle)',
+              border: '1px solid var(--border-med)',
+              color: 'var(--text-primary)',
+              boxShadow: 'inset 0 1px 0 var(--border-subtle)',
             }}
           >
             {date && !availableDates.includes(date) && (
@@ -211,41 +225,45 @@ export default function Sidebar({
           </div>
         </div>
         {log && (
-          <p className="text-[0.68rem] font-medium mt-2.5 flex items-center gap-1.5" style={{ color: 'rgba(148,163,184,0.5)' }}>
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 inline-block"
-              style={{ boxShadow: '0 0 6px rgba(16,185,129,0.6)' }} />
+          <p className="text-[0.68rem] font-medium mt-2.5 flex items-center gap-1.5" style={{ color: 'var(--text-dim)' }}>
+            <span className="w-1.5 h-1.5 rounded-full"
+              style={{ background: 'var(--success)', boxShadow: '0 0 6px var(--success)' }} />
             {formatDateLabel(log.date)} · Data loaded
           </p>
         )}
       </div>
 
       {/* ── Market Overview Stats ── */}
-      <div className="px-6 py-5 flex-shrink-0" style={{ borderBottom: '1px solid rgba(255,255,255,0.045)' }}>
+      <div className="px-6 py-5 flex-shrink-0" style={{ borderBottom: '1px solid var(--border-subtle)' }}>
         <label className="block text-[0.6rem] font-bold uppercase tracking-[0.2em] mb-4"
-          style={{ color: 'rgba(148,163,184,0.6)' }}>
+          style={{ color: 'var(--text-dim)' }}>
           Market Overview
         </label>
         <div className="grid grid-cols-2 gap-2.5">
-          {stats.map(({ label, value, sub, icon, color }) => {
-            const c = colorMap[color];
-            return (
+          {stats.map(({ label, value, sub, icon, color }) => (
               <div key={label}
-                className={`relative rounded-[14px] p-3.5 border ${c.bg} ${c.border} ${c.glow} group cursor-default overflow-hidden hover:-translate-y-0.5 hover:brightness-110 transition-all duration-200`}>
-                {/* Subtle top glow line */}
-                <div className="absolute top-0 left-3 right-3 h-[1px] opacity-60"
-                  style={{ background: `linear-gradient(90deg, transparent, ${color === 'indigo' ? '#6366f1' : color === 'rose' ? '#f43f5e' : color === 'emerald' ? '#10b981' : '#f59e0b'}, transparent)` }} />
-                <div className={`w-6 h-6 rounded-lg flex items-center justify-center mb-2.5 ${c.icon}`}>
+                className={`relative rounded-[14px] p-3.5 border group cursor-default overflow-hidden hover:-translate-y-0.5 hover:brightness-110 transition-all duration-200`}
+                style={{
+                  background: `color-mix(in srgb, var(--${color === 'indigo' ? 'accent' : color}), transparent 92%)`,
+                  borderColor: `color-mix(in srgb, var(--${color === 'indigo' ? 'accent' : color}), transparent 80%)`,
+                  boxShadow: 'var(--glow-accent)',
+                }}>
+                <div className={`w-6 h-6 rounded-lg flex items-center justify-center mb-2.5`}
+                  style={{ 
+                    background: `color-mix(in srgb, var(--${color === 'indigo' ? 'accent' : color}), transparent 85%)`,
+                    color: `var(--${color === 'indigo' ? 'accent' : color})`
+                  }}>
                   {icon}
                 </div>
-                <div className={`font-mono text-[1.55rem] font-bold leading-none tracking-tight mb-1 ${c.text}`}>
+                <div className={`font-mono text-[1.55rem] font-bold leading-none tracking-tight mb-1`}
+                   style={{ color: `var(--${color === 'indigo' ? 'accent' : color})` }}>
                   {value}
                 </div>
-                <div className="text-[0.6rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'rgba(148,163,184,0.5)' }}>
+                <div className="text-[0.6rem] font-semibold uppercase tracking-[0.1em]" style={{ color: 'var(--text-dim)' }}>
                   {label}
                 </div>
               </div>
-            );
-          })}
+          ))}
         </div>
       </div>
 
