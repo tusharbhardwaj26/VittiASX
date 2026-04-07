@@ -1,38 +1,57 @@
 'use client';
 
 import { Announcement } from '@/types';
-import { formatTime, isBullish, tagClass, TAG_BG } from '@/lib/utils';
+import { formatTime, getSentiment, tagClass, TAG_BG } from '@/lib/utils';
 
 interface Props {
   ann: Announcement;
 }
 
 export default function AnnouncementCard({ ann }: Props) {
-  const bullish = isBullish(ann);
+  const sentiment = getSentiment(ann);
   const sensitive = ann.market_sensitive;
 
-  // Determine the card's border/accent style
-  const accentStyle = bullish
-    ? { borderLeft: '3px solid var(--success)', boxShadow: 'var(--glow-accent)' }
-    : {};
+  const cardSurface =
+    sentiment === 'bullish'
+      ? {
+          background:
+            'linear-gradient(135deg, color-mix(in srgb, var(--success), transparent 90%) 0%, var(--bg-card) 60%)',
+          border: '1px solid color-mix(in srgb, var(--success), transparent 75%)',
+          borderLeft: '3px solid var(--success)',
+          boxShadow: 'var(--glow-accent)',
+        }
+      : sentiment === 'bearish'
+        ? {
+            background:
+              'linear-gradient(135deg, color-mix(in srgb, var(--danger), transparent 92%) 0%, var(--bg-card) 60%)',
+            border: '1px solid color-mix(in srgb, var(--danger), transparent 78%)',
+            borderLeft: '3px solid var(--danger)',
+            boxShadow: 'var(--glow-accent)',
+          }
+        : {
+            background: 'var(--bg-card)',
+            border: '1px solid var(--border-subtle)',
+            borderLeft: '3px solid color-mix(in srgb, var(--text-dim), transparent 40%)',
+            boxShadow: 'var(--shadow-card)',
+          };
 
   return (
     <div
       className="group relative flex flex-col gap-3.5 p-5 rounded-[18px] cursor-default select-none transition-all duration-300 hover:-translate-y-1"
       style={{
-        background: bullish
-          ? 'linear-gradient(135deg, color-mix(in srgb, var(--success), transparent 90%) 0%, var(--bg-card) 60%)'
-          : 'var(--bg-card)',
-        border: bullish
-          ? '1px solid color-mix(in srgb, var(--success), transparent 75%)'
-          : '1px solid var(--border-subtle)',
-        boxShadow: 'var(--shadow-card)',
-        ...accentStyle,
+        ...cardSurface,
       }}
       onMouseEnter={e => {
-        (e.currentTarget as HTMLElement).style.boxShadow = bullish
-          ? '-4px 0 20px rgba(16,185,129,0.12), 0 20px 60px rgba(0,0,0,0.55), 0 0 0 1px rgba(16,185,129,0.18)'
-          : '0 20px 60px rgba(0,0,0,0.55), 0 0 0 1px rgba(99,102,241,0.15)';
+        if (sentiment === 'bullish') {
+          (e.currentTarget as HTMLElement).style.boxShadow =
+            '-4px 0 20px rgba(16,185,129,0.12), 0 20px 60px rgba(0,0,0,0.55), 0 0 0 1px rgba(16,185,129,0.18)';
+        } else if (sentiment === 'bearish') {
+          (e.currentTarget as HTMLElement).style.boxShadow =
+            '-4px 0 20px rgba(244,63,94,0.12), 0 20px 60px rgba(0,0,0,0.55), 0 0 0 1px rgba(244,63,94,0.18)';
+        } else {
+          (e.currentTarget as HTMLElement).style.boxShadow =
+            '0 20px 60px rgba(0,0,0,0.55), 0 0 0 1px rgba(99,102,241,0.12)';
+        }
       }}
       onMouseLeave={e => {
         (e.currentTarget as HTMLElement).style.boxShadow = '0 4px 24px rgba(0,0,0,0.35)';
@@ -47,14 +66,29 @@ export default function AnnouncementCard({ ann }: Props) {
           {ann.ticker}
         </span>
 
-        {/* Bullish badge */}
-        {bullish && (
+        {/* Sentiment badge */}
+        {sentiment === 'bullish' && (
           <span className="flex items-center gap-1 font-mono text-[0.58rem] font-bold uppercase tracking-[0.08em] px-2 py-0.5 rounded-md"
             style={{ background: 'color-mix(in srgb, var(--success), transparent 90%)', border: '1px solid color-mix(in srgb, var(--success), transparent 75%)', color: 'var(--success)' }}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-2.5 h-2.5">
               <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/>
             </svg>
             Bullish
+          </span>
+        )}
+        {sentiment === 'bearish' && (
+          <span className="flex items-center gap-1 font-mono text-[0.58rem] font-bold uppercase tracking-[0.08em] px-2 py-0.5 rounded-md"
+            style={{ background: 'color-mix(in srgb, var(--danger), transparent 90%)', border: '1px solid color-mix(in srgb, var(--danger), transparent 75%)', color: 'var(--danger)' }}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="w-2.5 h-2.5">
+              <polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/>
+            </svg>
+            Bearish
+          </span>
+        )}
+        {sentiment === 'neutral' && (
+          <span className="flex items-center gap-1 font-mono text-[0.58rem] font-bold uppercase tracking-[0.08em] px-2 py-0.5 rounded-md"
+            style={{ background: 'color-mix(in srgb, var(--text-dim), transparent 88%)', border: '1px solid color-mix(in srgb, var(--text-dim), transparent 65%)', color: 'var(--text-dim)' }}>
+            Neutral
           </span>
         )}
 

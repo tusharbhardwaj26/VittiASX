@@ -1,17 +1,23 @@
 name: Daily ASX Announcements
 
 on:
-  # ASX trades 10:00 AM – 4:00 PM AEST (23:00 – 05:00 UTC)
-  # Runs every 20 minutes across the full session Mon–Fri
-  # Using offset minutes (3,23,43) to avoid peak GitHub scheduler congestion
+  # ASX session in Sydney spans two UTC calendar days. Prior crons used 1-5 / 2-6 DOW
+  # which skipped all of Sunday UTC (and left Monday UTC morning gaps), so scheduled
+  # runs could disappear for 24h+. These lines fire every calendar day during hours
+  # that cover ~10:00–16:00 Australia/Sydney in both AEST and AEDT; fetch_asx.py still
+  # filters by AEST date, so weekend runs are cheap no-ops if the API returns nothing.
+  # Minutes 3,23,43 reduce GitHub scheduler pile-ups.
   schedule:
-    - cron: "3,23,43 23 * * 1-5"   # 23:03, 23:23, 23:43 UTC  (10:03–10:43 AM AEST)
-    - cron: "3,23,43 0  * * 2-6"   # 00:03, 00:23, 00:43 UTC  (11:03–11:43 AM AEST)
-    - cron: "3,23,43 1  * * 2-6"   # 01:03, 01:23, 01:43 UTC  (12:03–12:43 PM AEST)
-    - cron: "3,23,43 2  * * 2-6"   # 02:03, 02:23, 02:43 UTC  (01:03–01:43 PM AEST)
-    - cron: "3,23,43 3  * * 2-6"   # 03:03, 03:23, 03:43 UTC  (02:03–02:43 PM AEST)
-    - cron: "3,23,43 4  * * 2-6"   # 04:03, 04:23, 04:43 UTC  (03:03–03:43 PM AEST)
-    - cron: "3,23,43 5  * * 2-6"   # 05:03, 05:23, 05:43 UTC  (04:03–04:43 PM AEST)
+    - cron: "3,23,43 22 * * *"
+    - cron: "3,23,43 23 * * *"
+    - cron: "3,23,43 0 * * *"
+    - cron: "3,23,43 1 * * *"
+    - cron: "3,23,43 2 * * *"
+    - cron: "3,23,43 3 * * *"
+    - cron: "3,23,43 4 * * *"
+    - cron: "3,23,43 5 * * *"
+    - cron: "3,23,43 6 * * *"
+    - cron: "3,23,43 7 * * *"
 
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
@@ -21,6 +27,11 @@ on:
         required: false
         default: ""
 
+# Secrets (Settings → Secrets and variables → Actions):
+#   GROQ_API_KEY        — recommended; failover if Anthropic errors
+#   ANTHROPIC_API_KEY   — optional primary (Claude); omit to use Groq only
+# Variables (optional overrides; leave unset to use fetch_asx.py defaults):
+#   GROQ_MODEL, ANTHROPIC_MODEL
 jobs:
   fetch-and-summarise:
     runs-on: ubuntu-latest
@@ -42,6 +53,9 @@ jobs:
       - name: Run ASX fetcher
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
         run: |
           if [ -n "${{ github.event.inputs.date }}" ]; then
             python fetch_asx.py --date "${{ github.event.inputs.date }}"
