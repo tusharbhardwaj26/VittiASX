@@ -266,7 +266,9 @@ def summarise_with_failover(anthropic_client, groq_client, ann) -> dict:
         for attempt in range(1, 4):
             try:
                 print(f"[anthropic] {ann['ticker']} attempt {attempt}/3...")
-                return _call_ai_one(anthropic_client, ANTHROPIC_MODEL, prompt, 'anthropic')
+                out = _call_ai_one(anthropic_client, ANTHROPIC_MODEL, prompt, 'anthropic')
+                print(f"[anthropic] {ann['ticker']} ok")
+                return out
             except Exception as e:
                 print(f"[anthropic] Attempt {attempt} failed: {e}")
                 if attempt < 3: time.sleep(1)
@@ -276,12 +278,15 @@ def summarise_with_failover(anthropic_client, groq_client, ann) -> dict:
         for attempt in range(1, 4):
             try:
                 print(f"   [groq] {ann['ticker']} failover attempt {attempt}/3...")
-                return _call_ai_one(groq_client, GROQ_MODEL, prompt, 'groq')
+                out = _call_ai_one(groq_client, GROQ_MODEL, prompt, 'groq')
+                print(f"   [groq] {ann['ticker']} ok")
+                return out
             except Exception as e:
                 print(f"   [groq] Attempt {attempt} failed: {e}")
                 if attempt < 3: time.sleep(1)
 
     # Final Fallback
+    print(f"[ai] {ann['ticker']} fallback (no LLM response) — placeholder summary")
     return {
         "summary": [f"High-priority announcement from {ann['ticker']}", f"Topic: {ann['headline']}", "Review PDF for full details."],
         "tags": ["Other"],

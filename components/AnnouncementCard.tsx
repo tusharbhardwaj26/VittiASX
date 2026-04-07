@@ -37,7 +37,7 @@ export default function AnnouncementCard({ ann }: Props) {
 
   return (
     <div
-      className="group relative flex flex-col gap-3.5 p-5 rounded-[18px] cursor-default select-none transition-all duration-300 hover:-translate-y-1"
+      className="group relative flex flex-col gap-3.5 p-5 rounded-[18px] cursor-default select-none transition-all duration-300 hover:-translate-y-1 min-w-0"
       style={{
         ...cardSurface,
       }}
@@ -143,7 +143,7 @@ export default function AnnouncementCard({ ann }: Props) {
 
       {/* ── AI Summary ── */}
       {ann.summary && ann.summary.length > 0 && (
-        <div className="rounded-xl p-3.5 mt-0.5 transition-colors" style={{
+        <div className="rounded-xl p-3.5 mt-0.5 transition-colors min-w-0" style={{
           background: 'var(--border-subtle)',
           border: '1px solid var(--border-med)',
         }}>
@@ -155,13 +155,13 @@ export default function AnnouncementCard({ ann }: Props) {
             <span className="text-[0.58rem] font-bold uppercase tracking-[0.18em]"
               style={{ color: 'var(--accent)' }}>AI Summary</span>
           </div>
-          <ul className="flex flex-col gap-1.5">
-            {ann.summary.slice(0, 3).map((point, i) => (
-              <li key={i} className="relative pl-3.5 text-[0.8rem] leading-[1.65] line-clamp-2"
+          <ul className="flex flex-col gap-2.5 min-w-0">
+            {ann.summary.map((point, i) => (
+              <li key={i} className="flex gap-2.5 text-[0.8rem] leading-[1.65] text-pretty break-words min-w-0"
                 style={{ color: 'var(--text-secondary)' }}>
-                <span className="absolute left-0 top-[8px] w-1 h-1 rounded-full"
+                <span className="mt-2 w-1 h-1 rounded-full flex-shrink-0 self-start"
                   style={{ background: 'var(--accent)' }} />
-                {point.replace(/^[\s\-\*\•\d\.]+\s*/, '')}
+                <span className="min-w-0 flex-1">{point.replace(/^[\s\-\*\•\d\.]+\s*/, '')}</span>
               </li>
             ))}
           </ul>

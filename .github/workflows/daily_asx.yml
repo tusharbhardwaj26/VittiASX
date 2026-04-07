@@ -1,23 +1,12 @@
 name: Daily ASX Announcements
 
 on:
-  # ASX session in Sydney spans two UTC calendar days. Prior crons used 1-5 / 2-6 DOW
-  # which skipped all of Sunday UTC (and left Monday UTC morning gaps), so scheduled
-  # runs could disappear for 24h+. These lines fire every calendar day during hours
-  # that cover ~10:00–16:00 Australia/Sydney in both AEST and AEDT; fetch_asx.py still
-  # filters by AEST date, so weekend runs are cheap no-ops if the API returns nothing.
-  # Minutes 3,23,43 reduce GitHub scheduler pile-ups.
+  # GitHub schedule is UTC-only. We trigger every 5 min during UTC hours that can overlap
+  # ASX hours in Australia/Sydney (AEST/AEDT). Job "gate" skips unless local Sydney time is:
+  #   Mon–Fri: 09:00–09:55 every 5 min, then 10:00–16:00 on the hour only.
+  # Weekends: no fetch (gate off). Manual workflow_dispatch always runs the fetch.
   schedule:
-    - cron: "3,23,43 22 * * *"
-    - cron: "3,23,43 23 * * *"
-    - cron: "3,23,43 0 * * *"
-    - cron: "3,23,43 1 * * *"
-    - cron: "3,23,43 2 * * *"
-    - cron: "3,23,43 3 * * *"
-    - cron: "3,23,43 4 * * *"
-    - cron: "3,23,43 5 * * *"
-    - cron: "3,23,43 6 * * *"
-    - cron: "3,23,43 7 * * *"
+    - cron: "*/5 20,21,22,23,0,1,2,3,4,5,6,7,8,9 * * *"
 
   # Allow manual trigger from GitHub Actions tab
   workflow_dispatch:
@@ -33,7 +22,23 @@ on:
 # Variables (optional overrides; leave unset to use fetch_asx.py defaults):
 #   GROQ_MODEL, ANTHROPIC_MODEL
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      proceed: ${{ steps.pick.outputs.proceed }}
+    steps:
+      - id: pick
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          OUT=$(python3 -c "from datetime import datetime; import zoneinfo; z=zoneinfo.ZoneInfo('Australia/Sydney'); n=datetime.now(z); print('false' if n.weekday()>=5 else 'true' if (n.hour==9 and n.minute%5==0 and n.minute<=55) else 'true' if (10<=n.hour<=16 and n.minute==0) else 'false')")
+          echo "proceed=$OUT" >> "$GITHUB_OUTPUT"
+
   fetch-and-summarise:
+    needs: gate
+    if: needs.gate.outputs.proceed == 'true'
     runs-on: ubuntu-latest
     permissions:
       contents: write  # needed to commit logs/ back to the repo
