@@ -1,0 +1,1065 @@
+{
+  "date": "2026-05-08",
+  "total": 56,
+  "market_sensitive_count": 47,
+  "generated_at": "2026-05-07T23:42:27.430720+00:00",
+  "announcements": [
+    {
+      "ticker": "SPX",
+      "company": "SPENDA LIMITED",
+      "headline": "Spenda Divests Ledger Platform to APG Pay for $1.8M",
+      "time": "2026-05-07T23:25:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088147-3A692975",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Spenda divests its Ledger Platform business to APG Pay for $1.8M, signaling a strategic portfolio rationalization to sharpen focus on core payments and lending operations.",
+        "The $1.8M cash injection strengthens Spenda's balance sheet and extends cash runway for a micro-cap that has been managing tight liquidity, though the divested asset's revenue contribution needs monitoring for net impact on top-line growth.",
+        "Post-divestiture, Spenda can concentrate resources on its higher-margin payments infrastructure and B2B lending verticals, potentially improving operating leverage and simplifying the investment thesis for institutional consideration."
+      ],
+      "tags": [
+        "Merger & Acquisition",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "EGY",
+      "company": "ENERGY TECHNOLOGIES LIMITED",
+      "headline": "Announcement of Capital Raising",
+      "time": "2026-05-07T23:24:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088145-2A1671147",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Energy Technologies Limited has announced a capital raising, which will result in share dilution for existing shareholders and signals a near-term funding need for operations or growth initiatives.",
+        "Without specific details on the raise size, pricing, or discount to market, investors should watch for the terms — deep discounts or large placements would amplify dilutive impact and weigh on share price.",
+        "The market-sensitive designation suggests material capital is being sought; key focus will be on use of proceeds (working capital vs. growth capex) and whether the raise addresses a critical cash runway shortfall or funds expansion."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Energy"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "X2M",
+      "company": "X2M CONNECT LIMITED",
+      "headline": "Signs MoU with Mawson for Smart Community deployments",
+      "time": "2026-05-07T23:23:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088143-3A692974",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "X2M Connect has signed a non-binding MoU with Mawson to collaborate on Smart Community deployments, signaling a strategic push into IoT-enabled residential and commercial property developments in Australia.",
+        "As an MoU rather than a binding contract, the agreement carries no immediate revenue certainty — investors should monitor for conversion to definitive agreements with disclosed contract values before adjusting revenue expectations.",
+        "The partnership leverages X2M's IoT/smart metering platform for property-scale deployments, potentially opening a recurring revenue channel if Mawson's development pipeline translates into contracted rollouts, though execution risk remains elevated for a micro-cap at this stage."
+      ],
+      "tags": [
+        "Technology",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDEN INNOVATIONS LTD",
+      "headline": "Response to ASX Price Query",
+      "time": "2026-05-07T23:20:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088138-6A1324678",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Eden Innovations issued a response to an ASX price query, typically triggered by unusual share price movement or trading volume, indicating the exchange is scrutinizing recent activity for potential undisclosed material information.",
+        "The company's response likely confirms no undisclosed material information exists, which is standard procedure, but the query itself signals heightened market attention and possible speculative trading in the micro-cap stock.",
+        "Investors should monitor for any follow-up announcements or operational updates from Eden Innovations, as ASX price queries often precede periods of elevated volatility and may foreshadow forthcoming material disclosures or continued speculative interest."
+      ],
+      "tags": [
+        "Compliance",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "Asara raises $60m to fast track exploration",
+      "time": "2026-05-07T23:19:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088134-3A692957",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Asara Resources has secured a substantial $60 million capital raise, providing significant funding firepower to accelerate its exploration programs across its portfolio — a meaningful war chest for a junior explorer that signals strong investor confidence.",
+        "The $60m raise materially extends Asara's cash runway and removes near-term funding risk, though investors should monitor the dilutionary impact on existing shareholders depending on the placement price and terms relative to the prevailing share price.",
+        "Proceeds earmarked to 'fast track exploration' suggest the company is targeting accelerated drilling campaigns and resource delineation, with upcoming assay results and exploration updates likely to serve as key catalysts in the near to medium term."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "GRE",
+      "company": "GREENTECH METALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-07T23:14:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088127-6A1324672",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Greentech Metals Limited has entered a trading halt, suspending shares from trading pending a material announcement — typical for capital raises, asset transactions, or significant corporate developments in the junior mining/metals space.",
+        "As a small-cap metals company, any capital raise during a trading halt would likely be dilutive; investors should monitor the size and pricing of any potential placement relative to the company's current market capitalisation and cash position.",
+        "The trading halt will remain in place until the company makes its announcement or until the commencement of normal trading on the second business day — clarity on the nature of the announcement will be critical for reassessing valuation and positioning."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZR",
+      "company": "CZR RESOURCES LTD",
+      "headline": "Management and Board Changes",
+      "time": "2026-05-07T23:13:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088126-6A1324670",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CZR Resources announces management and board changes, signaling a strategic leadership transition that may reflect a shift in corporate direction or project priorities for the junior explorer.",
+        "Board and management turnover at the micro-cap level can indicate either a strategic pivot toward development milestones or internal challenges — investors should scrutinize whether departures are voluntary and whether incoming leadership brings relevant operational expertise.",
+        "Market-sensitive designation suggests material implications beyond routine reshuffling; investors should monitor for follow-up announcements regarding strategic review, project timelines, or potential corporate activity that may have prompted the changes."
+      ],
+      "tags": [
+        "Board Change",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVG",
+      "company": "EVION GROUP NL",
+      "headline": "Trading Halt",
+      "time": "2026-05-07T23:10:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088121-6A1324668",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Evion Group NL has entered a trading halt, suspending shares from trading pending a material announcement — typical for capital raises, asset transactions, or significant corporate developments in micro-cap ASX names.",
+        "As a small-cap entity with limited cash reserves historically, a trading halt frequently signals an imminent capital raise which would likely be dilutive to existing shareholders, though the specific nature remains unconfirmed until the full announcement.",
+        "Investors should await the pending announcement (typically within 1-2 trading days per ASX rules) before repositioning; the halt removes near-term liquidity and any price discovery until details are disclosed."
+      ],
+      "tags": [
+        "Trading Halt"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MXO",
+      "company": "MOTIO LTD",
+      "headline": "Motio Investor Presentation",
+      "time": "2026-05-07T23:09:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088118-6A1324666",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Motio Ltd has released a market-sensitive investor presentation, signaling management is actively engaging institutional and retail investors to communicate its strategic narrative and growth trajectory.",
+        "As an investor presentation marked market sensitive, the document likely contains material updates on operational performance, pipeline developments, or financial metrics that could re-rate the stock beyond previously disclosed information.",
+        "Investors should scrutinize the presentation for updated revenue guidance, cash runway details, and any new contract wins or strategic partnerships that could serve as near-term catalysts for the micro-cap stock."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "M24",
+      "company": "MAMBA EXPLORATION LIMITED",
+      "headline": "SOIL SAMPLING IDENTIFIES OVER 20KM OF STRIKE",
+      "time": "2026-05-07T23:09:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088117-6A1324664",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Soil sampling at Mamba Exploration's project has delineated over 20km of prospective strike length, significantly expanding the scale of the exploration target and enhancing the project's strategic value for potential resource definition.",
+        "The identification of a 20km+ strike zone from early-stage soil geochemistry represents a material de-risking step for a junior explorer, likely to attract market attention given the scale relative to Mamba's current market capitalisation.",
+        "Next steps will likely involve follow-up ground-truthing, rock chip sampling, and drill target generation along the newly identified strike corridor — catalysts that could sustain momentum if anomalism is confirmed at depth."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CEL",
+      "company": "CHALLENGER GOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-05-07T23:06:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088111-6A1324665",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "Challenger Gold has entered a trading halt, typically indicating a pending material announcement such as a capital raise, acquisition, or significant operational update that requires price-sensitive disclosure.",
+        "As a junior gold explorer/developer on the ASX, trading halts frequently precede equity raisings which can be dilutive to existing shareholders, though they may also signal transformative corporate activity such as asset acquisitions or major drill results.",
+        "Investors should await the detailed announcement expected within two business days to assess the nature and magnitude of the news — key factors to watch include any capital raise pricing, use of proceeds, and impact on the company's cash runway and project development timeline."
+      ],
+      "tags": [
+        "Trading Halt",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FPR",
+      "company": "FLEETPARTNERS GROUP LIMITED",
+      "headline": "In-principle agreement to settle shareholder class action",
+      "time": "2026-05-07T23:04:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088108-2A1671148",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "FleetPartners has reached an in-principle agreement to settle a shareholder class action, removing a significant legal overhang and reducing uncertainty around potential damages exposure for the company.",
+        "Settlement terms will need to be assessed for materiality — the key question for investors is the quantum of the settlement and whether it is covered by existing provisions or insurance, which will determine the P&L and balance sheet impact.",
+        "Resolution of the class action clears a key risk factor that may have weighed on the stock's valuation multiple; investors should watch for formal settlement documentation, court approval timelines, and any associated provision or charge disclosures."
+      ],
+      "tags": [
+        "Compliance",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "T88",
+      "company": "TAITON RESOURCES LIMITED",
+      "headline": "Exploration Update",
+      "time": "2026-05-07T23:03:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088102-6A1324658",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Taiton Resources has released a market-sensitive exploration update, signaling potentially material progress at one or more of its project areas that the company considers significant enough to warrant immediate disclosure.",
+        "As a junior explorer, any positive drill results or geophysical findings could meaningfully re-rate the stock given its likely small market capitalization, though investors should assess the quality and scale of any reported mineralization against peer benchmarks.",
+        "Key next steps to watch include follow-up drilling programs, assay turnaround timelines, and the company's cash position to fund continued exploration without near-term dilutive capital raises."
+      ],
+      "tags": [
+        "Mining"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SKS",
+      "company": "SKS TECHNOLOGIES GROUP LIMITED",
+      "headline": "$20M Increase in Bank Facilities to Support Growth",
+      "time": "2026-05-07T23:02:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088101-3A692965",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SKS Technologies secured a $20M increase in bank facilities, signaling lender confidence in the company's growth trajectory and balance sheet quality — a meaningful uplift for a small-cap services business.",
+        "The expanded debt capacity provides additional working capital headroom to fund contract mobilisation and revenue growth without immediate equity dilution, preserving shareholder value at this stage.",
+        "Facility expansion suggests a strengthening pipeline of project wins; investors should watch for follow-on contract announcements and monitor leverage ratios to assess whether growth is being funded sustainably."
+      ],
+      "tags": [
+        "Finance",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CAY",
+      "company": "CANYON RESOURCES LIMITED",
+      "headline": "Minim Martap Development Update",
+      "time": "2026-05-07T22:59:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088099-6A1324656",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Canyon Resources provides a development update on its flagship Minim Martap bauxite project in Cameroon, signaling continued project advancement which is critical for de-risking the asset and attracting potential offtake or financing partners.",
+        "Market-sensitive classification suggests material new information on project milestones, permitting progress, or capital allocation decisions that could meaningfully impact the company's valuation trajectory given its pre-revenue, development-stage status.",
+        "Investors should monitor for updates on mining convention ratification, infrastructure agreements, and funding pathways as these remain the key catalysts for Canyon's transition from explorer to producer and will determine near-term capital requirements and potential dilution risk."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQN",
+      "company": "AQUIRIAN LIMITED",
+      "headline": "Investor Presentation",
+      "time": "2026-05-07T22:58:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088096-6A1324642",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Aquirian Limited has released a market-sensitive investor presentation, signaling the company is actively engaging institutional investors with material updates on strategy, operations, or financial positioning.",
+        "The market-sensitive designation suggests the presentation contains new information beyond previously disclosed data — potentially including updated financial metrics, contract wins, pipeline developments, or revised guidance that could move the stock.",
+        "Investor presentations of this nature are typically deployed ahead of capital raises or to build momentum around a strategic inflection point; investors should monitor for follow-on announcements including potential equity issuance or partnership deals."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "AQN",
+      "company": "AQUIRIAN LIMITED",
+      "headline": "Successful Completion of Placement",
+      "time": "2026-05-07T22:58:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088095-6A1324641",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "Aquirian Limited has successfully completed a capital raising placement, securing fresh equity funding which strengthens the company's balance sheet and provides near-term working capital for operational and growth initiatives.",
+        "As a completed placement, the raise introduces dilution to existing shareholders — the key metrics to watch are the discount to last traded price, total shares issued, and the quantum raised relative to the company's market capitalisation.",
+        "Successful closure of the placement removes funding uncertainty and positions the company to execute on its strategic priorities; investors should monitor for any accompanying Share Purchase Plan (SPP) and the deployment timeline for proceeds."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PRU",
+      "company": "PERSEUS MINING LIMITED",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-07T22:56:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088091-6A1324654",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has filed a change in their holding in Perseus Mining, indicating a notable shift in institutional ownership that may reflect evolving views on the gold miner's valuation or strategic direction.",
+        "The filing is classified as not market sensitive, suggesting the change in holding is likely a routine portfolio adjustment rather than a precursor to a takeover or activist campaign.",
+        "Investors should monitor whether this forms part of a broader accumulation or disposal trend, particularly given Perseus's strong gold production profile across its West African operations and current gold price tailwinds."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Mining"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKS",
+      "company": "SKS TECHNOLOGIES GROUP LIMITED",
+      "headline": "$22M Contract Win for Major Retailers New HQ",
+      "time": "2026-05-07T22:55:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088090-3A692963",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "SKS Technologies secured a $22M contract for a major retailer's new headquarters, representing a material revenue uplift for a micro/small-cap company and reinforcing its positioning in large-scale commercial electrical and technology fit-out projects.",
+        "A contract of this magnitude likely represents a significant portion of SKS's annual revenue base, providing strong near-term revenue visibility and supporting forward earnings estimates — critical for investor confidence in the company's growth trajectory.",
+        "The win with a major retailer signals SKS's competitive credibility in securing tier-1 commercial clients, potentially opening a pipeline of repeat or referral work in the retail and property sectors and de-risking the order book outlook."
+      ],
+      "tags": [
+        "Retail",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CLZ",
+      "company": "CLZ",
+      "headline": "Market Update  Tenure and Court Proceedings",
+      "time": "2026-05-07T22:48:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088084-6A1324637",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CLZ faces material tenure risk with court proceedings potentially threatening the company's ability to maintain or renew key mining/exploration tenements, creating significant uncertainty around asset value",
+        "Legal disputes over tenure can be protracted and costly, potentially straining CLZ's cash position and diverting management focus from operational activities at a critical stage",
+        "Investors should monitor court outcomes closely as an adverse ruling could fundamentally impair the company's project pipeline and force a strategic reassessment of its asset base"
+      ],
+      "tags": [
+        "Compliance",
+        "Mining"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "PIA",
+      "company": "PIA",
+      "headline": "Capital Management Proposal and Manager Transition",
+      "time": "2026-05-07T22:40:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088078-2A1671132",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "PIA is undertaking a capital management proposal likely involving a return of capital or buyback, signaling the board's intent to address any persistent discount to NTA — a direct catalyst for narrowing the price-to-NAV gap that has weighed on LIC valuations.",
+        "The manager transition introduces execution risk and potential portfolio repositioning costs, but also signals strategic renewal; investors should monitor whether the incoming manager's mandate or fee structure is more favorable to unitholders.",
+        "The combination of capital management and manager change suggests a broader strategic reset, potentially driven by activist or institutional shareholder pressure — a pattern increasingly common across underperforming ASX-listed investment companies seeking to unlock value."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Finance",
+        "Board Change"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SEN",
+      "company": "SEN",
+      "headline": "CEO Investor Presentation - Business Update",
+      "time": "2026-05-07T22:38:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088076-3A692959",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "CEO investor presentation signals proactive management engagement with the market, typically used to highlight strategic progress, updated metrics, or upcoming catalysts to drive institutional interest in SEN.",
+        "Market-sensitive designation indicates the presentation contains material information beyond routine updates — likely including revised financial guidance, new contract wins, or significant operational milestones that could move the share price.",
+        "Investors should scrutinize the presentation for cash runway details, revenue trajectory, and any forward guidance revisions; CEO-led business updates often precede capital raises or strategic pivots, warranting close monitoring of follow-up announcements."
+      ],
+      "tags": [
+        "Other",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX",
+      "headline": "HOCH-1 Well Deepened after Encountering Further Gas",
+      "time": "2026-05-07T22:33:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088072-6A1324651",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "HOCH-1 well encountered additional gas shows during drilling, prompting the decision to deepen the well — a positive technical indicator suggesting the Upper Austrian gas play may hold greater resource potential than initially modeled.",
+        "The decision to deepen rather than complete at the initial target depth signals management confidence in the geological prospectivity, though incremental drilling costs will modestly extend capital deployment before any production revenue is realized.",
+        "Near-term catalysts include updated well results and flow testing data from the deepened HOCH-1 well, which will be critical for de-risking ADX's broader Austrian gas portfolio and potentially upgrading contingent resource estimates."
+      ],
+      "tags": [
+        "Energy",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ATX",
+      "company": "ATX",
+      "headline": "Amplia and ANZGOG announce Ovarian Cancer Study",
+      "time": "2026-05-07T22:29:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088068-2A1671128",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Amplia Therapeutics (ATX) has partnered with the Australia New Zealand Gynaecological Oncology Group (ANZGOG) to advance a clinical study in ovarian cancer, representing a significant clinical validation milestone for the company's pipeline and therapeutic approach.",
+        "Collaboration with a well-established cooperative oncology group like ANZGOG de-risks clinical execution and potentially reduces trial costs, an important consideration for a micro-cap biotech with limited cash runway — partnership-funded or co-funded studies extend operational runway without dilutive capital raises.",
+        "The ovarian cancer indication expands Amplia's addressable market opportunity beyond its existing pancreatic cancer focus; investors should monitor upcoming details on trial design, timelines, and funding structure as key catalysts for re-rating."
+      ],
+      "tags": [
+        "Healthcare"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "SBZ",
+      "company": "SBZ",
+      "headline": "Half Year Results and Corporate Update",
+      "time": "2026-05-07T22:28:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088067-2A1671130",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "SBZ reports half-year results with a corporate update, signaling management transparency on operational and financial performance metrics critical for investor reassessment of the company's trajectory.",
+        "As a market-sensitive half-yearly report, investors should scrutinize revenue trends, net loss/profit figures, cash burn rate, and balance sheet strength to assess whether the company is tracking toward profitability or requires additional capital.",
+        "The inclusion of a 'Corporate Update' alongside results suggests potential strategic developments — investors should watch for guidance revisions, asset revaluations, or operational pivots that could materially alter the investment thesis."
+      ],
+      "tags": [
+        "Results"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AMA",
+      "company": "AMA",
+      "headline": "On-Market Share Buy-Back Announcement",
+      "time": "2026-05-07T22:27:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088065-3A692954",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AMA Group has announced an on-market share buy-back, signaling management's view that shares are undervalued and demonstrating confidence in the company's balance sheet and cash flow position.",
+        "The buy-back will reduce shares on issue, providing EPS accretion for remaining shareholders and supporting the share price through sustained on-market demand — a positive capital management signal following the company's operational restructuring efforts.",
+        "Investors should monitor the scale and duration of the buy-back program relative to AMA's free cash flow generation and debt covenants, as execution pace will indicate the strength of management's conviction and available surplus capital."
+      ],
+      "tags": [
+        "Capital Raise",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NWM",
+      "company": "NWM",
+      "headline": "High Gold Recoveries Support Advancement of  Bulgera",
+      "time": "2026-05-07T22:26:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088062-6A1324650",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High gold recoveries from metallurgical testwork at the Bulgera project de-risk the processing pathway and support project advancement toward development, a key catalyst for NWM's valuation re-rating.",
+        "Strong recovery rates validate the amenability of Bulgera's mineralisation to conventional processing methods, potentially reducing capex/opex assumptions and improving project economics in any future feasibility study.",
+        "Positive metallurgical results position NWM to progress Bulgera through the next study phases, with the market likely to watch for updated resource estimates, scoping/PFS milestones, and any associated funding requirements."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MBL",
+      "company": "MACQUARIE BANK LIMITED",
+      "headline": "Macquarie Bank FY26 Annual Report",
+      "time": "2026-05-07T22:25:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088059-2A1671117",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Macquarie Bank's FY26 Annual Report release as market-sensitive suggests material financial disclosures — institutional investors should focus on net interest margin trends, loan book growth, and deposit dynamics in the current rate environment.",
+        "As the banking subsidiary of Macquarie Group, key metrics to watch include CET1 capital ratios, credit quality (impairment charges), and whether the retail banking and BFS divisions are gaining market share against the Big Four amid competitive mortgage pricing.",
+        "Forward guidance and commentary on credit provisioning will be critical for assessing whether Macquarie Bank is positioned defensively or offensively heading into FY27, particularly given evolving RBA rate expectations and housing market conditions."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCA",
+      "company": "MCA",
+      "headline": "Retail Entitlement Offer Booklet",
+      "time": "2026-05-07T22:25:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088057-2A1671119",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "MCA is conducting a retail entitlement offer, indicating additional equity dilution for existing shareholders who do not participate in the capital raise",
+        "The release of the Retail Entitlement Offer Booklet follows the institutional component, providing retail investors their window to subscribe — the pricing, discount, and total raise size will determine the extent of dilutive impact on per-share metrics",
+        "Proceeds from the capital raise likely earmarked for balance sheet strengthening, debt reduction, or growth initiatives — investors should assess whether the use of funds is value-accretive relative to the dilution cost"
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "AOF",
+      "company": "AOF",
+      "headline": "Chairman Address Unitholder Meeting",
+      "time": "2026-05-07T22:24:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088055-3A692951",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AOF (Australian Unity Office Fund) Chairman addresses unitholders at meeting, likely covering fund performance, portfolio strategy, and market conditions impacting the office REIT sector amid ongoing structural headwinds from hybrid work trends.",
+        "Chairman addresses are typically forward-looking and may signal management's stance on asset valuations, occupancy trends, distribution sustainability, and any potential strategic review or portfolio repositioning activity.",
+        "As a market-sensitive announcement, the address likely contains material updates on fund outlook, capital management, or potential corporate actions that could influence near-term trading — investors should monitor for any guidance changes or strategic pivots."
+      ],
+      "tags": [
+        "AGM",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MQG",
+      "company": "MACQUARIE GROUP LIMITED",
+      "headline": "Macquarie Group FY26 Management Discussion and Analysis",
+      "time": "2026-05-07T22:23:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088052-2A1671114",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Macquarie Group's FY26 Management Discussion and Analysis release provides institutional investors with detailed operational and financial commentary across its key divisions (MAM, BFS, CGM, MacCap), offering forward-looking context on earnings drivers and risk positioning.",
+        "The MDA document is a critical supplement to FY26 results, typically detailing segment-level performance metrics, AUM flows, credit quality, capital adequacy, and fee/commission income trends that drive consensus estimate revisions.",
+        "As a market-sensitive disclosure, this MDA will be closely scrutinized for commentary on commodities and energy trading volatility, asset management net flows, and the outlook for advisory/capital markets pipelines — all key swing factors for Macquarie's earnings trajectory."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MQG",
+      "company": "MACQUARIE GROUP LIMITED",
+      "headline": "Macquarie Group FY26 Presentation",
+      "time": "2026-05-07T22:22:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088050-2A1671111",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Macquarie Group's FY26 investor presentation signals management's forward guidance and strategic priorities, a key catalyst for institutional positioning given the group's diversified earnings across commodities, infrastructure, and financial services.",
+        "Market-sensitive classification suggests the presentation likely contains material updates on divisional performance, capital allocation, or outlook commentary that could move consensus earnings estimates for the annuity-style and markets-facing businesses.",
+        "Investors should scrutinize any updates on Macquarie Asset Management's fundraising pipeline, Green Investment Group deployment, and commodities trading conditions — these are the primary swing factors for FY26 earnings trajectory relative to the elevated FY25 base."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MQG",
+      "company": "MACQUARIE GROUP LIMITED",
+      "headline": "Macquarie Group FY26 Media Release",
+      "time": "2026-05-07T22:22:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088048-2A1671110",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Macquarie Group releases FY26 full-year results media update, a market-sensitive disclosure likely containing key earnings, divisional performance, and capital metrics that will reset consensus expectations for the diversified financial group.",
+        "As Australia's largest investment bank and global asset manager, any material beat or miss on net profit, assets under management, or performance fees across Macquarie Asset Management, Commodities & Global Markets, and Banking & Financial Services divisions will drive significant re-rating activity.",
+        "Investors should focus on updated FY27 outlook commentary, capital management initiatives (including potential buyback or special dividend signals), and the trajectory of annuity-style vs. markets-facing earnings mix, which remains the key structural valuation driver for MQG."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "MQG",
+      "company": "MACQUARIE GROUP LIMITED",
+      "headline": "Macquarie Group Appendix 4E and FY26 Annual Report",
+      "time": "2026-05-07T22:20:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088044-2A1671107",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "Macquarie Group's FY26 Appendix 4E and Annual Report release is market-sensitive, signaling material financial disclosures that institutional investors will scrutinize for full-year earnings, divisional performance, and capital adequacy metrics.",
+        "As a diversified financial group with significant commodities, asset management, and banking operations, the annual results will reveal the trajectory of performance fees, net interest income, and trading revenues amid shifting global macro conditions.",
+        "Investors will focus on capital management initiatives including potential special dividends, buyback programs, and forward guidance on the outlook for Macquarie Asset Management and Commodities & Global Markets divisions heading into FY27."
+      ],
+      "tags": [
+        "Results",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MCA",
+      "company": "MCA",
+      "headline": "Retail Offer Open",
+      "time": "2026-05-07T22:18:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088042-2A1671115",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "MCA has opened the retail component of its capital raise, indicating an equity offering that will result in share dilution for non-participating shareholders and signals near-term funding needs.",
+        "The retail offer follows a likely institutional placement, with the market-sensitive designation suggesting material capital being raised — investors should monitor the offer price discount, volume, and total raise size relative to market cap.",
+        "Proceeds will extend MCA's cash runway or fund specific initiatives; key focus is on the offer's take-up rate and whether the raise is sufficient to avoid further near-term dilution."
+      ],
+      "tags": [
+        "Capital Raise"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "QBE",
+      "company": "QBE",
+      "headline": "2026 AGM - addresses and slides",
+      "time": "2026-05-07T22:15:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088034-2A1671102",
+      "market_sensitive": true,
+      "document_type": "Annual General Meeting",
+      "summary": [
+        "QBE's 2026 AGM addresses and presentation slides released as market-sensitive, suggesting management may have disclosed forward-looking guidance, strategic updates, or material operational commentary beyond routine AGM proceedings.",
+        "The market-sensitive classification for AGM materials is notable for QBE — investors should scrutinize the Chairman's and CEO's addresses for any updated commentary on combined operating ratio targets, premium rate adequacy, investment portfolio positioning, and capital management initiatives including potential buybacks or special dividends.",
+        "Key watch items include any revision to FY2026 guidance metrics, commentary on catastrophe experience and reserve adequacy, and strategic positioning across North America, International, and Australian Pacific divisions — any deviation from prior guidance would drive near-term re-rating."
+      ],
+      "tags": [
+        "AGM",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QBE",
+      "company": "QBE",
+      "headline": "1Q26 Performance Update",
+      "time": "2026-05-07T22:15:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088033-2A1671101",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "QBE's 1Q26 performance update signals management confidence in providing early-cycle transparency, a practice typically reserved for periods of strong operational momentum or material deviation from consensus expectations.",
+        "As a major global insurer, quarterly updates from QBE are closely watched for combined operating ratio trends, premium rate adequacy, and investment income trajectory — all key drivers of earnings revisions and re-rating potential in the current elevated interest rate environment.",
+        "Institutional investors should focus on gross written premium growth, prior-year reserve development, and catastrophe experience relative to allowance, as these metrics will determine whether consensus FY26 earnings estimates require adjustment following this update."
+      ],
+      "tags": [
+        "Quarterly",
+        "Finance",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "PNV",
+      "company": "PNV",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-07T22:14:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088022-3A692935",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in PolyNovo (PNV), triggering a mandatory disclosure under ASX rules — this is a routine regulatory filing rather than a strategic corporate event.",
+        "Changes in substantial holdings for PNV, a medical device company focused on its NovoSorb biodegradable polymer technology, can signal institutional portfolio rebalancing and may reflect evolving views on the company's growth trajectory in the wound care market.",
+        "Investors should monitor whether this represents accumulation or trimming by the substantial holder, as directional shifts by major institutional investors can foreshadow broader sentiment changes around PNV's revenue ramp and path to sustained profitability."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Healthcare"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAI",
+      "company": "AAI",
+      "headline": "Dividend/Distribution - AAI",
+      "time": "2026-05-07T22:13:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088019-3A692934",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "AAI has announced a dividend/distribution, signaling the company's capacity to return capital to shareholders and confidence in its cash flow position.",
+        "As a market-sensitive announcement, the dividend details (amount, record date, payment date, franking level) will be closely scrutinized by income-focused institutional investors for yield implications and payout sustainability.",
+        "Investors should monitor the ex-dividend date for trading strategies and assess whether the payout ratio aligns with forward earnings guidance, as any shift in dividend policy could signal changes in capital allocation priorities."
+      ],
+      "tags": [
+        "Dividend"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "CYL",
+      "company": "CYL",
+      "headline": "Drilling at Trident continues to extend mineralisation",
+      "time": "2026-05-07T22:13:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088018-6A1324648",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Ongoing drilling at Trident is successfully extending mineralisation beyond previously known boundaries, signalling potential resource upgrade and increased mine life for Catalyst Metals' flagship operations.",
+        "Continued extensional drill hits at Trident are material for CYL's resource base growth, which underpins future production profiles and could drive positive revisions to reserve/resource estimates at the next update.",
+        "Further assay results and resource modelling updates will be key catalysts; investors should watch for updated Mineral Resource Estimates and any flow-through impact on mine planning and production guidance."
+      ],
+      "tags": [
+        "Mining",
+        "Production"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "NXG",
+      "company": "NXG",
+      "headline": "Final 2025 Assays Return Multiple High-Grade Intercepts",
+      "time": "2026-05-07T22:13:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088016-6A1324633",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Final 2025 assay results confirm multiple high-grade intercepts, reinforcing the quality and continuity of mineralisation at NXG's project and potentially upgrading resource confidence for future estimates.",
+        "High-grade drill intercepts are a key de-risking catalyst for junior explorers, likely to attract institutional attention and support a re-rating as the market prices in improved geological confidence and potential resource growth.",
+        "With the 2025 drill program now complete, the next catalysts will be an updated mineral resource estimate and progression toward feasibility-stage studies, which will be critical for determining project economics and attracting development-stage capital."
+      ],
+      "tags": [
+        "Mining",
+        "Results"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "DRO",
+      "company": "DRO",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-07T22:12:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088014-2A1671090",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has reduced their stake in DroneShield (DRO) below the 5% threshold, triggering a ceasing to be a substantial holder notice — this signals meaningful selling activity by a previously significant investor.",
+        "The exit of a substantial holder can increase free float and potentially weigh on near-term price action, though it also removes an overhang if the selling is now complete.",
+        "Investors should monitor whether this reflects profit-taking amid DRO's strong share price run in the defence/counter-drone sector, or a broader shift in institutional sentiment toward the company's valuation."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "bearish"
+    },
+    {
+      "ticker": "XYZ",
+      "company": "XYZ",
+      "headline": "Block, Inc. - Form 10-Q (Q1 2026)",
+      "time": "2026-05-07T22:12:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088013-3A692940",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Block Inc. (ASX: XYZ) has filed its Q1 FY2026 10-Q with the SEC, a market-sensitive quarterly disclosure that will provide updated financials on Cash App, Square, and BNPL (Afterpay) segment performance — critical for assessing integration progress and revenue trajectory post-Afterpay acquisition.",
+        "Investors should scrutinize gross profit growth across segments, adjusted EBITDA margins, and Cash App monetization metrics (monthly active users, inflows per active) as key indicators of whether Block is delivering on its profitability improvement narrative amid a competitive fintech landscape.",
+        "As a dual-listed entity, the 10-Q filing triggers ASX disclosure obligations; near-term focus shifts to management commentary on operating leverage, share buyback execution, and any updated guidance — particularly around the pace of cost discipline and free cash flow generation heading into the remainder of FY2026."
+      ],
+      "tags": [
+        "Quarterly",
+        "Technology",
+        "Finance"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XYZ",
+      "company": "XYZ",
+      "headline": "Block, Inc. - Form 8-K Q1'26 (Earnings & SH Letter)",
+      "time": "2026-05-07T22:12:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088012-3A692939",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Block Inc. (SQ2/XYZ) has filed its Q1 FY26 8-K earnings release and shareholder letter, a market-sensitive disclosure that typically moves the stock on revenue, gross profit, and adjusted EBITDA performance versus consensus expectations.",
+        "Key metrics to watch include Cash App and Square ecosystem gross profit growth trajectories, consolidated adjusted operating income margins, and any updates to full-year 2026 guidance — all critical for re-rating the stock given its fintech multiple compression over recent quarters.",
+        "The shareholder letter format signals management is likely framing a forward narrative around AI-driven cost efficiencies, lending product expansion, and international growth — institutional investors should focus on whether updated guidance implies margin expansion or reinvestment, and any changes to the share buyback program."
+      ],
+      "tags": [
+        "Results",
+        "Quarterly",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "BOE",
+      "company": "BOE",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-07T22:12:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088009-6A1324630",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Boss Energy (BOE), triggering a regulatory disclosure — this signals active portfolio rebalancing by a major institutional investor in the uranium sector.",
+        "The change in substantial holding, while not flagged as market sensitive, warrants monitoring as shifts in institutional ownership can precede changes in liquidity dynamics and may reflect evolving views on BOE's valuation or uranium market outlook.",
+        "Investors should cross-reference the direction of the holding change (increase vs decrease) and the identity of the substantial holder to assess whether this reflects accumulation ahead of catalysts (e.g. Honeymoon production ramp-up) or profit-taking after recent share price movements."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Energy"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EUR",
+      "company": "EUR",
+      "headline": "Extension Exclusivity Period Finalise Scheme Documentation",
+      "time": "2026-05-07T22:12:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088006-6A1324629",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "EUR has extended the exclusivity period to finalise scheme documentation, indicating ongoing negotiations but no deal collapse — parties remain engaged in completing the transaction.",
+        "Exclusivity extensions in scheme of arrangement processes typically signal complexity in due diligence or documentation rather than fundamental disagreement on terms, but do introduce execution risk and timeline uncertainty.",
+        "Investors should monitor for the release of the Scheme Implementation Deed and Independent Expert's Report as the next critical catalysts; any further extensions or termination of exclusivity would materially shift the risk profile."
+      ],
+      "tags": [
+        "Merger & Acquisition"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NWS",
+      "company": "NWS",
+      "headline": "FY2026 Third Quarter Earnings Release",
+      "time": "2026-05-07T22:11:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088005-2A1671095",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "News Corp (NWS) releases FY2026 Q3 earnings, a critical update for tracking the trajectory of its diversified media, digital real estate (REA Group), and book publishing (HarperCollins) segments amid ongoing portfolio transformation efforts.",
+        "Market-sensitive designation signals material financial data — investors will scrutinize revenue growth in Dow Jones and Digital Real Estate Services segments, margin trends, and any updated guidance or capital allocation commentary including potential M&A or asset disposals.",
+        "As a dual-listed entity (ASX/NASDAQ), the earnings release will set near-term trading tone; key watch items include Foxtel/streaming subscriber metrics, Move Inc. performance in a challenged US housing market, and progress on cost discipline initiatives flagged in prior quarters."
+      ],
+      "tags": [
+        "Results",
+        "Quarterly"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXT",
+      "company": "NXT",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-07T22:11:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088003-2A1671089",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in NEXTDC (NXT), indicating their stake has fallen below the 5% threshold, which may reflect portfolio rebalancing or profit-taking by an institutional investor.",
+        "The reduction in concentrated ownership could modestly improve free float and liquidity, though the identity of the departing holder and whether shares were sold on-market or transferred will determine the true demand/supply signal.",
+        "Filing is classified as not market sensitive, suggesting an orderly exit rather than a forced or distressed sale; investors should monitor whether other substantial holders adjust positions in the near term as NXT continues its capital-intensive data centre expansion program."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Technology"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AM5",
+      "company": "AM5",
+      "headline": "AM5 Secures Government Funding to Accelerate Exploration",
+      "time": "2026-05-07T22:11:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088002-6A1324628",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "AM5 has secured government funding to accelerate its exploration program, providing non-dilutive capital that preserves shareholder value while advancing project development — a meaningful positive for a junior explorer where cash preservation is critical.",
+        "Government co-funding effectively de-risks near-term exploration expenditure, extending AM5's cash runway and allowing the company to deploy its own capital more strategically across higher-priority targets.",
+        "The funding signals external validation of AM5's exploration thesis by a government body, which could serve as a catalyst for further institutional interest and positions the company for accelerated newsflow from upcoming drill programs."
+      ],
+      "tags": [
+        "Mining",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ING",
+      "company": "ING",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-07T22:11:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03088000-2A1671088",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A change in substantial holding for ING (Inghams Group) signals a notable shift in institutional ownership, which may reflect evolving conviction among major shareholders regarding the company's outlook.",
+        "The filing is classified as not market sensitive, indicating the ownership change likely reflects portfolio rebalancing rather than a strategic block trade or activist positioning.",
+        "Investors should monitor whether this is part of a broader trend of accumulation or distribution by institutional holders, as sustained directional changes in substantial holdings can foreshadow shifts in market sentiment for the stock."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GMG",
+      "company": "GMG",
+      "headline": "Change in substantial holding",
+      "time": "2026-05-07T22:11:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087999-2A1671092",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has adjusted their position in Goodman Group (GMG), triggering a disclosure obligation under ASX rules — this is a routine regulatory filing and not flagged as market sensitive.",
+        "Changes in substantial holdings for GMG typically involve major institutional investors (e.g. index funds, sovereign wealth funds, or large asset managers) rebalancing positions, which can signal shifts in institutional conviction but often reflect passive portfolio adjustments.",
+        "Investors should monitor whether this is part of a broader trend of accumulation or distribution by institutional holders, as sustained directional changes in substantial holdings can foreshadow medium-term sentiment shifts for this $70B+ market-cap property and infrastructure giant."
+      ],
+      "tags": [
+        "Substantial Holding",
+        "Property"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STV",
+      "company": "STV",
+      "headline": "Swift TV Secures Final Approval from Netflix",
+      "time": "2026-05-07T22:11:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087998-6A1324627",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "Swift TV has received final approval from Netflix, a critical milestone that validates its technology platform and opens the door to revenue generation from one of the world's largest streaming platforms with 260M+ subscribers globally.",
+        "For a micro-cap ASX-listed company, securing a Netflix partnership represents a transformational commercial catalyst that could materially de-risk the business model and attract institutional attention, though revenue quantum and contract terms remain key unknowns.",
+        "Investors should watch for follow-through details on monetisation structure, deployment timeline, and whether this approval triggers discussions with other major streaming platforms — the Netflix stamp of approval could serve as a powerful reference case for broader market penetration."
+      ],
+      "tags": [
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "bullish"
+    },
+    {
+      "ticker": "ACL",
+      "company": "ACL",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-05-07T22:11:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087997-3A692936",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A substantial holder has ceased their position in ACL, indicating a significant reduction in ownership below the 5% threshold, which may signal a shift in institutional conviction or portfolio rebalancing.",
+        "The disposal of a substantial stake could increase free float and potentially create near-term selling pressure, though the announcement is flagged as not market sensitive, suggesting an orderly exit rather than a distressed sale.",
+        "Investors should monitor whether this reflects a broader trend of institutional exits or an isolated event, and watch for any follow-on changes in the shareholder register that could impact governance dynamics or takeover positioning."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IGL",
+      "company": "IGL",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-05-07T22:10:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087993-2A1671091",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "A new substantial holder has emerged in IGL (IVE Group Limited), crossing the 5% ownership threshold, signaling growing institutional or strategic interest in the company's equity.",
+        "The accumulation of a substantial position may reflect confidence in IGL's valuation or business outlook, though the identity and intent of the holder (passive vs. activist) will be key to interpreting the signal.",
+        "Investors should monitor for any follow-up notices (e.g. further acquisitions, association disclosures, or potential takeover activity) that could clarify whether this is a precursor to corporate action or portfolio positioning."
+      ],
+      "tags": [
+        "Substantial Holding"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NMT",
+      "company": "NMT",
+      "headline": "ASX Gems Investor Conference Presentation",
+      "time": "2026-05-07T22:10:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087992-6A1324624",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "NMT (Neometals) is presenting at the ASX Gems Investor Conference, signaling management's intent to raise visibility among institutional and retail investors during a period of heightened interest in critical minerals and battery recycling sectors.",
+        "As a market-sensitive presentation, the deck likely contains updated operational metrics, strategic milestones, or partnership developments across NMT's lithium-ion battery recycling (Primobius JV), vanadium recovery, and lithium refining verticals that could re-rate the stock.",
+        "Investor conference presentations often precede capital raises or strategic announcements; investors should monitor for any new guidance on commercialization timelines, offtake agreements, or cash runway updates that could materially impact near-term valuation."
+      ],
+      "tags": [
+        "Mining",
+        "Technology",
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REA",
+      "company": "REA",
+      "headline": "REA Group Q3 FY26 financial information released",
+      "time": "2026-05-07T22:10:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03087991-3A692946",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "REA Group has released Q3 FY26 financial information, providing a mid-year operational update that institutional investors will scrutinize for revenue trajectory and margin trends in Australia's dominant property listings platform.",
+        "As a market-sensitive quarterly update, the release likely contains key metrics on listing volumes, yield growth, and financial services penetration — critical drivers for REA's premium valuation multiple relative to global classifieds peers.",
+        "Investors will focus on whether the Australian residential listing environment remains supportive heading into Q4 FY26, with implications for full-year consensus estimates and any commentary on India (Housing.com) investment trajectory."
+      ],
+      "tags": [
+        "Quarterly",
+        "Property",
+        "Technology"
+      ],
+      "sentiment": "bullish"
+    }
+  ]
+}
