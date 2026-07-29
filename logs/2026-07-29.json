@@ -1,0 +1,3032 @@
+{
+  "date": "2026-07-29",
+  "total": 168,
+  "market_sensitive_count": 166,
+  "generated_at": "2026-07-29T00:00:20.614092+00:00",
+  "announcements": [
+    {
+      "ticker": "AS1",
+      "company": "ASARA RESOURCES LIMITED",
+      "headline": "Expanded drilling returns significant gold results at Kada",
+      "time": "2026-07-28T23:42:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115286-3A697799",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from AS1",
+        "Topic: Expanded drilling returns significant gold results at Kada",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JEP",
+      "company": "JPMORGAN EQUITY PREMIUM INCOME (HEDGED) ACTIVE ETF",
+      "headline": "Distribution Notice",
+      "time": "2026-07-28T23:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115285-2A1686425",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from JEP",
+        "Topic: Distribution Notice",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COV",
+      "company": "CLEO DIAGNOSTICS LTD",
+      "headline": "Quarterly activities and cashflow report",
+      "time": "2026-07-28T23:39:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115283-3A697798",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from COV",
+        "Topic: Quarterly activities and cashflow report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VMS",
+      "company": "VENARI MINERALS NL",
+      "headline": "Security Class Suspension from Quotation - VMSOA",
+      "time": "2026-07-28T23:38:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115282-6A1335967",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from VMS",
+        "Topic: Security Class Suspension from Quotation - VMSOA",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ILT",
+      "company": "ILTANI RESOURCES LIMITED.",
+      "headline": "ILT June 2026 Quarterly Activities Report & Appendix 5B",
+      "time": "2026-07-28T23:37:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115280-3A697797",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from ILT",
+        "Topic: ILT June 2026 Quarterly Activities Report & Appendix 5B",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "E79",
+      "company": "E79 GOLD MINES LIMITED",
+      "headline": "Large-Scale Airborne Geophysical Survey Completed",
+      "time": "2026-07-28T23:36:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115279-6A1335966",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from E79",
+        "Topic: Large-Scale Airborne Geophysical Survey Completed",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NIC",
+      "company": "NICKEL INDUSTRIES LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-07-28T23:36:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115278-2A1686424",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from NIC",
+        "Topic: Quarterly Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLM",
+      "company": "SOLIS MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:35:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115276-6A1335962",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from SLM",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FUL",
+      "company": "FULCRUM LITHIUM LTD",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:34:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115275-2A1686423",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from FUL",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKM",
+      "company": "SKYLARK MINERALS LIMITED",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-07-28T23:34:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115274-6A1335965",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from SKM",
+        "Topic: Quarterly Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KPO",
+      "company": "KALINA POWER LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T23:34:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115273-6A1335964",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from KPO",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKM",
+      "company": "SKYLARK MINERALS LIMITED",
+      "headline": "Quarterly Cashflow Report",
+      "time": "2026-07-28T23:33:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115272-6A1335963",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from SKM",
+        "Topic: Quarterly Cashflow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MOH",
+      "company": "MOHO RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:33:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115271-6A1335961",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from MOH",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CPN",
+      "company": "CASPIN RESOURCES LIMITED",
+      "headline": "High-Grade Tin at Kelpie including 3m @ 9.32% Sn",
+      "time": "2026-07-28T23:33:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115270-6A1335960",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CPN",
+        "Topic: High-Grade Tin at Kelpie including 3m @ 9.32% Sn",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGO",
+      "company": "PACGOLD LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-28T23:32:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115269-3A697795",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from PGO",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXE",
+      "company": "ARCHER MATERIALS LIMITED",
+      "headline": "Biochip Advances Towards Clinical-Ready Device Development",
+      "time": "2026-07-28T23:32:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115268-2A1686422",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AXE",
+        "Topic: Biochip Advances Towards Clinical-Ready Device Development",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAJ",
+      "company": "ARUMA RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:31:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115267-6A1335959",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from AAJ",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CMO",
+      "company": "COSMO METALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:30:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115266-6A1335957",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CMO",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZR",
+      "company": "CZR RESOURCES LTD",
+      "headline": "Further RC Results extend Top Camp",
+      "time": "2026-07-28T23:30:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115265-6A1335956",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from CZR",
+        "Topic: Further RC Results extend Top Camp",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CBE",
+      "company": "COBRE LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:29:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115264-2A1686421",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CBE",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOK",
+      "company": "AUSTRALIAN OIL COMPANY LIMITED.",
+      "headline": "Gas Price Improvement and Reinstatement of REC Board Wells",
+      "time": "2026-07-28T23:28:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115262-6A1335952",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AOK",
+        "Topic: Gas Price Improvement and Reinstatement of REC Board Wells",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TOK",
+      "company": "TOLU MINERALS LIMITED.",
+      "headline": "Drill Results Deliver Further High-Grade Gold Intersections",
+      "time": "2026-07-28T23:27:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115261-6A1335954",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from TOK",
+        "Topic: Drill Results Deliver Further High-Grade Gold Intersections",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SWP",
+      "company": "SWOOP HOLDINGS LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T23:26:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115260-2A1686420",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from SWP",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RIV",
+      "company": "RIVCO AUSTRALIA LTD",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T23:26:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115259-2A1686416",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from RIV",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BRY",
+      "company": "BARYS RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:26:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115258-6A1335953",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from BRY",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SMI",
+      "company": "SANTANA MINERALS LIMITED",
+      "headline": "Quarterly Activities and Cashflow Reports",
+      "time": "2026-07-28T23:25:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115256-6A1335951",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from SMI",
+        "Topic: Quarterly Activities and Cashflow Reports",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OMG",
+      "company": "OMG GROUP LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T23:24:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115255-3A697794",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from OMG",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RNV",
+      "company": "RENERVE LIMITED",
+      "headline": "Q4 FY26 Activities Report and Appendix 4C",
+      "time": "2026-07-28T23:24:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115254-6A1335950",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RNV",
+        "Topic: Q4 FY26 Activities Report and Appendix 4C",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DEM",
+      "company": "DE.MEM LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T23:24:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115253-6A1335949",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from DEM",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AOK",
+      "company": "AUSTRALIAN OIL COMPANY LIMITED.",
+      "headline": "June 2026 Quarterly Activities and Cash Flow Report",
+      "time": "2026-07-28T23:24:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115251-6A1335948",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from AOK",
+        "Topic: June 2026 Quarterly Activities and Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LYL",
+      "company": "LYCOPODIUM LIMITED",
+      "headline": "Lycopodium Awarded Pilgangoora Expansion Project Contract",
+      "time": "2026-07-28T23:23:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115250-6A1335946",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from LYL",
+        "Topic: Lycopodium Awarded Pilgangoora Expansion Project Contract",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CTM",
+      "company": "CENTAURUS METALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:23:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115249-6A1335947",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CTM",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1AD",
+      "company": "ADALTA LIMITED",
+      "headline": "Quarterly Appendix 4C and Activities Report",
+      "time": "2026-07-28T23:23:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115248-3A697793",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from 1AD",
+        "Topic: Quarterly Appendix 4C and Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLL",
+      "company": "GALILEE ENERGY LIMITED",
+      "headline": "Suspension from Quotation",
+      "time": "2026-07-28T23:22:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115246-2A1686408",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GLL",
+        "Topic: Suspension from Quotation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CSL",
+      "company": "CSL LIMITED",
+      "headline": "CSL Update on Enhanced Plasma Manufacturing",
+      "time": "2026-07-28T23:21:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115244-3A697792",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CSL",
+        "Topic: CSL Update on Enhanced Plasma Manufacturing",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GAP",
+      "company": "GALE PACIFIC LIMITED",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T23:21:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115243-3A697791",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from GAP",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IBR",
+      "company": "IRON BEAR RESOURCES LTD",
+      "headline": "Iron Bear Project PFS delivers outstanding results",
+      "time": "2026-07-28T23:20:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115241-6A1335945",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from IBR",
+        "Topic: Iron Bear Project PFS delivers outstanding results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAE",
+      "company": "NEW AGE EXPLORATION LIMITED",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-07-28T23:20:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115240-3A697789",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from NAE",
+        "Topic: Quarterly Activities and Cashflow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUL",
+      "company": "CULLEN RESOURCES LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:19:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115237-6A1335943",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CUL",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PNN",
+      "company": "POWER MINERALS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-07-28T23:19:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115236-2A1686409",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from PNN",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPT",
+      "company": "PERPETUAL LIMITED",
+      "headline": "Update on Further Revised Indicative Proposal",
+      "time": "2026-07-28T23:16:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115233-2A1686405",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PPT",
+        "Topic: Update on Further Revised Indicative Proposal",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASL",
+      "company": "ANDEAN SILVER LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:16:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115232-6A1335940",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from ASL",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AIS",
+      "company": "AERIS RESOURCES LIMITED",
+      "headline": "Quarterly Activities Report - June 2026",
+      "time": "2026-07-28T23:14:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115230-6A1335941",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from AIS",
+        "Topic: Quarterly Activities Report - June 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GG1",
+      "company": "GREEN & GOLD MINERALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:14:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115229-2A1686403",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from GG1",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KRM",
+      "company": "KINGSROSE MINING LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:13:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115227-6A1335938",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from KRM",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SGQ",
+      "company": "ST GEORGE MINING LIMITED",
+      "headline": "Most Spectacular Drill Results to Date at Araxa",
+      "time": "2026-07-28T23:13:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115226-6A1335939",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from SGQ",
+        "Topic: Most Spectacular Drill Results to Date at Araxa",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "APX",
+      "company": "APPEN LIMITED",
+      "headline": "Q2 FY26 Quarterly Activity Report and Appendix 4C",
+      "time": "2026-07-28T23:13:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115224-2A1686399",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from APX",
+        "Topic: Q2 FY26 Quarterly Activity Report and Appendix 4C",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WLE",
+      "company": "WAM LEADERS LIMITED",
+      "headline": "Strong investment port. outperformance, increased FF div",
+      "time": "2026-07-28T23:12:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115223-2A1686398",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from WLE",
+        "Topic: Strong investment port. outperformance, increased FF div",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LTR",
+      "company": "LIONTOWN LIMITED",
+      "headline": "June 2026 Quarter Presentation",
+      "time": "2026-07-28T23:11:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115220-6A1335937",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from LTR",
+        "Topic: June 2026 Quarter Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMD",
+      "company": "EMYRIA LIMITED",
+      "headline": "June 2026 Quarterly Activities Report and Appendix 4C",
+      "time": "2026-07-28T23:10:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115219-6A1335936",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from EMD",
+        "Topic: June 2026 Quarterly Activities Report and Appendix 4C",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PRM",
+      "company": "PROMINENCE ENERGY LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:09:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115218-6A1335933",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from PRM",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AW1",
+      "company": "AMERICAN WEST METALS LIMITED",
+      "headline": "Presentation - The Further Case for Copper",
+      "time": "2026-07-28T23:09:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115217-6A1335935",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AW1",
+        "Topic: Presentation - The Further Case for Copper",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FG1",
+      "company": "FLYNN GOLD LIMITED",
+      "headline": "Study to Unlock New Firetower Gold-Tungsten-Copper Targets",
+      "time": "2026-07-28T23:08:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115216-3A697787",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from FG1",
+        "Topic: Study to Unlock New Firetower Gold-Tungsten-Copper Targets",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1AE",
+      "company": "AURORA ENERGY METALS LIMITED",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:08:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115215-6A1335931",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from 1AE",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RON",
+      "company": "RONIN RESOURCES LTD",
+      "headline": "RON June 2026 Quarterly Activities Report & Appendix 5B",
+      "time": "2026-07-28T23:07:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115214-6A1335932",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from RON",
+        "Topic: RON June 2026 Quarterly Activities Report & Appendix 5B",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MBK",
+      "company": "MBK",
+      "headline": "Quarterly Cash Flow Report",
+      "time": "2026-07-28T23:05:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115210-3A697786",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from MBK",
+        "Topic: Quarterly Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PMM",
+      "company": "PIONEER MINERALS LIMITED",
+      "headline": "Secures Firm Commitments for $500,000 Placement",
+      "time": "2026-07-28T23:05:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115209-6A1335869",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "High-priority announcement from PMM",
+        "Topic: Secures Firm Commitments for $500,000 Placement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AR1",
+      "company": "AR1",
+      "headline": "Austral Invests in Long-Term Processing Infrastructure",
+      "time": "2026-07-28T23:05:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115206-2A1686396",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AR1",
+        "Topic: Austral Invests in Long-Term Processing Infrastructure",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LIT",
+      "company": "LIT",
+      "headline": "Trading Halt",
+      "time": "2026-07-28T23:04:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115205-6A1335925",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from LIT",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RAC",
+      "company": "RACURA ONCOLOGY LTD",
+      "headline": "First HARNESS-1 Patient Safely Treated with RC220",
+      "time": "2026-07-28T23:04:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115204-2A1686395",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RAC",
+        "Topic: First HARNESS-1 Patient Safely Treated with RC220",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MBK",
+      "company": "MBK",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-07-28T23:04:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115203-3A697785",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from MBK",
+        "Topic: Quarterly Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LTR",
+      "company": "LIONTOWN LIMITED",
+      "headline": "June 2026 Quarterly Activities and Cashflow Report",
+      "time": "2026-07-28T23:04:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115202-6A1335928",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from LTR",
+        "Topic: June 2026 Quarterly Activities and Cashflow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUE",
+      "company": "CUE",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-07-28T23:03:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115201-3A697784",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CUE",
+        "Topic: Quarterly Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WDS",
+      "company": "WDS",
+      "headline": "Second Quarter 2026 Report",
+      "time": "2026-07-28T23:03:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115200-6A1335927",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from WDS",
+        "Topic: Second Quarter 2026 Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CLU",
+      "company": "CLU",
+      "headline": "June 2026 Quarterly Activities Report and Appendix 4C",
+      "time": "2026-07-28T23:03:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115199-2A1686394",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CLU",
+        "Topic: June 2026 Quarterly Activities Report and Appendix 4C",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ODY",
+      "company": "ODY",
+      "headline": "June 2026 Quarterly Report",
+      "time": "2026-07-28T23:01:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115197-6A1335926",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from ODY",
+        "Topic: June 2026 Quarterly Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VRL",
+      "company": "VRL",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T23:00:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115195-6A1335924",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from VRL",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FL1",
+      "company": "FL1",
+      "headline": "FL1 Company Update",
+      "time": "2026-07-28T23:00:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115194-6A1335863",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from FL1",
+        "Topic: FL1 Company Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "THR",
+      "company": "THR",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:58:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115192-2A1686391",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from THR",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VYS",
+      "company": "VYS",
+      "headline": "Completion of Bookbuild for Capital Raising",
+      "time": "2026-07-28T22:57:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115190-6A1335837",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from VYS",
+        "Topic: Completion of Bookbuild for Capital Raising",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AYT",
+      "company": "AYT",
+      "headline": "Quarterly Activities Report and Appendix 5B",
+      "time": "2026-07-28T22:56:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115188-2A1686390",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from AYT",
+        "Topic: Quarterly Activities Report and Appendix 5B",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IKE",
+      "company": "IKE",
+      "headline": "Amended - IKEGPS Q1 FY27 Performance Update",
+      "time": "2026-07-28T22:50:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115183-3A697781",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from IKE",
+        "Topic: Amended - IKEGPS Q1 FY27 Performance Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M7T",
+      "company": "M7T",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T22:49:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115181-3A697780",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from M7T",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKK",
+      "company": "SKK",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T22:48:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115180-6A1335919",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from SKK",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSM",
+      "company": "OSM",
+      "headline": "Quarterly Activities and Cashflow Report",
+      "time": "2026-07-28T22:48:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115179-6A1335921",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from OSM",
+        "Topic: Quarterly Activities and Cashflow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PYC",
+      "company": "PYC",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T22:45:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115175-6A1335917",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from PYC",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GT3",
+      "company": "GT3",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:45:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115174-6A1335916",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from GT3",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPT",
+      "company": "PERPETUAL LIMITED",
+      "headline": "Fourth Quarter FY26 Business Update",
+      "time": "2026-07-28T22:44:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115172-2A1686382",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PPT",
+        "Topic: Fourth Quarter FY26 Business Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NS1",
+      "company": "NS1",
+      "headline": "Quarterly Activities & Cashflow Report",
+      "time": "2026-07-28T22:44:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115171-6A1335915",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from NS1",
+        "Topic: Quarterly Activities & Cashflow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN",
+      "headline": "Q4 FY26 Presentation",
+      "time": "2026-07-28T22:43:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115170-3A697779",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DXN",
+        "Topic: Q4 FY26 Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WLE",
+      "company": "WAM LEADERS LIMITED",
+      "headline": "Dividend/Distribution - WLE",
+      "time": "2026-07-28T22:42:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115169-2A1686380",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from WLE",
+        "Topic: Dividend/Distribution - WLE",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PAT",
+      "company": "PAT",
+      "headline": "Acquisition of Highly Prospective Zambian Copperbelt Licence",
+      "time": "2026-07-28T22:41:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115168-6A1335914",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "High-priority announcement from PAT",
+        "Topic: Acquisition of Highly Prospective Zambian Copperbelt Licence",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T22:41:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115167-3A697778",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from DXN",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BIO",
+      "company": "BIO",
+      "headline": "Quarterly Activities & Cashflow Report",
+      "time": "2026-07-28T22:40:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115165-3A697777",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from BIO",
+        "Topic: Quarterly Activities & Cashflow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AXL",
+      "company": "AXL",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:40:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115164-3A697775",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from AXL",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEA",
+      "company": "SEA",
+      "headline": "4Q26 Update - Investor Presentation",
+      "time": "2026-07-28T22:40:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115163-2A1686378",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from SEA",
+        "Topic: 4Q26 Update - Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TMK",
+      "company": "TMK",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:39:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115162-6A1335910",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from TMK",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "STM",
+      "company": "STM",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:38:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115160-2A1686377",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from STM",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AYA",
+      "company": "AYA",
+      "headline": "June Quarterly Activities Report and Appendix 4C",
+      "time": "2026-07-28T22:37:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115159-6A1335911",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from AYA",
+        "Topic: June Quarterly Activities Report and Appendix 4C",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEA",
+      "company": "SEA",
+      "headline": "4Q26 Quarterly Update",
+      "time": "2026-07-28T22:36:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115158-2A1686376",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from SEA",
+        "Topic: 4Q26 Quarterly Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GML",
+      "company": "GML",
+      "headline": "Additional RC Drilling Underway at Yandal",
+      "time": "2026-07-28T22:36:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115156-2A1686375",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GML",
+        "Topic: Additional RC Drilling Underway at Yandal",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LRM",
+      "company": "LRM",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:35:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115154-6A1335909",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from LRM",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LUX",
+      "company": "LUX",
+      "headline": "Geophysical survey completed and drill mobilisation underway",
+      "time": "2026-07-28T22:35:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115155-6A1335906",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from LUX",
+        "Topic: Geophysical survey completed and drill mobilisation underway",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XRG",
+      "company": "XRG",
+      "headline": "Quarterly Activities Report and Appendix 4C - 30 Jun 26",
+      "time": "2026-07-28T22:34:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115151-2A1686373",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from XRG",
+        "Topic: Quarterly Activities Report and Appendix 4C - 30 Jun 26",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IR1",
+      "company": "IR1",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:34:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115150-3A697770",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from IR1",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MPK",
+      "company": "MPK",
+      "headline": "Quarterly Activities Report & Appendix 5B",
+      "time": "2026-07-28T22:34:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115149-6A1335907",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from MPK",
+        "Topic: Quarterly Activities Report & Appendix 5B",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXN",
+      "company": "NXN",
+      "headline": "Quarterly Report - Q4 FY26",
+      "time": "2026-07-28T22:33:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115147-2A1686371",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from NXN",
+        "Topic: Quarterly Report - Q4 FY26",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FMR",
+      "company": "FMR",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:32:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115144-6A1335903",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from FMR",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYC",
+      "company": "CYC",
+      "headline": "New US Lung Imaging Guidelines Name Technegas as Preferred A",
+      "time": "2026-07-28T22:31:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115143-2A1686369",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CYC",
+        "Topic: New US Lung Imaging Guidelines Name Technegas as Preferred A",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SLD",
+      "company": "SLD",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T22:31:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115141-2A1686368",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from SLD",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PSC",
+      "company": "PSC",
+      "headline": "Quarterly Activities and Cashflow Report Jun 2026",
+      "time": "2026-07-28T22:31:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115140-6A1335901",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from PSC",
+        "Topic: Quarterly Activities and Cashflow Report Jun 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HZN",
+      "company": "HZN",
+      "headline": "Quarterly Activites Report",
+      "time": "2026-07-28T22:30:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115137-2A1686364",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from HZN",
+        "Topic: Quarterly Activites Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALK",
+      "company": "ALK",
+      "headline": "Alkane Significantly Increases Storheden Mineral Resource",
+      "time": "2026-07-28T22:30:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115136-6A1335902",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ALK",
+        "Topic: Alkane Significantly Increases Storheden Mineral Resource",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALX",
+      "company": "ALX",
+      "headline": "Q2 2026 Toll Revenue & Traffic Update & New Debt Facility",
+      "time": "2026-07-28T22:30:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115135-2A1686363",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ALX",
+        "Topic: Q2 2026 Toll Revenue & Traffic Update & New Debt Facility",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN",
+      "headline": "Pacific Infrastructure Position Strengthened with A$1.2m Win",
+      "time": "2026-07-28T22:30:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115134-3A697767",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DXN",
+        "Topic: Pacific Infrastructure Position Strengthened with A$1.2m Win",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "R8R",
+      "company": "R8R",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:30:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115133-6A1335896",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from R8R",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATX",
+      "company": "ATX",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T22:29:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115131-2A1686361",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from ATX",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "D3E",
+      "company": "D3E",
+      "headline": "Quarterly Activities Report and Appendix 5B - Jun 2026",
+      "time": "2026-07-28T22:29:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115129-6A1335899",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from D3E",
+        "Topic: Quarterly Activities Report and Appendix 5B - Jun 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VFY",
+      "company": "VFY",
+      "headline": "Q4 FY26 Quarterly Activities Report and Appendix 4C",
+      "time": "2026-07-28T22:29:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115123-3A697762",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from VFY",
+        "Topic: Q4 FY26 Quarterly Activities Report and Appendix 4C",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADR",
+      "company": "ADR",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T22:29:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115122-3A697761",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from ADR",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DES",
+      "company": "DES",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:29:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115119-6A1335894",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from DES",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DUB",
+      "company": "DUB",
+      "headline": "Q4 FY26 Quarterly Activities Report and Appendix 4C",
+      "time": "2026-07-28T22:28:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115117-3A697764",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from DUB",
+        "Topic: Q4 FY26 Quarterly Activities Report and Appendix 4C",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OD6",
+      "company": "OD6",
+      "headline": "HIGH-GRADE GOLD RESULTS CONFIRMED AT QUINN",
+      "time": "2026-07-28T22:28:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115116-6A1335891",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from OD6",
+        "Topic: HIGH-GRADE GOLD RESULTS CONFIRMED AT QUINN",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXM",
+      "company": "NXM",
+      "headline": "Wallbrook Project- Branches RC Results Extend Mineralisation",
+      "time": "2026-07-28T22:28:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115113-6A1335889",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from NXM",
+        "Topic: Wallbrook Project- Branches RC Results Extend Mineralisation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GGP",
+      "company": "GGP",
+      "headline": "June 2026 Quarterly Activities Report",
+      "time": "2026-07-28T22:28:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115111-6A1335888",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from GGP",
+        "Topic: June 2026 Quarterly Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CRN",
+      "company": "CRN",
+      "headline": "Quarterly Activities Report Q2 2026",
+      "time": "2026-07-28T22:27:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115107-2A1686355",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CRN",
+        "Topic: Quarterly Activities Report Q2 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LEL",
+      "company": "LEL",
+      "headline": "Further Assay Results from Burke - Mt Dromedary Drilling",
+      "time": "2026-07-28T22:27:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115102-6A1335885",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from LEL",
+        "Topic: Further Assay Results from Burke - Mt Dromedary Drilling",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ONE",
+      "company": "ONE",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T22:27:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115101-2A1686352",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from ONE",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BHL",
+      "company": "BHL",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:26:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115099-6A1335884",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from BHL",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HTM",
+      "company": "HTM",
+      "headline": "Updated Wagtail Gold MRE Underpins Development Studies",
+      "time": "2026-07-28T22:26:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115098-6A1335883",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from HTM",
+        "Topic: Updated Wagtail Gold MRE Underpins Development Studies",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RIO",
+      "company": "RIO",
+      "headline": "Rio Tinto 2026 half year results",
+      "time": "2026-07-28T22:26:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115097-3A697768",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from RIO",
+        "Topic: Rio Tinto 2026 half year results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BM8",
+      "company": "BM8",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:26:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115096-6A1335882",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from BM8",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ACM",
+      "company": "ACM",
+      "headline": "Flint Project Exploration Update",
+      "time": "2026-07-28T22:26:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115095-6A1335881",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ACM",
+        "Topic: Flint Project Exploration Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PFP",
+      "company": "PFP",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-07-28T22:26:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115094-2A1686350",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from PFP",
+        "Topic: Becoming a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVR",
+      "company": "CVR",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:25:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115093-6A1335880",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CVR",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PNT",
+      "company": "PNT",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:25:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115092-6A1335879",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from PNT",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ASQ",
+      "company": "ASQ",
+      "headline": "Encouraging Preliminary Kaolin Testwork Results",
+      "time": "2026-07-28T22:25:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115091-6A1335878",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ASQ",
+        "Topic: Encouraging Preliminary Kaolin Testwork Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "XPD",
+      "company": "XPD",
+      "headline": "MORE BROAD HIGH-GRADE GOLD INTERCEPTS AT SPRINGFIELD",
+      "time": "2026-07-28T22:25:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115090-6A1335877",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from XPD",
+        "Topic: MORE BROAD HIGH-GRADE GOLD INTERCEPTS AT SPRINGFIELD",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NST",
+      "company": "NST",
+      "headline": "June 2026 Quarterly Activities Report",
+      "time": "2026-07-28T22:25:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115089-6A1335876",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from NST",
+        "Topic: June 2026 Quarterly Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENV",
+      "company": "ENV",
+      "headline": "REE MINERALISATION CONFIRMED AT SANTO ANTONIO DO JACINTO",
+      "time": "2026-07-28T22:24:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115088-3A697754",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ENV",
+        "Topic: REE MINERALISATION CONFIRMED AT SANTO ANTONIO DO JACINTO",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BSR",
+      "company": "BSR",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:24:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115087-6A1335875",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from BSR",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RMX",
+      "company": "RMX",
+      "headline": "SYSTEMATIC EXPLORATION UNDERWAY AT PIONEER TUNGSTEN PROJECT",
+      "time": "2026-07-28T22:24:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115086-6A1335874",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RMX",
+        "Topic: SYSTEMATIC EXPLORATION UNDERWAY AT PIONEER TUNGSTEN PROJECT",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCE",
+      "company": "CCE",
+      "headline": "Quarterly Activities/Appendix 4C Cash Flow Report",
+      "time": "2026-07-28T22:24:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115085-6A1335873",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CCE",
+        "Topic: Quarterly Activities/Appendix 4C Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VUL",
+      "company": "VUL",
+      "headline": "Quarterly Cashflow Report - Period Ending 30 June 2026",
+      "time": "2026-07-28T22:23:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115083-6A1335871",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from VUL",
+        "Topic: Quarterly Cashflow Report - Period Ending 30 June 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VUL",
+      "company": "VUL",
+      "headline": "Quarterly Activities Report - Period Ending 30 June 2026",
+      "time": "2026-07-28T22:23:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115082-6A1335868",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from VUL",
+        "Topic: Quarterly Activities Report - Period Ending 30 June 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ICR",
+      "company": "ICR",
+      "headline": "June 2026 Quarterly Activities Report",
+      "time": "2026-07-28T22:23:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115081-6A1335870",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from ICR",
+        "Topic: June 2026 Quarterly Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ICR",
+      "company": "ICR",
+      "headline": "June 26 Quarterly Cashflow Report",
+      "time": "2026-07-28T22:23:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115080-6A1335867",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from ICR",
+        "Topic: June 26 Quarterly Cashflow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WA1",
+      "company": "WA1",
+      "headline": "Luni Niobium Project - Assay Results",
+      "time": "2026-07-28T22:23:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115079-6A1335864",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from WA1",
+        "Topic: Luni Niobium Project - Assay Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VAN",
+      "company": "VAN",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:22:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115078-6A1335862",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from VAN",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RMS",
+      "company": "RMS",
+      "headline": "June 2026 Quarterly Report",
+      "time": "2026-07-28T22:22:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115076-6A1335860",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from RMS",
+        "Topic: June 2026 Quarterly Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AUV",
+      "company": "AUV",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:22:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115075-6A1335859",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from AUV",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PFE",
+      "company": "PFE",
+      "headline": "First Ever Drilling To Test Silver Project At Gillham",
+      "time": "2026-07-28T22:21:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115073-6A1335857",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PFE",
+        "Topic: First Ever Drilling To Test Silver Project At Gillham",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MIN",
+      "company": "MIN",
+      "headline": "Quarterly Activity Report - Q4 FY26",
+      "time": "2026-07-28T22:21:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115072-6A1335856",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from MIN",
+        "Topic: Quarterly Activity Report - Q4 FY26",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENR",
+      "company": "ENR",
+      "headline": "Quarterly Activities Report and Appendix 5B",
+      "time": "2026-07-28T22:21:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115071-6A1335855",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from ENR",
+        "Topic: Quarterly Activities Report and Appendix 5B",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M24",
+      "company": "M24",
+      "headline": "Copper Hills Emerges as Priority Copper Target at Meeka East",
+      "time": "2026-07-28T22:21:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115070-6A1335854",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from M24",
+        "Topic: Copper Hills Emerges as Priority Copper Target at Meeka East",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WC8",
+      "company": "WC8",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:21:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115069-6A1335853",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from WC8",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PTN",
+      "company": "PTN",
+      "headline": "District-Scale Gold Opportunity Expands as Drilling Advances",
+      "time": "2026-07-28T22:20:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115067-6A1335851",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PTN",
+        "Topic: District-Scale Gold Opportunity Expands as Drilling Advances",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TXR",
+      "company": "TXR",
+      "headline": "RC splits from Viking returns 4m @ 22.1g/t gold",
+      "time": "2026-07-28T22:20:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115066-6A1335850",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from TXR",
+        "Topic: RC splits from Viking returns 4m @ 22.1g/t gold",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PC2",
+      "company": "PC2",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:20:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115065-6A1335849",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from PC2",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1MC",
+      "company": "1MC",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:20:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115064-6A1335848",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from 1MC",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HMI",
+      "company": "HMI",
+      "headline": "June 2026 Quarterly Activities and Cashflow Reports",
+      "time": "2026-07-28T22:20:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115063-6A1335847",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from HMI",
+        "Topic: June 2026 Quarterly Activities and Cashflow Reports",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MVL",
+      "company": "MVL",
+      "headline": "Quarterly Activities and Cashflow Report - June 2026",
+      "time": "2026-07-28T22:19:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115061-6A1335846",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from MVL",
+        "Topic: Quarterly Activities and Cashflow Report - June 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZNC",
+      "company": "ZNC",
+      "headline": "Change in substantial holding from FRS",
+      "time": "2026-07-28T22:19:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115060-6A1335845",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from ZNC",
+        "Topic: Change in substantial holding from FRS",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZN",
+      "company": "CZN",
+      "headline": "Quarterly Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:19:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115059-6A1335844",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CZN",
+        "Topic: Quarterly Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CZN",
+      "company": "CZN",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-07-28T22:19:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115058-6A1335843",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CZN",
+        "Topic: Quarterly Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAF",
+      "company": "WAF",
+      "headline": "Quarterly Cashflow Report",
+      "time": "2026-07-28T22:18:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115057-6A1335842",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from WAF",
+        "Topic: Quarterly Cashflow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAF",
+      "company": "WAF",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-07-28T22:18:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115056-6A1335841",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from WAF",
+        "Topic: Quarterly Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EL8",
+      "company": "EL8",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:18:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115055-6A1335840",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from EL8",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CP8",
+      "company": "CP8",
+      "headline": "Appendix 5B",
+      "time": "2026-07-28T22:18:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115054-2A1686348",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CP8",
+        "Topic: Appendix 5B",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CP8",
+      "company": "CP8",
+      "headline": "Quarterly Report",
+      "time": "2026-07-28T22:18:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115053-2A1686347",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from CP8",
+        "Topic: Quarterly Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFX",
+      "company": "SFX",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:17:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115052-6A1335839",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from SFX",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AZY",
+      "company": "AZY",
+      "headline": "Quarterly Activities/Appendix 5B Cash Flow Report",
+      "time": "2026-07-28T22:17:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115051-6A1335838",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from AZY",
+        "Topic: Quarterly Activities/Appendix 5B Cash Flow Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GPR",
+      "company": "GPR",
+      "headline": "Quarterly Activities Report and 5B Cashflow - June 2026",
+      "time": "2026-07-28T22:17:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115050-6A1335836",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from GPR",
+        "Topic: Quarterly Activities Report and 5B Cashflow - June 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VTA",
+      "company": "VTA",
+      "headline": "Market Advice Regarding Capital Partner",
+      "time": "2026-07-28T22:17:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115049-2A1686346",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from VTA",
+        "Topic: Market Advice Regarding Capital Partner",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTE",
+      "company": "GTE",
+      "headline": "Exploration update at Yerrida Copper-Gold Project",
+      "time": "2026-07-28T22:17:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115048-6A1335835",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GTE",
+        "Topic: Exploration update at Yerrida Copper-Gold Project",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VAU",
+      "company": "VAU",
+      "headline": "Quarterly Activities Report",
+      "time": "2026-07-28T22:16:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115047-6A1335834",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from VAU",
+        "Topic: Quarterly Activities Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKO",
+      "company": "SKO",
+      "headline": "Operating Update - Q1 FY27",
+      "time": "2026-07-28T21:30:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115042-3A697759",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from SKO",
+        "Topic: Operating Update - Q1 FY27",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IKE",
+      "company": "IKE",
+      "headline": "IKE 1Q FY27 Performance Update",
+      "time": "2026-07-28T21:30:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03115039-3A697756",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from IKE",
+        "Topic: IKE 1Q FY27 Performance Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    }
+  ]
+}
