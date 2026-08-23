@@ -1,0 +1,2726 @@
+{
+  "date": "2026-08-24",
+  "total": 151,
+  "market_sensitive_count": 144,
+  "generated_at": "2026-08-23T23:27:33.590160+00:00",
+  "announcements": [
+    {
+      "ticker": "EMV",
+      "company": "EMVISION MEDICAL DEVICES LTD",
+      "headline": "Appendix 4E & Annual Report to 30 June 2026",
+      "time": "2026-08-23T23:13:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124758-6A1339839",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from EMV",
+        "Topic: Appendix 4E & Annual Report to 30 June 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNG",
+      "company": "GR ENGINEERING SERVICES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-23T23:12:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124757-6A1339837",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from GNG",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GDI",
+      "company": "GDI PROPERTY GROUP",
+      "headline": "Appendix 4E and Annual Financial Report",
+      "time": "2026-08-23T23:11:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124755-2A1691318",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from GDI",
+        "Topic: Appendix 4E and Annual Financial Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAX",
+      "company": "WAM RESEARCH LIMITED",
+      "headline": "Appendix 4E and Annual Report",
+      "time": "2026-08-23T23:11:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124754-2A1691320",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from WAX",
+        "Topic: Appendix 4E and Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PNN",
+      "company": "POWER MINERALS LIMITED",
+      "headline": "2ND HOLE DELIVERS HIGHEST EVER MREO INTERCEPT FROM SURFACE",
+      "time": "2026-08-23T23:10:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124750-2A1691270",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PNN",
+        "Topic: 2ND HOLE DELIVERS HIGHEST EVER MREO INTERCEPT FROM SURFACE",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "1TT",
+      "company": "THRIVE TRIBE TECHNOLOGIES LIMITED",
+      "headline": "Completion of Capital Raise",
+      "time": "2026-08-23T23:10:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124749-2A1691325",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "High-priority announcement from 1TT",
+        "Topic: Completion of Capital Raise",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WMG",
+      "company": "WESTERN MINES GROUP LTD",
+      "headline": "First Phase 5 Assay Results from Mulga Tank",
+      "time": "2026-08-23T23:09:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124746-6A1339835",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from WMG",
+        "Topic: First Phase 5 Assay Results from Mulga Tank",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PGL",
+      "company": "PILBARA GOLD LIMITED",
+      "headline": "More Solid Mt York Drilling Results",
+      "time": "2026-08-23T23:09:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124742-3A699553",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from PGL",
+        "Topic: More Solid Mt York Drilling Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FSI",
+      "company": "FLAGSHIP INVESTMENTS LIMITED",
+      "headline": "Announcement of buy-back - FSIGA Convertible Notes",
+      "time": "2026-08-23T23:08:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124740-2A1691321",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from FSI",
+        "Topic: Announcement of buy-back - FSIGA Convertible Notes",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "British Hill Mineral Resource Estimate Upgrade",
+      "time": "2026-08-23T23:06:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124734-6A1339833",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from FRS",
+        "Topic: British Hill Mineral Resource Estimate Upgrade",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AON",
+      "company": "APOLLO MINERALS LIMITED",
+      "headline": "Further Zones of Tungsten Mineralisation Identified at Salau",
+      "time": "2026-08-23T23:03:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124727-6A1339831",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AON",
+        "Topic: Further Zones of Tungsten Mineralisation Identified at Salau",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SNX",
+      "company": "SIERRA NEVADA GOLD INC.",
+      "headline": "Trading Halt",
+      "time": "2026-08-23T23:02:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124724-3A699543",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from SNX",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADH",
+      "company": "ADAIRS LIMITED",
+      "headline": "FY26 Full Year Results Presentation",
+      "time": "2026-08-23T23:01:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124723-3A699539",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ADH",
+        "Topic: FY26 Full Year Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADH",
+      "company": "ADAIRS LIMITED",
+      "headline": "FY26 Full Year Results Release",
+      "time": "2026-08-23T22:59:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124722-3A699537",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ADH",
+        "Topic: FY26 Full Year Results Release",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SP8",
+      "company": "STREAMPLAY STUDIO LIMITED",
+      "headline": "Noodlecake signs publishing agreement for new title",
+      "time": "2026-08-23T22:59:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124721-6A1339824",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from SP8",
+        "Topic: Noodlecake signs publishing agreement for new title",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KLI",
+      "company": "KILLI RESOURCES LIMITED",
+      "headline": "Killi Appoints Managing Director",
+      "time": "2026-08-23T22:58:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124719-6A1339822",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "High-priority announcement from KLI",
+        "Topic: Killi Appoints Managing Director",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADH",
+      "company": "ADAIRS LIMITED",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-23T22:58:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124718-3A699534",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from ADH",
+        "Topic: Appendix 4E and 2026 Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KBC",
+      "company": "KEYBRIDGE CAPITAL LIMITED",
+      "headline": "Lodgement of FY2025 Annual Report and ASX delisting",
+      "time": "2026-08-23T22:57:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124717-3A699532",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from KBC",
+        "Topic: Lodgement of FY2025 Annual Report and ASX delisting",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OVT",
+      "company": "OVANTI LIMITED",
+      "headline": "OVT NEW BUSINESS STRATEGY",
+      "time": "2026-08-23T22:56:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124716-2A1691311",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from OVT",
+        "Topic: OVT NEW BUSINESS STRATEGY",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGF",
+      "company": "L1 GOLD FUND LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-23T22:55:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124715-6A1339823",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from LGF",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAX",
+      "company": "WAM RESEARCH LIMITED",
+      "headline": "Dividend/Distribution - WAX",
+      "time": "2026-08-23T22:54:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124714-2A1691310",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from WAX",
+        "Topic: Dividend/Distribution - WAX",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "Magnetic Surveys Commence Ahead of Maiden KSA Drilling",
+      "time": "2026-08-23T22:52:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124709-3A699533",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PKO",
+        "Topic: Magnetic Surveys Commence Ahead of Maiden KSA Drilling",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MPW",
+      "company": "METAL POWDER WORKS LIMITED",
+      "headline": "MPW Enters Copper Infiltration Market with A$275k Order",
+      "time": "2026-08-23T22:49:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124707-6A1339821",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from MPW",
+        "Topic: MPW Enters Copper Infiltration Market with A$275k Order",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DVL",
+      "company": "DORSAVI LTD",
+      "headline": "dorsaVi Completes CMOS Fabrication for RRAM Validation Chip",
+      "time": "2026-08-23T22:48:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124706-3A699530",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DVL",
+        "Topic: dorsaVi Completes CMOS Fabrication for RRAM Validation Chip",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVT",
+      "company": "EVT LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-23T22:46:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124703-2A1691303",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from EVT",
+        "Topic: FY26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTN",
+      "company": "GTN LIMITED",
+      "headline": "FY26 Full Year Investor Presentation",
+      "time": "2026-08-23T22:45:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124700-2A1691305",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GTN",
+        "Topic: FY26 Full Year Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTN",
+      "company": "GTN LIMITED",
+      "headline": "FY26 Full Year Results Announcement",
+      "time": "2026-08-23T22:44:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124696-2A1691300",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from GTN",
+        "Topic: FY26 Full Year Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNB",
+      "company": "CARNABY RESOURCES LIMITED",
+      "headline": "Trekelano Mineral Resource Update",
+      "time": "2026-08-23T22:44:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124694-6A1339818",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CNB",
+        "Topic: Trekelano Mineral Resource Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REG",
+      "company": "REGIS HEALTHCARE LIMITED",
+      "headline": "Regis Healthcare Investor Presentation FY26",
+      "time": "2026-08-23T22:43:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124692-3A699528",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from REG",
+        "Topic: Regis Healthcare Investor Presentation FY26",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPG",
+      "company": "HIPAGES GROUP HOLDINGS LTD",
+      "headline": "FY26 Full Year Investor Presentation",
+      "time": "2026-08-23T22:43:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124689-2A1691282",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from HPG",
+        "Topic: FY26 Full Year Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REG",
+      "company": "REGIS HEALTHCARE LIMITED",
+      "headline": "Regis Healthcare Results Announcement FY26",
+      "time": "2026-08-23T22:42:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124687-3A699526",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from REG",
+        "Topic: Regis Healthcare Results Announcement FY26",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RTR",
+      "company": "RUMBLE RESOURCES LIMITED",
+      "headline": "Western Queen Project Development Update",
+      "time": "2026-08-23T22:42:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124685-6A1339816",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RTR",
+        "Topic: Western Queen Project Development Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GTN",
+      "company": "GTN LIMITED",
+      "headline": "Appendix 4E and FY2026 Annual Report",
+      "time": "2026-08-23T22:42:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124683-2A1691286",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from GTN",
+        "Topic: Appendix 4E and FY2026 Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DXN",
+      "company": "DXN LIMITED",
+      "headline": "A$12.2M AI HPC contract signed with AI compute operator",
+      "time": "2026-08-23T22:41:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124682-3A699525",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DXN",
+        "Topic: A$12.2M AI HPC contract signed with AI compute operator",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "2026 Annual Results Presentation",
+      "time": "2026-08-23T22:41:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124680-2A1691294",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from NGI",
+        "Topic: 2026 Annual Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BNZ",
+      "company": "BENZ MINING CORP.",
+      "headline": "$150M PLACEMENT TO ACCELERATE GLENBURGH MAIDEN RESOURCE",
+      "time": "2026-08-23T22:40:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124679-6A1339814",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "High-priority announcement from BNZ",
+        "Topic: $150M PLACEMENT TO ACCELERATE GLENBURGH MAIDEN RESOURCE",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPG",
+      "company": "HIPAGES GROUP HOLDINGS LTD",
+      "headline": "FY26 Full Year Results Announcement",
+      "time": "2026-08-23T22:40:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124678-2A1691277",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from HPG",
+        "Topic: FY26 Full Year Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "2026 Annual Results Announcement",
+      "time": "2026-08-23T22:38:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124675-2A1691290",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from NGI",
+        "Topic: 2026 Annual Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NES",
+      "company": "NES",
+      "headline": "Copper Oxide Mineralisation Observed at Southern Gold Point",
+      "time": "2026-08-23T22:38:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124673-6A1339810",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from NES",
+        "Topic: Copper Oxide Mineralisation Observed at Southern Gold Point",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NGI",
+      "company": "NAVIGATOR GLOBAL INVESTMENTS LIMITED",
+      "headline": "2026 Appendix 4E and Annual Report",
+      "time": "2026-08-23T22:38:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124670-2A1691285",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from NGI",
+        "Topic: 2026 Appendix 4E and Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HPG",
+      "company": "HIPAGES GROUP HOLDINGS LTD",
+      "headline": "FY26 Appendix 4E and Full Year Statutory Accounts",
+      "time": "2026-08-23T22:36:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124667-2A1691273",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from HPG",
+        "Topic: FY26 Appendix 4E and Full Year Statutory Accounts",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVT",
+      "company": "EVT LIMITED",
+      "headline": "FY26 Results, Capital Recycling and Group Structure Review",
+      "time": "2026-08-23T22:35:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124664-2A1691283",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from EVT",
+        "Topic: FY26 Results, Capital Recycling and Group Structure Review",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLF",
+      "company": "GLF",
+      "headline": "Earnings guidance upgrade, 1H26 results exceed Prospectus fo",
+      "time": "2026-08-23T22:34:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124660-2A1691274",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from GLF",
+        "Topic: Earnings guidance upgrade, 1H26 results exceed Prospectus fo",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REG",
+      "company": "REGIS HEALTHCARE LIMITED",
+      "headline": "Regis Healthcare Appendix 4E And Annual Report FY26",
+      "time": "2026-08-23T22:33:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124659-3A699521",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from REG",
+        "Topic: Regis Healthcare Appendix 4E And Annual Report FY26",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BEN",
+      "headline": "Disclosure Document",
+      "time": "2026-08-23T22:32:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124654-3A699517",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from BEN",
+        "Topic: Disclosure Document",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLF",
+      "company": "GLF",
+      "headline": "1H26 Results Presentation",
+      "time": "2026-08-23T22:28:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124644-2A1691267",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from GLF",
+        "Topic: 1H26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EVT",
+      "company": "EVT LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-23T22:27:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124643-2A1691263",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from EVT",
+        "Topic: Preliminary Final Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FAU",
+      "company": "FAU",
+      "headline": "First Au to Commence Drilling at First Hit Gold Deposit",
+      "time": "2026-08-23T22:25:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124639-6A1339804",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from FAU",
+        "Topic: First Au to Commence Drilling at First Hit Gold Deposit",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALK",
+      "company": "ALK",
+      "headline": "New High-Grade Domain Discovered at Cuffley",
+      "time": "2026-08-23T22:23:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124638-6A1339805",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ALK",
+        "Topic: New High-Grade Domain Discovered at Cuffley",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BEN",
+      "headline": "BEN FY26 Results Presentation",
+      "time": "2026-08-23T22:22:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124637-3A699511",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from BEN",
+        "Topic: BEN FY26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALD",
+      "company": "ALD",
+      "headline": "2026 Half Year Results Presentation",
+      "time": "2026-08-23T22:21:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124634-2A1691266",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from ALD",
+        "Topic: 2026 Half Year Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCR",
+      "company": "RCR",
+      "headline": "Drilling Underway at the Telfer South Project",
+      "time": "2026-08-23T22:20:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124631-6A1339801",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RCR",
+        "Topic: Drilling Underway at the Telfer South Project",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALD",
+      "company": "ALD",
+      "headline": "2026 Half Year Results",
+      "time": "2026-08-23T22:19:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124630-2A1691264",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from ALD",
+        "Topic: 2026 Half Year Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALD",
+      "company": "ALD",
+      "headline": "2026 Half Year Report",
+      "time": "2026-08-23T22:17:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124628-2A1691261",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from ALD",
+        "Topic: 2026 Half Year Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BEN",
+      "headline": "BEN FY26 Results Announcement",
+      "time": "2026-08-23T22:17:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124627-3A699510",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from BEN",
+        "Topic: BEN FY26 Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BEN",
+      "company": "BEN",
+      "headline": "BEN FY26 Appendix 4E",
+      "time": "2026-08-23T22:17:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124626-3A699509",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from BEN",
+        "Topic: BEN FY26 Appendix 4E",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCX",
+      "company": "CCX",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-23T22:16:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124625-2A1691248",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from CCX",
+        "Topic: FY26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "JGH",
+      "company": "JGH",
+      "headline": "PDO submitted and 502km2 Production Licence Area Agreed",
+      "time": "2026-08-23T22:15:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124622-6A1339800",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from JGH",
+        "Topic: PDO submitted and 502km2 Production Licence Area Agreed",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCX",
+      "company": "CCX",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-23T22:14:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124619-2A1691246",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from CCX",
+        "Topic: FY26 Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLF",
+      "company": "GLF",
+      "headline": "1H26 Appendix 4D and Interim Financial Reports",
+      "time": "2026-08-23T22:13:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124618-2A1691258",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GLF",
+        "Topic: 1H26 Appendix 4D and Interim Financial Reports",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VNT",
+      "headline": "HY26 results - Presentation",
+      "time": "2026-08-23T22:12:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124614-2A1691256",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from VNT",
+        "Topic: HY26 results - Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCX",
+      "company": "CCX",
+      "headline": "FY26 Appendix 4E and Preliminary Final Report",
+      "time": "2026-08-23T22:11:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124612-2A1691245",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CCX",
+        "Topic: FY26 Appendix 4E and Preliminary Final Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VNT",
+      "headline": "HY26 results - Media Release",
+      "time": "2026-08-23T22:11:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124611-2A1691255",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from VNT",
+        "Topic: HY26 results - Media Release",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGF",
+      "company": "L1 GOLD FUND LIMITED",
+      "headline": "LGF Appendix 4E and FY26 Annual Report",
+      "time": "2026-08-23T22:09:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124607-6A1339798",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from LGF",
+        "Topic: LGF Appendix 4E and FY26 Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYC",
+      "company": "CYC",
+      "headline": "CYC 1H2026 Results Summary",
+      "time": "2026-08-23T22:09:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124606-2A1691244",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from CYC",
+        "Topic: CYC 1H2026 Results Summary",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CYC",
+      "company": "CYC",
+      "headline": "Half Yearly Report and Accounts",
+      "time": "2026-08-23T22:09:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124605-2A1691241",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from CYC",
+        "Topic: Half Yearly Report and Accounts",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VNT",
+      "company": "VNT",
+      "headline": "Half Yearly Report and Accounts",
+      "time": "2026-08-23T22:09:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124603-2A1691251",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from VNT",
+        "Topic: Half Yearly Report and Accounts",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DBO",
+      "company": "DBO",
+      "headline": "Star Range Earthworks Complete Horn Silver Work Underway",
+      "time": "2026-08-23T22:09:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124602-6A1339796",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DBO",
+        "Topic: Star Range Earthworks Complete Horn Silver Work Underway",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FDV",
+      "company": "FDV",
+      "headline": "Change of interests of substantial holder - Cove View",
+      "time": "2026-08-23T22:08:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124598-3A699500",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "High-priority announcement from FDV",
+        "Topic: Change of interests of substantial holder - Cove View",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MVF",
+      "company": "MVF",
+      "headline": "FY2026 Results release postponed to 31 August 2026",
+      "time": "2026-08-23T22:08:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124596-2A1691249",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from MVF",
+        "Topic: FY2026 Results release postponed to 31 August 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABB",
+      "company": "ABB",
+      "headline": "ABB FY26 Results - Investor Presentation",
+      "time": "2026-08-23T22:07:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124595-3A699495",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ABB",
+        "Topic: ABB FY26 Results - Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABB",
+      "company": "ABB",
+      "headline": "ABB FY26 Annual Results Announcement",
+      "time": "2026-08-23T22:07:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124594-3A699494",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ABB",
+        "Topic: ABB FY26 Annual Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABB",
+      "company": "ABB",
+      "headline": "ABB Appendix 4E - FY26 Full Year Results",
+      "time": "2026-08-23T22:07:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124592-3A699491",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ABB",
+        "Topic: ABB Appendix 4E - FY26 Full Year Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NMT",
+      "company": "NMT",
+      "headline": "Tranche 2 Placement and Funding Update",
+      "time": "2026-08-23T22:07:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124590-6A1339795",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "High-priority announcement from NMT",
+        "Topic: Tranche 2 Placement and Funding Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CCM",
+      "company": "CCM",
+      "headline": "Successful Hypersonic Test Flight Incorporating Cadoux HPA",
+      "time": "2026-08-23T22:07:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124589-6A1339793",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CCM",
+        "Topic: Successful Hypersonic Test Flight Incorporating Cadoux HPA",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EMA",
+      "company": "EMA",
+      "headline": "Strategic Rare Earths Expansion in Bahia, Brazil",
+      "time": "2026-08-23T22:07:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124588-6A1339788",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from EMA",
+        "Topic: Strategic Rare Earths Expansion in Bahia, Brazil",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RKB",
+      "company": "RKB",
+      "headline": "High-Grade Mineralisation Confirmed at Sunnyside Deposit",
+      "time": "2026-08-23T22:07:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124586-6A1339787",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RKB",
+        "Topic: High-Grade Mineralisation Confirmed at Sunnyside Deposit",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TNC",
+      "company": "TNC",
+      "headline": "Security Purchase Plan",
+      "time": "2026-08-23T22:06:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124585-6A1339791",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from TNC",
+        "Topic: Security Purchase Plan",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PC2",
+      "company": "PC2",
+      "headline": "High Grade Infill Drilling Results",
+      "time": "2026-08-23T22:06:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124584-6A1339782",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from PC2",
+        "Topic: High Grade Infill Drilling Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GBR",
+      "company": "GBR",
+      "headline": "High grade results in first drilling at Peak Hill",
+      "time": "2026-08-23T22:06:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124580-6A1339780",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from GBR",
+        "Topic: High grade results in first drilling at Peak Hill",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HCH",
+      "company": "HCH",
+      "headline": "Hot Chili Delivers More Copper-Gold at La Verde",
+      "time": "2026-08-23T22:06:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124579-6A1339779",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from HCH",
+        "Topic: Hot Chili Delivers More Copper-Gold at La Verde",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AEU",
+      "company": "AEU",
+      "headline": "Madaouela Foreign Resource Estimate",
+      "time": "2026-08-23T22:06:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124577-6A1339777",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AEU",
+        "Topic: Madaouela Foreign Resource Estimate",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OBT",
+      "company": "OBT",
+      "headline": "Exploration Update - Drilling Underway at Lewis Ponds",
+      "time": "2026-08-23T22:06:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124576-6A1339785",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from OBT",
+        "Topic: Exploration Update - Drilling Underway at Lewis Ponds",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AEU",
+      "company": "AEU",
+      "headline": "AEU Secures Madaouela Project",
+      "time": "2026-08-23T22:06:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124575-6A1339776",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AEU",
+        "Topic: AEU Secures Madaouela Project",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALV",
+      "company": "ALV",
+      "headline": "Alvo Expands Bluebush Heavy REE Footprint Brazil",
+      "time": "2026-08-23T22:06:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124574-3A699479",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ALV",
+        "Topic: Alvo Expands Bluebush Heavy REE Footprint Brazil",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NFM",
+      "company": "NFM",
+      "headline": "Review of NWQ Prospectivity Analysis Highlights Targets",
+      "time": "2026-08-23T22:05:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124573-6A1339775",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from NFM",
+        "Topic: Review of NWQ Prospectivity Analysis Highlights Targets",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RPL",
+      "company": "RPL",
+      "headline": "Philip King to Commence Transition to Retirement",
+      "time": "2026-08-23T22:05:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124570-2A1691247",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RPL",
+        "Topic: Philip King to Commence Transition to Retirement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AZ9",
+      "company": "AZ9",
+      "headline": "Maiden Exploration Targets Defined at Oval and Red Hill",
+      "time": "2026-08-23T22:05:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124568-6A1339774",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AZ9",
+        "Topic: Maiden Exploration Targets Defined at Oval and Red Hill",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RPL",
+      "company": "RPL",
+      "headline": "1H26 Results Presentation",
+      "time": "2026-08-23T22:05:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124567-2A1691243",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from RPL",
+        "Topic: 1H26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GA8",
+      "company": "GA8",
+      "headline": "Aircore Drilling Extends Gold Anomalism South at Whistler",
+      "time": "2026-08-23T22:05:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124566-6A1339773",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GA8",
+        "Topic: Aircore Drilling Extends Gold Anomalism South at Whistler",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FRS",
+      "company": "FORRESTANIA RESOURCES LIMITED",
+      "headline": "High-Grade British Hill Results Extend Gold Mineralisation",
+      "time": "2026-08-23T22:04:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124565-6A1339772",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from FRS",
+        "Topic: High-Grade British Hill Results Extend Gold Mineralisation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OLY",
+      "company": "OLY",
+      "headline": "Jacknife High-Grade Silver Project Acquisition Advances",
+      "time": "2026-08-23T22:04:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124564-6A1339769",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "High-priority announcement from OLY",
+        "Topic: Jacknife High-Grade Silver Project Acquisition Advances",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EM2",
+      "company": "EM2",
+      "headline": "Oracle Ridge Update - Drilling Commences",
+      "time": "2026-08-23T22:04:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124563-6A1339765",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from EM2",
+        "Topic: Oracle Ridge Update - Drilling Commences",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "HTM",
+      "company": "HTM",
+      "headline": "IP Survey Defines Four Gold Targets at Mt Eureka South",
+      "time": "2026-08-23T22:04:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124561-6A1339764",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from HTM",
+        "Topic: IP Survey Defines Four Gold Targets at Mt Eureka South",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RPL",
+      "company": "RPL",
+      "headline": "1H26 Results Release",
+      "time": "2026-08-23T22:04:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124559-2A1691242",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from RPL",
+        "Topic: 1H26 Results Release",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCE",
+      "company": "WCE",
+      "headline": "Serge Smolonogov Appointed Chief Executive Officer",
+      "time": "2026-08-23T22:03:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124558-6A1339762",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from WCE",
+        "Topic: Serge Smolonogov Appointed Chief Executive Officer",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LAT",
+      "company": "LAT",
+      "headline": "Latitude 66 waves chequered flag for Piastri",
+      "time": "2026-08-23T22:03:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124557-6A1339761",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from LAT",
+        "Topic: Latitude 66 waves chequered flag for Piastri",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EXR",
+      "company": "EXR",
+      "headline": "Elixir and QGC expand Taroom Trough data sharing",
+      "time": "2026-08-23T22:03:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124554-6A1339753",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from EXR",
+        "Topic: Elixir and QGC expand Taroom Trough data sharing",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "IND",
+      "company": "IND",
+      "headline": "Geophysics Confirms Strong Gold Target at Laverton",
+      "time": "2026-08-23T22:03:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124552-6A1339752",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from IND",
+        "Topic: Geophysics Confirms Strong Gold Target at Laverton",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "M96",
+      "company": "M96",
+      "headline": "Completion of Acquisition of Additional Tenements",
+      "time": "2026-08-23T22:02:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124548-6A1339749",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "High-priority announcement from M96",
+        "Topic: Completion of Acquisition of Additional Tenements",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LAU",
+      "company": "LAU",
+      "headline": "FY2026 Results Investor Presentation",
+      "time": "2026-08-23T22:02:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124544-2A1691237",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from LAU",
+        "Topic: FY2026 Results Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LAU",
+      "company": "LAU",
+      "headline": "LAU FY2026 Results ASX/Media Release",
+      "time": "2026-08-23T22:01:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124540-2A1691236",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from LAU",
+        "Topic: LAU FY2026 Results ASX/Media Release",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SFR",
+      "company": "SFR",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-23T22:01:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124536-6A1339748",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from SFR",
+        "Topic: Becoming a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SEK",
+      "company": "SEK",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-23T22:01:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124534-3A699469",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from SEK",
+        "Topic: Ceasing to be a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DRR",
+      "company": "DRR",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-23T22:01:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124533-6A1339747",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from DRR",
+        "Topic: Ceasing to be a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LAU",
+      "company": "LAU",
+      "headline": "Appendix 4E and Full Year Statutory Accounts",
+      "time": "2026-08-23T22:01:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124532-2A1691232",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from LAU",
+        "Topic: Appendix 4E and Full Year Statutory Accounts",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TGN",
+      "company": "TGN",
+      "headline": "Watershed Funding Strategy Advances - Debt Advisor Appointed",
+      "time": "2026-08-23T22:01:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124531-6A1339746",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from TGN",
+        "Topic: Watershed Funding Strategy Advances - Debt Advisor Appointed",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PNV",
+      "company": "PNV",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-23T22:00:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124530-3A699468",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from PNV",
+        "Topic: Ceasing to be a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GMD",
+      "company": "GMD",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-08-23T22:00:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124529-6A1339745",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from GMD",
+        "Topic: Ceasing to be a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZIP",
+      "company": "ZIP",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-08-23T22:00:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124528-2A1691193",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from ZIP",
+        "Topic: Becoming a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MAH",
+      "company": "MAH",
+      "headline": "Macmahon Awarded $485m Extension at Telfer",
+      "time": "2026-08-23T22:00:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124527-6A1339744",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from MAH",
+        "Topic: Macmahon Awarded $485m Extension at Telfer",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RPL",
+      "company": "RPL",
+      "headline": "Appendix 4D & Interim Financial Report, 12cps Dividend",
+      "time": "2026-08-23T22:00:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124526-2A1691238",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from RPL",
+        "Topic: Appendix 4D & Interim Financial Report, 12cps Dividend",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REH",
+      "company": "REH",
+      "headline": "FY26 Investor Presentation",
+      "time": "2026-08-23T21:56:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124524-3A699493",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from REH",
+        "Topic: FY26 Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REH",
+      "company": "REH",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-23T21:56:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124523-3A699490",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from REH",
+        "Topic: FY26 Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "REH",
+      "company": "REH",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-23T21:56:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124522-3A699498",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from REH",
+        "Topic: Preliminary Final Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDV",
+      "company": "EDV",
+      "headline": "F26 Results Presentation",
+      "time": "2026-08-23T21:53:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124520-2A1691231",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from EDV",
+        "Topic: F26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDV",
+      "company": "EDV",
+      "headline": "F26 Full-Year Profit and Dividend Announcement",
+      "time": "2026-08-23T21:53:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124519-2A1691230",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from EDV",
+        "Topic: F26 Full-Year Profit and Dividend Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDV",
+      "company": "EDV",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-23T21:53:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124517-2A1691227",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from EDV",
+        "Topic: Appendix 4E and 2026 Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABY",
+      "company": "ABY",
+      "headline": "FY26 Results Investor Presentation",
+      "time": "2026-08-23T21:51:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124515-3A699496",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ABY",
+        "Topic: FY26 Results Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABY",
+      "company": "ABY",
+      "headline": "FY26 Results Media Release",
+      "time": "2026-08-23T21:51:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124514-3A699488",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ABY",
+        "Topic: FY26 Results Media Release",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ABY",
+      "company": "ABY",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-23T21:50:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124513-3A699487",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from ABY",
+        "Topic: Appendix 4E and 2026 Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SMR",
+      "company": "SMR",
+      "headline": "2026 Half Year Financial Results Investor Presentation",
+      "time": "2026-08-23T21:50:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124512-2A1691224",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from SMR",
+        "Topic: 2026 Half Year Financial Results Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SMR",
+      "company": "SMR",
+      "headline": "2026 First Half Year Results",
+      "time": "2026-08-23T21:50:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124511-2A1691223",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from SMR",
+        "Topic: 2026 First Half Year Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SMR",
+      "company": "SMR",
+      "headline": "Appendix 4D and Interim Financial Report",
+      "time": "2026-08-23T21:50:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124510-2A1691225",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from SMR",
+        "Topic: Appendix 4D and Interim Financial Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAA",
+      "company": "CAA",
+      "headline": "HY26 Half Year Results Presentation",
+      "time": "2026-08-23T21:49:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124509-2A1691222",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from CAA",
+        "Topic: HY26 Half Year Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAA",
+      "company": "CAA",
+      "headline": "Half Yearly Report and Accounts",
+      "time": "2026-08-23T21:49:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124508-2A1691221",
+      "market_sensitive": true,
+      "document_type": "Half Yearly Report",
+      "summary": [
+        "High-priority announcement from CAA",
+        "Topic: Half Yearly Report and Accounts",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXL",
+      "company": "NXL",
+      "headline": "FY26 Financial Results Presentation",
+      "time": "2026-08-23T21:48:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124507-2A1691212",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from NXL",
+        "Topic: FY26 Financial Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXL",
+      "company": "NXL",
+      "headline": "Nuix Neo momentum underpins strong FY26 result",
+      "time": "2026-08-23T21:48:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124506-2A1691211",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from NXL",
+        "Topic: Nuix Neo momentum underpins strong FY26 result",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NXL",
+      "company": "NXL",
+      "headline": "Appendix 4E and Annual Financial Report FY26",
+      "time": "2026-08-23T21:48:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124505-2A1691210",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from NXL",
+        "Topic: Appendix 4E and Annual Financial Report FY26",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PLS",
+      "company": "PLS",
+      "headline": "FY26 Full Year Results Presentation",
+      "time": "2026-08-23T21:45:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124504-6A1339771",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from PLS",
+        "Topic: FY26 Full Year Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PLS",
+      "company": "PLS",
+      "headline": "FY26 Full Year Results",
+      "time": "2026-08-23T21:45:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124503-6A1339770",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from PLS",
+        "Topic: FY26 Full Year Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PLS",
+      "company": "PLS",
+      "headline": "2026 Annual Report (incorporating Appendix 4E)",
+      "time": "2026-08-23T21:45:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124500-6A1339766",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from PLS",
+        "Topic: 2026 Annual Report (incorporating Appendix 4E)",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LVE",
+      "company": "LVE",
+      "headline": "Appendix 4E and Annual Report",
+      "time": "2026-08-23T21:43:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124495-2A1691198",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from LVE",
+        "Topic: Appendix 4E and Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NHF",
+      "company": "NHF",
+      "headline": "FY2026 Full Year Results Investor Presentation",
+      "time": "2026-08-23T21:43:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124494-2A1691220",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from NHF",
+        "Topic: FY2026 Full Year Results Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NHF",
+      "company": "NHF",
+      "headline": "FY2026 Full Year Results ASX Announcement",
+      "time": "2026-08-23T21:42:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124493-2A1691219",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from NHF",
+        "Topic: FY2026 Full Year Results ASX Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NHF",
+      "company": "NHF",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-23T21:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124490-2A1691213",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from NHF",
+        "Topic: Appendix 4E and 2026 Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MSV",
+      "company": "MSV",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-23T21:40:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124486-2A1691206",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from MSV",
+        "Topic: FY26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MSV",
+      "company": "MSV",
+      "headline": "FY26 Results and Dividend Announcement",
+      "time": "2026-08-23T21:40:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124485-2A1691205",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from MSV",
+        "Topic: FY26 Results and Dividend Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MSV",
+      "company": "MSV",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-23T21:40:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124484-2A1691204",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from MSV",
+        "Topic: Preliminary Final Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LFG",
+      "company": "LFG",
+      "headline": "LFG FY26 Full Year Results Investor Presentation",
+      "time": "2026-08-23T21:39:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124483-3A699477",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from LFG",
+        "Topic: LFG FY26 Full Year Results Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LFG",
+      "company": "LFG",
+      "headline": "LFG FY26 Full Year Results Media Release",
+      "time": "2026-08-23T21:39:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124482-3A699476",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from LFG",
+        "Topic: LFG FY26 Full Year Results Media Release",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LFG",
+      "company": "LFG",
+      "headline": "LFG FY26 Full Year Results Announcement",
+      "time": "2026-08-23T21:39:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124481-3A699475",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from LFG",
+        "Topic: LFG FY26 Full Year Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LFG",
+      "company": "LFG",
+      "headline": "LFG FY26 Appendix 4E and Annual Financial Statement",
+      "time": "2026-08-23T21:39:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124480-3A699474",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from LFG",
+        "Topic: LFG FY26 Appendix 4E and Annual Financial Statement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANN",
+      "company": "ANN",
+      "headline": "FY26 Full Year Results Investor Presentation",
+      "time": "2026-08-23T21:34:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124475-3A699483",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ANN",
+        "Topic: FY26 Full Year Results Investor Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANN",
+      "company": "ANN",
+      "headline": "FY26 Full Year Results & Buyback ASX Announcement",
+      "time": "2026-08-23T21:34:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124474-3A699482",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from ANN",
+        "Topic: FY26 Full Year Results & Buyback ASX Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ANN",
+      "company": "ANN",
+      "headline": "Ansell Full Year Statutory Accounts and 2026 Annual Report",
+      "time": "2026-08-23T21:33:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124473-3A699481",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from ANN",
+        "Topic: Ansell Full Year Statutory Accounts and 2026 Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PRN",
+      "company": "PRN",
+      "headline": "FY26 Summary Media Release",
+      "time": "2026-08-23T21:33:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124472-6A1339760",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PRN",
+        "Topic: FY26 Summary Media Release",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PRN",
+      "company": "PRN",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-23T21:31:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124469-6A1339759",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from PRN",
+        "Topic: FY26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CNU",
+      "company": "CNU",
+      "headline": "Chorus FY26 full year results",
+      "time": "2026-08-23T21:31:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124466-2A1691214",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from CNU",
+        "Topic: Chorus FY26 full year results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PRN",
+      "company": "PRN",
+      "headline": "Annual Report (including Appendix 4E)",
+      "time": "2026-08-23T21:30:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124464-6A1339756",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from PRN",
+        "Topic: Annual Report (including Appendix 4E)",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PRN",
+      "company": "PRN",
+      "headline": "Notification of buy-back - PRN",
+      "time": "2026-08-23T21:30:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124462-6A1339755",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PRN",
+        "Topic: Notification of buy-back - PRN",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    }
+  ]
+}
