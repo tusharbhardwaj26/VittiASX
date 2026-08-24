@@ -1,9 +1,675 @@
 {
   "date": "2026-08-24",
-  "total": 174,
-  "market_sensitive_count": 167,
-  "generated_at": "2026-08-23T23:37:56.640282+00:00",
+  "total": 211,
+  "market_sensitive_count": 203,
+  "generated_at": "2026-08-24T00:03:59.793200+00:00",
   "announcements": [
+    {
+      "ticker": "XEN",
+      "company": "XENITRA LIMITED",
+      "headline": "Xenitra Raises $1.5m to Accelerate High-Margin Sales Growth",
+      "time": "2026-08-23T23:57:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124877-2A1691312",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from XEN",
+        "Topic: Xenitra Raises $1.5m to Accelerate High-Margin Sales Growth",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WMX",
+      "company": "WAM INCOME MAXIMISER LIMITED",
+      "headline": "Overwhelming demand for WMX Entitlement Offer and Placement",
+      "time": "2026-08-23T23:57:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124876-2A1691363",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "High-priority announcement from WMX",
+        "Topic: Overwhelming demand for WMX Entitlement Offer and Placement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COY",
+      "company": "COPPERMOLY LIMITED",
+      "headline": "Managing Director Departure and Board Change",
+      "time": "2026-08-23T23:53:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124871-2A1691359",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "High-priority announcement from COY",
+        "Topic: Managing Director Departure and Board Change",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALR",
+      "company": "ALTAIR MINERALS LIMITED",
+      "headline": "South Oko Delivers 10m @ 10.15g/t Au",
+      "time": "2026-08-23T23:52:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124864-3A699581",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ALR",
+        "Topic: South Oko Delivers 10m @ 10.15g/t Au",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAY",
+      "company": "CANYON RESOURCES LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-08-23T23:51:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124862-6A1339872",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CAY",
+        "Topic: Reinstatement to Quotation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAY",
+      "company": "CANYON RESOURCES LIMITED",
+      "headline": "Minim Martap Update",
+      "time": "2026-08-23T23:51:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124860-6A1339855",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CAY",
+        "Topic: Minim Martap Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-08-23T23:50:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124857-3A699578",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from SCP",
+        "Topic: Pause in Trading",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WTL",
+      "company": "WT FINANCIAL GROUP LIMITED",
+      "headline": "FY2026 Results Commentary",
+      "time": "2026-08-23T23:49:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124856-2A1691355",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from WTL",
+        "Topic: FY2026 Results Commentary",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RLG",
+      "company": "ROOLIFE GROUP LTD",
+      "headline": "RLG Completes Renewable Energy Business Acquisition",
+      "time": "2026-08-23T23:48:55+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124854-6A1339876",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "High-priority announcement from RLG",
+        "Topic: RLG Completes Renewable Energy Business Acquisition",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WTL",
+      "company": "WT FINANCIAL GROUP LIMITED",
+      "headline": "Preliminary Final Report",
+      "time": "2026-08-23T23:48:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124853-2A1691353",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from WTL",
+        "Topic: Preliminary Final Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PKO",
+      "company": "PEAKO LIMITED",
+      "headline": "Response to Price Query",
+      "time": "2026-08-23T23:47:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124852-3A699576",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PKO",
+        "Topic: Response to Price Query",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PR2",
+      "company": "PICHE RESOURCES LIMITED",
+      "headline": "Security Class Suspension from Quotation - PR2OA",
+      "time": "2026-08-23T23:47:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124851-6A1339873",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PR2",
+        "Topic: Security Class Suspension from Quotation - PR2OA",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PPC",
+      "company": "PEET LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-23T23:46:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124850-6A1339875",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from PPC",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RWL",
+      "company": "RUBICON WATER LIMITED",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-23T23:44:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124846-3A699575",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from RWL",
+        "Topic: FY26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KGN",
+      "company": "KOGAN.COM LTD",
+      "headline": "FY26 Results Presentation",
+      "time": "2026-08-23T23:44:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124847-3A699573",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from KGN",
+        "Topic: FY26 Results Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RWL",
+      "company": "RUBICON WATER LIMITED",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-23T23:44:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124842-3A699574",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from RWL",
+        "Topic: FY26 Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNG",
+      "company": "GR ENGINEERING SERVICES LIMITED",
+      "headline": "FY26 Results, Guidance and Equity Raising",
+      "time": "2026-08-23T23:43:50+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124840-6A1339849",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from GNG",
+        "Topic: FY26 Results, Guidance and Equity Raising",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNG",
+      "company": "GR ENGINEERING SERVICES LIMITED",
+      "headline": "Media Release - FY26 Results, Guidance and Equity Raising",
+      "time": "2026-08-23T23:43:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124839-6A1339847",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from GNG",
+        "Topic: Media Release - FY26 Results, Guidance and Equity Raising",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GNG",
+      "company": "GR ENGINEERING SERVICES LIMITED",
+      "headline": "Full Year Statutory Accounts FY26",
+      "time": "2026-08-23T23:43:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124838-6A1339854",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GNG",
+        "Topic: Full Year Statutory Accounts FY26",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADN",
+      "company": "ANDROMEDA METALS LIMITED",
+      "headline": "Andromeda achieves 4N HPA at Continuous Pilot Scale",
+      "time": "2026-08-23T23:43:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124837-2A1691350",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ADN",
+        "Topic: Andromeda achieves 4N HPA at Continuous Pilot Scale",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RWL",
+      "company": "RUBICON WATER LIMITED",
+      "headline": "Appendix 4E and 2026 Annual Report",
+      "time": "2026-08-23T23:43:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124836-3A699571",
+      "market_sensitive": true,
+      "document_type": "Annual Report",
+      "summary": [
+        "High-priority announcement from RWL",
+        "Topic: Appendix 4E and 2026 Annual Report",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "14D",
+      "company": "1414 DEGREES LIMITED",
+      "headline": "SiNTL Manufacturing Pathway Established in South Korea",
+      "time": "2026-08-23T23:43:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124835-2A1691348",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from 14D",
+        "Topic: SiNTL Manufacturing Pathway Established in South Korea",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DBF",
+      "company": "DUXTON FARMS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-08-23T23:42:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124833-2A1691349",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from DBF",
+        "Topic: Change in substantial holding",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RRE",
+      "company": "RIGHT RESOURCES LIMITED",
+      "headline": "Gold Results Strengthen Extensive Target at Blue Prospect",
+      "time": "2026-08-23T23:41:40+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124832-6A1339868",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from RRE",
+        "Topic: Gold Results Strengthen Extensive Target at Blue Prospect",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NPM",
+      "company": "NEWPEAK METALS LIMITED",
+      "headline": "Second 650m Intercept Transforms Las Openas Project",
+      "time": "2026-08-23T23:41:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124831-2A1691217",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from NPM",
+        "Topic: Second 650m Intercept Transforms Las Openas Project",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AX8",
+      "company": "ACCELERATE RESOURCES LIMITED",
+      "headline": "High-Grade Gold Intercepted at Balagundi",
+      "time": "2026-08-23T23:41:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124830-6A1339869",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AX8",
+        "Topic: High-Grade Gold Intercepted at Balagundi",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "L1M",
+      "company": "LIGHTNING MINERALS LTD",
+      "headline": "WARBY TUNGSTEN PHASE 2 HIGH-GRADE ROCK CHIP RESULTS",
+      "time": "2026-08-23T23:40:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124828-6A1339867",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from L1M",
+        "Topic: WARBY TUNGSTEN PHASE 2 HIGH-GRADE ROCK CHIP RESULTS",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENP",
+      "company": "ENTROPY NEURODYNAMICS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-23T23:39:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124827-6A1339870",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from ENP",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KGN",
+      "company": "KOGAN.COM LTD",
+      "headline": "FY26 Results Announcement",
+      "time": "2026-08-23T23:39:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124826-3A699570",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from KGN",
+        "Topic: FY26 Results Announcement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TG1",
+      "company": "TECHGEN METALS LTD",
+      "headline": "Red Devil Cu-Au Drilling Commencement",
+      "time": "2026-08-23T23:38:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124824-6A1339860",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from TG1",
+        "Topic: Red Devil Cu-Au Drilling Commencement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DAF",
+      "company": "DISCOVERY ALASKA LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-08-23T23:37:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124822-6A1339851",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DAF",
+        "Topic: Reinstatement to Quotation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NMT",
+      "company": "NEOMETALS LTD",
+      "headline": "Trading Halt",
+      "time": "2026-08-23T23:37:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124821-6A1339862",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from NMT",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KKC",
+      "company": "KKR CREDIT INCOME FUND",
+      "headline": "Dividend/Distribution - KKC",
+      "time": "2026-08-23T23:37:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124820-2A1691345",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from KKC",
+        "Topic: Dividend/Distribution - KKC",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DAF",
+      "company": "DISCOVERY ALASKA LIMITED",
+      "headline": "DAF acquires Cuddingwarra Gold Project and $900k Placement",
+      "time": "2026-08-23T23:36:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124816-6A1339825",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "High-priority announcement from DAF",
+        "Topic: DAF acquires Cuddingwarra Gold Project and $900k Placement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WAX",
+      "company": "WAM RESEARCH LIMITED",
+      "headline": "Final dividend partially franked, 2026 Full Year Results",
+      "time": "2026-08-23T23:36:45+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124815-2A1691346",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from WAX",
+        "Topic: Final dividend partially franked, 2026 Full Year Results",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQZ",
+      "company": "ALLIANCE AVIATION SERVICES LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-08-23T23:35:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124814-2A1691347",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from AQZ",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KGN",
+      "company": "KOGAN.COM LTD",
+      "headline": "FY26 Appendix 4E and Financial Statements",
+      "time": "2026-08-23T23:34:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03124813-3A699567",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from KGN",
+        "Topic: FY26 Appendix 4E and Financial Statements",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
     {
       "ticker": "FFM",
       "company": "FIREFLY METALS LTD",
