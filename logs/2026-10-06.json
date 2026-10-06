@@ -1,0 +1,1880 @@
+{
+  "date": "2026-10-06",
+  "total": 104,
+  "market_sensitive_count": 93,
+  "generated_at": "2026-10-06T01:09:10.462554+00:00",
+  "announcements": [
+    {
+      "ticker": "SKS",
+      "company": "SKS TECHNOLOGIES GROUP LIMITED",
+      "headline": "SKS Announces MEL2 contracted works rises to $66M",
+      "time": "2026-10-06T00:14:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144822-3A703406",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from SKS",
+        "Topic: SKS Announces MEL2 contracted works rises to $66M",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NAE",
+      "company": "NEW AGE EXPLORATION LIMITED",
+      "headline": "Broad Alteration and Sulphide Zone Logged at Wallah",
+      "time": "2026-10-06T00:09:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144817-3A703402",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from NAE",
+        "Topic: Broad Alteration and Sulphide Zone Logged at Wallah",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Trading Halt",
+      "time": "2026-10-05T23:59:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144810-3A703400",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from SCP",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ADX",
+      "company": "ADX ENERGY LTD",
+      "headline": "Austrian Operations Update",
+      "time": "2026-10-05T23:51:20+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144808-6A1347872",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ADX",
+        "Topic: Austrian Operations Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLX",
+      "company": "FELIX GROUP HOLDINGS LTD",
+      "headline": "Change in substantial holding",
+      "time": "2026-10-05T23:50:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144807-2A1701972",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from FLX",
+        "Topic: Change in substantial holding",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PAB",
+      "company": "PATRYS LIMITED",
+      "headline": "Investor Webinar",
+      "time": "2026-10-05T23:26:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144794-6A1347869",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PAB",
+        "Topic: Investor Webinar",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BUR",
+      "company": "BURLEY MINERALS LTD",
+      "headline": "Cane Bore Assays Confirm CID Iron Mineralisation at North an",
+      "time": "2026-10-05T23:22:15+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144791-6A1347868",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from BUR",
+        "Topic: Cane Bore Assays Confirm CID Iron Mineralisation at North an",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MM8",
+      "company": "MEDALLION METALS LIMITED.",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-10-05T23:21:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144790-6A1347867",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from MM8",
+        "Topic: Becoming a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "INF",
+      "company": "INFINITY METALS LIMITED",
+      "headline": "Yambacoona Tin Drilling Program Application Approved",
+      "time": "2026-10-05T23:17:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144788-6A1347866",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from INF",
+        "Topic: Yambacoona Tin Drilling Program Application Approved",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SCP",
+      "company": "SCALARE PARTNERS HOLDINGS LIMITED",
+      "headline": "Pause in Trading",
+      "time": "2026-10-05T23:15:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144785-3A703397",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from SCP",
+        "Topic: Pause in Trading",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EQR",
+      "company": "EQ RESOURCES LIMITED",
+      "headline": "Record Cash Generation on Higher Production",
+      "time": "2026-10-05T23:09:35+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144781-2A1701944",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from EQR",
+        "Topic: Record Cash Generation on Higher Production",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PNN",
+      "company": "POWER MINERALS LIMITED",
+      "headline": "NEW SECTION DELIVERS 119M OF HIGH-GRADE REE FROM SURFACE",
+      "time": "2026-10-05T23:05:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144779-2A1701943",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PNN",
+        "Topic: NEW SECTION DELIVERS 119M OF HIGH-GRADE REE FROM SURFACE",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ELK",
+      "company": "ELK RANGE MINING LIMITED",
+      "headline": "Maiden hole complete with additional visible gold",
+      "time": "2026-10-05T23:03:05+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144778-6A1347865",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ELK",
+        "Topic: Maiden hole complete with additional visible gold",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CAM",
+      "company": "CLIME CAPITAL LIMITED",
+      "headline": "Reinstatement to Quotation",
+      "time": "2026-10-05T23:01:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144777-2A1701937",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CAM",
+        "Topic: Reinstatement to Quotation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RGO",
+      "company": "RUSSELL SUST GLOBAL OPPORTUNITIES COMPLEX ETF",
+      "headline": "Final Distribution September 2026",
+      "time": "2026-10-05T23:00:10+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144775-2A1701942",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RGO",
+        "Topic: Final Distribution September 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "D3E",
+      "company": "D3 ENERGY LIMITED",
+      "headline": "Excellent Helium Composition from Gas Flow at Nooitgedacht",
+      "time": "2026-10-05T22:58:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144772-6A1347862",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from D3E",
+        "Topic: Excellent Helium Composition from Gas Flow at Nooitgedacht",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NUZ",
+      "company": "NEURIZON THERAPEUTICS LIMITED",
+      "headline": "FDA Type C Feedback, HEALEY trial potentially registrational",
+      "time": "2026-10-05T22:57:30+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144769-6A1347861",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from NUZ",
+        "Topic: FDA Type C Feedback, HEALEY trial potentially registrational",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RSM",
+      "company": "RSM",
+      "headline": "Final Distribution September 2026",
+      "time": "2026-10-05T22:55:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144766-2A1701939",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RSM",
+        "Topic: Final Distribution September 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RGB",
+      "company": "RGB",
+      "headline": "Final Distribution September 2026",
+      "time": "2026-10-05T22:54:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144765-2A1701938",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RGB",
+        "Topic: Final Distribution September 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZMI",
+      "company": "ZMI",
+      "headline": "Trading Halt",
+      "time": "2026-10-05T22:51:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144756-6A1347855",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from ZMI",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DDR",
+      "company": "DDR",
+      "headline": "Trading Halt",
+      "time": "2026-10-05T22:50:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144754-2A1701933",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from DDR",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHW",
+      "company": "CHW",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-10-05T22:49:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144753-6A1347856",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from CHW",
+        "Topic: Becoming a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AEU",
+      "company": "AEU",
+      "headline": "Muntanga East Metallurgical Testwork",
+      "time": "2026-10-05T22:47:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144750-6A1347853",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AEU",
+        "Topic: Muntanga East Metallurgical Testwork",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WMG",
+      "company": "WMG",
+      "headline": "Final Phase 5 RC Assay Results from Mulga Tank",
+      "time": "2026-10-05T22:47:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144749-6A1347852",
+      "market_sensitive": true,
+      "document_type": "Results",
+      "summary": [
+        "High-priority announcement from WMG",
+        "Topic: Final Phase 5 RC Assay Results from Mulga Tank",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VMS",
+      "company": "VMS",
+      "headline": "Red Mountain MRE Updated with Strontium and Magnesium",
+      "time": "2026-10-05T22:45:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144747-6A1347816",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from VMS",
+        "Topic: Red Mountain MRE Updated with Strontium and Magnesium",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ROC",
+      "company": "ROC",
+      "headline": "First installations & invoice for Multi-national Retailer",
+      "time": "2026-10-05T22:43:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144744-2A1701929",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ROC",
+        "Topic: First installations & invoice for Multi-national Retailer",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "POW",
+      "company": "POW",
+      "headline": "Powerhaus commences field work at Malbec Uranium Project",
+      "time": "2026-10-05T22:42:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144742-6A1347850",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from POW",
+        "Topic: Powerhaus commences field work at Malbec Uranium Project",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CXU",
+      "company": "CXU",
+      "headline": "Yanrey Project Update - Navoiyuran and MINGEO Site Visit",
+      "time": "2026-10-05T22:41:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144740-6A1347849",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CXU",
+        "Topic: Yanrey Project Update - Navoiyuran and MINGEO Site Visit",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BSA",
+      "company": "BSA",
+      "headline": "Change in substantial holding",
+      "time": "2026-10-05T22:40:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144738-2A1701928",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from BSA",
+        "Topic: Change in substantial holding",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SKK",
+      "company": "SKK",
+      "headline": "Stakk Secures IBM as Global Expansion Accelerates",
+      "time": "2026-10-05T22:39:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144736-6A1347846",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from SKK",
+        "Topic: Stakk Secures IBM as Global Expansion Accelerates",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AV1",
+      "company": "AV1",
+      "headline": "Fraud Detection Covers Chat GPT & Customer Base Diversified",
+      "time": "2026-10-05T22:39:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144734-6A1347845",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AV1",
+        "Topic: Fraud Detection Covers Chat GPT & Customer Base Diversified",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KGL",
+      "company": "KGL",
+      "headline": "Second US$16M Wheaton Payment Received",
+      "time": "2026-10-05T22:37:25+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144732-2A1701925",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from KGL",
+        "Topic: Second US$16M Wheaton Payment Received",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TMK",
+      "company": "TMK",
+      "headline": "Operations Update - September 2026",
+      "time": "2026-10-05T22:36:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144728-6A1347843",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from TMK",
+        "Topic: Operations Update - September 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TRE",
+      "company": "TRE",
+      "headline": "Kobada on Schedule for First Gold in Q3 2027",
+      "time": "2026-10-05T22:36:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144726-6A1347841",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from TRE",
+        "Topic: Kobada on Schedule for First Gold in Q3 2027",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CXU",
+      "company": "CXU",
+      "headline": "Yanrey Uranium Project Update - 2026 Drill Program Completed",
+      "time": "2026-10-05T22:35:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144725-6A1347840",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CXU",
+        "Topic: Yanrey Uranium Project Update - 2026 Drill Program Completed",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FG1",
+      "company": "FG1",
+      "headline": "Bulk Sample Sent to Henty Gold Mine for Processing Testwork",
+      "time": "2026-10-05T22:34:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144724-3A703388",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from FG1",
+        "Topic: Bulk Sample Sent to Henty Gold Mine for Processing Testwork",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MM1",
+      "company": "MM1",
+      "headline": "Midas continues to grow T-13 high-grade copper-silver zone",
+      "time": "2026-10-05T22:33:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144721-6A1347836",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from MM1",
+        "Topic: Midas continues to grow T-13 high-grade copper-silver zone",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MML",
+      "company": "MML",
+      "headline": "McLaren - Broad Mineralisation and High-Grade Zones Continue",
+      "time": "2026-10-05T22:31:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144716-6A1347837",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from MML",
+        "Topic: McLaren - Broad Mineralisation and High-Grade Zones Continue",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "49M",
+      "company": "49M",
+      "headline": "Fast-Tracked Drilling Underway at Gold Mountain",
+      "time": "2026-10-05T22:27:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144710-6A1347835",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from 49M",
+        "Topic: Fast-Tracked Drilling Underway at Gold Mountain",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ENL",
+      "company": "ENL",
+      "headline": "Ensight v2.3 Expands Platform to 12 Applications",
+      "time": "2026-10-05T22:24:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144704-3A703382",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ENL",
+        "Topic: Ensight v2.3 Expands Platform to 12 Applications",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALU",
+      "company": "ALU",
+      "headline": "Independent Road-Haulage Study Strengthens Bauxite Logistics",
+      "time": "2026-10-05T22:22:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144702-6A1347833",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ALU",
+        "Topic: Independent Road-Haulage Study Strengthens Bauxite Logistics",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MEC",
+      "company": "MEC",
+      "headline": "Manager's intention to terminate IMA",
+      "time": "2026-10-05T22:20:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144701-2A1701913",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from MEC",
+        "Topic: Manager's intention to terminate IMA",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "KZR",
+      "company": "KZR",
+      "headline": "Trading Halt",
+      "time": "2026-10-05T22:20:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144700-6A1347830",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from KZR",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQD",
+      "company": "AQD",
+      "headline": "Geophysics highlights new potential at Cangallo",
+      "time": "2026-10-05T22:19:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144697-6A1347829",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AQD",
+        "Topic: Geophysics highlights new potential at Cangallo",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GAL",
+      "company": "GAL",
+      "headline": "Norseman Drill Program Underway",
+      "time": "2026-10-05T22:18:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144696-6A1347831",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GAL",
+        "Topic: Norseman Drill Program Underway",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GSN",
+      "company": "GSN",
+      "headline": "High-grade gold intercepts continue at Golden Boulder",
+      "time": "2026-10-05T22:18:00+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144695-6A1347827",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GSN",
+        "Topic: High-grade gold intercepts continue at Golden Boulder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ALV",
+      "company": "ALV",
+      "headline": "Trading Halt",
+      "time": "2026-10-05T22:14:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144688-3A703379",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from ALV",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PMM",
+      "company": "PMM",
+      "headline": "Trading Halt",
+      "time": "2026-10-05T22:13:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144687-6A1347826",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from PMM",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCN",
+      "company": "WCN",
+      "headline": "76.5m @ 2.01% Cu Expands Copper Envelope at Danvers 1",
+      "time": "2026-10-05T22:07:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144679-6A1347822",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from WCN",
+        "Topic: 76.5m @ 2.01% Cu Expands Copper Envelope at Danvers 1",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DVL",
+      "company": "DVL",
+      "headline": "dorsaVi Raises A$3M for Robotics Strategy and RRAM Tape-Out",
+      "time": "2026-10-05T22:06:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144675-3A703363",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DVL",
+        "Topic: dorsaVi Raises A$3M for Robotics Strategy and RRAM Tape-Out",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "YUG",
+      "company": "YUG",
+      "headline": "Land Access Secured for Petrovo Drilling",
+      "time": "2026-10-05T22:05:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144667-6A1347819",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from YUG",
+        "Topic: Land Access Secured for Petrovo Drilling",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AGR",
+      "company": "AGR",
+      "headline": "Record Gold Production at Santa Barbara Project Colombia",
+      "time": "2026-10-05T22:05:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144666-2A1701894",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AGR",
+        "Topic: Record Gold Production at Santa Barbara Project Colombia",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "NRX",
+      "company": "NRX",
+      "headline": "Maiden Sleitat Tin Exploration Completed and New Appointment",
+      "time": "2026-10-05T22:04:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144664-6A1347818",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from NRX",
+        "Topic: Maiden Sleitat Tin Exploration Completed and New Appointment",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQX",
+      "company": "AQX",
+      "headline": "Managing Director Transition",
+      "time": "2026-10-05T22:01:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144660-6A1347779",
+      "market_sensitive": true,
+      "document_type": "Director Notice",
+      "summary": [
+        "High-priority announcement from AQX",
+        "Topic: Managing Director Transition",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RTR",
+      "company": "RTR",
+      "headline": "Western Queen Project Development Update",
+      "time": "2026-10-05T21:54:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144646-6A1347813",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RTR",
+        "Topic: Western Queen Project Development Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCB",
+      "company": "RUSSELL INVESTMENTS AUSTRALIAN SELECT CORPORATE BOND ETF",
+      "headline": "Final Distribution September 2026",
+      "time": "2026-10-05T21:50:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144642-2A1701885",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RCB",
+        "Topic: Final Distribution September 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RGO",
+      "company": "RUSSELL SUST GLOBAL OPPORTUNITIES COMPLEX ETF",
+      "headline": "Final Distribution September 2026",
+      "time": "2026-10-05T21:49:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144640-2A1701884",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from RGO",
+        "Topic: Final Distribution September 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FOS",
+      "company": "FOS",
+      "headline": "SPP Completion and Shortfall Placement",
+      "time": "2026-10-05T21:47:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144637-3A703364",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "High-priority announcement from FOS",
+        "Topic: SPP Completion and Shortfall Placement",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VHL",
+      "company": "VHL",
+      "headline": "Vitasora Market Update Presentation - October 2026",
+      "time": "2026-10-05T21:46:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144636-3A703361",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from VHL",
+        "Topic: Vitasora Market Update Presentation - October 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MNE",
+      "company": "MNE",
+      "headline": "EP 494 Prospective Resources Update",
+      "time": "2026-10-05T21:44:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144634-6A1347810",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from MNE",
+        "Topic: EP 494 Prospective Resources Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RGO",
+      "company": "RUSSELL SUST GLOBAL OPPORTUNITIES COMPLEX ETF",
+      "headline": "Update - Dividend/Distribution - RGOS",
+      "time": "2026-10-05T21:43:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144633-2A1701882",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from RGO",
+        "Topic: Update - Dividend/Distribution - RGOS",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RCB",
+      "company": "RUSSELL INVESTMENTS AUSTRALIAN SELECT CORPORATE BOND ETF",
+      "headline": "Update - Dividend/Distribution - RCB",
+      "time": "2026-10-05T21:42:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144631-2A1701879",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from RCB",
+        "Topic: Update - Dividend/Distribution - RCB",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ITM",
+      "company": "ITM",
+      "headline": "Significant Extension to Gold-Antimony Shoots at Sabre",
+      "time": "2026-10-05T21:41:44+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144629-2A1701878",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ITM",
+        "Topic: Significant Extension to Gold-Antimony Shoots at Sabre",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "RSM",
+      "company": "RSM",
+      "headline": "Update - Dividend/Distribution - RSM",
+      "time": "2026-10-05T21:40:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144626-2A1701875",
+      "market_sensitive": true,
+      "document_type": "Dividend",
+      "summary": [
+        "High-priority announcement from RSM",
+        "Topic: Update - Dividend/Distribution - RSM",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GML",
+      "company": "GML",
+      "headline": "Two Large Scale Gold Anomalies Defined at Glenburgh South",
+      "time": "2026-10-05T21:39:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144625-2A1701877",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GML",
+        "Topic: Two Large Scale Gold Anomalies Defined at Glenburgh South",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OR3",
+      "company": "OR3",
+      "headline": "Coolgardie Gold Projects Update",
+      "time": "2026-10-05T21:38:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144623-6A1347808",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from OR3",
+        "Topic: Coolgardie Gold Projects Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLS",
+      "company": "GLS",
+      "headline": "Investor presentation",
+      "time": "2026-10-05T21:37:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144617-3A703354",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GLS",
+        "Topic: Investor presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLS",
+      "company": "GLS",
+      "headline": "GLS non-renounceable entitlement offer",
+      "time": "2026-10-05T21:37:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144616-3A703353",
+      "market_sensitive": true,
+      "document_type": "Capital Raise",
+      "summary": [
+        "High-priority announcement from GLS",
+        "Topic: GLS non-renounceable entitlement offer",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AAR",
+      "company": "AAR",
+      "headline": "Third Rights Acquired Over Mandilla Development Footprint",
+      "time": "2026-10-05T21:32:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144611-6A1347805",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AAR",
+        "Topic: Third Rights Acquired Over Mandilla Development Footprint",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LTP",
+      "company": "LTP",
+      "headline": "First ROXUS Prescriptions Fulfilled in the United States",
+      "time": "2026-10-05T21:30:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144609-3A703356",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from LTP",
+        "Topic: First ROXUS Prescriptions Fulfilled in the United States",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FLG",
+      "company": "FLG",
+      "headline": "Whipsaw Copper - Tenement Grants Strengthen Position",
+      "time": "2026-10-05T21:26:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144608-6A1347804",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from FLG",
+        "Topic: Whipsaw Copper - Tenement Grants Strengthen Position",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "PLY",
+      "company": "PLY",
+      "headline": "Dumb Ways to Build Launches to Strong Reviews",
+      "time": "2026-10-05T21:22:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144605-3A703344",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from PLY",
+        "Topic: Dumb Ways to Build Launches to Strong Reviews",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGI",
+      "company": "LGI",
+      "headline": "42MW Solar Generation Assets Acquisition Presentation",
+      "time": "2026-10-05T21:21:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144603-2A1701867",
+      "market_sensitive": true,
+      "document_type": "Merger & Acquisition",
+      "summary": [
+        "High-priority announcement from LGI",
+        "Topic: 42MW Solar Generation Assets Acquisition Presentation",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LGI",
+      "company": "LGI",
+      "headline": "LGI to Acquire 42MW of Operating Solar Generation Assets",
+      "time": "2026-10-05T21:21:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144597-2A1701863",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from LGI",
+        "Topic: LGI to Acquire 42MW of Operating Solar Generation Assets",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OSM",
+      "company": "OSM",
+      "headline": "Notice of change of interests of substantial holder",
+      "time": "2026-10-05T21:20:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144596-6A1347801",
+      "market_sensitive": false,
+      "document_type": "Director Notice",
+      "summary": [
+        "High-priority announcement from OSM",
+        "Topic: Notice of change of interests of substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ESR",
+      "company": "ESR",
+      "headline": "Divestment of Spargoville Nickel Rights",
+      "time": "2026-10-05T21:20:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144592-6A1347786",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ESR",
+        "Topic: Divestment of Spargoville Nickel Rights",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "LDR",
+      "company": "LDR",
+      "headline": "5 High Grade Intercepts and New Lode in Montezuma Drill Hole",
+      "time": "2026-10-05T21:20:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144593-2A1701869",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from LDR",
+        "Topic: 5 High Grade Intercepts and New Lode in Montezuma Drill Hole",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QUE",
+      "company": "QUE",
+      "headline": "Quarterly Activities & Cash Flow Report - September 2026",
+      "time": "2026-10-05T21:19:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144580-6A1347797",
+      "market_sensitive": true,
+      "document_type": "Quarterly Report",
+      "summary": [
+        "High-priority announcement from QUE",
+        "Topic: Quarterly Activities & Cash Flow Report - September 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "QUE",
+      "company": "QUE",
+      "headline": "Monthly Cash Flow Report - September 2026",
+      "time": "2026-10-05T21:19:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144578-6A1347796",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from QUE",
+        "Topic: Monthly Cash Flow Report - September 2026",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "COH",
+      "company": "COH",
+      "headline": "Change in substantial holding",
+      "time": "2026-10-05T21:18:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144574-2A1701856",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from COH",
+        "Topic: Change in substantial holding",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CHW",
+      "company": "CHW",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-10-05T21:18:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144572-6A1347790",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from CHW",
+        "Topic: Becoming a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SUL",
+      "company": "SUL",
+      "headline": "Ceasing to be a substantial holder",
+      "time": "2026-10-05T21:18:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144570-2A1701854",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from SUL",
+        "Topic: Ceasing to be a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CVL",
+      "company": "CVL",
+      "headline": "Civmec Secures A$220 Million in New Awards and Extensions",
+      "time": "2026-10-05T21:17:54+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144569-6A1347789",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from CVL",
+        "Topic: Civmec Secures A$220 Million in New Awards and Extensions",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "CUV",
+      "company": "CUV",
+      "headline": "Change in substantial holding",
+      "time": "2026-10-05T21:17:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144568-3A703337",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from CUV",
+        "Topic: Change in substantial holding",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ZIP",
+      "company": "ZIP",
+      "headline": "Becoming a substantial holder",
+      "time": "2026-10-05T21:17:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144567-2A1701853",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from ZIP",
+        "Topic: Becoming a substantial holder",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "ATV",
+      "company": "ATV",
+      "headline": "ATV SECURES $1M CONTRACT ON MUMBAIS LARGEST NETWORK",
+      "time": "2026-10-05T21:17:24+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144566-6A1347788",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from ATV",
+        "Topic: ATV SECURES $1M CONTRACT ON MUMBAIS LARGEST NETWORK",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "FBR",
+      "company": "FBR",
+      "headline": "Change in substantial holding",
+      "time": "2026-10-05T21:17:14+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144565-6A1347787",
+      "market_sensitive": false,
+      "document_type": "Substantial Holding",
+      "summary": [
+        "High-priority announcement from FBR",
+        "Topic: Change in substantial holding",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BKB",
+      "company": "BKB",
+      "headline": "Gold Upside at Shafter Silver Project",
+      "time": "2026-10-05T21:16:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144564-6A1347785",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from BKB",
+        "Topic: Gold Upside at Shafter Silver Project",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "EDE",
+      "company": "EDE",
+      "headline": "Eden US Sales Update - Strong Q1FY27 growth",
+      "time": "2026-10-05T21:16:39+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144563-6A1347784",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from EDE",
+        "Topic: Eden US Sales Update - Strong Q1FY27 growth",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WOA",
+      "company": "WOA",
+      "headline": "Industrial Scale Study for WA Lupin Protein Facility",
+      "time": "2026-10-05T21:16:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144560-6A1347781",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from WOA",
+        "Topic: Industrial Scale Study for WA Lupin Protein Facility",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AQN",
+      "company": "AQN",
+      "headline": "FY27 First Quarter Operational Update",
+      "time": "2026-10-05T21:15:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144559-6A1347780",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AQN",
+        "Topic: FY27 First Quarter Operational Update",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "WCE",
+      "company": "WCE",
+      "headline": "Regional Geophysics Targets Elizabeth Hill Silver Repeats",
+      "time": "2026-10-05T21:15:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144558-6A1347778",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from WCE",
+        "Topic: Regional Geophysics Targets Elizabeth Hill Silver Repeats",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "MHC",
+      "company": "MHC",
+      "headline": "Drilling at Spectre Delivers 6.10m at 3.18% Cu, 1.37g/t Au",
+      "time": "2026-10-05T21:15:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144557-6A1347777",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from MHC",
+        "Topic: Drilling at Spectre Delivers 6.10m at 3.18% Cu, 1.37g/t Au",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GLS",
+      "company": "GLS",
+      "headline": "Trading Halt",
+      "time": "2026-10-05T21:15:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144556-3A703345",
+      "market_sensitive": true,
+      "document_type": "Trading Halt",
+      "summary": [
+        "High-priority announcement from GLS",
+        "Topic: Trading Halt",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "VAN",
+      "company": "VAN",
+      "headline": "Drilling confirms Prospective Copper Contact at the KCP",
+      "time": "2026-10-05T21:14:34+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144552-6A1347773",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from VAN",
+        "Topic: Drilling confirms Prospective Copper Contact at the KCP",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "SHN",
+      "company": "SHN",
+      "headline": "Gold mineralisation footprint extended at Sybil",
+      "time": "2026-10-05T21:13:59+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144549-6A1347770",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from SHN",
+        "Topic: Gold mineralisation footprint extended at Sybil",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "BAK",
+      "company": "BAK",
+      "headline": "Further High Grade Mineralisation in Phase 1 Drilling",
+      "time": "2026-10-05T21:13:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144548-6A1347769",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from BAK",
+        "Topic: Further High Grade Mineralisation in Phase 1 Drilling",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "AM5",
+      "company": "AM5",
+      "headline": "Antares Secures Earn-In Rights Over Historic Enterprise Mine",
+      "time": "2026-10-05T21:13:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144544-6A1347765",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from AM5",
+        "Topic: Antares Secures Earn-In Rights Over Historic Enterprise Mine",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DEV",
+      "company": "DEV",
+      "headline": "Continuing to Advance DevEx's Target Rich Pipeline",
+      "time": "2026-10-05T21:12:49+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144542-6A1347763",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DEV",
+        "Topic: Continuing to Advance DevEx's Target Rich Pipeline",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "GBR",
+      "company": "GBR",
+      "headline": "Peak Hill Drilling defines further shallow, high-grade gold",
+      "time": "2026-10-05T21:12:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144539-6A1347760",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from GBR",
+        "Topic: Peak Hill Drilling defines further shallow, high-grade gold",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "OLY",
+      "company": "OLY",
+      "headline": "New Priority Drill Targets Identified at Jacknife",
+      "time": "2026-10-05T21:12:09+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144538-6A1347759",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from OLY",
+        "Topic: New Priority Drill Targets Identified at Jacknife",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "DRE",
+      "company": "DRE",
+      "headline": "Shallow High-Grade Gold from Metzkes North, Illaara",
+      "time": "2026-10-05T21:11:29+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144534-6A1347755",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from DRE",
+        "Topic: Shallow High-Grade Gold from Metzkes North, Illaara",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TMX",
+      "company": "TMX",
+      "headline": "High-Grade Tungsten Unlocks New Smokebush Upside",
+      "time": "2026-10-05T21:11:19+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144533-6A1347754",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from TMX",
+        "Topic: High-Grade Tungsten Unlocks New Smokebush Upside",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    },
+    {
+      "ticker": "TWR",
+      "company": "TWR",
+      "headline": "Tower updates FY26 guidance",
+      "time": "2026-10-05T20:30:04+00:00",
+      "url": "https://cdn-api.markitdigital.com/apiman-gateway/ASX/asx-research/1.0/file/2924-03144524-2A1701855",
+      "market_sensitive": true,
+      "document_type": "Market Update",
+      "summary": [
+        "High-priority announcement from TWR",
+        "Topic: Tower updates FY26 guidance",
+        "Review PDF for full details."
+      ],
+      "tags": [
+        "Other"
+      ],
+      "sentiment": "neutral"
+    }
+  ]
+}
